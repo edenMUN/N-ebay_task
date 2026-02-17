@@ -17,10 +17,12 @@
     "baseUrl": "./src",
     "paths": {
       "@/*": ["*"],
+      "@/fixtures/*": ["fixtures/*"],
       "@/pages/*": ["pages/*"],
       "@/tests/*": ["tests/*"],
       "@/utils/*": ["utils/*"],
-      "@/config/*": ["config/*"]
+      "@/config/*": ["config/*"],
+      "@/api/*":["/api/*"]
     },
     "types": ["node", "@playwright/test"],
     "allowSyntheticDefaultImports": true,
@@ -37,9 +39,9 @@
     "noUncheckedIndexedAccess": true
   },
   "include": [
-    "src/**/*",
-    "playwright.config.ts"
-  ],
+    "src/**/*"
+    ],
+    
   "exclude": [
     "node_modules",
     "dist",

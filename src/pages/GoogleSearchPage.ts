@@ -26,10 +26,14 @@ export class GoogleSearchPage extends BasePage {
     try {
       const acceptButton = this.page.getByRole('button', { name: /accept|agree/i }).first();
       if (await acceptButton.isVisible({ timeout: 2000 })) {
+        console.log('############# acceptButton', acceptButton);
+        
         await acceptButton.click();
         await this.page.waitForTimeout(500);
       }
     } catch (e) {
+      console.log('in the catch block for cookie consent');
+      
       // Cookie consent not present, continue
     }
   }

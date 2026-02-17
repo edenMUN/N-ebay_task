@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "playwright test",
-    "test:google": "playwright test src/tests/ui/curly_hair_generated.spec.ts",
+    "test:atidTest": "playwright test src/tests/ui/atid-test.spec.ts",
+    "test:api_test": "playwright test src/tests/api/api_test.spec.ts",
     "test:headed": "playwright test --headed",
     "test:debug": "playwright test --debug",
     "test:sanity": "playwright test --grep \"@sanity\"",
@@ -33,9 +34,8 @@
   "devDependencies": {
     "@playwright/test": "^1.40.0",
     "@types/node": "^20.0.0",
+    "@zerostep/playwright": "^0.1.5",
+    "dotenv": "^17.3.1",
     "typescript": "^5.0.0"
-  },
-  "dependencies": {
-    "dotenv": "^16.0.0"
   }
-} 
+}

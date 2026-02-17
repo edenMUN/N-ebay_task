@@ -12,7 +12,8 @@ const testModules: TestModules = {
   'error': 'npm run test:error',
   'all': 'npm test',
   'headed': 'npm run test:headed',
-  'debug': 'npm run test:debug'
+  'debug': 'npm run test:debug',
+  'api_test': 'npm run test:api_test'
 };
 
 const module = process.argv[2];
