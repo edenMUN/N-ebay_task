@@ -1,3 +1,9 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
 # Dependencies
 node_modules/
 npm-debug.log*
@@ -12,6 +18,7 @@ playwright/.cache/
 # Build outputs
 dist/
 build/
+output/
 
 # Environment variables
 .env
@@ -31,7 +38,8 @@ build/
 Thumbs.db
 
 # Logs
-logs/
+logs/*
+!logs/.gitkeep
 *.log
 
 # Coverage reports
@@ -40,3 +48,7 @@ coverage/
 # Temporary files
 *.tmp
 *.temp
+
+# BPI runtime artifacts (keep data/.gitkeep)
+data/*.json
+data/*.png
