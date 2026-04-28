@@ -1,26 +1,44 @@
-# Project Summary — BPI Monitor
+# Project Summary — eBay UI Automation
 
-## Requirements → tests
+## Architecture and Design Patterns
 
-| # | Requirement | Pytest |
-| --- | --- | --- |
-| 1 | HTTP GET to API | `test_requirement_01_http_get_coinbase_spot_api` |
-| 2 | Extract BTC USD price | `test_requirement_02_extract_bitcoin_price_usd` |
-| 3 | Collect on interval, save JSON | `test_requirement_03_collect_and_save_prices_to_json_on_interval` |
-| 4 | Generate BPI graph | `test_requirement_04_generate_bpi_graph_after_collecting_data` |
-| 5 | Email max price + graph | `test_requirement_05_send_email_max_price_and_bpi_graph` |
+This framework is implemented with:
+- **OOP + Page Object Model (POM):** each page class encapsulates UI locators and actions.
+- **Data-Driven Testing:** runtime values (credentials, search query, limits, budget, viewport) come from `data/data.json`.
+- **Centralized Test Orchestration:** test file coordinates business flow while page objects remain action-focused.
+- **Allure + Playwright Tracing (Optional):** every critical step is reportable with execution evidence; trace capture is enabled via `--trace-on`.
 
-Tests **1–4** call the **live** Coinbase API (no mocked HTTP). **Test 5** uses **live** `smtplib` when credentials exist.
+## Key Implementation Decisions
 
-## OOP & logging
+- **Search + Paging Logic:** `SearchPage.search_items_by_name_under_price()` applies max-price filtering, validates result visibility, parses each card price, and paginates until limit reached or no more pages.
+- **Price Filter Validation:** after submitting max-price input, the test waits for active filter UI indicators before collecting data.
+- **Variant Handling in Product Pages:** dropdown selectors (size/color/quantity) are detected dynamically; random valid options are selected when available.
+- **Budget Validation:** cart subtotal is parsed with a dedicated utility that handles symbols and separators; assertion compares against `budget_per_item * items_count`.
 
-- **api_client:** page (URL, timeout) + steps (GET / parse).  
-- **business_logic:** orchestrator, storage, chart, stats — **all** user-visible actions log through `business_logger(...)`.  
-- **utils:** configuration and SMTP transport only.
+## Challenges and Solutions
 
-## Commands
+- **Dynamic eBay DOM / locator changes:** implemented locator fallbacks for search headers, price inputs, add-to-cart controls, and cart subtotal.
+- **Multiple add-to-cart UX behaviors (drawer vs navigation):** confirmation is validated by checking either explicit success UI or cart counter presence.
+- **Currency/string parsing reliability:** centralized normalization in `utils/price_parser.py` avoids duplicated conversion logic.
 
-- Monitor: `python run_automation.py`  
-- Tests: `python -m pytest tests/Test_bpi_requirements.py -v`
+## Reporting Configuration
 
-See `README.md` for `.env` and submission artifacts.
+- Page object actions are decorated with `@allure.step`.
+- `tests/conftest.py` starts tracing only when `--trace-on` is passed, with:
+  - `screenshots=True`
+  - `snapshots=True`
+  - `sources=True`
+- Trace files are saved to `results/{test_name}_trace.zip` (conditional on `--trace-on`).
+- Session bootstrap clears `results/` and `allure-results/` to prevent stale evidence.
+- On failure, a full-page screenshot is captured and attached via `pytest_runtest_makereport`.
+- Product add-to-cart attaches per-item business screenshots (`Item {index} added`).
+- Cart budget validation always captures and attaches a full-page cart screenshot (pass/fail).
+- `run_tests.py` standardizes execution using `pytest --alluredir=allure-results`, supports forwarding args and `--trace-on`, serves Allure locally, and skips `allure serve` in CI (`CI` env guard).
+- If Allure CLI cannot be launched from the current shell session, `run_tests.py` logs a warning and keeps the pytest exit code behavior stable.
+
+## Future Improvements
+
+- CI/CD integration (GitHub Actions) with automatic Allure artifact publishing.
+- Parallel execution strategy across browsers and datasets.
+- Optional service layer abstraction for richer business workflows.
+- More resilient anti-flakiness utilities (custom retry wrappers for known unstable elements).

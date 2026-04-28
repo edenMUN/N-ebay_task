@@ -1,0 +1,1498 @@
+- generic [active] [ref=e1]:
+  - img
+  - img
+  - img
+  - img
+  - generic [ref=e3]:
+    - banner [ref=e7]:
+      - link "Skip to main content" [ref=e9] [cursor=pointer]:
+        - /url: "#mainContent"
+      - navigation [ref=e10]:
+        - generic [ref=e11]:
+          - generic [ref=e13]:
+            - text: Hi!
+            - link "Sign in" [ref=e14] [cursor=pointer]:
+              - /url: https://signin.ebay.com/ws/eBayISAPI.dll?SignIn&sgfl=gh&ru=https%3A%2F%2Fwww.ebay.com%2Fitm%2F266629702570
+            - generic [ref=e15]:
+              - text: or
+              - link "register" [ref=e16] [cursor=pointer]:
+                - /url: https://signup.ebay.com/pa/crte?ru=https%3A%2F%2Fwww.ebay.com%2Fitm%2F266629702570
+          - link "Daily Deals" [ref=e18] [cursor=pointer]:
+            - /url: https://www.ebay.com/deals
+          - link "Help & Contact" [ref=e20] [cursor=pointer]:
+            - /url: https://www.ebay.com/help/home
+        - generic [ref=e21]:
+          - button "Ship to" [ref=e23] [cursor=pointer]:
+            - generic [ref=e24]: Ship to
+          - link "Sell" [ref=e26] [cursor=pointer]:
+            - /url: https://www.ebay.com/sl/sell
+          - generic [ref=e27]:
+            - link "Watchlist" [ref=e28] [cursor=pointer]:
+              - /url: https://www.ebay.com/mye/myebay/watchlist
+              - generic [ref=e29]: Watchlist
+              - img
+            - button "Expand Watch List" [ref=e30]
+          - generic [ref=e31]:
+            - link "My eBay" [ref=e32] [cursor=pointer]:
+              - /url: https://www.ebay.com/mys/home?source=GBH
+              - generic [ref=e33]: My eBay
+              - img
+            - button "Expand My eBay" [ref=e34]
+          - button "Notifications" [ref=e37] [cursor=pointer]:
+            - img
+            - generic [ref=e38]: Notifications
+          - generic [ref=e40]:
+            - link "Your shopping cart contains 0 items" [ref=e41] [cursor=pointer]:
+              - /url: https://cart.ebay.com
+              - generic "Your shopping cart contains 0 items" [ref=e42]:
+                - img
+            - button "Expand Cart" [ref=e43]
+      - generic [ref=e44]:
+        - generic [ref=e45]:
+          - link "eBay Home" [ref=e46] [cursor=pointer]:
+            - /url: https://www.ebay.com
+            - img "eBay Home" [ref=e47]
+          - button "Shop by category" [ref=e55] [cursor=pointer]:
+            - generic [ref=e56]: Shop by category
+            - img
+        - generic [ref=e57]:
+          - status [ref=e58]
+          - generic [ref=e60]:
+            - generic [ref=e61]:
+              - combobox "Search for anything" [ref=e62]
+              - img
+            - combobox "Select a category for search" [ref=e63]:
+              - option "All Categories" [selected]
+              - option "Antiques"
+              - option "Art"
+              - option "Baby"
+              - option "Books"
+              - option "Business & Industrial"
+              - option "Cameras & Photo"
+              - option "Cell Phones & Accessories"
+              - option "Clothing, Shoes & Accessories"
+              - option "Coins & Paper Money"
+              - option "Collectibles"
+              - option "Computers/Tablets & Networking"
+              - option "Consumer Electronics"
+              - option "Crafts"
+              - option "Dolls & Bears"
+              - option "Movies & TV"
+              - option "eBay Motors"
+              - option "Entertainment Memorabilia"
+              - option "Gift Cards & Coupons"
+              - option "Health & Beauty"
+              - option "Home & Garden"
+              - option "Jewelry & Watches"
+              - option "Music"
+              - option "Musical Instruments & Gear"
+              - option "Pet Supplies"
+              - option "Pottery & Glass"
+              - option "Real Estate"
+              - option "Specialty Services"
+              - option "Sporting Goods"
+              - option "Sports Mem, Cards & Fan Shop"
+              - option "Stamps"
+              - option "Tickets & Experiences"
+              - option "Toys & Hobbies"
+              - option "Travel"
+              - option "Video Games & Consoles"
+              - option "Everything Else"
+          - generic [ref=e64]:
+            - button "Search" [ref=e65] [cursor=pointer]:
+              - generic [ref=e66]: Search
+            - link "Advanced" [ref=e67] [cursor=pointer]:
+              - /url: https://www.ebay.com/sch/ebayadvsearch
+    - main [ref=e68]:
+      - generic [ref=e69]:
+        - generic [ref=e70]:
+          - generic [ref=e73]:
+            - generic [ref=e79]:
+              - link [ref=e80] [cursor=pointer]:
+                - /url: https://www.ebay.com/str/designerandygihf?_sacat=11484&promoted_items=318004307938%2C318087261001%2C318105543952%2C318042949552&itmprp=encpd%3AAQALAAAB4AU1ImZV5h1rN0FDshe%2FwEbsAo12z2wIohK9RPMmMrUtQNZkZ7vOYBG11TLVRrsDDdejqkfuQ%2FlSBPBvcOBTasr%2BfwNXdcPvCFtsYf9iSrv21GRR3PCGGfHlDkXElj%2B%2FaKH0CNRx0kvoQL%2BCxCPju5OYue7Cxybb7nzMnw4W9pypyXlxup3xEdJkXnTrQHJcMq4qWIzuBfDX0QnRss%2F499DFD1LrbuzmFiS0EOYpYpQfVtTJpixEVhF7JpkkDCAbISPCIiYtkiTz6VLfs%2BwSYq3sHE8U%2Fiu3zqE7NT0mW5MxyjsFyEI52RtxTt9ow%2Fkjcwa2VQ4W0yiA%2FI%2FnwSeL6QaHX7cMTG3OmO5NYRgNd%2BsDtEKxc4tyWt32zpi4lSVcosbdQzkN3exWoL6Sjjt5QrPteirazc%2BoO7TlAbsY1Umoetsf0d%2BdonOdO9tZuW%2BAyEp0Esife38l47gm7BJvWfQHPHyvGIz3lvNyyVCN06WuxXJmsym17WLPy6XHrawXWLWQokUP75my%2BjaU%2FhWL6ouP0vElyTQeE5q99FDH09EoCwIZ%2F5tEaOHUE%2BbaFSdTG4bWAM7etbACPb8MEdo%2FSXsSEea6mmVzSA3Ixy8f5LB8jlso77PcxH%2BjObpQKB0K%2Fw%3D%3D&itmmeta=wwHmKhYwY%2Fjx0DQwMUtRN0E3N1dFS1oyVEQ0RUJKREFUR1cyNzQwMUtRN0E3N0swVzMyVjFFUEE2U1I1Q0RDWb6%2BDA%3D%3D
+              - generic [ref=e81]:
+                - link "Find similar items from" [ref=e84] [cursor=pointer]:
+                  - /url: https://www.ebay.com/str/designerandygihf?_sacat=11484&promoted_items=318004307938%2C318087261001%2C318105543952%2C318042949552&itmprp=encpd%3AAQALAAAB4AU1ImZV5h1rN0FDshe%2FwEbsAo12z2wIohK9RPMmMrUtQNZkZ7vOYBG11TLVRrsDDdejqkfuQ%2FlSBPBvcOBTasr%2BfwNXdcPvCFtsYf9iSrv21GRR3PCGGfHlDkXElj%2B%2FaKH0CNRx0kvoQL%2BCxCPju5OYue7Cxybb7nzMnw4W9pypyXlxup3xEdJkXnTrQHJcMq4qWIzuBfDX0QnRss%2F499DFD1LrbuzmFiS0EOYpYpQfVtTJpixEVhF7JpkkDCAbISPCIiYtkiTz6VLfs%2BwSYq3sHE8U%2Fiu3zqE7NT0mW5MxyjsFyEI52RtxTt9ow%2Fkjcwa2VQ4W0yiA%2FI%2FnwSeL6QaHX7cMTG3OmO5NYRgNd%2BsDtEKxc4tyWt32zpi4lSVcosbdQzkN3exWoL6Sjjt5QrPteirazc%2BoO7TlAbsY1Umoetsf0d%2BdonOdO9tZuW%2BAyEp0Esife38l47gm7BJvWfQHPHyvGIz3lvNyyVCN06WuxXJmsym17WLPy6XHrawXWLWQokUP75my%2BjaU%2FhWL6ouP0vElyTQeE5q99FDH09EoCwIZ%2F5tEaOHUE%2BbaFSdTG4bWAM7etbACPb8MEdo%2FSXsSEea6mmVzSA3Ixy8f5LB8jlso77PcxH%2BjObpQKB0K%2Fw%3D%3D&itmmeta=wwHmKhYwY%2Fjx0DQwMUtRN0E3N1dFS1oyVEQ0RUJKREFUR1cyNzQwMUtRN0E3N0swVzMyVjFFUEE2U1I1Q0RDWb6%2BDA%3D%3D
+                - generic [ref=e85]:
+                  - link "DesignerAndyGIHF" [ref=e88] [cursor=pointer]:
+                    - /url: https://www.ebay.com/str/designerandygihf?_sacat=11484&promoted_items=318004307938%2C318087261001%2C318105543952%2C318042949552&itmprp=encpd%3AAQALAAAB4AU1ImZV5h1rN0FDshe%2FwEbsAo12z2wIohK9RPMmMrUtQNZkZ7vOYBG11TLVRrsDDdejqkfuQ%2FlSBPBvcOBTasr%2BfwNXdcPvCFtsYf9iSrv21GRR3PCGGfHlDkXElj%2B%2FaKH0CNRx0kvoQL%2BCxCPju5OYue7Cxybb7nzMnw4W9pypyXlxup3xEdJkXnTrQHJcMq4qWIzuBfDX0QnRss%2F499DFD1LrbuzmFiS0EOYpYpQfVtTJpixEVhF7JpkkDCAbISPCIiYtkiTz6VLfs%2BwSYq3sHE8U%2Fiu3zqE7NT0mW5MxyjsFyEI52RtxTt9ow%2Fkjcwa2VQ4W0yiA%2FI%2FnwSeL6QaHX7cMTG3OmO5NYRgNd%2BsDtEKxc4tyWt32zpi4lSVcosbdQzkN3exWoL6Sjjt5QrPteirazc%2BoO7TlAbsY1Umoetsf0d%2BdonOdO9tZuW%2BAyEp0Esife38l47gm7BJvWfQHPHyvGIz3lvNyyVCN06WuxXJmsym17WLPy6XHrawXWLWQokUP75my%2BjaU%2FhWL6ouP0vElyTQeE5q99FDH09EoCwIZ%2F5tEaOHUE%2BbaFSdTG4bWAM7etbACPb8MEdo%2FSXsSEea6mmVzSA3Ixy8f5LB8jlso77PcxH%2BjObpQKB0K%2Fw%3D%3D&itmmeta=wwHmKhYwY%2Fjx0DQwMUtRN0E3N1dFS1oyVEQ0RUJKREFUR1cyNzQwMUtRN0E3N0swVzMyVjFFUEE2U1I1Q0RDWb6%2BDA%3D%3D
+                    - img "DesignerAndyGIHF" [ref=e89]
+                  - link "DesignerAndyGIHF" [ref=e92] [cursor=pointer]:
+                    - /url: https://www.ebay.com/str/designerandygihf?_sacat=11484&promoted_items=318004307938%2C318087261001%2C318105543952%2C318042949552&itmprp=encpd%3AAQALAAAB4AU1ImZV5h1rN0FDshe%2FwEbsAo12z2wIohK9RPMmMrUtQNZkZ7vOYBG11TLVRrsDDdejqkfuQ%2FlSBPBvcOBTasr%2BfwNXdcPvCFtsYf9iSrv21GRR3PCGGfHlDkXElj%2B%2FaKH0CNRx0kvoQL%2BCxCPju5OYue7Cxybb7nzMnw4W9pypyXlxup3xEdJkXnTrQHJcMq4qWIzuBfDX0QnRss%2F499DFD1LrbuzmFiS0EOYpYpQfVtTJpixEVhF7JpkkDCAbISPCIiYtkiTz6VLfs%2BwSYq3sHE8U%2Fiu3zqE7NT0mW5MxyjsFyEI52RtxTt9ow%2Fkjcwa2VQ4W0yiA%2FI%2FnwSeL6QaHX7cMTG3OmO5NYRgNd%2BsDtEKxc4tyWt32zpi4lSVcosbdQzkN3exWoL6Sjjt5QrPteirazc%2BoO7TlAbsY1Umoetsf0d%2BdonOdO9tZuW%2BAyEp0Esife38l47gm7BJvWfQHPHyvGIz3lvNyyVCN06WuxXJmsym17WLPy6XHrawXWLWQokUP75my%2BjaU%2FhWL6ouP0vElyTQeE5q99FDH09EoCwIZ%2F5tEaOHUE%2BbaFSdTG4bWAM7etbACPb8MEdo%2FSXsSEea6mmVzSA3Ixy8f5LB8jlso77PcxH%2BjObpQKB0K%2Fw%3D%3D&itmmeta=wwHmKhYwY%2Fjx0DQwMUtRN0E3N1dFS1oyVEQ0RUJKREFUR1cyNzQwMUtRN0E3N0swVzMyVjFFUEE2U1I1Q0RDWb6%2BDA%3D%3D
+                    - generic [ref=e93]: DesignerAndyGIHF
+                  - generic [ref=e94]:
+                    - text: (
+                    - link "90% positive" [ref=e96] [cursor=pointer]:
+                      - /url: https://www.ebay.com/str/designerandygihf?_sacat=11484&promoted_items=318004307938%2C318087261001%2C318105543952%2C318042949552&itmprp=encpd%3AAQALAAAB4AU1ImZV5h1rN0FDshe%2FwEbsAo12z2wIohK9RPMmMrUtQNZkZ7vOYBG11TLVRrsDDdejqkfuQ%2FlSBPBvcOBTasr%2BfwNXdcPvCFtsYf9iSrv21GRR3PCGGfHlDkXElj%2B%2FaKH0CNRx0kvoQL%2BCxCPju5OYue7Cxybb7nzMnw4W9pypyXlxup3xEdJkXnTrQHJcMq4qWIzuBfDX0QnRss%2F499DFD1LrbuzmFiS0EOYpYpQfVtTJpixEVhF7JpkkDCAbISPCIiYtkiTz6VLfs%2BwSYq3sHE8U%2Fiu3zqE7NT0mW5MxyjsFyEI52RtxTt9ow%2Fkjcwa2VQ4W0yiA%2FI%2FnwSeL6QaHX7cMTG3OmO5NYRgNd%2BsDtEKxc4tyWt32zpi4lSVcosbdQzkN3exWoL6Sjjt5QrPteirazc%2BoO7TlAbsY1Umoetsf0d%2BdonOdO9tZuW%2BAyEp0Esife38l47gm7BJvWfQHPHyvGIz3lvNyyVCN06WuxXJmsym17WLPy6XHrawXWLWQokUP75my%2BjaU%2FhWL6ouP0vElyTQeE5q99FDH09EoCwIZ%2F5tEaOHUE%2BbaFSdTG4bWAM7etbACPb8MEdo%2FSXsSEea6mmVzSA3Ixy8f5LB8jlso77PcxH%2BjObpQKB0K%2Fw%3D%3D&itmmeta=wwHmKhYwY%2Fjx0DQwMUtRN0E3N1dFS1oyVEQ0RUJKREFUR1cyNzQwMUtRN0E3N0swVzMyVjFFUEE2U1I1Q0RDWb6%2BDA%3D%3D
+                      - generic [ref=e98]: 90% positive
+                    - text: )
+                - link "Michael Kors Men's Heather Charcoal Waffle Knit Crewneck Sweater" [ref=e101] [cursor=pointer]:
+                  - /url: https://www.ebay.com/itm/318004307938?itmprp=encpd%3AAQALAAAB4AU1ImZV5h1rN0FDshe%2FwEbsAo12z2wIohK9RPMmMrUtQNZkZ7vOYBG11TLVRrsDDdejqkfuQ%2FlSBPBvcOBTasr%2BfwNXdcPvCFtsYf9iSrv21GRR3PCGGfHlDkXElj%2B%2FaKH0CNRx0kvoQL%2BCxCPju5OYue7Cxybb7nzMnw4W9pypyXlxup3xEdJkXnTrQHJcMq4qWIzuBfDX0QnRss%2F499DFD1LrbuzmFiS0EOYpYpQfVtTJpixEVhF7JpkkDCAbISPCIiYtkiTz6VLfs%2BwSYq3sHE8U%2Fiu3zqE7NT0mW5MxyjsFyEI52RtxTt9ow%2Fkjcwa2VQ4W0yiA%2FI%2FnwSeL6QaHX7cMTG3OmO5NYRgNd%2BsDtEKxc4tyWt32zpi4lSVcosbdQzkN3exWoL6Sjjt5QrPteirazc%2BoO7TlAbsY1Umoetsf0d%2BdonOdO9tZuW%2BAyEp0Esife38l47gm7BJvWfQHPHyvGIz3lvNyyVCN06WuzUbcmsvcpKb%2BlDBUrb9J2O9jphlcQriVNctzOmEmiqY4mYZdV7kxcHOKUl8QwWKuRGTWwdBxKX7wRBzWYRbSuEiN%2FeNKumF5i2rpajwz9cEqI6pEcqEIcAxqgPv4GK3Sqcj0De2om2Wdusk0la7kfA%3D%3D&itmmeta=wwHmKhYwY%2Fjx0DQwMUtRN0E3N1dFS1oyVEQ0RUJKREFUR1cyNzQwMUtRN0E3N0swVzMyVjFFUEE2U1I1Q0RDWb6%2BDA%3D%3D
+                  - img "Michael Kors Men's Heather Charcoal Waffle Knit Crewneck Sweater" [ref=e102]
+                - link "Forever 21 Men's Mint Green Fine Knit Short Sleeve Polo Sweater" [ref=e105] [cursor=pointer]:
+                  - /url: https://www.ebay.com/itm/318087261001?itmprp=encpd%3AAQALAAAB4AU1ImZV5h1rN0FDshe%2FwEbsAo12z2wIohK9RPMmMrUtQNZkZ7vOYBG11TLVRrsDDdejqkfuQ%2FlSBPBvcOBTasr%2BfwNXdcPvCFtsYf9iSrv21GRR3PCGGfHlDkXElj%2B%2FaKH0CNRx0kvoQL%2BCxCPju5OYue7Cxybb7nzMnw4W9pypyXlxup3xEdJkXnTrQHJcMq4qWIzuBfDX0QnRss%2F499DFD1LrbuzmFiS0EOYpYpQfVtTJpixEVhF7JpkkDCAbISPCIiYtkiTz6VLfs%2BwSYq3sHE8U%2Fiu3zqE7NT0mW5MxyjsFyEI52RtxTt9ow%2Fkjcwa2VQ4W0yiA%2FI%2FnwSeL6QaHX7cMTG3OmO5NYRgNd%2BsDtEKxc4tyWt32zpi4lSVcosbdQzkN3exWoL6Sjjt5QrPteirazc%2BoO7TlAbsY1Umoetsf0d%2BdonOdO9tZuW%2BAyEp0Esife38l47gm7BJvWfQHPHyvGIz3lvNyyVCN06WuzUbcmsvcpKb%2BlDBUrb9J2O9jphlcQriVNctzOmEmiqY4mYZdV7kxcHOKUl8QwWKuRGTWwdBxKX7wRBzWYRbSuEiN%2FeNKumF5i2rpajwz9cEqI6pEcqEIcAxqgPv4GK3Sqcj0De2om2Wdusk0la7kfA%3D%3D&itmmeta=wwHmKhYwY%2Fjx0DQwMUtRN0E3N1dFS1oyVEQ0RUJKREFUR1cyNzQwMUtRN0E3N0swVzMyVjFFUEE2U1I1Q0RDWb6%2BDA%3D%3D
+                  - img "Forever 21 Men's Mint Green Fine Knit Short Sleeve Polo Sweater" [ref=e106]
+                - link "Banana Republic Men's Black V-Neck Merino Wool Blend Sweater" [ref=e109] [cursor=pointer]:
+                  - /url: https://www.ebay.com/itm/318105543952?itmprp=encpd%3AAQALAAAB4AU1ImZV5h1rN0FDshe%2FwEbsAo12z2wIohK9RPMmMrUtQNZkZ7vOYBG11TLVRrsDDdejqkfuQ%2FlSBPBvcOBTasr%2BfwNXdcPvCFtsYf9iSrv21GRR3PCGGfHlDkXElj%2B%2FaKH0CNRx0kvoQL%2BCxCPju5OYue7Cxybb7nzMnw4W9pypyXlxup3xEdJkXnTrQHJcMq4qWIzuBfDX0QnRss%2F499DFD1LrbuzmFiS0EOYpYpQfVtTJpixEVhF7JpkkDCAbISPCIiYtkiTz6VLfs%2BwSYq3sHE8U%2Fiu3zqE7NT0mW5MxyjsFyEI52RtxTt9ow%2Fkjcwa2VQ4W0yiA%2FI%2FnwSeL6QaHX7cMTG3OmO5NYRgNd%2BsDtEKxc4tyWt32zpi4lSVcosbdQzkN3exWoL6Sjjt5QrPteirazc%2BoO7TlAbsY1Umoetsf0d%2BdonOdO9tZuW%2BAyEp0Esife38l47gm7BJvWfQHPHyvGIz3lvNyyVCN06WuzUbcmsvcpKb%2BlDBUrb9J2O9jphlcQriVNctzOmEmiqY4mYZdV7kxcHOKUl8QwWKuRGTWwdBxKX7wRBzWYRbSuEiN%2FeNKumF5i2rpajwz9cEqI6pEcqEIcAxqgPv4GK3Sqcj0De2om2Wdusk0la7kfA%3D%3D&itmmeta=wwHmKhYwY%2Fjx0DQwMUtRN0E3N1dFS1oyVEQ0RUJKREFUR1cyNzQwMUtRN0E3N0swVzMyVjFFUEE2U1I1Q0RDWb6%2BDA%3D%3D
+                  - img "Banana Republic Men's Black V-Neck Merino Wool Blend Sweater" [ref=e110]
+                - link "Alfani Men's Navy Blue Textured Knit Short Sleeve Sweater T-Shirt" [ref=e113] [cursor=pointer]:
+                  - /url: https://www.ebay.com/itm/318042949552?itmprp=encpd%3AAQALAAAB4AU1ImZV5h1rN0FDshe%2FwEbsAo12z2wIohK9RPMmMrUtQNZkZ7vOYBG11TLVRrsDDdejqkfuQ%2FlSBPBvcOBTasr%2BfwNXdcPvCFtsYf9iSrv21GRR3PCGGfHlDkXElj%2B%2FaKH0CNRx0kvoQL%2BCxCPju5OYue7Cxybb7nzMnw4W9pypyXlxup3xEdJkXnTrQHJcMq4qWIzuBfDX0QnRss%2F499DFD1LrbuzmFiS0EOYpYpQfVtTJpixEVhF7JpkkDCAbISPCIiYtkiTz6VLfs%2BwSYq3sHE8U%2Fiu3zqE7NT0mW5MxyjsFyEI52RtxTt9ow%2Fkjcwa2VQ4W0yiA%2FI%2FnwSeL6QaHX7cMTG3OmO5NYRgNd%2BsDtEKxc4tyWt32zpi4lSVcosbdQzkN3exWoL6Sjjt5QrPteirazc%2BoO7TlAbsY1Umoetsf0d%2BdonOdO9tZuW%2BAyEp0Esife38l47gm7BJvWfQHPHyvGIz3lvNyyVCN06WuzUbcmsvcpKb%2BlDBUrb9J2O9jphlcQriVNctzOmEmiqY4mYZdV7kxcHOKUl8QwWKuRGTWwdBxKX7wRBzWYRbSuEiN%2FeNKumF5i2rpajwz9cEqI6pEcqEIcAxqgPv4GK3Sqcj0De2om2Wdusk0la7kfA%3D%3D&itmmeta=wwHmKhYwY%2Fjx0DQwMUtRN0E3N1dFS1oyVEQ0RUJKREFUR1cyNzQwMUtRN0E3N0swVzMyVjFFUEE2U1I1Q0RDWb6%2BDA%3D%3D
+                  - img "Alfani Men's Navy Blue Textured Knit Short Sleeve Sweater T-Shirt" [ref=e114]
+                - link "Shop store on eBay" [ref=e117] [cursor=pointer]:
+                  - /url: https://www.ebay.com/str/designerandygihf?_sacat=11484&promoted_items=318004307938%2C318087261001%2C318105543952%2C318042949552&itmprp=encpd%3AAQALAAAB4AU1ImZV5h1rN0FDshe%2FwEbsAo12z2wIohK9RPMmMrUtQNZkZ7vOYBG11TLVRrsDDdejqkfuQ%2FlSBPBvcOBTasr%2BfwNXdcPvCFtsYf9iSrv21GRR3PCGGfHlDkXElj%2B%2FaKH0CNRx0kvoQL%2BCxCPju5OYue7Cxybb7nzMnw4W9pypyXlxup3xEdJkXnTrQHJcMq4qWIzuBfDX0QnRss%2F499DFD1LrbuzmFiS0EOYpYpQfVtTJpixEVhF7JpkkDCAbISPCIiYtkiTz6VLfs%2BwSYq3sHE8U%2Fiu3zqE7NT0mW5MxyjsFyEI52RtxTt9ow%2Fkjcwa2VQ4W0yiA%2FI%2FnwSeL6QaHX7cMTG3OmO5NYRgNd%2BsDtEKxc4tyWt32zpi4lSVcosbdQzkN3exWoL6Sjjt5QrPteirazc%2BoO7TlAbsY1Umoetsf0d%2BdonOdO9tZuW%2BAyEp0Esife38l47gm7BJvWfQHPHyvGIz3lvNyyVCN06WuxXJmsym17WLPy6XHrawXWLWQokUP75my%2BjaU%2FhWL6ouP0vElyTQeE5q99FDH09EoCwIZ%2F5tEaOHUE%2BbaFSdTG4bWAM7etbACPb8MEdo%2FSXsSEea6mmVzSA3Ixy8f5LB8jlso77PcxH%2BjObpQKB0K%2Fw%3D%3D&itmmeta=wwHmKhYwY%2Fjx0DQwMUtRN0E3N1dFS1oyVEQ0RUJKREFUR1cyNzQwMUtRN0E3N0swVzMyVjFFUEE2U1I1Q0RDWb6%2BDA%3D%3D
+              - generic [ref=e126]: Sponsored
+            - generic [ref=e135]:
+              - heading "People who viewed this item also viewed" [level=2] [ref=e142]
+              - group [ref=e144]:
+                - list [ref=e147]:
+                  - listitem [ref=e148]:
+                    - generic [ref=e150]:
+                      - generic [ref=e156]:
+                        - heading "Trespass Mens Full Zip Grid Fleece Airtrap AT200 Contrast Pockets Arranfore" [level=3] [ref=e157]
+                        - generic [ref=e159]: ILS 68.65
+                        - generic [ref=e161]: + delivery
+                        - generic [ref=e163]: Sponsored
+                      - link "Trespass Mens Full Zip Grid Fleece Airtrap AT200 Contrast Pockets Arranfore" [ref=e164] [cursor=pointer]:
+                        - /url: https://www.ebay.com/itm/276755442759?_trkparms=itmf%3D1%26aid%3D1110006%26rkt%3D5%26mech%3D1%26algv%3DDefaultOrganicWebV9BertRefreshRankerWithCassiniEmbRecall%26pmt%3D1%26amclksrc%3DITM%26sd%3D266629702570%26sid%3DAQALAAAAEItkKDI2J7VQXix%2Bii%2F1joc%3D%26itm%3D276755442759%26noa%3D0%26plcampt%3D0%3A13785162015%2C5%3AAG5846631865%26algo%3DHOMESPLICE.SIM%26brand%3DTrespass%26asc%3D20200818143230%26ao%3D1%26rk%3D8%26pid%3D101224%26b%3D1%26mehot%3Dnone%26lsid%3D3%26meid%3D65466051ba004b0589f8c2331c09e996%26pg%3D2332490&_trksid=p2332490.c101224.m-1&itmprp=cksum%3A27675544275965466051ba004b0589f8c2331c09e996%7Cenc%3AAQALAAAA4HU%252FGPBKMoWrH2cpzpvK9FDC5c4FxwFIV%252Bq0okjrJ6w9cB%252BqWqTCByXEsJeNzj%252BLPZ6Y%252Bcb%252BSNENjzLG3DpJu0krmSl2VTsrw%252FJT0xPYfjUc%252FdMpg0tGjCy54DXXGRzKebkBjbJxNsH4RpMeVeOpTpP%252FRv%252B7TgdtRsUiRZiP1O5VHrZc16x9eRYtawGvTJG0dJgBU5BUA4ZKwmDa5a4nkWJEmC5fkVLrngWbTutkInz3SCP0ZiGL2ziH3Nb6s0TH3%252B3h5kaTa5Lctj1GdhfCU%252FN1EfRxfVjH4P89VKUz2QQM%7Campid%3APL_CLK%7Cclp%3A2332490&itmmeta=01KQ7A781YD7ZK3FPW0MBGD2Q1
+                  - listitem [ref=e165]:
+                    - generic [ref=e167]:
+                      - generic [ref=e173]:
+                        - heading "New Mens Regatta Montes Half Zip Micro Fleece Jacket Top Lightweight Warm Jumper" [level=3] [ref=e174]
+                        - generic [ref=e176]: ILS 47.48
+                        - generic [ref=e178]: + delivery
+                      - link "New Mens Regatta Montes Half Zip Micro Fleece Jacket Top Lightweight Warm Jumper" [ref=e179] [cursor=pointer]:
+                        - /url: https://www.ebay.com/itm/286137511809?_trkparms=itmf%3D1%26aid%3D1110006%26rkt%3D5%26algo%3DHOMESPLICE.SIM%26mech%3D1%26algv%3DDefaultOrganicWebV9BertRefreshRankerWithCassiniEmbRecall%26pmt%3D0%26amclksrc%3DITM%26sd%3D266629702570%26sid%3DAQALAAAAEPyftARoYzqFdMx3snS5iU0%3D%26itm%3D286137511809%26noa%3D1%26brand%3DRegatta%26asc%3D20200818143230%26ao%3D1%26rk%3D1%26pid%3D101224%26b%3D1%26mehot%3Dnone%26lsid%3D3%26meid%3D65466051ba004b0589f8c2331c09e996%26pg%3D2332490&_trksid=p2332490.c101224.m-1
+                  - listitem [ref=e180]:
+                    - generic [ref=e182]:
+                      - generic [ref=e188]:
+                        - heading "New Mens Wrangler Fleece Half Zip Jumper Zip Pullover Long Sleeve Sweater Top" [level=3] [ref=e189]
+                        - generic [ref=e191]: ILS 60.57
+                        - generic [ref=e193]: + delivery
+                      - link "New Mens Wrangler Fleece Half Zip Jumper Zip Pullover Long Sleeve Sweater Top" [ref=e194] [cursor=pointer]:
+                        - /url: https://www.ebay.com/itm/267554937210?_trkparms=itmf%3D1%26aid%3D1110006%26rkt%3D5%26algo%3DHOMESPLICE.SIM%26mech%3D1%26algv%3DDefaultOrganicWebV9BertRefreshRankerWithCassiniEmbRecall%26pmt%3D0%26amclksrc%3DITM%26sd%3D266629702570%26sid%3DAQALAAAAEPyftARoYzqFdMx3snS5iU0%3D%26itm%3D267554937210%26noa%3D1%26brand%3DWrangler%26asc%3D20200818143230%26ao%3D1%26rk%3D2%26pid%3D101224%26b%3D1%26mehot%3Dnone%26lsid%3D3%26meid%3D65466051ba004b0589f8c2331c09e996%26pg%3D2332490&_trksid=p2332490.c101224.m-1
+                  - listitem [ref=e195]:
+                    - generic [ref=e197]:
+                      - generic [ref=e203]:
+                        - heading "Trespass 1/2 Zip Fleece Jacket Pullover Keynote C" [level=3] [ref=e204]
+                        - generic [ref=e206]: ILS 44.41
+                        - generic [ref=e208]: + delivery
+                      - link "Trespass 1/2 Zip Fleece Jacket Pullover Keynote C" [ref=e209] [cursor=pointer]:
+                        - /url: https://www.ebay.com/itm/304616014162?_trkparms=itmf%3D1%26aid%3D1110006%26rkt%3D5%26mech%3D1%26algv%3DDefaultOrganicWebV9BertRefreshRankerWithCassiniEmbRecall%26pmt%3D1%26amclksrc%3DITM%26sd%3D266629702570%26sid%3DAQALAAAAEItkKDI2J7VQXix%2Bii%2F1joc%3D%26itm%3D304616014162%26noa%3D1%26plcampt%3D0%3A13785162015%2C5%3AAG5008471465%7CAG5846631865%26algo%3DHOMESPLICE.SIM%26brand%3DTrespass%26asc%3D20200818143230%26ao%3D1%26rk%3D3%26pid%3D101224%26b%3D1%26mehot%3Dnone%26lsid%3D3%26meid%3D65466051ba004b0589f8c2331c09e996%26pg%3D2332490&_trksid=p2332490.c101224.m-1
+          - generic [ref=e212]:
+            - generic [ref=e215]:
+              - generic [ref=e217]:
+                - generic [ref=e218]:
+                  - button "Previous image - Item images thumbnails" [disabled] [ref=e219] [cursor=pointer]:
+                    - img
+                  - generic [ref=e220]:
+                    - button "Picture 1 of 119" [ref=e221] [cursor=pointer]:
+                      - img "Picture 1 of 119" [ref=e222]
+                    - button "Picture 2 of 119" [ref=e223] [cursor=pointer]:
+                      - img "Picture 2 of 119" [ref=e224]
+                    - button "Picture 3 of 119" [ref=e225] [cursor=pointer]:
+                      - img "Picture 3 of 119" [ref=e226]
+                    - button "Picture 4 of 119" [ref=e227] [cursor=pointer]:
+                      - img "Picture 4 of 119" [ref=e228]
+                    - button "Picture 5 of 119" [ref=e229] [cursor=pointer]:
+                      - img "Picture 5 of 119" [ref=e230]
+                    - button "Picture 6 of 119" [ref=e231] [cursor=pointer]:
+                      - img "Picture 6 of 119" [ref=e232]
+                    - button "Picture 7 of 119" [ref=e233] [cursor=pointer]
+                    - button "Picture 8 of 119" [ref=e234] [cursor=pointer]
+                    - button "Picture 9 of 119" [ref=e235] [cursor=pointer]
+                    - button "Picture 10 of 119" [ref=e236] [cursor=pointer]
+                    - button "Picture 11 of 119" [ref=e237] [cursor=pointer]
+                    - button "Picture 12 of 119" [ref=e238] [cursor=pointer]
+                    - button "Picture 13 of 119" [ref=e239] [cursor=pointer]
+                    - button "Picture 14 of 119" [ref=e240] [cursor=pointer]
+                    - button "Picture 15 of 119" [ref=e241] [cursor=pointer]
+                    - button "Picture 16 of 119" [ref=e242] [cursor=pointer]
+                    - button "Picture 17 of 119" [ref=e243] [cursor=pointer]
+                    - button "Picture 18 of 119" [ref=e244] [cursor=pointer]
+                    - button "Picture 19 of 119" [ref=e245] [cursor=pointer]
+                    - button "Picture 20 of 119" [ref=e246] [cursor=pointer]
+                    - button "Picture 21 of 119" [ref=e247] [cursor=pointer]
+                    - button "Picture 22 of 119" [ref=e248] [cursor=pointer]
+                    - button "Picture 23 of 119" [ref=e249] [cursor=pointer]
+                    - button "Picture 24 of 119" [ref=e250] [cursor=pointer]
+                    - button "Picture 25 of 119" [ref=e251] [cursor=pointer]
+                    - button "Picture 26 of 119" [ref=e252] [cursor=pointer]
+                    - button "Picture 27 of 119" [ref=e253] [cursor=pointer]
+                    - button "Picture 28 of 119" [ref=e254] [cursor=pointer]
+                    - button "Picture 29 of 119" [ref=e255] [cursor=pointer]
+                    - button "Picture 30 of 119" [ref=e256] [cursor=pointer]
+                    - button "Picture 31 of 119" [ref=e257] [cursor=pointer]
+                    - button "Picture 32 of 119" [ref=e258] [cursor=pointer]
+                    - button "Picture 33 of 119" [ref=e259] [cursor=pointer]
+                    - button "Picture 34 of 119" [ref=e260] [cursor=pointer]
+                    - button "Picture 35 of 119" [ref=e261] [cursor=pointer]
+                    - button "Picture 36 of 119" [ref=e262] [cursor=pointer]
+                    - button "Picture 37 of 119" [ref=e263] [cursor=pointer]
+                    - button "Picture 38 of 119" [ref=e264] [cursor=pointer]
+                    - button "Picture 39 of 119" [ref=e265] [cursor=pointer]
+                    - button "Picture 40 of 119" [ref=e266] [cursor=pointer]
+                    - button "Picture 41 of 119" [ref=e267] [cursor=pointer]
+                    - button "Picture 42 of 119" [ref=e268] [cursor=pointer]
+                    - button "Picture 43 of 119" [ref=e269] [cursor=pointer]
+                    - button "Picture 44 of 119" [ref=e270] [cursor=pointer]
+                    - button "Picture 45 of 119" [ref=e271] [cursor=pointer]
+                    - button "Picture 46 of 119" [ref=e272] [cursor=pointer]
+                    - button "Picture 47 of 119" [ref=e273] [cursor=pointer]
+                    - button "Picture 48 of 119" [ref=e274] [cursor=pointer]
+                    - button "Picture 49 of 119" [ref=e275] [cursor=pointer]
+                    - button "Picture 50 of 119" [ref=e276] [cursor=pointer]
+                    - button "Picture 51 of 119" [ref=e277] [cursor=pointer]
+                    - button "Picture 52 of 119" [ref=e278] [cursor=pointer]
+                    - button "Picture 53 of 119" [ref=e279] [cursor=pointer]
+                    - button "Picture 54 of 119" [ref=e280] [cursor=pointer]
+                    - button "Picture 55 of 119" [ref=e281] [cursor=pointer]
+                    - button "Picture 56 of 119" [ref=e282] [cursor=pointer]
+                    - button "Picture 57 of 119" [ref=e283] [cursor=pointer]
+                    - button "Picture 58 of 119" [ref=e284] [cursor=pointer]
+                    - button "Picture 59 of 119" [ref=e285] [cursor=pointer]
+                    - button "Picture 60 of 119" [ref=e286] [cursor=pointer]
+                    - button "Picture 61 of 119" [ref=e287] [cursor=pointer]
+                    - button "Picture 62 of 119" [ref=e288] [cursor=pointer]
+                    - button "Picture 63 of 119" [ref=e289] [cursor=pointer]
+                    - button "Picture 64 of 119" [ref=e290] [cursor=pointer]
+                    - button "Picture 65 of 119" [ref=e291] [cursor=pointer]
+                    - button "Picture 66 of 119" [ref=e292] [cursor=pointer]
+                    - button "Picture 67 of 119" [ref=e293] [cursor=pointer]
+                    - button "Picture 68 of 119" [ref=e294] [cursor=pointer]
+                    - button "Picture 69 of 119" [ref=e295] [cursor=pointer]
+                    - button "Picture 70 of 119" [ref=e296] [cursor=pointer]
+                    - button "Picture 71 of 119" [ref=e297] [cursor=pointer]
+                    - button "Picture 72 of 119" [ref=e298] [cursor=pointer]
+                    - button "Picture 73 of 119" [ref=e299] [cursor=pointer]
+                    - button "Picture 74 of 119" [ref=e300] [cursor=pointer]
+                    - button "Picture 75 of 119" [ref=e301] [cursor=pointer]
+                    - button "Picture 76 of 119" [ref=e302] [cursor=pointer]
+                    - button "Picture 77 of 119" [ref=e303] [cursor=pointer]
+                    - button "Picture 78 of 119" [ref=e304] [cursor=pointer]
+                    - button "Picture 79 of 119" [ref=e305] [cursor=pointer]
+                    - button "Picture 80 of 119" [ref=e306] [cursor=pointer]
+                    - button "Picture 81 of 119" [ref=e307] [cursor=pointer]
+                    - button "Picture 82 of 119" [ref=e308] [cursor=pointer]
+                    - button "Picture 83 of 119" [ref=e309] [cursor=pointer]
+                    - button "Picture 84 of 119" [ref=e310] [cursor=pointer]
+                    - button "Picture 85 of 119" [ref=e311] [cursor=pointer]
+                    - button "Picture 86 of 119" [ref=e312] [cursor=pointer]
+                    - button "Picture 87 of 119" [ref=e313] [cursor=pointer]
+                    - button "Picture 88 of 119" [ref=e314] [cursor=pointer]
+                    - button "Picture 89 of 119" [ref=e315] [cursor=pointer]
+                    - button "Picture 90 of 119" [ref=e316] [cursor=pointer]
+                    - button "Picture 91 of 119" [ref=e317] [cursor=pointer]
+                    - button "Picture 92 of 119" [ref=e318] [cursor=pointer]
+                    - button "Picture 93 of 119" [ref=e319] [cursor=pointer]
+                    - button "Picture 94 of 119" [ref=e320] [cursor=pointer]
+                    - button "Picture 95 of 119" [ref=e321] [cursor=pointer]
+                    - button "Picture 96 of 119" [ref=e322] [cursor=pointer]
+                    - button "Picture 97 of 119" [ref=e323] [cursor=pointer]
+                    - button "Picture 98 of 119" [ref=e324] [cursor=pointer]
+                    - button "Picture 99 of 119" [ref=e325] [cursor=pointer]
+                    - button "Picture 100 of 119" [ref=e326] [cursor=pointer]
+                    - button "Picture 101 of 119" [ref=e327] [cursor=pointer]
+                    - button "Picture 102 of 119" [ref=e328] [cursor=pointer]
+                    - button "Picture 103 of 119" [ref=e329] [cursor=pointer]
+                    - button "Picture 104 of 119" [ref=e330] [cursor=pointer]
+                    - button "Picture 105 of 119" [ref=e331] [cursor=pointer]
+                    - button "Picture 106 of 119" [ref=e332] [cursor=pointer]
+                    - button "Picture 107 of 119" [ref=e333] [cursor=pointer]
+                    - button "Picture 108 of 119" [ref=e334] [cursor=pointer]
+                    - button "Picture 109 of 119" [ref=e335] [cursor=pointer]
+                    - button "Picture 110 of 119" [ref=e336] [cursor=pointer]
+                    - button "Picture 111 of 119" [ref=e337] [cursor=pointer]
+                    - button "Picture 112 of 119" [ref=e338] [cursor=pointer]
+                    - button "Picture 113 of 119" [ref=e339] [cursor=pointer]
+                    - button "Picture 114 of 119" [ref=e340] [cursor=pointer]
+                    - button "Picture 115 of 119" [ref=e341] [cursor=pointer]
+                    - button "Picture 116 of 119" [ref=e342] [cursor=pointer]
+                    - button "Picture 117 of 119" [ref=e343] [cursor=pointer]
+                    - button "Picture 118 of 119" [ref=e344] [cursor=pointer]
+                    - button "Picture 119 of 119" [ref=e345] [cursor=pointer]
+                  - button "Next image - Item images thumbnails" [ref=e346] [cursor=pointer]:
+                    - img
+                - generic [ref=e347]:
+                  - heading "Picture 1 of 119" [level=2] [ref=e348]
+                  - generic [ref=e352]: In 103 carts
+                  - button "Previous image - Item images thumbnails" [ref=e354] [cursor=pointer]:
+                    - img
+                  - region "Opens image gallery dialog New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 1 of 119" [ref=e355]:
+                    - group "1 of 119" [ref=e356]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 1 of 119" [ref=e357]
+                    - group "2 of 119" [ref=e358]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 2 of 119" [ref=e359]
+                    - group "3 of 119" [ref=e360]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 3 of 119" [ref=e361]
+                    - group "4 of 119" [ref=e362]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 4 of 119" [ref=e363]
+                    - group "5 of 119" [ref=e364]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 5 of 119" [ref=e365]
+                    - group "6 of 119" [ref=e366]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 6 of 119" [ref=e367]
+                    - group "7 of 119" [ref=e368]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 7 of 119" [ref=e369]
+                    - group "8 of 119" [ref=e370]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 8 of 119" [ref=e371]
+                    - group "9 of 119" [ref=e372]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 9 of 119" [ref=e373]
+                    - group "10 of 119" [ref=e374]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 10 of 119" [ref=e375]
+                    - group "11 of 119" [ref=e376]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 11 of 119" [ref=e377]
+                    - group "12 of 119" [ref=e378]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 12 of 119" [ref=e379]
+                    - group "13 of 119" [ref=e380]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 13 of 119" [ref=e381]
+                    - group "14 of 119" [ref=e382]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 14 of 119" [ref=e383]
+                    - group "15 of 119" [ref=e384]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 15 of 119" [ref=e385]
+                    - group "16 of 119" [ref=e386]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 16 of 119" [ref=e387]
+                    - group "17 of 119" [ref=e388]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 17 of 119" [ref=e389]
+                    - group "18 of 119" [ref=e390]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 18 of 119" [ref=e391]
+                    - group "19 of 119" [ref=e392]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 19 of 119" [ref=e393]
+                    - group "20 of 119" [ref=e394]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 20 of 119" [ref=e395]
+                    - group "21 of 119" [ref=e396]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 21 of 119" [ref=e397]
+                    - group "22 of 119" [ref=e398]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 22 of 119" [ref=e399]
+                    - group "23 of 119" [ref=e400]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 23 of 119" [ref=e401]
+                    - group "24 of 119" [ref=e402]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 24 of 119" [ref=e403]
+                    - group "25 of 119" [ref=e404]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 25 of 119" [ref=e405]
+                    - group "26 of 119" [ref=e406]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 26 of 119" [ref=e407]
+                    - group "27 of 119" [ref=e408]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 27 of 119" [ref=e409]
+                    - group "28 of 119" [ref=e410]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 28 of 119" [ref=e411]
+                    - group "29 of 119" [ref=e412]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 29 of 119" [ref=e413]
+                    - group "30 of 119" [ref=e414]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 30 of 119" [ref=e415]
+                    - group "31 of 119" [ref=e416]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 31 of 119" [ref=e417]
+                    - group "32 of 119" [ref=e418]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 32 of 119" [ref=e419]
+                    - group "33 of 119" [ref=e420]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 33 of 119" [ref=e421]
+                    - group "34 of 119" [ref=e422]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 34 of 119" [ref=e423]
+                    - group "35 of 119" [ref=e424]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 35 of 119" [ref=e425]
+                    - group "36 of 119" [ref=e426]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 36 of 119" [ref=e427]
+                    - group "37 of 119" [ref=e428]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 37 of 119" [ref=e429]
+                    - group "38 of 119" [ref=e430]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 38 of 119" [ref=e431]
+                    - group "39 of 119" [ref=e432]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 39 of 119" [ref=e433]
+                    - group "40 of 119" [ref=e434]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 40 of 119" [ref=e435]
+                    - group "41 of 119" [ref=e436]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 41 of 119" [ref=e437]
+                    - group "42 of 119" [ref=e438]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 42 of 119" [ref=e439]
+                    - group "43 of 119" [ref=e440]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 43 of 119" [ref=e441]
+                    - group "44 of 119" [ref=e442]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 44 of 119" [ref=e443]
+                    - group "45 of 119" [ref=e444]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 45 of 119" [ref=e445]
+                    - group "46 of 119" [ref=e446]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 46 of 119" [ref=e447]
+                    - group "47 of 119" [ref=e448]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 47 of 119" [ref=e449]
+                    - group "48 of 119" [ref=e450]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 48 of 119" [ref=e451]
+                    - group "49 of 119" [ref=e452]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 49 of 119" [ref=e453]
+                    - group "50 of 119" [ref=e454]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 50 of 119" [ref=e455]
+                    - group "51 of 119" [ref=e456]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 51 of 119" [ref=e457]
+                    - group "52 of 119" [ref=e458]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 52 of 119" [ref=e459]
+                    - group "53 of 119" [ref=e460]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 53 of 119" [ref=e461]
+                    - group "54 of 119" [ref=e462]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 54 of 119" [ref=e463]
+                    - group "55 of 119" [ref=e464]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 55 of 119" [ref=e465]
+                    - group "56 of 119" [ref=e466]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 56 of 119" [ref=e467]
+                    - group "57 of 119" [ref=e468]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 57 of 119" [ref=e469]
+                    - group "58 of 119" [ref=e470]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 58 of 119" [ref=e471]
+                    - group "59 of 119" [ref=e472]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 59 of 119" [ref=e473]
+                    - group "60 of 119" [ref=e474]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 60 of 119" [ref=e475]
+                    - group "61 of 119" [ref=e476]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 61 of 119" [ref=e477]
+                    - group "62 of 119" [ref=e478]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 62 of 119" [ref=e479]
+                    - group "63 of 119" [ref=e480]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 63 of 119" [ref=e481]
+                    - group "64 of 119" [ref=e482]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 64 of 119" [ref=e483]
+                    - group "65 of 119" [ref=e484]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 65 of 119" [ref=e485]
+                    - group "66 of 119" [ref=e486]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 66 of 119" [ref=e487]
+                    - group "67 of 119" [ref=e488]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 67 of 119" [ref=e489]
+                    - group "68 of 119" [ref=e490]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 68 of 119" [ref=e491]
+                    - group "69 of 119" [ref=e492]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 69 of 119" [ref=e493]
+                    - group "70 of 119" [ref=e494]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 70 of 119" [ref=e495]
+                    - group "71 of 119" [ref=e496]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 71 of 119" [ref=e497]
+                    - group "72 of 119" [ref=e498]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 72 of 119" [ref=e499]
+                    - group "73 of 119" [ref=e500]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 73 of 119" [ref=e501]
+                    - group "74 of 119" [ref=e502]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 74 of 119" [ref=e503]
+                    - group "75 of 119" [ref=e504]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 75 of 119" [ref=e505]
+                    - group "76 of 119" [ref=e506]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 76 of 119" [ref=e507]
+                    - group "77 of 119" [ref=e508]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 77 of 119" [ref=e509]
+                    - group "78 of 119" [ref=e510]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 78 of 119" [ref=e511]
+                    - group "79 of 119" [ref=e512]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 79 of 119" [ref=e513]
+                    - group "80 of 119" [ref=e514]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 80 of 119" [ref=e515]
+                    - group "81 of 119" [ref=e516]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 81 of 119" [ref=e517]
+                    - group "82 of 119" [ref=e518]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 82 of 119" [ref=e519]
+                    - group "83 of 119" [ref=e520]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 83 of 119" [ref=e521]
+                    - group "84 of 119" [ref=e522]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 84 of 119" [ref=e523]
+                    - group "85 of 119" [ref=e524]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 85 of 119" [ref=e525]
+                    - group "86 of 119" [ref=e526]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 86 of 119" [ref=e527]
+                    - group "87 of 119" [ref=e528]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 87 of 119" [ref=e529]
+                    - group "88 of 119" [ref=e530]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 88 of 119" [ref=e531]
+                    - group "89 of 119" [ref=e532]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 89 of 119" [ref=e533]
+                    - group "90 of 119" [ref=e534]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 90 of 119" [ref=e535]
+                    - group "91 of 119" [ref=e536]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 91 of 119" [ref=e537]
+                    - group "92 of 119" [ref=e538]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 92 of 119" [ref=e539]
+                    - group "93 of 119" [ref=e540]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 93 of 119" [ref=e541]
+                    - group "94 of 119" [ref=e542]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 94 of 119" [ref=e543]
+                    - group "95 of 119" [ref=e544]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 95 of 119" [ref=e545]
+                    - group "96 of 119" [ref=e546]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 96 of 119" [ref=e547]
+                    - group "97 of 119" [ref=e548]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 97 of 119" [ref=e549]
+                    - group "98 of 119" [ref=e550]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 98 of 119" [ref=e551]
+                    - group "99 of 119" [ref=e552]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 99 of 119" [ref=e553]
+                    - group "100 of 119" [ref=e554]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 100 of 119" [ref=e555]
+                    - group "101 of 119" [ref=e556]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 101 of 119" [ref=e557]
+                    - group "102 of 119" [ref=e558]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 102 of 119" [ref=e559]
+                    - group "103 of 119" [ref=e560]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 103 of 119" [ref=e561]
+                    - group "104 of 119" [ref=e562]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 104 of 119" [ref=e563]
+                    - group "105 of 119" [ref=e564]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 105 of 119" [ref=e565]
+                    - group "106 of 119" [ref=e566]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 106 of 119" [ref=e567]
+                    - group "107 of 119" [ref=e568]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 107 of 119" [ref=e569]
+                    - group "108 of 119" [ref=e570]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 108 of 119" [ref=e571]
+                    - group "109 of 119" [ref=e572]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 109 of 119" [ref=e573]
+                    - group "110 of 119" [ref=e574]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 110 of 119" [ref=e575]
+                    - group "111 of 119" [ref=e576]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 111 of 119" [ref=e577]
+                    - group "112 of 119" [ref=e578]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 112 of 119" [ref=e579]
+                    - group "113 of 119" [ref=e580]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 113 of 119" [ref=e581]
+                    - group "114 of 119" [ref=e582]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 114 of 119" [ref=e583]
+                    - group "115 of 119" [ref=e584]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 115 of 119" [ref=e585]
+                    - group "116 of 119" [ref=e586]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 116 of 119" [ref=e587]
+                    - group "117 of 119" [ref=e588]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 117 of 119" [ref=e589]
+                    - group "118 of 119" [ref=e590]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 118 of 119" [ref=e591]
+                    - group "119 of 119" [ref=e592]:
+                      - img "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat - Picture 119 of 119" [ref=e593]
+                  - generic [ref=e594]:
+                    - button "Opens image gallery" [ref=e595] [cursor=pointer]:
+                      - img
+                    - button "Add to watchlist - 370 watchers" [ref=e597] [cursor=pointer]:
+                      - generic [ref=e598]: "370"
+                      - img
+                  - button "Next image - Item images thumbnails" [ref=e600] [cursor=pointer]:
+                    - img
+              - button "Share" [ref=e606] [cursor=pointer]:
+                - img
+                - generic [ref=e607]: Share
+            - generic [ref=e610]:
+              - heading "New Regatta Mens Fleece Half Zip Pullover Long Sleeve Work Polar Anti Pill Coat" [level=1] [ref=e612]
+              - generic [ref=e614] [cursor=pointer]:
+                - generic [ref=e616]:
+                  - generic [ref=e617]:
+                    - link [ref=e619]:
+                      - /url: https://www.ebay.com/str/mandhtrading?_trksid=p4429486.m3561.l161210
+                      - img [ref=e621]
+                    - generic [ref=e622]:
+                      - generic [ref=e623]:
+                        - link "M and H Trading" [ref=e624]:
+                          - /url: https://www.ebay.com/str/mandhtrading?_trksid=p4429486.m3561.l161211
+                        - generic [ref=e626]: (273005)
+                      - generic [ref=e627]:
+                        - button "99.6% positive" [ref=e629]
+                        - link "Seller's other items" [ref=e631]:
+                          - /url: https://www.ebay.com/str/mandhtrading?_trksid=p4429486.m3561.l170197
+                          - generic [ref=e632]: Seller's other items
+                          - generic [ref=e633]: Seller's other items
+                  - button "Message" [ref=e635]:
+                    - generic [ref=e636]: Message
+                - button "See more about this seller" [ref=e638]:
+                  - img
+              - generic [ref=e641]:
+                - generic [ref=e642]: GBP 11.75
+                - generic [ref=e643]:
+                  - generic [ref=e644]: Approximately
+                  - generic [ref=e645]: ILS 47.48
+              - generic [ref=e646]:
+                - generic [ref=e647]: "Condition:"
+                - generic [ref=e649]:
+                  - generic [ref=e650]:
+                    - generic [ref=e651]: New with tags
+                    - generic [ref=e652]: New with tags
+                  - button "More information - About this item condition" [ref=e653] [cursor=pointer]:
+                    - generic [ref=e654]:
+                      - img "More information - About this item condition"
+              - generic [ref=e655]:
+                - 'button "Size: Select" [ref=e658] [cursor=pointer]':
+                  - generic [ref=e659]:
+                    - generic [ref=e660]: "Size:"
+                    - generic [ref=e661]: Select
+                    - img
+                - 'button "Colour: Select" [ref=e664] [cursor=pointer]':
+                  - generic [ref=e665]:
+                    - generic [ref=e666]: "Colour:"
+                    - generic [ref=e667]: Select
+                    - img
+              - generic [ref=e669]:
+                - generic [ref=e670]: "Quantity:"
+                - generic [ref=e671]:
+                  - textbox "Quantity:" [disabled] [ref=e673]: "1"
+                  - generic [ref=e674]: More than 10 available 3,195 sold
+              - list [ref=e676]:
+                - listitem [ref=e677]:
+                  - button "Buy It Now" [ref=e679] [cursor=pointer]:
+                    - generic [ref=e680]: Buy It Now
+                - listitem [ref=e681]:
+                  - button "Add to cart" [ref=e683] [cursor=pointer]:
+                    - generic [ref=e684]: Add to cart
+                - listitem [ref=e685]:
+                  - generic [ref=e687]:
+                    - status [ref=e688]: Add to Watchlist
+                    - link "Add to Watchlist" [ref=e693] [cursor=pointer]:
+                      - /url: https://signin.ebay.com/ws/eBayISAPI.dll?SignIn&ru=https%3A%2F%2Fwww.ebay.com%2Fitm%2F266629702570
+                      - generic [ref=e694]:
+                        - img
+                        - text: Add to Watchlist
+              - generic [ref=e697]:
+                - generic [ref=e698]:
+                  - generic [ref=e699]:
+                    - img
+                  - generic [ref=e701]: This one's trending. 3195 have already sold.
+                - generic [ref=e702]:
+                  - generic [ref=e703]:
+                    - img
+                  - generic [ref=e705]: Breathe easy. Returns accepted.
+              - generic [ref=e708]:
+                - heading "Shipping, returns, and payments" [level=2] [ref=e711]:
+                  - generic [ref=e712]: Shipping, returns, and payments
+                - generic [ref=e714]:
+                  - generic [ref=e717]:
+                    - generic [ref=e720]: "Shipping:"
+                    - generic [ref=e722]:
+                      - generic [ref=e723]: Item does not ship to you
+                      - generic [ref=e724]: "Located in: Pontypool, United Kingdom"
+                  - generic [ref=e727]:
+                    - generic [ref=e730]: "Delivery:"
+                    - generic [ref=e733]: Varies
+              - generic [ref=e740]:
+                - generic [ref=e743]: "Returns:"
+                - generic [ref=e746]:
+                  - text: 60 days returns. Buyer pays for return shipping. If you use an eBay shipping label, it will be deducted from your refund amount.
+                  - button "See details - for more information about returns" [ref=e747] [cursor=pointer]:
+                    - generic [ref=e748]:
+                      - text: See details
+                      - generic [ref=e749]: "- for more information about returns"
+              - generic [ref=e756]:
+                - generic [ref=e759]: "Payments:"
+                - generic [ref=e762]:
+                  - img "PayPal" [ref=e763]
+                  - img "Google Pay" [ref=e765]
+                  - img "Visa" [ref=e767]
+                  - img "Master Card" [ref=e769]
+                  - img "Diners Club" [ref=e772]
+              - generic [ref=e776]:
+                - heading "Shop with confidence" [level=2] [ref=e779]
+                - generic [ref=e780]:
+                  - generic [ref=e782]:
+                    - img
+                  - generic [ref=e783]:
+                    - generic [ref=e784]: eBay Money Back Guarantee
+                    - generic [ref=e785]:
+                      - text: Get the item you ordered or your money back.
+                      - link "Learn more eBay Money Back Guarantee - opens new window or tab" [ref=e786] [cursor=pointer]:
+                        - /url: https://www.ebay.com/ebay-money-back-guarantee/
+                        - generic [ref=e787]:
+                          - text: Learn more
+                          - generic [ref=e788]: eBay Money Back Guarantee - opens new window or tab
+          - generic [ref=e789]:
+            - generic [ref=e791]:
+              - generic [ref=e797]:
+                - generic [ref=e798]:
+                  - heading "What's your size?" [level=2] [ref=e799]
+                  - text: Add your size to optimize your experience.
+                - button "Add your size" [ref=e801] [cursor=pointer]
+              - generic [ref=e804]:
+                - tablist [ref=e805]:
+                  - tab "About this item" [selected] [ref=e806] [cursor=pointer]:
+                    - generic [ref=e807]: About this item
+                - tabpanel "About this item" [ref=e809]:
+                  - generic [ref=e812]:
+                    - generic [ref=e815]:
+                      - generic [ref=e819]: Seller assumes all responsibility for this listing.
+                      - generic [ref=e823]: eBay item number:266629702570
+                      - generic [ref=e827]:
+                        - text: Last updated on Apr 27, 2026 03:59:03 PDT
+                        - link "View all revisions View all revisions" [ref=e828] [cursor=pointer]:
+                          - /url: https://www.ebay.com/rvh/266629702570?rt=nc&_trksid=p4429486.m148105.l48144
+                          - generic [ref=e829]:
+                            - text: View all revisions
+                            - generic [ref=e830]: View all revisions
+                    - generic [ref=e833]:
+                      - heading "Item specifics" [level=2] [ref=e836]:
+                        - generic [ref=e837]: Item specifics
+                      - generic [ref=e839]:
+                        - generic [ref=e840]:
+                          - generic [ref=e842]:
+                            - term [ref=e843]:
+                              - generic [ref=e845]: Condition
+                            - definition [ref=e846]:
+                              - generic [ref=e849]:
+                                - generic [ref=e850]: "New with tags: This item is brand new and has never been worn. It still has the original tags and/or ..."
+                                - button "Read more about the condition" [ref=e852]:
+                                  - generic [ref=e853]:
+                                    - text: Read more
+                                    - generic [ref=e854]: about the condition
+                          - generic [ref=e856]:
+                            - term [ref=e857]:
+                              - generic [ref=e859]: Pattern
+                            - definition [ref=e860]:
+                              - generic [ref=e862]: No Pattern
+                        - generic [ref=e863]:
+                          - generic [ref=e865]:
+                            - term [ref=e866]:
+                              - generic [ref=e868]: Sleeve Length
+                            - definition [ref=e869]:
+                              - generic [ref=e871]: Long Sleeve
+                          - generic [ref=e873]:
+                            - term [ref=e874]:
+                              - generic [ref=e876]: Neckline
+                            - definition [ref=e877]:
+                              - generic [ref=e879]: Zip Neck
+                        - generic [ref=e880]:
+                          - generic [ref=e882]:
+                            - term [ref=e883]:
+                              - generic [ref=e885]: Occasion
+                            - definition [ref=e886]:
+                              - generic [ref=e888]: Casual, Travel
+                          - generic [ref=e890]:
+                            - term [ref=e891]:
+                              - generic [ref=e893]: Garment Care
+                            - definition [ref=e894]:
+                              - generic [ref=e896]: Machine Washable
+                        - generic [ref=e897]:
+                          - generic [ref=e899]:
+                            - term [ref=e900]:
+                              - generic [ref=e902]: Material
+                            - definition [ref=e903]:
+                              - generic [ref=e905]: Polyester
+                          - generic [ref=e907]:
+                            - term [ref=e908]:
+                              - generic [ref=e910]: Fabric Type
+                            - definition [ref=e911]:
+                              - generic [ref=e913]: Fleece
+                        - generic [ref=e914]:
+                          - generic [ref=e916]:
+                            - term [ref=e917]:
+                              - generic [ref=e919]: Accents
+                            - definition [ref=e920]:
+                              - generic [ref=e922]: Embroidered, Logo, Zip
+                          - generic [ref=e924]:
+                            - term [ref=e925]:
+                              - generic [ref=e927]: Brand
+                            - definition [ref=e928]:
+                              - generic [ref=e930]: Regatta
+                        - generic [ref=e931]:
+                          - generic [ref=e933]:
+                            - term [ref=e934]:
+                              - generic [ref=e936]: Fit
+                            - definition [ref=e937]:
+                              - generic [ref=e939]: Regular
+                          - generic [ref=e941]:
+                            - term [ref=e942]:
+                              - generic [ref=e944]: Size Type
+                            - definition [ref=e945]:
+                              - generic [ref=e947]: Regular
+                        - generic [ref=e948]:
+                          - generic [ref=e950]:
+                            - term [ref=e951]:
+                              - generic [ref=e953]: Type
+                            - definition [ref=e954]:
+                              - generic [ref=e956]: Jumper
+                          - generic [ref=e958]:
+                            - term [ref=e959]:
+                              - generic [ref=e961]: Department
+                            - definition [ref=e962]:
+                              - generic [ref=e964]: Men
+                        - generic [ref=e965]:
+                          - generic [ref=e967]:
+                            - term [ref=e968]:
+                              - generic [ref=e970]: Style
+                            - definition [ref=e971]:
+                              - generic [ref=e973]: Pullover
+                          - generic [ref=e975]:
+                            - term [ref=e976]:
+                              - generic [ref=e978]: Features
+                            - definition [ref=e979]:
+                              - generic [ref=e981]: 1/2 Zip, 1/4 Zip, Anti Pill, 1 Side Brushed, 1 Side Anti Pill, Durable
+                        - generic [ref=e982]:
+                          - generic [ref=e984]:
+                            - term [ref=e985]:
+                              - generic [ref=e987]: Country/Region of Manufacture
+                            - definition [ref=e988]:
+                              - generic [ref=e990]: Bangladesh
+                          - generic [ref=e992]:
+                            - term [ref=e993]:
+                              - generic [ref=e995]: Season
+                            - definition [ref=e996]:
+                              - generic [ref=e998]: Autumn, Spring, Winter
+                        - generic [ref=e999]:
+                          - generic [ref=e1001]:
+                            - term [ref=e1002]:
+                              - generic [ref=e1004]: Performance/Activity
+                            - definition [ref=e1005]:
+                              - generic [ref=e1007]: Hiking, Walking
+                          - generic [ref=e1009]:
+                            - term [ref=e1010]:
+                              - generic [ref=e1012]: Personalise
+                            - definition [ref=e1013]:
+                              - generic [ref=e1015]: "No"
+                    - generic [ref=e1016]:
+                      - generic [ref=e1017]: Category
+                      - navigation "breadcrumb" [ref=e1020]:
+                        - heading "breadcrumb" [level=2] [ref=e1021]
+                        - list [ref=e1022]:
+                          - listitem [ref=e1023]:
+                            - link "Clothing, Shoes & Accessories" [ref=e1024] [cursor=pointer]:
+                              - /url: https://www.ebay.com/b/Clothing-Shoes-Accessories/11450/bn_1852545
+                            - img
+                          - listitem [ref=e1025]:
+                            - link "Men" [ref=e1026] [cursor=pointer]:
+                              - /url: https://www.ebay.com/b/Mens-Clothing-Shoes-Accessories/260012/bn_7116419459
+                            - img
+                          - listitem [ref=e1027]:
+                            - link "Men's Clothing" [ref=e1028] [cursor=pointer]:
+                              - /url: https://www.ebay.com/b/Mens-Clothing/1059/bn_696958
+                            - img
+                          - listitem [ref=e1029]:
+                            - link "Sweaters" [ref=e1030] [cursor=pointer]:
+                              - /url: https://www.ebay.com/b/Mens-Sweaters/11484/bn_704990
+                    - generic [ref=e1031]:
+                      - heading "Item description from the seller" [level=2] [ref=e1034]
+                      - iframe [ref=e1035]:
+                        - generic [ref=f23e4]:
+                          - img [ref=f23e6]
+                          - generic [ref=f23e7]:
+                            - generic:
+                              - link "Visit our Shop" [ref=f23e9] [cursor=pointer]:
+                                - /url: https://stores.ebay.co.uk/mandhtrading
+                                - img "Visit our Shop" [ref=f23e10]
+                              - img [ref=f23e13]
+                            - generic [ref=f23e14]:
+                              - img
+                            - list [ref=f23e16]:
+                              - listitem [ref=f23e17]:
+                                - link "Shop" [ref=f23e18] [cursor=pointer]:
+                                  - /url: https://stores.ebay.co.uk/mandhtrading
+                              - listitem [ref=f23e19]:
+                                - link "FAQ's" [ref=f23e20] [cursor=pointer]:
+                                  - /url: https://stores.ebay.co.uk/mandhtrading/faqs.html
+                              - listitem [ref=f23e21]:
+                                - link "Feedback" [ref=f23e22] [cursor=pointer]:
+                                  - /url: https://feedback.ebay.co.uk/ws/eBayISAPI.dll?ViewFeedback2&userid=m-and-h-trading
+                              - listitem [ref=f23e23]:
+                                - link "Bookmark Us" [ref=f23e24] [cursor=pointer]:
+                                  - /url: https://my.ebay.co.uk/ws/eBayISAPI.dll?AcceptSavedSeller&linkname=includefavoritestore&sellerid=m-and-h-trading
+                              - listitem [ref=f23e25]:
+                                - link "About Us" [ref=f23e26] [cursor=pointer]:
+                                  - /url: https://stores.ebay.co.uk/mandhtrading/aboutus.html
+                              - listitem [ref=f23e27]:
+                                - link "Contact Us" [ref=f23e28] [cursor=pointer]:
+                                  - /url: https://contact.ebay.co.uk//ws/eBayISAPI.dll?ContactUserNextGen&recipient=m-and-h-trading
+                            - generic [ref=f23e30]:
+                              - generic [ref=f23e31]:
+                                - generic [ref=f23e32]: Get In Touch
+                                - img [ref=f23e33]
+                              - generic [ref=f23e34]:
+                                - generic [ref=f23e35]: Browse our Store
+                                - link [ref=f23e36] [cursor=pointer]:
+                                  - /url: https://stores.ebay.co.uk/mandhtrading
+                                  - img [ref=f23e37]
+                                - img [ref=f23e39]
+                              - generic [ref=f23e40]:
+                                - generic [ref=f23e41]: Secure Payments
+                                - img [ref=f23e42]
+                              - generic [ref=f23e43]:
+                                - generic [ref=f23e44]: Delivery Options
+                                - img [ref=f23e45]
+                              - generic [ref=f23e46]:
+                                - generic [ref=f23e47]: Get Social
+                                - img [ref=f23e48]
+                                - list [ref=f23e50]:
+                                  - listitem [ref=f23e51]:
+                                    - link "Join Our Newsletter" [ref=f23e52] [cursor=pointer]:
+                                      - /url: https://my.ebay.co.uk/ws/eBayISAPI.dll?AcceptSavedSeller&linkname=includefavoritestore&sellerid=m-and-h-trading
+                                      - img "Join Our Newsletter" [ref=f23e53]
+                            - generic [ref=f23e54]:
+                              - generic [ref=f23e55]:
+                                - generic [ref=f23e57]: Regatta Thompson Quarter Zip Fleece
+                                - img [ref=f23e59]
+                              - generic [ref=f23e60]:
+                                - generic [ref=f23e61]: Product Description
+                                - generic [ref=f23e63]:
+                                  - text: Regatta Thompson Quarter Zip Fleece
+                                  - text: Zip Neck
+                                  - text: Long Sleeve
+                                  - text: Lightweight
+                                  - text: Anti Pill
+                                  - text: Embroidered Chest Logo
+                                  - text: 170gsm Fleece
+                                  - text: 1 Side Brushed, 1 Side Anti Pill
+                                  - text: Great For Layering
+                                  - text: Durable
+                                  - text: Cosy
+                                  - text: Regular Fit
+                                  - text: Ideal For Casual Wear
+                                  - text: Excellent Quality
+                                  - text: 100% Polyester
+                                  - text: "RRP: £26.00 Each"
+                                  - text: "Size Guide:"
+                                  - text: "S:"
+                                  - text: To Fit Chest - 36 to 38" / 91 to 97cm
+                                  - text: Length Shoulder to Bottom Hem - 26" / 66cm
+                                  - text: Shoulder to End of Arm - 25.5" / 65cm
+                                  - text: "M:"
+                                  - text: To Fit Chest - 38 to 40" / 97 to 102cm
+                                  - text: Length Shoulder to Bottom Hem - 27" / 68cm
+                                  - text: Shoulder to End of Arm - 26" / 66cm
+                                  - text: "L:"
+                                  - text: To Fit Chest - 40 to 42" / 102 to 107cm
+                                  - text: Length Shoulder to Bottom Hem - 28.5" / 73cm
+                                  - text: Shoulder to End of Arm - 26" / 66cm
+                                  - text: "XL:"
+                                  - text: To Fit Chest - 42 to 44" / 107 to 112cm
+                                  - text: Length Shoulder to Bottom Hem - 28.5" / 73cm
+                                  - text: Shoulder to End of Arm - 26" / 66cm
+                                  - text: "2XL:"
+                                  - text: To Fit Chest - 46 to 48" / 117 to 122cm
+                                  - text: Length Shoulder to Bottom Hem - 29.5" / 75cm
+                                  - text: Shoulder to End of Arm - 28" / 71cm
+                                  - text: "3XL:"
+                                  - text: To Fit Chest - 49 to 51" / 124 to 130cm
+                                  - text: Length Shoulder to Bottom Hem - 30" / 76cm
+                                  - text: Shoulder to End of Arm - 28" / 71cm
+                              - generic [ref=f23e64]:
+                                - generic [ref=f23e65]: Delivery Information
+                                - generic [ref=f23e66]:
+                                  - paragraph [ref=f23e67]: Orders within the U.K. are dispatched via Royal Mail or our Courier the same working day or next working day if ordered after 4pm. Order should be received within 1 - 2 working days but can take up to 7 under some circumstances.
+                                  - paragraph [ref=f23e68]: Orders outside the U.K. are sent via Royal Mail or our International Courier the same working day or next working day if ordered after 4pm. Order should be received within 3 - 15 working days.
+                                  - paragraph [ref=f23e69]: Please do not hesitate to contact us if you require further delivery information.
+                              - generic [ref=f23e70]:
+                                - generic [ref=f23e71]: Returns Information
+                                - generic [ref=f23e72]:
+                                  - paragraph [ref=f23e73]: We offer a no quibble 60 day money back guarantee. Please ensure that the item is returned to us in original undamaged condition with all original packaging. Simply send the item back to the address on your invoice or open a Return Request from your eBay purchase history. Please include a note with your eBay username and full delivery address so that we are able to identify your parcel and process it as soon as possible. We will issue a full refund within 5 working days of receiving your return.
+                                  - paragraph [ref=f23e74]: If your item has arrived damaged or broken please contact us via eBay messages and we will gladly assist you with this.
+                                  - paragraph [ref=f23e75]: If you would like to exchange your item please contact us via eBay messages and we will gladly arrange this for you.
+                                  - paragraph [ref=f23e76]: Please do not hesitate to contact us if you require any further returns information.
+                                  - link [ref=f23e78] [cursor=pointer]:
+                                    - /url: https://stores.ebay.co.uk/mandhtrading/faqs.html
+                                    - img [ref=f23e79]
+                            - generic [ref=f23e82]: Content © Copyright m-and-h-trading. All rights reserved.
+                          - img [ref=f23e84]
+                    - generic [ref=e1038]:
+                      - heading "Seller business information" [level=2] [ref=e1041]:
+                        - generic [ref=e1042]: Seller business information
+                      - generic [ref=e1045]: "VAT number: GB 189501580"
+            - generic [ref=e1048]:
+              - generic [ref=e1049]:
+                - generic [ref=e1050]:
+                  - heading "About this seller" [level=2] [ref=e1051]:
+                    - generic [ref=e1053]: About this seller
+                  - generic [ref=e1054]:
+                    - link [ref=e1056] [cursor=pointer]:
+                      - /url: https://www.ebay.com/str/mandhtrading?_trksid=p4429486.m145687.l149266
+                      - img [ref=e1058]
+                    - generic [ref=e1059]:
+                      - heading "M and H Trading" [level=3] [ref=e1060]:
+                        - link "M and H Trading" [ref=e1061] [cursor=pointer]:
+                          - /url: https://www.ebay.com/str/mandhtrading?_trksid=p4429486.m145687.l149267
+                      - paragraph [ref=e1062]: 99.6% positive feedback•1.0M items sold
+                  - generic [ref=e1065]:
+                    - generic [ref=e1067]:
+                      - generic [ref=e1068]:
+                        - img
+                      - generic [ref=e1069]: Joined Oct 2012
+                    - generic [ref=e1071]:
+                      - generic [ref=e1072]:
+                        - img
+                      - generic [ref=e1073]: Usually responds within 24 hours
+                  - generic [ref=e1076]: Welcome to my eBay Shop. Please add me to your list of favourite sellers and come again. Thank you for your business.
+                  - generic [ref=e1077]:
+                    - link "Visit store" [ref=e1078] [cursor=pointer]:
+                      - /url: https://www.ebay.com/str/mandhtrading?_trksid=p4429486.m145687.l149086
+                      - generic [ref=e1079]: Visit store
+                    - button "Message seller - opens in a new dialog" [ref=e1080] [cursor=pointer]:
+                      - generic [ref=e1081]:
+                        - text: Message seller
+                        - generic [ref=e1082]: "- opens in a new dialog"
+                    - button "Save seller - Save this seller m-and-h-trading" [ref=e1084] [cursor=pointer]:
+                      - generic [ref=e1085]:
+                        - img
+                      - generic [ref=e1086]: Save seller
+                - generic [ref=e1088]:
+                  - heading "Detailed seller ratings" [level=3] [ref=e1089]
+                  - generic [ref=e1090]:
+                    - generic [ref=e1091]: Average for the last 12 months
+                    - generic [ref=e1092]:
+                      - generic [ref=e1093]:
+                        - generic [ref=e1094]: Accurate description
+                        - progressbar [ref=e1095]
+                        - generic [ref=e1096]: "4.9"
+                      - generic [ref=e1097]:
+                        - generic [ref=e1098]: Reasonable shipping cost
+                        - progressbar [ref=e1099]
+                        - generic [ref=e1100]: "5.0"
+                      - generic [ref=e1101]:
+                        - generic [ref=e1102]: Shipping speed
+                        - progressbar [ref=e1103]
+                        - generic [ref=e1104]: "5.0"
+                      - generic [ref=e1105]:
+                        - generic [ref=e1106]: Communication
+                        - progressbar [ref=e1107]
+                        - generic [ref=e1108]: "5.0"
+                - generic [ref=e1109]:
+                  - generic [ref=e1110]:
+                    - heading "Popular categories from this store" [level=3] [ref=e1111]
+                    - link "See all categories" [ref=e1113] [cursor=pointer]:
+                      - /url: https://www.ebay.com/sch/i.html?_dkr=1&iconV2Request=true&_blrs=recall_filtering&_ssn=m-and-h-trading&store_cat=0&store_name=mandhtrading&_oac=1
+                      - generic [ref=e1114]:
+                        - text: See all
+                        - generic [ref=e1115]: categories
+                  - generic [ref=e1116]:
+                    - link "Mens Shirts / Tops" [ref=e1118] [cursor=pointer]:
+                      - /url: https://www.ebay.com/str/mandhtrading/Mens-Shirts-Tops/_i.html?store_cat=15856314018
+                    - link "Mens Belts" [ref=e1120] [cursor=pointer]:
+                      - /url: https://www.ebay.com/str/mandhtrading/Mens-Belts/_i.html?store_cat=15856316018
+                    - link "Mens Trousers" [ref=e1122] [cursor=pointer]:
+                      - /url: https://www.ebay.com/str/mandhtrading/Mens-Trousers/_i.html?store_cat=16937330018
+                    - link "Mens Tracksuits" [ref=e1124] [cursor=pointer]:
+                      - /url: https://www.ebay.com/str/mandhtrading/Mens-Tracksuits/_i.html?store_cat=15856307018
+                    - link "Hats" [ref=e1126] [cursor=pointer]:
+                      - /url: https://www.ebay.com/str/mandhtrading/Hats/_i.html?store_cat=15856309018
+                    - link "Ladies Shirts / Tops" [ref=e1128] [cursor=pointer]:
+                      - /url: https://www.ebay.com/str/mandhtrading/Ladies-Shirts-Tops/_i.html?store_cat=15856315018
+                    - link "Mens Coats / Jackets" [ref=e1130] [cursor=pointer]:
+                      - /url: https://www.ebay.com/str/mandhtrading/Mens-Coats-Jackets/_i.html?store_cat=15856311018
+                    - link "Sleepwear" [ref=e1132] [cursor=pointer]:
+                      - /url: https://www.ebay.com/str/mandhtrading/Sleepwear/_i.html?store_cat=15856384018
+                    - link "Other" [ref=e1134] [cursor=pointer]:
+                      - /url: https://www.ebay.com/str/mandhtrading/Other/_i.html?store_cat=1
+              - generic [ref=e1137]:
+                - heading "Seller feedback (332,159)" [level=2] [ref=e1138]
+                - generic [ref=e1139]:
+                  - tablist [ref=e1140]:
+                    - tab "This item (2,079)" [selected] [ref=e1141]:
+                      - generic [ref=e1142]: This item (2,079)
+                    - tab "All items (332,159)" [ref=e1143]:
+                      - generic [ref=e1144]: All items (332,159)
+                  - tabpanel "This item (2,079)" [ref=e1146]:
+                    - generic [ref=e1148]:
+                      - generic [ref=e1149]:
+                        - 'button "Filter: All ratings" [ref=e1152] [cursor=pointer]':
+                          - generic [ref=e1153]:
+                            - generic [ref=e1154]: "Filter:"
+                            - generic [ref=e1155]: All ratings
+                            - img
+                        - list [ref=e1156]:
+                          - listitem [ref=e1157]:
+                            - link "Satisfaction" [ref=e1158] [cursor=pointer]:
+                              - /url: https://www.ebay.com/fdbk/mweb_profile?fdbkType=FeedbackReceivedAsSeller&item_id=266629702570&username=m-and-h-trading&filter=feedback_page%3ARECEIVED_AS_SELLER%2Cfilter_topic_item%3Aproduct-satisfaction&q=266629702570&sort=RELEVANCEV2
+                              - generic:
+                                - generic: Satisfaction
+                          - listitem [ref=e1159]:
+                            - link "Quality" [ref=e1160] [cursor=pointer]:
+                              - /url: https://www.ebay.com/fdbk/mweb_profile?fdbkType=FeedbackReceivedAsSeller&item_id=266629702570&username=m-and-h-trading&filter=feedback_page%3ARECEIVED_AS_SELLER%2Cfilter_topic_item%3Aquality&q=266629702570&sort=RELEVANCEV2
+                              - generic:
+                                - generic: Quality
+                          - listitem [ref=e1161]:
+                            - link "Value" [ref=e1162] [cursor=pointer]:
+                              - /url: https://www.ebay.com/fdbk/mweb_profile?fdbkType=FeedbackReceivedAsSeller&item_id=266629702570&username=m-and-h-trading&filter=feedback_page%3ARECEIVED_AS_SELLER%2Cfilter_topic_item%3Aprice&q=266629702570&sort=RELEVANCEV2
+                              - generic:
+                                - generic: Value
+                          - listitem [ref=e1163]:
+                            - link "Appearance" [ref=e1164] [cursor=pointer]:
+                              - /url: https://www.ebay.com/fdbk/mweb_profile?fdbkType=FeedbackReceivedAsSeller&item_id=266629702570&username=m-and-h-trading&filter=feedback_page%3ARECEIVED_AS_SELLER%2Cfilter_topic_item%3Aappearance&q=266629702570&sort=RELEVANCEV2
+                              - generic:
+                                - generic: Appearance
+                          - listitem [ref=e1165]:
+                            - link "Fit" [ref=e1166] [cursor=pointer]:
+                              - /url: https://www.ebay.com/fdbk/mweb_profile?fdbkType=FeedbackReceivedAsSeller&item_id=266629702570&username=m-and-h-trading&filter=feedback_page%3ARECEIVED_AS_SELLER%2Cfilter_topic_item%3Afit&q=266629702570&sort=RELEVANCEV2
+                              - generic:
+                                - generic: Fit
+                          - listitem [ref=e1167]:
+                            - link "Condition" [ref=e1168] [cursor=pointer]:
+                              - /url: https://www.ebay.com/fdbk/mweb_profile?fdbkType=FeedbackReceivedAsSeller&item_id=266629702570&username=m-and-h-trading&filter=feedback_page%3ARECEIVED_AS_SELLER%2Cfilter_topic_item%3Acondition&q=266629702570&sort=RELEVANCEV2
+                              - generic:
+                                - generic: Condition
+                          - listitem [ref=e1169]:
+                            - link "Usage" [ref=e1170] [cursor=pointer]:
+                              - /url: https://www.ebay.com/fdbk/mweb_profile?fdbkType=FeedbackReceivedAsSeller&item_id=266629702570&username=m-and-h-trading&filter=feedback_page%3ARECEIVED_AS_SELLER%2Cfilter_topic_item%3Ausage&q=266629702570&sort=RELEVANCEV2
+                              - generic:
+                                - generic: Usage
+                          - listitem [ref=e1171]:
+                            - link "Dimensions" [ref=e1172] [cursor=pointer]:
+                              - /url: https://www.ebay.com/fdbk/mweb_profile?fdbkType=FeedbackReceivedAsSeller&item_id=266629702570&username=m-and-h-trading&filter=feedback_page%3ARECEIVED_AS_SELLER%2Cfilter_topic_item%3Adimensions&q=266629702570&sort=RELEVANCEV2
+                              - generic:
+                                - generic: Dimensions
+                      - list [ref=e1173]:
+                        - listitem [ref=e1174]:
+                          - generic [ref=e1175]:
+                            - generic [ref=e1177]:
+                              - generic [ref=e1178]:
+                                - img "Positive feedback rating"
+                              - generic [ref=e1179]:
+                                - text: e***t (513)
+                                - generic [ref=e1180]: "- Feedback left by buyer."
+                              - generic [ref=e1183]: Past 6 months
+                              - generic [ref=e1184]: Verified purchase
+                            - generic [ref=e1186]: It's a lightweight fleece, a bit thin but reasonable quality and the 2xl is a perfect fit for my lanky long arms 6' 4" frame. The arm length is fine on the 2xl, goes past my wrists. I just ordered one to try and will order a few more now.
+                        - listitem [ref=e1187]:
+                          - generic [ref=e1188]:
+                            - generic [ref=e1190]:
+                              - generic [ref=e1191]:
+                                - img "Positive feedback rating"
+                              - generic [ref=e1192]:
+                                - text: 7***4 (179)
+                                - generic [ref=e1193]: "- Feedback left by buyer."
+                              - generic [ref=e1196]: Past month
+                              - generic [ref=e1197]: Verified purchase
+                            - generic [ref=e1199]: Regatta mens fleece half zip pullover been buying regatta for years! ordered four had to order another blue marl as I liked it very much in case they stop manufacturing this item they are true size and comes vacuum packed has bought from seller before all genuine products just great prices and great quality and quick delivery very happy customer many many thanks to M and H Trading
+                        - listitem [ref=e1200]:
+                          - generic [ref=e1201]:
+                            - generic [ref=e1203]:
+                              - generic [ref=e1204]:
+                                - img "Positive feedback rating"
+                              - generic [ref=e1205]:
+                                - text: b***r (327)
+                                - generic [ref=e1206]: "- Feedback left by buyer."
+                              - generic [ref=e1209]: Past year
+                              - generic [ref=e1210]: Verified purchase
+                            - generic [ref=e1212]: Fleece received on time vacuum packed so could be posted through letter box. Fleece is very thin material but is a nice fit.Its warmth capabilities are deceptive and it does retain body heat well
+                        - listitem [ref=e1213]:
+                          - generic [ref=e1214]:
+                            - generic [ref=e1216]:
+                              - generic [ref=e1217]:
+                                - img "Positive feedback rating"
+                              - generic [ref=e1218]:
+                                - text: i***3 (44)
+                                - generic [ref=e1219]: "- Feedback left by buyer."
+                              - generic [ref=e1222]: Past 6 months
+                              - generic [ref=e1223]: Verified purchase
+                            - generic [ref=e1225]: a good fit and the fleece is quite warm given how thin it is, so ideal to go under sweatshirts as the weather changes from cool to cold.
+                        - listitem [ref=e1226]:
+                          - generic [ref=e1227]:
+                            - generic [ref=e1229]:
+                              - generic [ref=e1230]:
+                                - img "Positive feedback rating"
+                              - generic [ref=e1231]:
+                                - text: m***- (41)
+                                - generic [ref=e1232]: "- Feedback left by buyer."
+                              - generic [ref=e1235]: Past 6 months
+                              - generic [ref=e1236]: Verified purchase
+                            - generic [ref=e1237]:
+                              - generic [ref=e1238]: What happened with my purchases from you quality really good 100% condition amazing condition with tags the value of these are better than their own website as these are affordable. Appearance look really good and quality for the money
+                              - button "Item photo(s) from verified buyer" [ref=e1239] [cursor=pointer]:
+                                - img "Item photo(s) from verified buyer" [ref=e1240]
+                                - generic [ref=e1241]:
+                                  - img
+                        - listitem [ref=e1242]:
+                          - generic [ref=e1243]:
+                            - generic [ref=e1245]:
+                              - generic [ref=e1246]:
+                                - img "Positive feedback rating"
+                              - generic [ref=e1247]:
+                                - text: 2***6 (313)
+                                - generic [ref=e1248]: "- Feedback left by buyer."
+                              - generic [ref=e1251]: Past 6 months
+                              - generic [ref=e1252]: Verified purchase
+                            - generic [ref=e1254]: Good and light fleece jumper. Will suit the kind of weather we have right now. Very good value and quick delivery too. Thankyou.
+                        - listitem [ref=e1255]:
+                          - generic [ref=e1256]:
+                            - generic [ref=e1258]:
+                              - generic [ref=e1259]:
+                                - img "Positive feedback rating"
+                              - generic [ref=e1260]:
+                                - text: o***n (881)
+                                - generic [ref=e1261]: "- Feedback left by buyer."
+                              - generic [ref=e1264]: Past 6 months
+                              - generic [ref=e1265]: Verified purchase
+                            - generic [ref=e1267]: I have 4 of these now. They are so soft and comfortable and great for layering. Quick delivery.
+                        - listitem [ref=e1268]:
+                          - generic [ref=e1269]:
+                            - generic [ref=e1271]:
+                              - generic [ref=e1272]:
+                                - img "Positive feedback rating"
+                              - generic [ref=e1273]:
+                                - text: y***7 (600)
+                                - generic [ref=e1274]: "- Feedback left by buyer."
+                              - generic [ref=e1277]: Past 6 months
+                              - generic [ref=e1278]: Verified purchase
+                            - generic [ref=e1280]: Received with thanks. Item exactly as described and very pleased with the time in receiving the item, condition, service and dealings with seller. I've bought a few times from the seller, and never any delays or issues with products. And they genuinely try to keep postage costs to a minimum for the seller, using vacum and shrink packaging. Thanks very much.
+                      - link "See all feedback. Opens in a new tab" [ref=e1281] [cursor=pointer]:
+                        - /url: https://www.ebay.com/fdbk/mweb_profile?fdbkType=FeedbackReceivedAsSeller&item_id=266629702570&username=m-and-h-trading&filter=feedback_page%3ARECEIVED_AS_SELLER&q=266629702570&sort=RELEVANCEV2
+                        - text: See all feedback
+            - generic [ref=e1283]:
+              - navigation "Quick Links" [ref=e1284]:
+                - link "Back to previous page" [ref=e1285] [cursor=pointer]:
+                  - /url: https://www.ebay.com/splashui/challenge?ap=1&appName=orch&ru=https%3A%2F%2Fwww.ebay.com%2Fitm%2F266756575476&iid=50c3885d-656d-4eea-a749-c83a6b08a967&iim=YMTc2Ljj&iia=ybIyOS4xQl&iiz=gvBMjguNTM*hvo
+                - button "Return to top" [ref=e1286] [cursor=pointer]
+              - generic [ref=e1288]:
+                - heading "More to explore :" [level=2] [ref=e1291]
+                - list [ref=e1293]:
+                  - listitem [ref=e1294]:
+                    - link "Regatta Zip Coats, Jackets & Vests for Men," [ref=e1295] [cursor=pointer]:
+                      - /url: https://www.ebay.com/b/Regatta-Zip-Coats-Jackets-Vests-for-Men/57988/bn_7113516821
+                  - listitem [ref=e1296]:
+                    - link "Regatta Fleece Coats, Jackets & Vests for Men," [ref=e1297] [cursor=pointer]:
+                      - /url: https://www.ebay.com/b/Regatta-Fleece-Coats-Jackets-Vests-for-Men/57988/bn_4284402
+                  - listitem [ref=e1298]:
+                    - link "Regatta Zip Jackets for Men," [ref=e1299] [cursor=pointer]:
+                      - /url: https://www.ebay.com/b/Regatta-Zip-Jackets-for-Men/57988/bn_7113349068
+                  - listitem [ref=e1300]:
+                    - link "Fleece Long Sleeve Full Zip Hoodies & Sweatshirts for Men," [ref=e1301] [cursor=pointer]:
+                      - /url: https://www.ebay.com/b/Fleece-Long-Sleeve-Full-Zip-Hoodies-Sweatshirts-for-Men/155183/bn_120342566
+                  - listitem [ref=e1302]:
+                    - link "Studio Works Long Sleeve Pullovers for Women," [ref=e1303] [cursor=pointer]:
+                      - /url: https://www.ebay.com/b/Studio-Works-Long-Sleeve-Pullovers-for-Women/63866/bn_120956908
+                  - listitem [ref=e1304]:
+                    - link "Fleece Zip Coats, Jackets & Vests for Men," [ref=e1305] [cursor=pointer]:
+                      - /url: https://www.ebay.com/b/Fleece-Zip-Coats-Jackets-Vests-for-Men/57988/bn_7110283733
+                  - listitem [ref=e1306]:
+                    - link "Fleece Long Sleeve Hoodies & Sweatshirts for Men 1/4 Zip Features," [ref=e1307] [cursor=pointer]:
+                      - /url: https://www.ebay.com/b/Fleece-Long-Sleeve-Hoodies-Sweatshirts-for-Men-1-4-Zip-Features/155183/bn_120347672
+                  - listitem [ref=e1308]:
+                    - link "Long Sleeve Pullovers for Women," [ref=e1309] [cursor=pointer]:
+                      - /url: https://www.ebay.com/b/Long-Sleeve-Pullovers-for-Women/63866/bn_118641284
+                  - listitem [ref=e1310]:
+                    - link "Patagonia Zip Fleece Coats, Jackets & Vests for Men," [ref=e1311] [cursor=pointer]:
+                      - /url: https://www.ebay.com/b/Patagonia-Zip-Fleece-Coats-Jackets-Vests-for-Men/57988/bn_7110310574
+                  - listitem [ref=e1312]:
+                    - link "Regatta Men's Coats, Jackets & Vests" [ref=e1313] [cursor=pointer]:
+                      - /url: https://www.ebay.com/b/Regatta-Mens-Coats-Jackets-Vests/57988/bn_704304
+              - generic [ref=e1315]:
+                - heading "Shop the Latest Sneakers" [level=2] [ref=e1316]
+                - generic [ref=e1317]:
+                  - generic [ref=e1318]:
+                    - heading "Best Sellers" [level=3] [ref=e1319]
+                    - list [ref=e1320]:
+                      - listitem [ref=e1321]:
+                        - link "Nike Dunk Low Retro White Black 2021" [ref=e1322] [cursor=pointer]:
+                          - /url: https://il.ebay.com/b/Nike-Dunk-Low-Retro-White-Black-2021/15709/bn_7118514165
+                          - generic [ref=e1323]: Nike Dunk Low Retro White Black 2021
+                      - listitem [ref=e1324]:
+                        - link "Jordan 1 KO Syracuse 2022" [ref=e1325] [cursor=pointer]:
+                          - /url: https://il.ebay.com/b/Jordan-1-KO-Syracuse-2022/15709/bn_7118563165
+                          - generic [ref=e1326]: Jordan 1 KO Syracuse 2022
+                      - listitem [ref=e1327]:
+                        - link "Yeezy Boost 700 V1 Mauve" [ref=e1328] [cursor=pointer]:
+                          - /url: https://il.ebay.com/b/Yeezy-Boost-700-V1-Mauve/15709/bn_7117754158
+                          - generic [ref=e1329]: Yeezy Boost 700 V1 Mauve
+                      - listitem [ref=e1330]:
+                        - link "Jordan 4 SE Black Canvas" [ref=e1331] [cursor=pointer]:
+                          - /url: https://il.ebay.com/b/Jordan-4-SE-Black-Canvas/15709/bn_7118593254
+                          - generic [ref=e1332]: Jordan 4 SE Black Canvas
+                      - listitem [ref=e1333]:
+                        - link "Jordan 1 Retro Low Fragment Design x Travis Scott" [ref=e1334] [cursor=pointer]:
+                          - /url: https://il.ebay.com/b/Jordan-1-Retro-Low-Fragment-Design-x-Travis-Scott/15709/bn_7117819170
+                          - generic [ref=e1335]: Jordan 1 Retro Low Fragment Design x Travis Scott
+                  - generic [ref=e1336]:
+                    - heading "Recent Releases" [level=3] [ref=e1337]
+                    - list [ref=e1338]:
+                      - listitem [ref=e1339]:
+                        - link "Jordan 5 Retro 2026 Wolf Grey" [ref=e1340] [cursor=pointer]:
+                          - /url: https://il.ebay.com/b/Jordan-5-Retro-2026-Wolf-Grey/15709/bn_7124929466
+                          - generic [ref=e1341]: Jordan 5 Retro 2026 Wolf Grey
+                      - listitem [ref=e1342]:
+                        - link "Jordan 6 Retro Reverse Infrared" [ref=e1343] [cursor=pointer]:
+                          - /url: https://il.ebay.com/b/Jordan-6-Retro-Reverse-Infrared/15709/bn_7125055551
+                          - generic [ref=e1344]: Jordan 6 Retro Reverse Infrared
+                      - listitem [ref=e1345]:
+                        - link "Nike Air Force 1 '07 Wolf Grey White" [ref=e1346] [cursor=pointer]:
+                          - /url: https://il.ebay.com/b/Nike-Air-Force-1-07-Wolf-Grey-White/15709/bn_7121891866
+                          - generic [ref=e1347]: Nike Air Force 1 '07 Wolf Grey White
+                      - listitem [ref=e1348]:
+                        - link "Jordan Tatum 4 Bruce Lee" [ref=e1349] [cursor=pointer]:
+                          - /url: https://il.ebay.com/b/Jordan-Tatum-4-Bruce-Lee/15709/bn_7125079189
+                          - generic [ref=e1350]: Jordan Tatum 4 Bruce Lee
+                      - listitem [ref=e1351]:
+                        - link "Jordan 4016 Midnight Navy" [ref=e1352] [cursor=pointer]:
+                          - /url: https://il.ebay.com/b/Jordan-4016-Midnight-Navy/15709/bn_7125057244
+                          - generic [ref=e1353]: Jordan 4016 Midnight Navy
+                  - generic [ref=e1354]:
+                    - heading "Air Jordan" [level=3] [ref=e1355]
+                    - list [ref=e1356]:
+                      - listitem [ref=e1357]:
+                        - link "Jordan 1" [ref=e1358] [cursor=pointer]:
+                          - /url: https://www.ebay.com/b/Jordan-1/15709/bn_98034994
+                          - generic [ref=e1359]: Jordan 1
+                      - listitem [ref=e1360]:
+                        - link "Jordan 4" [ref=e1361] [cursor=pointer]:
+                          - /url: https://www.ebay.com/b/Jordan-4/15709/bn_98034454
+                          - generic [ref=e1362]: Jordan 4
+                      - listitem [ref=e1363]:
+                        - link "Jordan 11" [ref=e1364] [cursor=pointer]:
+                          - /url: https://www.ebay.com/b/Jordan-11/15709/bn_98035912
+                          - generic [ref=e1365]: Jordan 11
+                      - listitem [ref=e1366]:
+                        - link "Jordan 12" [ref=e1367] [cursor=pointer]:
+                          - /url: https://www.ebay.com/b/Jordan-12/15709/bn_98034889
+                          - generic [ref=e1368]: Jordan 12
+                      - listitem [ref=e1369]:
+                        - link "Jordan 13" [ref=e1370] [cursor=pointer]:
+                          - /url: https://www.ebay.com/b/Jordan-13/15709/bn_98035446
+                          - generic [ref=e1371]: Jordan 13
+                  - generic [ref=e1372]:
+                    - heading "Yeezy" [level=3] [ref=e1373]
+                    - list [ref=e1374]:
+                      - listitem [ref=e1375]:
+                        - link "Yeezy Slide" [ref=e1376] [cursor=pointer]:
+                          - /url: https://www.ebay.com/b/adidas-Yeezy-Slide/15709/bn_7118671215
+                          - generic [ref=e1377]: Yeezy Slide
+                      - listitem [ref=e1378]:
+                        - link "Yeezy Foam RNNR" [ref=e1379] [cursor=pointer]:
+                          - /url: https://www.ebay.com/b/Yeezy-Foam-RNNR/15709/bn_7117868160
+                          - generic [ref=e1380]: Yeezy Foam RNNR
+                      - listitem [ref=e1381]:
+                        - link "Yeezy 700" [ref=e1382] [cursor=pointer]:
+                          - /url: https://www.ebay.com/b/Yeezy-Boost-700/15709/bn_98035820
+                          - generic [ref=e1383]: Yeezy 700
+                      - listitem [ref=e1384]:
+                        - link "Yeezy 350" [ref=e1385] [cursor=pointer]:
+                          - /url: https://www.ebay.com/b/Yeezy-Boost-350/15709/bn_98035262
+                          - generic [ref=e1386]: Yeezy 350
+                      - listitem [ref=e1387]:
+                        - link "Yeezy 500" [ref=e1388] [cursor=pointer]:
+                          - /url: https://www.ebay.com/b/Yeezy-500/15709/bn_98035034
+                          - generic [ref=e1389]: Yeezy 500
+                  - generic [ref=e1390]:
+                    - heading "Top Brands" [level=3] [ref=e1391]
+                    - list [ref=e1392]:
+                      - listitem [ref=e1393]:
+                        - link "New Balance" [ref=e1394] [cursor=pointer]:
+                          - /url: https://www.ebay.com/b/New-Balance-Sneakers-for-Men/15709/bn_58747
+                          - generic [ref=e1395]: New Balance
+                      - listitem [ref=e1396]:
+                        - link "Gucci" [ref=e1397] [cursor=pointer]:
+                          - /url: https://www.ebay.com/b/Gucci-Casual-Shoes-for-Men/24087/bn_60133
+                          - generic [ref=e1398]: Gucci
+                      - listitem [ref=e1399]:
+                        - link "Vans" [ref=e1400] [cursor=pointer]:
+                          - /url: https://www.ebay.com/b/VANS-Sneakers-for-Men/15709/bn_59307
+                          - generic [ref=e1401]: Vans
+                      - listitem [ref=e1402]:
+                        - link "Skechers" [ref=e1403] [cursor=pointer]:
+                          - /url: https://www.ebay.com/b/Skechers-Sneakers-for-Men/15709/bn_59133
+                          - generic [ref=e1404]: Skechers
+                      - listitem [ref=e1405]:
+                        - link "Reebok" [ref=e1406] [cursor=pointer]:
+                          - /url: https://www.ebay.com/b/Reebok-Sneakers-for-Men/15709/bn_59027
+                          - generic [ref=e1407]: Reebok
+              - generic [ref=e1409]:
+                - heading "Related searches" [level=2] [ref=e1410]
+                - list [ref=e1411]:
+                  - listitem [ref=e1412]:
+                    - link "Patagonia Half Zip Fleece" [ref=e1413] [cursor=pointer]:
+                      - /url: https://www.ebay.com/shop/patagonia-half-zip-fleece?_nkw=patagonia+half+zip+fleece
+                      - generic [ref=e1414]: Patagonia Half Zip Fleece
+                  - listitem [ref=e1415]:
+                    - link "Mens Polartec Fleece" [ref=e1416] [cursor=pointer]:
+                      - /url: https://www.ebay.com/shop/mens-polartec-fleece?_nkw=mens+polartec+fleece
+                      - generic [ref=e1417]: Mens Polartec Fleece
+                  - listitem [ref=e1418]:
+                    - link "Columbia Fleece Half Zip" [ref=e1419] [cursor=pointer]:
+                      - /url: https://www.ebay.com/shop/columbia-fleece-half-zip?_nkw=columbia+fleece+half+zip
+                      - generic [ref=e1420]: Columbia Fleece Half Zip
+                  - listitem [ref=e1421]:
+                    - link "Deep Pile Fleece" [ref=e1422] [cursor=pointer]:
+                      - /url: https://www.ebay.com/shop/deep-pile-fleece?_nkw=deep+pile+fleece
+                      - generic [ref=e1423]: Deep Pile Fleece
+                  - listitem [ref=e1424]:
+                    - link "Fleece Jacket Zip Pockets" [ref=e1425] [cursor=pointer]:
+                      - /url: https://www.ebay.com/shop/fleece-jacket-zip-pockets?_nkw=fleece+jacket+zip+pockets
+                      - generic [ref=e1426]: Fleece Jacket Zip Pockets
+                  - listitem [ref=e1427]:
+                    - link "Sherpa Fleece Pullover" [ref=e1428] [cursor=pointer]:
+                      - /url: https://www.ebay.com/shop/sherpa-fleece-pullover?_nkw=sherpa+fleece+pullover
+                      - generic [ref=e1429]: Sherpa Fleece Pullover
+                  - listitem [ref=e1430]:
+                    - link "Sherpa Fleece Jacket Men" [ref=e1431] [cursor=pointer]:
+                      - /url: https://www.ebay.com/shop/sherpa-fleece-jacket-men?_nkw=sherpa+fleece+jacket+men
+                      - generic [ref=e1432]: Sherpa Fleece Jacket Men
+                  - listitem [ref=e1433]:
+                    - link "Fleece Half Zip Womens" [ref=e1434] [cursor=pointer]:
+                      - /url: https://www.ebay.com/shop/fleece-half-zip-womens?_nkw=fleece+half+zip+womens
+                      - generic [ref=e1435]: Fleece Half Zip Womens
+                  - listitem [ref=e1436]:
+                    - link "Patagonia R2 Fleece" [ref=e1437] [cursor=pointer]:
+                      - /url: https://www.ebay.com/shop/patagonia-r2-fleece?_nkw=patagonia+r2+fleece
+                      - generic [ref=e1438]: Patagonia R2 Fleece
+                  - listitem [ref=e1439]:
+                    - link "Mens Full Zip Fleece Jacket" [ref=e1440] [cursor=pointer]:
+                      - /url: https://www.ebay.com/shop/mens-full-zip-fleece-jacket?_nkw=mens+full+zip+fleece+jacket
+                      - generic [ref=e1441]: Mens Full Zip Fleece Jacket
+                  - listitem [ref=e1442]:
+                    - link "Patagonia Fleece Reversible" [ref=e1443] [cursor=pointer]:
+                      - /url: https://www.ebay.com/shop/patagonia-fleece-reversible?_nkw=patagonia+fleece+reversible
+                      - generic [ref=e1444]: Patagonia Fleece Reversible
+                  - listitem [ref=e1445]:
+                    - link "Polartec Fleece" [ref=e1446] [cursor=pointer]:
+                      - /url: https://www.ebay.com/shop/polartec-fleece?_nkw=polartec+fleece
+                      - generic [ref=e1447]: Polartec Fleece
+                  - listitem [ref=e1448]:
+                    - link "Fleece Zip Up Men" [ref=e1449] [cursor=pointer]:
+                      - /url: https://www.ebay.com/shop/fleece-zip-up-men?_nkw=fleece+zip+up+men
+                      - generic [ref=e1450]: Fleece Zip Up Men
+                  - listitem [ref=e1451]:
+                    - link "Regatta Waterproof Jacket" [ref=e1452] [cursor=pointer]:
+                      - /url: https://www.ebay.com/shop/regatta-waterproof-jacket?_nkw=regatta+waterproof+jacket
+                      - generic [ref=e1453]: Regatta Waterproof Jacket
+                  - listitem [ref=e1454]:
+                    - link "Polartec Grid Fleece" [ref=e1455] [cursor=pointer]:
+                      - /url: https://www.ebay.com/shop/polartec-grid-fleece?_nkw=polartec+grid+fleece
+                      - generic [ref=e1456]: Polartec Grid Fleece
+        - img [ref=e1460]
+  - contentinfo [ref=e1466]:
+    - list [ref=e1467]:
+      - listitem [ref=e1468]:
+        - link "About eBay" [ref=e1469] [cursor=pointer]:
+          - /url: https://www.ebayinc.com
+      - listitem [ref=e1470]:
+        - link "Announcements" [ref=e1471] [cursor=pointer]:
+          - /url: https://community.ebay.com/t5/Announcements/bg-p/Announcements
+      - listitem [ref=e1472]:
+        - link "Community" [ref=e1473] [cursor=pointer]:
+          - /url: https://community.ebay.com
+      - listitem [ref=e1474]:
+        - link "Security Center" [ref=e1475] [cursor=pointer]:
+          - /url: https://pages.ebay.com/securitycenter/index.html
+      - listitem [ref=e1476]:
+        - link "Seller Center" [ref=e1477] [cursor=pointer]:
+          - /url: https://www.ebay.com/sellercenter
+      - listitem [ref=e1478]:
+        - link "Policies" [ref=e1479] [cursor=pointer]:
+          - /url: https://www.ebay.com/help/policies/default/ebays-rules-policies?id=4205
+      - listitem [ref=e1480]:
+        - link "Affiliates" [ref=e1481] [cursor=pointer]:
+          - /url: https://partnernetwork.ebay.com/
+      - listitem [ref=e1482]:
+        - link "Product Safety Tips" [ref=e1483] [cursor=pointer]:
+          - /url: https://pages.ebay.com/safetytips
+      - listitem [ref=e1484]:
+        - link "Help & Contact" [ref=e1485] [cursor=pointer]:
+          - /url: https://www.ebay.com/help/home
+      - listitem [ref=e1486]:
+        - link "Site Map" [ref=e1487] [cursor=pointer]:
+          - /url: https://pages.ebay.com/sitemap.html
+    - generic [ref=e1488]:
+      - text: Copyright © 1995-2026 eBay Inc. All Rights Reserved.
+      - link "Accessibility" [ref=e1489] [cursor=pointer]:
+        - /url: https://www.ebayinc.com/accessibility/
+      - text: ","
+      - link "User Agreement" [ref=e1490] [cursor=pointer]:
+        - /url: https://www.ebay.com/help/policies/member-behaviour-policies/user-agreement?id=4259
+      - text: ","
+      - link "Privacy" [ref=e1491] [cursor=pointer]:
+        - /url: https://www.ebay.com/help/policies/member-behaviour-policies/user-privacy-notice-privacy-policy?id=4260
+      - text: ","
+      - link "Consumer Health Data" [ref=e1492] [cursor=pointer]:
+        - /url: https://www.ebayinc.com/company/privacy-center/privacy-notice/consumer-health-data-privacy-policy/
+      - text: ","
+      - link "Payments Terms of Use" [ref=e1493] [cursor=pointer]:
+        - /url: https://pages.ebay.com/payment/2.0/terms.html
+      - text: ","
+      - link "Cookies" [ref=e1494] [cursor=pointer]:
+        - /url: https://www.ebay.com/help/policies/member-behaviour-policies/ebay-cookie-notice?id=4267
+      - text: ","
+      - link "CA Privacy Notice" [ref=e1495] [cursor=pointer]:
+        - /url: https://www.ebayinc.com/company/privacy-center/privacy-notice/state-privacy-disclosures/#california
+      - text: ","
+      - link "Your Privacy Choices" [ref=e1496] [cursor=pointer]:
+        - /url: https://www.ebay.com/adchoice/ccpa
+      - text: and
+      - link "AdChoice" [ref=e1497] [cursor=pointer]:
+        - /url: https://www.ebay.com/adchoice
+        - text: AdChoice
+        - img
+  - img
+  - img [ref=e1499]

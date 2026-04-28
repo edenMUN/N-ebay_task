@@ -1,0 +1,1018 @@
+- generic [active] [ref=e1]:
+  - img
+  - img
+  - img
+  - img
+  - generic [ref=e3]:
+    - banner [ref=e7]:
+      - link "Skip to main content" [ref=e9] [cursor=pointer]:
+        - /url: "#mainContent"
+      - navigation [ref=e10]:
+        - generic [ref=e11]:
+          - generic [ref=e13]:
+            - text: Hi!
+            - link "Sign in" [ref=e14] [cursor=pointer]:
+              - /url: https://signin.ebay.com/ws/eBayISAPI.dll?SignIn&sgfl=gh&ru=https%3A%2F%2Fwww.ebay.com%2Fitm%2F236512311994
+            - generic [ref=e15]:
+              - text: or
+              - link "register" [ref=e16] [cursor=pointer]:
+                - /url: https://signup.ebay.com/pa/crte?ru=https%3A%2F%2Fwww.ebay.com%2Fitm%2F236512311994
+          - link "Deals" [ref=e18] [cursor=pointer]:
+            - /url: https://www.ebay.com/deals
+          - link "Brand Outlet" [ref=e20] [cursor=pointer]:
+            - /url: https://www.ebay.com/b/Brand-Outlet/bn_7115532402
+          - link "Gift Cards" [ref=e22] [cursor=pointer]:
+            - /url: https://www.ebay.com/giftcards
+          - link "Help & Contact" [ref=e24] [cursor=pointer]:
+            - /url: https://www.ebay.com/help/home
+        - generic [ref=e25]:
+          - button "Ship to" [ref=e27] [cursor=pointer]:
+            - generic [ref=e28]: Ship to
+          - link "Sell" [ref=e31] [cursor=pointer]:
+            - /url: https://www.ebay.com/sl/sell
+          - generic [ref=e32]:
+            - link "Watchlist" [ref=e33] [cursor=pointer]:
+              - /url: https://www.ebay.com/mye/myebay/watchlist
+              - generic [ref=e34]: Watchlist
+              - img
+            - button "Expand Watch List" [ref=e35]
+          - generic [ref=e36]:
+            - link "My eBay" [ref=e37] [cursor=pointer]:
+              - /url: https://www.ebay.com/mys/home?source=GBH
+              - generic [ref=e38]: My eBay
+              - img
+            - button "Expand My eBay" [ref=e39]
+          - button "Notifications" [ref=e42] [cursor=pointer]:
+            - img
+            - generic [ref=e43]: Notifications
+          - generic [ref=e45]:
+            - link "Your shopping cart contains 0 items" [ref=e46] [cursor=pointer]:
+              - /url: https://cart.ebay.com
+              - generic "Your shopping cart contains 0 items" [ref=e47]:
+                - img
+            - button "Expand Cart" [ref=e48]
+      - generic [ref=e49]:
+        - generic [ref=e50]:
+          - link "eBay Home" [ref=e51] [cursor=pointer]:
+            - /url: https://www.ebay.com
+            - img "eBay Home" [ref=e52]
+          - button "Shop by category" [ref=e60] [cursor=pointer]:
+            - generic [ref=e61]: Shop by category
+            - img
+        - generic [ref=e62]:
+          - status [ref=e63]
+          - generic [ref=e65]:
+            - generic [ref=e66]:
+              - combobox "Search for anything" [ref=e67]
+              - img
+            - combobox "Select a category for search" [ref=e68]:
+              - option "All Categories" [selected]
+              - option "Antiques"
+              - option "Art"
+              - option "Baby"
+              - option "Books"
+              - option "Business & Industrial"
+              - option "Cameras & Photo"
+              - option "Cell Phones & Accessories"
+              - option "Clothing, Shoes & Accessories"
+              - option "Coins & Paper Money"
+              - option "Collectibles"
+              - option "Computers/Tablets & Networking"
+              - option "Consumer Electronics"
+              - option "Crafts"
+              - option "Dolls & Bears"
+              - option "Movies & TV"
+              - option "eBay Motors"
+              - option "Entertainment Memorabilia"
+              - option "Gift Cards & Coupons"
+              - option "Health & Beauty"
+              - option "Home & Garden"
+              - option "Jewelry & Watches"
+              - option "Music"
+              - option "Musical Instruments & Gear"
+              - option "Pet Supplies"
+              - option "Pottery & Glass"
+              - option "Real Estate"
+              - option "Specialty Services"
+              - option "Sporting Goods"
+              - option "Sports Mem, Cards & Fan Shop"
+              - option "Stamps"
+              - option "Tickets & Experiences"
+              - option "Toys & Hobbies"
+              - option "Travel"
+              - option "Video Games & Consoles"
+              - option "Everything Else"
+          - generic [ref=e69]:
+            - button "Search" [ref=e70] [cursor=pointer]:
+              - generic [ref=e71]: Search
+            - link "Advanced" [ref=e72] [cursor=pointer]:
+              - /url: https://www.ebay.com/sch/ebayadvsearch
+    - main [ref=e73]:
+      - generic [ref=e75]:
+        - generic [ref=e78]:
+          - generic [ref=e84]:
+            - link [ref=e85] [cursor=pointer]:
+              - /url: https://www.ebay.com/str/lindasstuff?_sacat=63862&promoted_items=389690583805%2C206172135504%2C318017506985%2C389781997717%2C206167244568&itmprp=encpd%3AAQALAAACMOtnumX1EMKxtFFEAim4FzanHQu2KfCRuR4nJo1A9BhI%2FDxsZzrQVaRWx8f7CtxjOgAMoiYb1cGmYKHB3cFJ7UPSD66zB4H8nq9S9vqBfNQtMw3V4azy9twyNOXcVoxfnI1NzeyrZWWQ0y8PRvUXOjpeXPAXULtZS7jJok79AW%2F96IKgp%2BlAbLTxs6SjSb13B0BRtOyikM5oYi%2BQXVityGDTfE%2BRH3JdF5O9Tok9%2BFXxg%2F0Pld%2BLCXnYe66Yw4OtX863R%2Fj29b9jCSRChS01Y9Wh4Cy20arMrNSwYb%2Fmhl9RwrKeyW75vvy0lR7%2BiFghhEsrQdVv3jAkfCPKT%2B8Pq81V%2Fd3e7%2F3x1kU6cjN9sEQ3LXmdHBNHoTkOOCkJEpx%2FpHMZA17xAxZI4KR2i53znfNzxYxVTkvS4VSZMX7FsiDHz36u9F9hNYsxXlxOLTqirhUmV8cccDRrqWEexQ80%2BJiCDh8F4WaA13wLnjTAEN9y89MLVdZVkH1FmfqXcN8dVGY7CBlStyasNIjGaayRwy0%2Bo8qCbm0zIN%2FTtIhi%2BZJ5JziwAIsTVR9swtQiGLYSGrHmzGEwlVfWMDfBTjtdcEB30D1coNCuaToy2qAh8c%2FbUidAOYXAkhiAQpmsZUQ%2B279u7O9bh1rpKUa56ccw%2FwJPbhrrEfvyymoAyjNa96p12QWJhhc40kIZbC3DcLUpQqHDUhWgOidLP4M7VVvjuXeg4rI7K1T35528Nz4CmZFp&itmmeta=wwHmKhYwY%2Fjx0DQwMUtRN0VBVjIyMUtQTTNDQTdaMTZRNkMySzQwMUtRN0VBVFFZOEtQVFc5N01LRjZSVEJROL6%2BDA%3D%3D
+            - generic [ref=e86]:
+              - link "Find similar items from" [ref=e89] [cursor=pointer]:
+                - /url: https://www.ebay.com/str/lindasstuff?_sacat=63862&promoted_items=389690583805%2C206172135504%2C318017506985%2C389781997717%2C206167244568&itmprp=encpd%3AAQALAAACMOtnumX1EMKxtFFEAim4FzanHQu2KfCRuR4nJo1A9BhI%2FDxsZzrQVaRWx8f7CtxjOgAMoiYb1cGmYKHB3cFJ7UPSD66zB4H8nq9S9vqBfNQtMw3V4azy9twyNOXcVoxfnI1NzeyrZWWQ0y8PRvUXOjpeXPAXULtZS7jJok79AW%2F96IKgp%2BlAbLTxs6SjSb13B0BRtOyikM5oYi%2BQXVityGDTfE%2BRH3JdF5O9Tok9%2BFXxg%2F0Pld%2BLCXnYe66Yw4OtX863R%2Fj29b9jCSRChS01Y9Wh4Cy20arMrNSwYb%2Fmhl9RwrKeyW75vvy0lR7%2BiFghhEsrQdVv3jAkfCPKT%2B8Pq81V%2Fd3e7%2F3x1kU6cjN9sEQ3LXmdHBNHoTkOOCkJEpx%2FpHMZA17xAxZI4KR2i53znfNzxYxVTkvS4VSZMX7FsiDHz36u9F9hNYsxXlxOLTqirhUmV8cccDRrqWEexQ80%2BJiCDh8F4WaA13wLnjTAEN9y89MLVdZVkH1FmfqXcN8dVGY7CBlStyasNIjGaayRwy0%2Bo8qCbm0zIN%2FTtIhi%2BZJ5JziwAIsTVR9swtQiGLYSGrHmzGEwlVfWMDfBTjtdcEB30D1coNCuaToy2qAh8c%2FbUidAOYXAkhiAQpmsZUQ%2B279u7O9bh1rpKUa56ccw%2FwJPbhrrEfvyymoAyjNa96p12QWJhhc40kIZbC3DcLUpQqHDUhWgOidLP4M7VVvjuXeg4rI7K1T35528Nz4CmZFp&itmmeta=wwHmKhYwY%2Fjx0DQwMUtRN0VBVjIyMUtQTTNDQTdaMTZRNkMySzQwMUtRN0VBVFFZOEtQVFc5N01LRjZSVEJROL6%2BDA%3D%3D
+              - generic [ref=e90]:
+                - link "Linda's Stuff" [ref=e93] [cursor=pointer]:
+                  - /url: https://www.ebay.com/str/lindasstuff?_sacat=63862&promoted_items=389690583805%2C206172135504%2C318017506985%2C389781997717%2C206167244568&itmprp=encpd%3AAQALAAACMOtnumX1EMKxtFFEAim4FzanHQu2KfCRuR4nJo1A9BhI%2FDxsZzrQVaRWx8f7CtxjOgAMoiYb1cGmYKHB3cFJ7UPSD66zB4H8nq9S9vqBfNQtMw3V4azy9twyNOXcVoxfnI1NzeyrZWWQ0y8PRvUXOjpeXPAXULtZS7jJok79AW%2F96IKgp%2BlAbLTxs6SjSb13B0BRtOyikM5oYi%2BQXVityGDTfE%2BRH3JdF5O9Tok9%2BFXxg%2F0Pld%2BLCXnYe66Yw4OtX863R%2Fj29b9jCSRChS01Y9Wh4Cy20arMrNSwYb%2Fmhl9RwrKeyW75vvy0lR7%2BiFghhEsrQdVv3jAkfCPKT%2B8Pq81V%2Fd3e7%2F3x1kU6cjN9sEQ3LXmdHBNHoTkOOCkJEpx%2FpHMZA17xAxZI4KR2i53znfNzxYxVTkvS4VSZMX7FsiDHz36u9F9hNYsxXlxOLTqirhUmV8cccDRrqWEexQ80%2BJiCDh8F4WaA13wLnjTAEN9y89MLVdZVkH1FmfqXcN8dVGY7CBlStyasNIjGaayRwy0%2Bo8qCbm0zIN%2FTtIhi%2BZJ5JziwAIsTVR9swtQiGLYSGrHmzGEwlVfWMDfBTjtdcEB30D1coNCuaToy2qAh8c%2FbUidAOYXAkhiAQpmsZUQ%2B279u7O9bh1rpKUa56ccw%2FwJPbhrrEfvyymoAyjNa96p12QWJhhc40kIZbC3DcLUpQqHDUhWgOidLP4M7VVvjuXeg4rI7K1T35528Nz4CmZFp&itmmeta=wwHmKhYwY%2Fjx0DQwMUtRN0VBVjIyMUtQTTNDQTdaMTZRNkMySzQwMUtRN0VBVFFZOEtQVFc5N01LRjZSVEJROL6%2BDA%3D%3D
+                  - img "Linda's Stuff" [ref=e94]
+                - link "Linda's Stuff" [ref=e97] [cursor=pointer]:
+                  - /url: https://www.ebay.com/str/lindasstuff?_sacat=63862&promoted_items=389690583805%2C206172135504%2C318017506985%2C389781997717%2C206167244568&itmprp=encpd%3AAQALAAACMOtnumX1EMKxtFFEAim4FzanHQu2KfCRuR4nJo1A9BhI%2FDxsZzrQVaRWx8f7CtxjOgAMoiYb1cGmYKHB3cFJ7UPSD66zB4H8nq9S9vqBfNQtMw3V4azy9twyNOXcVoxfnI1NzeyrZWWQ0y8PRvUXOjpeXPAXULtZS7jJok79AW%2F96IKgp%2BlAbLTxs6SjSb13B0BRtOyikM5oYi%2BQXVityGDTfE%2BRH3JdF5O9Tok9%2BFXxg%2F0Pld%2BLCXnYe66Yw4OtX863R%2Fj29b9jCSRChS01Y9Wh4Cy20arMrNSwYb%2Fmhl9RwrKeyW75vvy0lR7%2BiFghhEsrQdVv3jAkfCPKT%2B8Pq81V%2Fd3e7%2F3x1kU6cjN9sEQ3LXmdHBNHoTkOOCkJEpx%2FpHMZA17xAxZI4KR2i53znfNzxYxVTkvS4VSZMX7FsiDHz36u9F9hNYsxXlxOLTqirhUmV8cccDRrqWEexQ80%2BJiCDh8F4WaA13wLnjTAEN9y89MLVdZVkH1FmfqXcN8dVGY7CBlStyasNIjGaayRwy0%2Bo8qCbm0zIN%2FTtIhi%2BZJ5JziwAIsTVR9swtQiGLYSGrHmzGEwlVfWMDfBTjtdcEB30D1coNCuaToy2qAh8c%2FbUidAOYXAkhiAQpmsZUQ%2B279u7O9bh1rpKUa56ccw%2FwJPbhrrEfvyymoAyjNa96p12QWJhhc40kIZbC3DcLUpQqHDUhWgOidLP4M7VVvjuXeg4rI7K1T35528Nz4CmZFp&itmmeta=wwHmKhYwY%2Fjx0DQwMUtRN0VBVjIyMUtQTTNDQTdaMTZRNkMySzQwMUtRN0VBVFFZOEtQVFc5N01LRjZSVEJROL6%2BDA%3D%3D
+                  - generic [ref=e98]: Linda's Stuff
+                - generic [ref=e99]:
+                  - text: (
+                  - link "4.7M items sold" [ref=e101] [cursor=pointer]:
+                    - /url: https://www.ebay.com/str/lindasstuff?_sacat=63862&promoted_items=389690583805%2C206172135504%2C318017506985%2C389781997717%2C206167244568&itmprp=encpd%3AAQALAAACMOtnumX1EMKxtFFEAim4FzanHQu2KfCRuR4nJo1A9BhI%2FDxsZzrQVaRWx8f7CtxjOgAMoiYb1cGmYKHB3cFJ7UPSD66zB4H8nq9S9vqBfNQtMw3V4azy9twyNOXcVoxfnI1NzeyrZWWQ0y8PRvUXOjpeXPAXULtZS7jJok79AW%2F96IKgp%2BlAbLTxs6SjSb13B0BRtOyikM5oYi%2BQXVityGDTfE%2BRH3JdF5O9Tok9%2BFXxg%2F0Pld%2BLCXnYe66Yw4OtX863R%2Fj29b9jCSRChS01Y9Wh4Cy20arMrNSwYb%2Fmhl9RwrKeyW75vvy0lR7%2BiFghhEsrQdVv3jAkfCPKT%2B8Pq81V%2Fd3e7%2F3x1kU6cjN9sEQ3LXmdHBNHoTkOOCkJEpx%2FpHMZA17xAxZI4KR2i53znfNzxYxVTkvS4VSZMX7FsiDHz36u9F9hNYsxXlxOLTqirhUmV8cccDRrqWEexQ80%2BJiCDh8F4WaA13wLnjTAEN9y89MLVdZVkH1FmfqXcN8dVGY7CBlStyasNIjGaayRwy0%2Bo8qCbm0zIN%2FTtIhi%2BZJ5JziwAIsTVR9swtQiGLYSGrHmzGEwlVfWMDfBTjtdcEB30D1coNCuaToy2qAh8c%2FbUidAOYXAkhiAQpmsZUQ%2B279u7O9bh1rpKUa56ccw%2FwJPbhrrEfvyymoAyjNa96p12QWJhhc40kIZbC3DcLUpQqHDUhWgOidLP4M7VVvjuXeg4rI7K1T35528Nz4CmZFp&itmmeta=wwHmKhYwY%2Fjx0DQwMUtRN0VBVjIyMUtQTTNDQTdaMTZRNkMySzQwMUtRN0VBVFFZOEtQVFc5N01LRjZSVEJROL6%2BDA%3D%3D
+                    - generic [ref=e103]: 4.7M items sold
+                  - text: )
+              - link "Brylane Womens Plus Rain Coat Black Button Collared Long Sleeve Size 26W" [ref=e106] [cursor=pointer]:
+                - /url: https://www.ebay.com/itm/389690583805?itmprp=encpd%3AAQALAAACMOtnumX1EMKxtFFEAim4FzanHQu2KfCRuR4nJo1A9BhI%2FDxsZzrQVaRWx8f7CtxjOgAMoiYb1cGmYKHB3cFJ7UPSD66zB4H8nq9S9vqBfNQtMw3V4azy9twyNOXcVoxfnI1NzeyrZWWQ0y8PRvUXOjpeXPAXULtZS7jJok79AW%2F96IKgp%2BlAbLTxs6SjSb13B0BRtOyikM5oYi%2BQXVityGDTfE%2BRH3JdF5O9Tok9%2BFXxg%2F0Pld%2BLCXnYe66Yw4OtX863R%2Fj29b9jCSRChS01Y9Wh4Cy20arMrNSwYb%2Fmhl9RwrKeyW75vvy0lR7%2BiFghhEsrQdVv3jAkfCPKT%2B8Pq81V%2Fd3e7%2F3x1kU6cjN9sEQ3LXmdHBNHoTkOOCkJEpx%2FpHMZA17xAxZI4KR2i53znfNzxYxVTkvS4VSZMX7FsiDHz36u9F9hNYsxXlxOLTqirhUmV8cccDRrqWEexQ80%2BJiCDh8F4WaA13wLnjTAEN9y89MLVdZVkH1FmfqXcN8dVGY7CBlStyasNIjGaayRwy0%2Bo8qCbm0zIN%2FTtIhi%2BZJ5JziwAIsTVR9swtQiGLYSGrHmzGEwlVfWMDfBTjtdcEBHFC1VnwWdGA6GwI820%2Fu2lWBFkiL1aJmtUj0VXSxFQkvbJEq3pWs4KJRl3pgbZJSo2e5wrA1fGzi5PhxQiRA6E59L%2BbK65gjtBn7vef1bTaaHPFfq3PGW7YJ3YwdRxblX0rVuKUboJrufVVvdP%2F0w&itmmeta=wwHmKhYwY%2Fjx0DQwMUtRN0VBVjIyMUtQTTNDQTdaMTZRNkMySzQwMUtRN0VBVFFZOEtQVFc5N01LRjZSVEJROL6%2BDA%3D%3D
+                - img "Brylane Womens Plus Rain Coat Black Button Collared Long Sleeve Size 26W" [ref=e107]
+              - link "Marella Womens Black Plaid Overcoat Polyester Button Collared Size 6" [ref=e110] [cursor=pointer]:
+                - /url: https://www.ebay.com/itm/206172135504?itmprp=encpd%3AAQALAAACMOtnumX1EMKxtFFEAim4FzanHQu2KfCRuR4nJo1A9BhI%2FDxsZzrQVaRWx8f7CtxjOgAMoiYb1cGmYKHB3cFJ7UPSD66zB4H8nq9S9vqBfNQtMw3V4azy9twyNOXcVoxfnI1NzeyrZWWQ0y8PRvUXOjpeXPAXULtZS7jJok79AW%2F96IKgp%2BlAbLTxs6SjSb13B0BRtOyikM5oYi%2BQXVityGDTfE%2BRH3JdF5O9Tok9%2BFXxg%2F0Pld%2BLCXnYe66Yw4OtX863R%2Fj29b9jCSRChS01Y9Wh4Cy20arMrNSwYb%2Fmhl9RwrKeyW75vvy0lR7%2BiFghhEsrQdVv3jAkfCPKT%2B8Pq81V%2Fd3e7%2F3x1kU6cjN9sEQ3LXmdHBNHoTkOOCkJEpx%2FpHMZA17xAxZI4KR2i53znfNzxYxVTkvS4VSZMX7FsiDHz36u9F9hNYsxXlxOLTqirhUmV8cccDRrqWEexQ80%2BJiCDh8F4WaA13wLnjTAEN9y89MLVdZVkH1FmfqXcN8dVGY7CBlStyasNIjGaayRwy0%2Bo8qCbm0zIN%2FTtIhi%2BZJ5JziwAIsTVR9swtQiGLYSGrHmzGEwlVfWMDfBTjtdcEBHFC1VnwWdGA6GwI820%2Fu2lWBFkiL1aJmtUj0VXSxFQkvbJEq3pWs4KJRl3pgbZJSo2e5wrA1fGzi5PhxQiRA6E59L%2BbK65gjtBn7vef1bTaaHPFfq3PGW7YJ3YwdRxblX0rVuKUboJrufVVvdP%2F0w&itmmeta=wwHmKhYwY%2Fjx0DQwMUtRN0VBVjIyMUtQTTNDQTdaMTZRNkMySzQwMUtRN0VBVFFZOEtQVFc5N01LRjZSVEJROL6%2BDA%3D%3D
+                - img "Marella Womens Black Plaid Overcoat Polyester Button Collared Size 6" [ref=e111]
+              - link "Shana Womens Quilted Coat Black Collared Argyle Long Sleeve Size L" [ref=e114] [cursor=pointer]:
+                - /url: https://www.ebay.com/itm/318017506985?itmprp=encpd%3AAQALAAACMOtnumX1EMKxtFFEAim4FzanHQu2KfCRuR4nJo1A9BhI%2FDxsZzrQVaRWx8f7CtxjOgAMoiYb1cGmYKHB3cFJ7UPSD66zB4H8nq9S9vqBfNQtMw3V4azy9twyNOXcVoxfnI1NzeyrZWWQ0y8PRvUXOjpeXPAXULtZS7jJok79AW%2F96IKgp%2BlAbLTxs6SjSb13B0BRtOyikM5oYi%2BQXVityGDTfE%2BRH3JdF5O9Tok9%2BFXxg%2F0Pld%2BLCXnYe66Yw4OtX863R%2Fj29b9jCSRChS01Y9Wh4Cy20arMrNSwYb%2Fmhl9RwrKeyW75vvy0lR7%2BiFghhEsrQdVv3jAkfCPKT%2B8Pq81V%2Fd3e7%2F3x1kU6cjN9sEQ3LXmdHBNHoTkOOCkJEpx%2FpHMZA17xAxZI4KR2i53znfNzxYxVTkvS4VSZMX7FsiDHz36u9F9hNYsxXlxOLTqirhUmV8cccDRrqWEexQ80%2BJiCDh8F4WaA13wLnjTAEN9y89MLVdZVkH1FmfqXcN8dVGY7CBlStyasNIjGaayRwy0%2Bo8qCbm0zIN%2FTtIhi%2BZJ5JziwAIsTVR9swtQiGLYSGrHmzGEwlVfWMDfBTjtdcEBHFC1VnwWdGA6GwI820%2Fu2lWBFkiL1aJmtUj0VXSxFQkvbJEq3pWs4KJRl3pgbZJSo2e5wrA1fGzi5PhxQiRA6E59L%2BbK65gjtBn7vef1bTaaHPFfq3PGW7YJ3YwdRxblX0rVuKUboJrufVVvdP%2F0w&itmmeta=wwHmKhYwY%2Fjx0DQwMUtRN0VBVjIyMUtQTTNDQTdaMTZRNkMySzQwMUtRN0VBVFFZOEtQVFc5N01LRjZSVEJROL6%2BDA%3D%3D
+                - img "Shana Womens Quilted Coat Black Collared Argyle Long Sleeve Size L" [ref=e115]
+              - link "Thakoon Womens Full Zipper Long Sleeves Winter Coat Gray Wool Size 0" [ref=e118] [cursor=pointer]:
+                - /url: https://www.ebay.com/itm/389781997717?itmprp=encpd%3AAQALAAACMOtnumX1EMKxtFFEAim4FzanHQu2KfCRuR4nJo1A9BhI%2FDxsZzrQVaRWx8f7CtxjOgAMoiYb1cGmYKHB3cFJ7UPSD66zB4H8nq9S9vqBfNQtMw3V4azy9twyNOXcVoxfnI1NzeyrZWWQ0y8PRvUXOjpeXPAXULtZS7jJok79AW%2F96IKgp%2BlAbLTxs6SjSb13B0BRtOyikM5oYi%2BQXVityGDTfE%2BRH3JdF5O9Tok9%2BFXxg%2F0Pld%2BLCXnYe66Yw4OtX863R%2Fj29b9jCSRChS01Y9Wh4Cy20arMrNSwYb%2Fmhl9RwrKeyW75vvy0lR7%2BiFghhEsrQdVv3jAkfCPKT%2B8Pq81V%2Fd3e7%2F3x1kU6cjN9sEQ3LXmdHBNHoTkOOCkJEpx%2FpHMZA17xAxZI4KR2i53znfNzxYxVTkvS4VSZMX7FsiDHz36u9F9hNYsxXlxOLTqirhUmV8cccDRrqWEexQ80%2BJiCDh8F4WaA13wLnjTAEN9y89MLVdZVkH1FmfqXcN8dVGY7CBlStyasNIjGaayRwy0%2Bo8qCbm0zIN%2FTtIhi%2BZJ5JziwAIsTVR9swtQiGLYSGrHmzGEwlVfWMDfBTjtdcEBHFC1VnwWdGA6GwI820%2Fu2lWBFkiL1aJmtUj0VXSxFQkvbJEq3pWs4KJRl3pgbZJSo2e5wrA1fGzi5PhxQiRA6E59L%2BbK65gjtBn7vef1bTaaHPFfq3PGW7YJ3YwdRxblX0rVuKUboJrufVVvdP%2F0w&itmmeta=wwHmKhYwY%2Fjx0DQwMUtRN0VBVjIyMUtQTTNDQTdaMTZRNkMySzQwMUtRN0VBVFFZOEtQVFc5N01LRjZSVEJROL6%2BDA%3D%3D
+                - img "Thakoon Womens Full Zipper Long Sleeves Winter Coat Gray Wool Size 0" [ref=e119]
+              - link "Thakoon Women Beige Wool Angora Overcoat Button Long Sleeve Size 2" [ref=e122] [cursor=pointer]:
+                - /url: https://www.ebay.com/itm/206167244568?itmprp=encpd%3AAQALAAACMOtnumX1EMKxtFFEAim4FzanHQu2KfCRuR4nJo1A9BhI%2FDxsZzrQVaRWx8f7CtxjOgAMoiYb1cGmYKHB3cFJ7UPSD66zB4H8nq9S9vqBfNQtMw3V4azy9twyNOXcVoxfnI1NzeyrZWWQ0y8PRvUXOjpeXPAXULtZS7jJok79AW%2F96IKgp%2BlAbLTxs6SjSb13B0BRtOyikM5oYi%2BQXVityGDTfE%2BRH3JdF5O9Tok9%2BFXxg%2F0Pld%2BLCXnYe66Yw4OtX863R%2Fj29b9jCSRChS01Y9Wh4Cy20arMrNSwYb%2Fmhl9RwrKeyW75vvy0lR7%2BiFghhEsrQdVv3jAkfCPKT%2B8Pq81V%2Fd3e7%2F3x1kU6cjN9sEQ3LXmdHBNHoTkOOCkJEpx%2FpHMZA17xAxZI4KR2i53znfNzxYxVTkvS4VSZMX7FsiDHz36u9F9hNYsxXlxOLTqirhUmV8cccDRrqWEexQ80%2BJiCDh8F4WaA13wLnjTAEN9y89MLVdZVkH1FmfqXcN8dVGY7CBlStyasNIjGaayRwy0%2Bo8qCbm0zIN%2FTtIhi%2BZJ5JziwAIsTVR9swtQiGLYSGrHmzGEwlVfWMDfBTjtdcEBHFC1VnwWdGA6GwI820%2Fu2lWBFkiL1aJmtUj0VXSxFQkvbJEq3pWs4KJRl3pgbZJSo2e5wrA1fGzi5PhxQiRA6E59L%2BbK65gjtBn7vef1bTaaHPFfq3PGW7YJ3YwdRxblX0rVuKUboJrufVVvdP%2F0w&itmmeta=wwHmKhYwY%2Fjx0DQwMUtRN0VBVjIyMUtQTTNDQTdaMTZRNkMySzQwMUtRN0VBVFFZOEtQVFc5N01LRjZSVEJROL6%2BDA%3D%3D
+                - img "Thakoon Women Beige Wool Angora Overcoat Button Long Sleeve Size 2" [ref=e123]
+              - link "Shop store on eBay" [ref=e126] [cursor=pointer]:
+                - /url: https://www.ebay.com/str/lindasstuff?_sacat=63862&promoted_items=389690583805%2C206172135504%2C318017506985%2C389781997717%2C206167244568&itmprp=encpd%3AAQALAAACMOtnumX1EMKxtFFEAim4FzanHQu2KfCRuR4nJo1A9BhI%2FDxsZzrQVaRWx8f7CtxjOgAMoiYb1cGmYKHB3cFJ7UPSD66zB4H8nq9S9vqBfNQtMw3V4azy9twyNOXcVoxfnI1NzeyrZWWQ0y8PRvUXOjpeXPAXULtZS7jJok79AW%2F96IKgp%2BlAbLTxs6SjSb13B0BRtOyikM5oYi%2BQXVityGDTfE%2BRH3JdF5O9Tok9%2BFXxg%2F0Pld%2BLCXnYe66Yw4OtX863R%2Fj29b9jCSRChS01Y9Wh4Cy20arMrNSwYb%2Fmhl9RwrKeyW75vvy0lR7%2BiFghhEsrQdVv3jAkfCPKT%2B8Pq81V%2Fd3e7%2F3x1kU6cjN9sEQ3LXmdHBNHoTkOOCkJEpx%2FpHMZA17xAxZI4KR2i53znfNzxYxVTkvS4VSZMX7FsiDHz36u9F9hNYsxXlxOLTqirhUmV8cccDRrqWEexQ80%2BJiCDh8F4WaA13wLnjTAEN9y89MLVdZVkH1FmfqXcN8dVGY7CBlStyasNIjGaayRwy0%2Bo8qCbm0zIN%2FTtIhi%2BZJ5JziwAIsTVR9swtQiGLYSGrHmzGEwlVfWMDfBTjtdcEB30D1coNCuaToy2qAh8c%2FbUidAOYXAkhiAQpmsZUQ%2B279u7O9bh1rpKUa56ccw%2FwJPbhrrEfvyymoAyjNa96p12QWJhhc40kIZbC3DcLUpQqHDUhWgOidLP4M7VVvjuXeg4rI7K1T35528Nz4CmZFp&itmmeta=wwHmKhYwY%2Fjx0DQwMUtRN0VBVjIyMUtQTTNDQTdaMTZRNkMySzQwMUtRN0VBVFFZOEtQVFc5N01LRjZSVEJROL6%2BDA%3D%3D
+            - generic [ref=e133]: Sponsored
+          - generic [ref=e142]:
+            - heading "People who viewed this item also viewed" [level=2] [ref=e149]
+            - group [ref=e151]:
+              - list [ref=e154]:
+                - listitem [ref=e155]:
+                  - generic [ref=e157]:
+                    - generic [ref=e163]:
+                      - heading "Womens Long Sleeve Zip Up Hooded Jacket Jumper Hoodie Cardigan Coat Plus Size" [level=3] [ref=e164]
+                      - generic [ref=e166]: ILS 97.54
+                      - generic [ref=e168]: Free delivery
+                    - link "Womens Long Sleeve Zip Up Hooded Jacket Jumper Hoodie Cardigan Coat Plus Size" [ref=e169] [cursor=pointer]:
+                      - /url: https://www.ebay.com/itm/354871237700?_trkparms=itmf%3D1%26aid%3D1110006%26rkt%3D5%26mech%3D1%26algv%3DDefaultOrganicWebV9BertRefreshRankerWithCassiniEmbRecall%26pmt%3D1%26amclksrc%3DITM%26sd%3D236512311994%26sid%3DAQALAAAAEEFK%2B0haLuoIT4I%2B8ooeOJI%3D%26itm%3D354871237700%26noa%3D1%26plcampt%3D0%3A12473875014%26algo%3DHOMESPLICE.SIM%26brand%3DUnbranded%26asc%3D20200818143230%26ao%3D1%26rk%3D2%26pid%3D101224%26b%3D1%26mehot%3Dnone%26lsid%3D3%26meid%3Dac097c2b8b044185b93303b41cf19e63%26pg%3D2332490&_trksid=p2332490.c101224.m-1
+                - listitem [ref=e170]:
+                  - generic [ref=e172]:
+                    - generic [ref=e178]:
+                      - heading "Cotopaxi Abrazo Half Zip Fleece Jacket Women Medium White Colorblock Funnel Neck" [level=3] [ref=e179]
+                      - generic [ref=e181]: ILS 101.50
+                      - generic [ref=e183]: + delivery
+                      - generic [ref=e185]: Sponsored
+                    - link "Cotopaxi Abrazo Half Zip Fleece Jacket Women Medium White Colorblock Funnel Neck" [ref=e186] [cursor=pointer]:
+                      - /url: https://www.ebay.com/itm/306897481159?_trkparms=itmf%3D1%26aid%3D1110006%26rkt%3D5%26mech%3D1%26algv%3DDefaultOrganicWebV9BertRefreshRankerWithCassiniEmbRecall%26pmt%3D1%26amclksrc%3DITM%26sd%3D236512311994%26sid%3DAQALAAAAEAj2c4MdxIY2KImPyFr5XDk%3D%26itm%3D306897481159%26noa%3D0%26plcampt%3D0%3A163004084010%26algo%3DHOMESPLICE.SIM%26brand%3DCotopaxi%26asc%3D20200818143230%26ao%3D1%26rk%3D5%26pid%3D101224%26b%3D1%26mehot%3Dnone%26lsid%3D0%26meid%3Dac097c2b8b044185b93303b41cf19e63%26pg%3D2332490&_trksid=p2332490.c101224.m-1&itmprp=cksum%3A306897481159ac097c2b8b044185b93303b41cf19e63%7Cenc%3AAQALAAAA4HU%252FGPBKMoWrH2cpzpvK9FDC5c4FxwFIV%252Bq0okjrJ6w9cB%252BqWqTCByXEsJeNzj%252BLPZ6Y%252Bcb%252BSNENjzLG3DpJu0lbzG%252BO9UeYKk35Zep0N39py7pQOqhQaP1UaeT2SuctDmT0J%252F0QPhX%252F%252BOzfAPQ3bsNOGBTHGhbl8a%252FLF1ZW64N1ZeiV7ZfLlG%252FOZpczb%252F0zjy9MqmUO%252FMQ3Y5B8IpbAv%252FqC6BMgrM911ZaY5to1O03Exyeu60l5Tw6tcgSsunWWzPWXTzayq9N2XOA1ZdP%252F%252BJUOzZoYxVPzjKpfNMbHDvGA%7Campid%3APL_CLK%7Cclp%3A2332490&itmmeta=01KQ7EAV93MD9271Y2JTXQ2BJC
+                - listitem [ref=e187]:
+                  - generic [ref=e189]:
+                    - generic [ref=e195]:
+                      - heading "Women’s Plus Size Long Hooded Coat Oversized Wool-Like Winter Jacket" [level=3] [ref=e196]
+                      - generic [ref=e198]: ILS 119.41
+                      - generic [ref=e200]: Free delivery
+                    - link "Women’s Plus Size Long Hooded Coat Oversized Wool-Like Winter Jacket" [ref=e201] [cursor=pointer]:
+                      - /url: https://www.ebay.com/itm/236340084537?_trkparms=itmf%3D1%26aid%3D1110006%26rkt%3D5%26algo%3DHOMESPLICE.SIM%26mech%3D1%26algv%3DDefaultOrganicWebV9BertRefreshRankerWithCassiniEmbRecall%26pmt%3D0%26amclksrc%3DITM%26sd%3D236512311994%26sid%3DAQALAAAAELtXpyeH%2BBEda7KY232BDP4%3D%26itm%3D236340084537%26noa%3D1%26brand%3DUnbranded%26asc%3D20200818143230%26ao%3D1%26rk%3D1%26pid%3D101224%26b%3D1%26mehot%3Dnone%26lsid%3D0%26meid%3Dac097c2b8b044185b93303b41cf19e63%26pg%3D2332490&_trksid=p2332490.c101224.m-1
+                - listitem [ref=e202]:
+                  - generic [ref=e204]:
+                    - generic [ref=e210]:
+                      - heading "Jennyfer Paris Women Black Faux Fur Coat Hooded Winter Jacket Size M" [level=3] [ref=e211]
+                      - generic [ref=e213]: ILS 104.66
+                      - generic [ref=e215]: + ILS22.22 delivery
+                    - link "Jennyfer Paris Women Black Faux Fur Coat Hooded Winter Jacket Size M" [ref=e216] [cursor=pointer]:
+                      - /url: https://www.ebay.com/itm/377131483682?_trkparms=itmf%3D1%26aid%3D1110006%26rkt%3D5%26algo%3DHOMESPLICE.SIM%26mech%3D1%26algv%3DDefaultOrganicWebV9BertRefreshRankerWithCassiniEmbRecall%26pmt%3D0%26amclksrc%3DITM%26sd%3D236512311994%26sid%3DAQALAAAAEIFG%2BrLA4gTNcBCGUyPtnxI%3D%26itm%3D377131483682%26noa%3D1%26brand%3DParis%26asc%3D20200818143230%26ao%3D1%26rk%3D3%26pid%3D101224%26b%3D1%26mehot%3Dnone%26lsid%3D3%26meid%3Dac097c2b8b044185b93303b41cf19e63%26pg%3D2332490&_trksid=p2332490.c101224.m-1
+        - generic [ref=e219]:
+          - generic [ref=e222]:
+            - generic [ref=e224]:
+              - generic [ref=e225]:
+                - button "Previous image - Item images thumbnails" [disabled] [ref=e226] [cursor=pointer]:
+                  - img
+                - generic [ref=e227]:
+                  - button "Picture 1 of 14" [ref=e228] [cursor=pointer]:
+                    - img "Picture 1 of 14" [ref=e229]
+                  - button "Picture 2 of 14" [ref=e230] [cursor=pointer]:
+                    - img "Picture 2 of 14" [ref=e231]
+                  - button "Picture 3 of 14" [ref=e232] [cursor=pointer]:
+                    - img "Picture 3 of 14" [ref=e233]
+                  - button "Picture 4 of 14" [ref=e234] [cursor=pointer]:
+                    - img "Picture 4 of 14" [ref=e235]
+                  - button "Picture 5 of 14" [ref=e236] [cursor=pointer]:
+                    - img "Picture 5 of 14" [ref=e237]
+                  - button "Picture 6 of 14" [ref=e238] [cursor=pointer]:
+                    - img "Picture 6 of 14" [ref=e239]
+                  - button "Picture 7 of 14" [ref=e240] [cursor=pointer]
+                  - button "Picture 8 of 14" [ref=e241] [cursor=pointer]
+                  - button "Picture 9 of 14" [ref=e242] [cursor=pointer]
+                  - button "Picture 10 of 14" [ref=e243] [cursor=pointer]
+                  - button "Picture 11 of 14" [ref=e244] [cursor=pointer]
+                  - button "Picture 12 of 14" [ref=e245] [cursor=pointer]
+                  - button "Picture 13 of 14" [ref=e246] [cursor=pointer]
+                  - button "Picture 14 of 14" [ref=e247] [cursor=pointer]
+                - button "Next image - Item images thumbnails" [ref=e248] [cursor=pointer]:
+                  - img
+              - generic [ref=e249]:
+                - heading "Picture 1 of 14" [level=2] [ref=e250]
+                - button "Previous image - Item images thumbnails" [ref=e252] [cursor=pointer]:
+                  - img
+                - region "Opens image gallery dialog Women’s Long Wool Coat Elegant Warm Winter Overcoat Plus Size Formal Jacket - Picture 1 of 14" [ref=e253]:
+                  - group "1 of 14" [ref=e254]:
+                    - img "Women’s Long Wool Coat Elegant Warm Winter Overcoat Plus Size Formal Jacket - Picture 1 of 14" [ref=e255]
+                  - group "2 of 14" [ref=e256]:
+                    - img "Women’s Long Wool Coat Elegant Warm Winter Overcoat Plus Size Formal Jacket - Picture 2 of 14" [ref=e257]
+                  - group "3 of 14" [ref=e258]:
+                    - img "Women’s Long Wool Coat Elegant Warm Winter Overcoat Plus Size Formal Jacket - Picture 3 of 14" [ref=e259]
+                  - group "4 of 14" [ref=e260]:
+                    - img "Women’s Long Wool Coat Elegant Warm Winter Overcoat Plus Size Formal Jacket - Picture 4 of 14" [ref=e261]
+                  - group "5 of 14" [ref=e262]:
+                    - img "Women’s Long Wool Coat Elegant Warm Winter Overcoat Plus Size Formal Jacket - Picture 5 of 14" [ref=e263]
+                  - group "6 of 14" [ref=e264]:
+                    - img "Women’s Long Wool Coat Elegant Warm Winter Overcoat Plus Size Formal Jacket - Picture 6 of 14" [ref=e265]
+                  - group "7 of 14" [ref=e266]:
+                    - img "Women’s Long Wool Coat Elegant Warm Winter Overcoat Plus Size Formal Jacket - Picture 7 of 14" [ref=e267]
+                  - group "8 of 14" [ref=e268]:
+                    - img "Women’s Long Wool Coat Elegant Warm Winter Overcoat Plus Size Formal Jacket - Picture 8 of 14" [ref=e269]
+                  - group "9 of 14" [ref=e270]:
+                    - img "Women’s Long Wool Coat Elegant Warm Winter Overcoat Plus Size Formal Jacket - Picture 9 of 14" [ref=e271]
+                  - group "10 of 14" [ref=e272]:
+                    - img "Women’s Long Wool Coat Elegant Warm Winter Overcoat Plus Size Formal Jacket - Picture 10 of 14" [ref=e273]
+                  - group "11 of 14" [ref=e274]:
+                    - img "Women’s Long Wool Coat Elegant Warm Winter Overcoat Plus Size Formal Jacket - Picture 11 of 14" [ref=e275]
+                  - group "12 of 14" [ref=e276]:
+                    - img "Women’s Long Wool Coat Elegant Warm Winter Overcoat Plus Size Formal Jacket - Picture 12 of 14" [ref=e277]
+                  - group "13 of 14" [ref=e278]:
+                    - img "Women’s Long Wool Coat Elegant Warm Winter Overcoat Plus Size Formal Jacket - Picture 13 of 14" [ref=e279]
+                  - group "14 of 14" [ref=e280]:
+                    - img "Women’s Long Wool Coat Elegant Warm Winter Overcoat Plus Size Formal Jacket - Picture 14 of 14" [ref=e281]
+                - generic [ref=e282]:
+                  - button "Opens image gallery" [ref=e283] [cursor=pointer]:
+                    - img
+                  - button "Add to watchlist - 4 watchers" [ref=e285] [cursor=pointer]:
+                    - generic [ref=e286]: "4"
+                    - img
+                - button "Next image - Item images thumbnails" [ref=e288] [cursor=pointer]:
+                  - img
+            - button "Share" [ref=e294] [cursor=pointer]:
+              - img
+              - generic [ref=e295]: Share
+          - generic [ref=e298]:
+            - heading "Women’s Long Wool Coat Elegant Warm Winter Overcoat Plus Size Formal Jacket" [level=1] [ref=e300]
+            - generic [ref=e302] [cursor=pointer]:
+              - generic [ref=e304]:
+                - generic [ref=e305]:
+                  - link [ref=e307]:
+                    - /url: https://www.ebay.com/sch/yourthings_1/m.html?item=236512311994&rt=nc&_trksid=p4429486.m3561.l161210
+                    - img [ref=e309]: "Y"
+                  - generic [ref=e310]:
+                    - generic [ref=e311]:
+                      - link "yourthings_1" [ref=e312]:
+                        - /url: https://www.ebay.com/sch/yourthings_1/m.html?item=236512311994&rt=nc&_trksid=p4429486.m3561.l161211
+                      - generic [ref=e314]: (5)
+                    - generic [ref=e315]:
+                      - button "63.6% positive" [ref=e317]
+                      - link "Seller's other items" [ref=e319]:
+                        - /url: https://www.ebay.com/sch/yourthings_1/m.html?item=236512311994&rt=nc&_trksid=p4429486.m3561.l170197
+                        - generic [ref=e320]: Seller's other items
+                        - generic [ref=e321]: Seller's other items
+                - button "Message" [ref=e323]:
+                  - generic [ref=e324]: Message
+              - button "See more about this seller" [ref=e326]:
+                - img
+            - generic [ref=e329]:
+              - generic [ref=e330]: US $35.99
+              - generic [ref=e331]:
+                - generic [ref=e332]: Approximately
+                - generic [ref=e333]: ILS 107.47
+            - generic [ref=e334]:
+              - generic [ref=e335]: "Condition:"
+              - generic [ref=e337]:
+                - generic [ref=e338]:
+                  - generic [ref=e339]: New with tags
+                  - generic [ref=e340]: New with tags
+                - button "More information - About this item condition" [ref=e341] [cursor=pointer]:
+                  - generic [ref=e342]:
+                    - img "More information - About this item condition"
+            - generic [ref=e343]:
+              - 'button "Color-: Select" [ref=e346] [cursor=pointer]':
+                - generic [ref=e347]:
+                  - generic [ref=e348]: "Color-:"
+                  - generic [ref=e349]: Select
+                  - img
+              - 'button "Size-: Select" [ref=e352] [cursor=pointer]':
+                - generic [ref=e353]:
+                  - generic [ref=e354]: "Size-:"
+                  - generic [ref=e355]: Select
+                  - img
+            - generic [ref=e357]:
+              - generic [ref=e358]: "Quantity:"
+              - generic [ref=e359]:
+                - textbox "Quantity:" [disabled] [ref=e361]: "1"
+                - generic [ref=e362]: Last one 2 sold
+            - list [ref=e364]:
+              - listitem [ref=e365]:
+                - button "Buy It Now" [ref=e367] [cursor=pointer]:
+                  - generic [ref=e368]: Buy It Now
+              - listitem [ref=e369]:
+                - button "Add to cart" [ref=e371] [cursor=pointer]:
+                  - generic [ref=e372]: Add to cart
+              - listitem [ref=e373]:
+                - generic [ref=e375]:
+                  - status [ref=e376]: Add to Watchlist
+                  - link "Add to Watchlist" [ref=e381] [cursor=pointer]:
+                    - /url: https://signin.ebay.com/ws/eBayISAPI.dll?SignIn&ru=https%3A%2F%2Fwww.ebay.com%2Fitm%2F236512311994
+                    - generic [ref=e382]:
+                      - img
+                      - text: Add to Watchlist
+            - generic [ref=e385]:
+              - generic [ref=e386]:
+                - generic [ref=e387]:
+                  - img
+                - generic [ref=e389]: Popular item. 2 have already sold.
+              - generic [ref=e390]:
+                - generic [ref=e391]:
+                  - img
+                - generic [ref=e393]: People are checking this out. 4 have added this to their watchlist.
+            - generic [ref=e396]:
+              - heading "Shipping, returns, and payments" [level=2] [ref=e399]:
+                - generic [ref=e400]: Shipping, returns, and payments
+              - generic [ref=e402]:
+                - generic [ref=e405]:
+                  - generic [ref=e408]: "Shipping:"
+                  - generic [ref=e410]:
+                    - generic [ref=e411]:
+                      - text: Does not ship to Israel.
+                      - button "See details for shipping" [ref=e412] [cursor=pointer]:
+                        - generic [ref=e413]:
+                          - text: See details
+                          - generic [ref=e414]: for shipping
+                    - generic [ref=e415]: "Located in: Beverly Hills, California, United States"
+                - generic [ref=e418]:
+                  - generic [ref=e421]: "Delivery:"
+                  - generic [ref=e424]: Varies
+            - generic [ref=e431]:
+              - generic [ref=e434]: "Returns:"
+              - generic [ref=e437]:
+                - text: Seller does not accept returns.
+                - button "See details - for more information about returns" [ref=e438] [cursor=pointer]:
+                  - generic [ref=e439]:
+                    - text: See details
+                    - generic [ref=e440]: "- for more information about returns"
+            - generic [ref=e447]:
+              - generic [ref=e450]: "Payments:"
+              - generic [ref=e453]:
+                - img "PayPal" [ref=e454]
+                - img "Google Pay" [ref=e456]
+                - img "Visa" [ref=e458]
+                - img "Master Card" [ref=e460]
+                - img "Discover" [ref=e462]
+                - img "Diners Club" [ref=e465]
+            - generic [ref=e469]:
+              - heading "Shop with confidence" [level=2] [ref=e472]
+              - generic [ref=e473]:
+                - generic [ref=e475]:
+                  - img
+                - generic [ref=e476]:
+                  - generic [ref=e477]: eBay Money Back Guarantee
+                  - generic [ref=e478]:
+                    - text: Get the item you ordered or your money back.
+                    - link "Learn more eBay Money Back Guarantee - opens new window or tab" [ref=e479] [cursor=pointer]:
+                      - /url: https://www.ebay.com/ebay-money-back-guarantee/
+                      - generic [ref=e480]:
+                        - text: Learn more
+                        - generic [ref=e481]: eBay Money Back Guarantee - opens new window or tab
+        - generic [ref=e482]:
+          - generic [ref=e484]:
+            - generic [ref=e490]:
+              - generic [ref=e491]:
+                - heading "What's your size?" [level=2] [ref=e492]
+                - text: Add your size to optimize your experience.
+              - button "Add your size" [ref=e494] [cursor=pointer]
+            - generic [ref=e497]:
+              - tablist [ref=e498]:
+                - tab "About this item" [selected] [ref=e499] [cursor=pointer]:
+                  - generic [ref=e500]: About this item
+              - tabpanel "About this item" [ref=e502]:
+                - generic [ref=e505]:
+                  - generic [ref=e508]:
+                    - generic [ref=e512]: Seller assumes all responsibility for this listing.
+                    - generic [ref=e516]: eBay item number:236512311994
+                    - generic [ref=e520]:
+                      - text: Last updated on Mar 26, 2026 21:52:51 PDT
+                      - link "View all revisions View all revisions" [ref=e521] [cursor=pointer]:
+                        - /url: https://www.ebay.com/rvh/236512311994?rt=nc&_trksid=p4429486.m148105.l48144
+                        - generic [ref=e522]:
+                          - text: View all revisions
+                          - generic [ref=e523]: View all revisions
+                  - generic [ref=e526]:
+                    - heading "Item specifics" [level=2] [ref=e529]:
+                      - generic [ref=e530]: Item specifics
+                    - generic [ref=e532]:
+                      - generic [ref=e533]:
+                        - generic [ref=e535]:
+                          - term [ref=e536]:
+                            - generic [ref=e538]: Condition
+                          - definition [ref=e539]:
+                            - generic [ref=e542]:
+                              - generic [ref=e543]: "New with tags: This item is brand new and has never been worn. It still has the original tags and/or ..."
+                              - button "Read more about the condition" [ref=e545]:
+                                - generic [ref=e546]:
+                                  - text: Read more
+                                  - generic [ref=e547]: about the condition
+                        - generic [ref=e549]:
+                          - term [ref=e550]:
+                            - generic [ref=e552]: Brand
+                          - definition [ref=e553]:
+                            - generic [ref=e555]: Unbranded
+                      - generic [ref=e556]:
+                        - generic [ref=e558]:
+                          - term [ref=e559]:
+                            - generic [ref=e561]: Color
+                          - definition [ref=e562]:
+                            - generic [ref=e564]: Black
+                        - generic [ref=e566]:
+                          - term [ref=e567]:
+                            - generic [ref=e569]: Department
+                          - definition [ref=e570]:
+                            - generic [ref=e572]: Women
+                      - generic [ref=e573]:
+                        - generic [ref=e575]:
+                          - term [ref=e576]:
+                            - generic [ref=e578]: MPN
+                          - definition [ref=e579]:
+                            - generic [ref=e581]: Does not apply
+                        - generic [ref=e583]:
+                          - term [ref=e584]:
+                            - generic [ref=e586]: Outer Shell Material
+                          - definition [ref=e587]:
+                            - generic [ref=e589]: Acetate
+                      - generic [ref=e590]:
+                        - generic [ref=e592]:
+                          - term [ref=e593]:
+                            - generic [ref=e595]: Size
+                          - definition [ref=e596]:
+                            - generic [ref=e598]: M
+                        - generic [ref=e600]:
+                          - term [ref=e601]:
+                            - generic [ref=e603]: Size Type
+                          - definition [ref=e604]:
+                            - generic [ref=e606]: Regular
+                      - generic [ref=e607]:
+                        - generic [ref=e609]:
+                          - term [ref=e610]:
+                            - generic [ref=e612]: Style
+                          - definition [ref=e613]:
+                            - generic [ref=e615]: Overcoat
+                        - generic [ref=e617]:
+                          - term [ref=e618]:
+                            - generic [ref=e620]: Type
+                          - definition [ref=e621]:
+                            - generic [ref=e623]: Blazer
+                      - generic [ref=e626]:
+                        - term [ref=e627]:
+                          - generic [ref=e629]: Country of Origin
+                        - definition [ref=e630]:
+                          - generic [ref=e632]: China
+                  - generic [ref=e634]:
+                    - generic [ref=e635]: Category
+                    - navigation "breadcrumb" [ref=e638]:
+                      - heading "breadcrumb" [level=2] [ref=e639]
+                      - list [ref=e640]:
+                        - listitem [ref=e641]:
+                          - link "Clothing, Shoes & Accessories" [ref=e642] [cursor=pointer]:
+                            - /url: https://www.ebay.com/b/Clothing-Shoes-Accessories/11450/bn_1852545
+                          - img
+                        - listitem [ref=e643]:
+                          - link "Women" [ref=e644] [cursor=pointer]:
+                            - /url: https://www.ebay.com/b/Womens-Clothing-Shoes-Accessories/260010/bn_7116391826
+                          - img
+                        - listitem [ref=e645]:
+                          - link "Women's Clothing" [ref=e646] [cursor=pointer]:
+                            - /url: https://www.ebay.com/b/Womens-Clothing/15724/bn_661783
+                          - img
+                        - listitem [ref=e647]:
+                          - link "Coats, Jackets & Vests" [ref=e648] [cursor=pointer]:
+                            - /url: https://www.ebay.com/b/Womens-Coats-Jackets-Vests/63862/bn_661792
+                  - generic [ref=e649]:
+                    - heading "Item description from the seller" [level=2] [ref=e652]
+                    - iframe [ref=e653]:
+                      - generic [ref=f2e2]:
+                        - paragraph [ref=f2e3]: Women’s Long Elegant Wool-Style Winter Coat – Plus Size Available
+                        - paragraph [ref=f2e4]: Stay warm and stylish this winter with this beautifully designed women’s long coat. Made from high-quality, soft, and skin-friendly fabric, this elegant outerwear piece is perfect for daily wear, office use, casual outings, and winter events. The slim-fit design with a classic turtleneck collar adds a sophisticated and modern look to your wardrobe.
+                        - paragraph [ref=f2e5]
+                        - paragraph [ref=f2e6]: "Key Features:"
+                        - list [ref=f2e7]:
+                          - listitem [ref=f2e8]: High-quality fabric – soft, comfortable, and gentle on the skin
+                          - listitem [ref=f2e9]: Elegant long-length design for extra warmth
+                          - listitem [ref=f2e10]: Stylish turtleneck collar for a classy winter look
+                          - listitem [ref=f2e11]: Button decoration for added fashion appeal
+                          - listitem [ref=f2e12]: Slim-fit urban leisure style – perfect for casual & formal wear
+                          - listitem [ref=f2e13]: Easy open-stitch closure for comfort and layering
+                          - listitem [ref=f2e14]: Available in multiple fashionable colors
+                        - paragraph [ref=f2e15]: "Available Colors: Grey, Black, Khaki, Red"
+                        - paragraph [ref=f2e16]: "📏 Sizes Available: S, M, L, XL, XXL, 3XL, 4XL, 5XL (Plus sizes available for a perfect comfortable fit)"
+                        - paragraph [ref=f2e17]
+                        - paragraph [ref=f2e18]: "Specifications:"
+                        - list [ref=f2e19]:
+                          - listitem [ref=f2e20]: "Gender: Women"
+                          - listitem [ref=f2e21]: "Material: Cotton Blend"
+                          - listitem [ref=f2e22]: "Clothing Length: Long"
+                          - listitem [ref=f2e23]: "Collar: Turtleneck"
+                          - listitem [ref=f2e24]: "Decoration: Button"
+                          - listitem [ref=f2e25]: "Style Type: Urban Leisure"
+                          - listitem [ref=f2e26]: "Closure Type: Open Stitch"
+                          - listitem [ref=f2e27]: "Fit Type: Slim"
+                          - listitem [ref=f2e28]
+                        - paragraph [ref=f2e29]: "Important Size & Color Notes:"
+                        - list [ref=f2e30]:
+                          - listitem [ref=f2e31]: Asian sizes run 1–2 sizes smaller than US/UK/EU sizes. If you are between sizes, please choose the larger size.
+                          - listitem [ref=f2e32]: Please allow 1–2cm measurement difference due to manual measurement.
+                          - listitem [ref=f2e33]: Due to different screen displays, actual item color may vary slightly from pictures.
+                        - paragraph [ref=f2e34]: "✅ Package Includes: 1 × Women’s Long Winter Coat"
+                        - paragraph
+                        - paragraph [ref=f2e35]: Upgrade your winter wardrobe with this warm, elegant, and fashionable long coat — perfect for daily wear, office, shopping, travel, and special occasions.
+                        - paragraph [ref=f2e36]
+                        - paragraph [ref=f2e37]:
+                          - img [ref=f2e38]
+                        - paragraph [ref=f2e39]:
+                          - text: "Package Content:"
+                          - text: 1 x piece
+                        - paragraph [ref=f2e40]
+                        - paragraph [ref=f2e41]:
+                          - img [ref=f2e42]
+                          - img [ref=f2e43]
+                          - img [ref=f2e44]
+                          - img [ref=f2e45]
+                        - paragraph [ref=f2e46]
+          - generic [ref=e656]:
+            - generic [ref=e657]:
+              - generic [ref=e658]:
+                - heading "About this seller" [level=2] [ref=e659]:
+                  - generic [ref=e661]: About this seller
+                - generic [ref=e662]:
+                  - link [ref=e664] [cursor=pointer]:
+                    - /url: https://www.ebay.com/sch/yourthings_1/m.html?item=236512311994&rt=nc&_trksid=p4429486.m145687.l2562
+                    - img [ref=e666]: "Y"
+                  - generic [ref=e667]:
+                    - heading "yourthings_1" [level=3] [ref=e668]:
+                      - link "yourthings_1" [ref=e669] [cursor=pointer]:
+                        - /url: https://www.ebay.com/sch/yourthings_1/m.html?item=236512311994&rt=nc&_trksid=p4429486.m145687.l2562
+                    - paragraph [ref=e670]: 63.6% positive feedback•46 items sold
+                - generic [ref=e673]:
+                  - generic [ref=e675]:
+                    - generic [ref=e676]:
+                      - img
+                    - generic [ref=e677]: Joined Jan 2020
+                  - generic [ref=e679]:
+                    - generic [ref=e680]:
+                      - img
+                    - generic [ref=e681]: Usually responds within 24 hours
+                - generic [ref=e682]:
+                  - link "Seller's other items" [ref=e683] [cursor=pointer]:
+                    - /url: https://www.ebay.com/sch/yourthings_1/m.html?item=236512311994&rt=nc&_trksid=p4429486.m145687.l2562
+                    - generic [ref=e684]: Seller's other items
+                  - button "Message seller - opens in a new dialog" [ref=e685] [cursor=pointer]:
+                    - generic [ref=e686]:
+                      - text: Message seller
+                      - generic [ref=e687]: "- opens in a new dialog"
+                  - button "Save seller - Save this seller yourthings_1" [ref=e689] [cursor=pointer]:
+                    - generic [ref=e690]:
+                      - img
+                    - generic [ref=e691]: Save seller
+              - generic [ref=e693]:
+                - heading "Detailed seller ratings" [level=3] [ref=e694]
+                - generic [ref=e695]:
+                  - generic [ref=e696]: Average for the last 12 months
+                  - generic [ref=e697]:
+                    - generic [ref=e698]:
+                      - generic [ref=e699]: Accurate description
+                      - progressbar [ref=e700]
+                      - generic [ref=e701]: "--"
+                    - generic [ref=e702]:
+                      - generic [ref=e703]: Reasonable shipping cost
+                      - progressbar [ref=e704]
+                      - generic [ref=e705]: "5.0"
+                    - generic [ref=e706]:
+                      - generic [ref=e707]: Shipping speed
+                      - progressbar [ref=e708]
+                      - generic [ref=e709]: "3.7"
+                    - generic [ref=e710]:
+                      - generic [ref=e711]: Communication
+                      - progressbar [ref=e712]
+                      - generic [ref=e713]: "--"
+            - generic [ref=e716]:
+              - heading "Seller feedback (16)" [level=2] [ref=e717]
+              - 'button "Filter: All ratings" [ref=e720] [cursor=pointer]':
+                - generic [ref=e721]:
+                  - generic [ref=e722]: "Filter:"
+                  - generic [ref=e723]: All ratings
+                  - img
+              - list [ref=e724]:
+                - listitem [ref=e725]:
+                  - generic [ref=e726]:
+                    - generic [ref=e728]:
+                      - generic [ref=e729]:
+                        - img "Positive feedback rating"
+                      - generic [ref=e730]:
+                        - text: o***r (13)
+                        - generic [ref=e731]: "- Feedback left by buyer."
+                      - generic [ref=e734]: Past 6 months
+                      - generic [ref=e735]: Verified purchase
+                    - generic [ref=e737]: Prompt delivery and product as described
+                    - generic [ref=e738]: Women’s Plus Size Long Hooded Coat Oversized Wool-Like Winter Jacket (#236340084537)
+                - listitem [ref=e739]:
+                  - generic [ref=e740]:
+                    - generic [ref=e742]:
+                      - generic [ref=e743]:
+                        - img "Negative feedback rating"
+                      - generic [ref=e744]:
+                        - text: "-***4 (20)"
+                        - generic [ref=e745]: "- Feedback left by buyer."
+                      - generic [ref=e748]: Past 6 months
+                      - generic [ref=e749]: Verified purchase
+                    - generic [ref=e751]:
+                      - text: ing for it for the last so many days it was meant to come to me come to me but I haven't received it I think eBay is missing out on something I would give it a negative feedback I have received no parcels and always always says that the parcel has been received by me and the courier person has delivered it but I have had no deliveries ing for it for the last so many days it was meant to come to me come to me but I haven't received it I think eBay is missing out on something I would give it a neg
+                      - generic [ref=e752]:
+                        - generic [ref=e753]:
+                          - text: "Reply from: yourthings_1"
+                          - generic [ref=e754]: "- Feedback replied by seller yourthings_1."
+                          - generic [ref=e755]: "- Feedback replied by seller yourthings_1."
+                        - generic [ref=e756]: Dear, We are sorry but this seems to be a misunderstanding as I refunded your money because our shipping to your region was unavailable. I have proofs of it. You are saying that eBay is showing you delivered, but how can a product be delivered when its not even shipped. Dear, I request you to double check it and remove negative feedback as I refunded you the money on the same day you ordered. Expecting a positive reply Dear.
+                    - generic [ref=e757]: Women’s Plus Size Long Hooded Coat Oversized Wool-Like Winter Jacket (#236340084537)
+                - listitem [ref=e758]:
+                  - generic [ref=e759]:
+                    - generic [ref=e761]:
+                      - generic [ref=e762]:
+                        - img "Positive feedback rating"
+                      - generic [ref=e763]:
+                        - text: r***n (724)
+                        - generic [ref=e764]: "- Feedback left by buyer."
+                      - generic [ref=e767]: Past 6 months
+                      - generic [ref=e768]: Verified purchase
+                    - generic [ref=e770]: thanks for your great communication
+                    - generic [ref=e771]: Men's Heated Jacket USB Electric Winter Coat Thick Hooded Outdoor Warm (#236470489947)
+                - listitem [ref=e772]:
+                  - generic [ref=e773]:
+                    - generic [ref=e775]:
+                      - generic [ref=e776]:
+                        - img "Negative feedback rating"
+                      - generic [ref=e777]:
+                        - text: _***1 (13)
+                        - generic [ref=e778]: "- Feedback left by buyer."
+                      - generic [ref=e781]: Past 6 months
+                      - generic [ref=e782]: Verified purchase
+                    - generic [ref=e784]:
+                      - text: Although this seller's address is in the USA his merchandise comes shipped from China and it will take a while to get shipped to you!
+                      - generic [ref=e785]:
+                        - generic [ref=e786]:
+                          - text: "Reply from: yourthings_1"
+                          - generic [ref=e787]: "- Feedback replied by seller yourthings_1."
+                          - generic [ref=e788]: "- Feedback replied by seller yourthings_1."
+                        - generic [ref=e789]: Dear, I request you to take this request down as I have explained the situation to you in the request. I'll be very thankful to you. Have a nice day!
+                    - link "Winter 3-in-1 Jacket Men Women Warm Cotton Padded Snow Coat Outdoor (#236637896603)" [ref=e791] [cursor=pointer]:
+                      - /url: https://www.ebay.com/itm/236637896603
+                      - generic [ref=e792]: Winter 3-in-1 Jacket Men Women Warm Cotton Padded Snow Coat Outdoor (#236637896603)
+                - listitem [ref=e793]:
+                  - generic [ref=e794]:
+                    - generic [ref=e796]:
+                      - generic [ref=e797]:
+                        - img "Negative feedback rating"
+                      - generic [ref=e798]:
+                        - text: 2***g (132)
+                        - generic [ref=e799]: "- Feedback left by buyer."
+                      - generic [ref=e802]: Past 6 months
+                      - generic [ref=e803]: Verified purchase
+                    - generic [ref=e805]: A week after placing the order I was told that they have no stock…. What a huge dissapointment
+                    - link "Men’s Woolen Coat Winter Autumn Solid Color Casual Business Long Jacket (#236472090706)" [ref=e807] [cursor=pointer]:
+                      - /url: https://www.ebay.com/itm/236472090706
+                      - generic [ref=e808]: Men’s Woolen Coat Winter Autumn Solid Color Casual Business Long Jacket (#236472090706)
+                - listitem [ref=e809]:
+                  - generic [ref=e810]:
+                    - generic [ref=e812]:
+                      - generic [ref=e813]:
+                        - img "Positive feedback rating"
+                      - generic [ref=e814]:
+                        - text: o***s (259)
+                        - generic [ref=e815]: "- Feedback left by buyer."
+                      - generic [ref=e818]: Past 6 months
+                      - generic [ref=e819]: Verified purchase
+                    - generic [ref=e821]: Excellent fast service
+                    - generic [ref=e822]: Men's Stand-up Collar Casual Leather Jacket (#236233126683)
+                - listitem [ref=e823]:
+                  - generic [ref=e824]:
+                    - generic [ref=e826]:
+                      - generic [ref=e827]:
+                        - img "Negative feedback rating"
+                      - generic [ref=e828]:
+                        - text: j***f (635)
+                        - generic [ref=e829]: "- Feedback left by buyer."
+                      - generic [ref=e832]: Past year
+                      - generic [ref=e833]: Verified purchase
+                    - generic [ref=e835]:
+                      - text: Item located internationally. Misleading location. Item did not arrive. Seller doesn’t want to refund
+                      - generic [ref=e836]:
+                        - generic [ref=e837]:
+                          - text: "Reply from: yourthings_1"
+                          - generic [ref=e838]: "- Feedback replied by seller yourthings_1."
+                          - generic [ref=e839]: "- Feedback replied by seller yourthings_1."
+                        - generic [ref=e840]: Hi There! Its not the case. Your delivery has only delayed due to unforseen weather circumstances. Refund can't be granted while the parcel is in transit. Now your parcel has reached your local city. If you still want refund, then you can return the parcel at the moment of delivery.
+                    - generic [ref=e841]: Clear MagSafe Case for iPhone 17 17Air 17 Pro Max Magnetic Shockproof Cover (#236324467958)
+                - listitem [ref=e842]:
+                  - generic [ref=e843]:
+                    - generic [ref=e845]:
+                      - generic [ref=e846]:
+                        - img "Neutral feedback rating"
+                      - generic [ref=e847]:
+                        - text: l***e (26)
+                        - generic [ref=e848]: "- Feedback left by buyer."
+                      - generic [ref=e851]: Past 6 months
+                      - generic [ref=e852]: Verified purchase
+                    - generic [ref=e854]: I can't give feedback on something I have not received yet.
+                    - generic [ref=e855]: Men's Heated Jacket USB Electric Winter Coat Thick Hooded Outdoor Warm (#236470489947)
+              - link "See all feedback. Opens in a new tab" [ref=e857] [cursor=pointer]:
+                - /url: https://www.ebay.com/fdbk/mweb_profile?fdbkType=FeedbackReceivedAsSeller&item_id=236512311994&username=yourthings_1&filter=feedback_page%3ARECEIVED_AS_SELLER&sort=RELEVANCEV2
+                - text: See all feedback
+          - generic [ref=e859]:
+            - navigation "Quick Links" [ref=e860]:
+              - link "Back to home page" [ref=e861] [cursor=pointer]:
+                - /url: https://www.ebay.com
+              - button "Return to top" [ref=e862] [cursor=pointer]
+            - generic [ref=e864]:
+              - heading "More to explore :" [level=2] [ref=e867]
+              - list [ref=e869]:
+                - listitem [ref=e870]:
+                  - link "Overcoat Formal Coats, Jackets & Vests for Women," [ref=e871] [cursor=pointer]:
+                    - /url: https://www.ebay.com/b/Overcoat-Formal-Coats-Jackets-Vests-for-Women/63862/bn_7115835569
+                - listitem [ref=e872]:
+                  - link "Overcoat Plus Coats, Jackets & Vests for Women," [ref=e873] [cursor=pointer]:
+                    - /url: https://www.ebay.com/b/Overcoat-Plus-Coats-Jackets-Vests-for-Women/63862/bn_7115850551
+                - listitem [ref=e874]:
+                  - link "Plus Size Winter Coats, Jackets & Vests for Women," [ref=e875] [cursor=pointer]:
+                    - /url: https://www.ebay.com/b/Plus-Size-Winter-Coats-Jackets-Vests-for-Women/63862/bn_7115854580
+                - listitem [ref=e876]:
+                  - link "Wool Outer Shell Coats, Jackets & Vests Overcoat for Women," [ref=e877] [cursor=pointer]:
+                    - /url: https://www.ebay.com/b/Wool-Outer-Shell-Coats-Jackets-Vests-Overcoat-for-Women/63862/bn_7116958371
+                - listitem [ref=e878]:
+                  - link "Formal Plus Size Coats, Jackets & Vests for Women," [ref=e879] [cursor=pointer]:
+                    - /url: https://www.ebay.com/b/Formal-Plus-Size-Coats-Jackets-Vests-for-Women/63862/bn_114627679
+                - listitem [ref=e880]:
+                  - link "Sequin Formal Plus Size Coats, Jackets & Vests for Women," [ref=e881] [cursor=pointer]:
+                    - /url: https://www.ebay.com/b/Sequin-Formal-Plus-Size-Coats-Jackets-Vests-for-Women/63862/bn_119566967
+                - listitem [ref=e882]:
+                  - link "Overcoat Jacket Wool Outer Shell Coats, Jackets & Vests for Men," [ref=e883] [cursor=pointer]:
+                    - /url: https://www.ebay.com/b/Overcoat-Jacket-Wool-Outer-Shell-Coats-Jackets-Vests-for-Men/57988/bn_7110342510
+                - listitem [ref=e884]:
+                  - link "Formal Plus 1X Size Coats, Jackets & Vests for Women," [ref=e885] [cursor=pointer]:
+                    - /url: https://www.ebay.com/b/Formal-Plus-1X-Size-Coats-Jackets-Vests-for-Women/63862/bn_115454996
+                - listitem [ref=e886]:
+                  - link "Zara Overcoat Coats, Jackets & Vests for Women," [ref=e887] [cursor=pointer]:
+                    - /url: https://www.ebay.com/b/Zara-Overcoat-Coats-Jackets-Vests-for-Women/63862/bn_7116955273
+                - listitem [ref=e888]:
+                  - link "Overcoat Coats, Jackets & Vests for Men" [ref=e889] [cursor=pointer]:
+                    - /url: https://www.ebay.com/b/Overcoat-Coats-Jackets-Vests-for-Men/57988/bn_57333871
+            - generic [ref=e891]:
+              - heading "Shop the Latest Sneakers" [level=2] [ref=e892]
+              - generic [ref=e893]:
+                - generic [ref=e894]:
+                  - heading "Best Sellers" [level=3] [ref=e895]
+                  - list [ref=e896]:
+                    - listitem [ref=e897]:
+                      - link "Nike Dunk Low Retro White Black 2021" [ref=e898] [cursor=pointer]:
+                        - /url: https://il.ebay.com/b/Nike-Dunk-Low-Retro-White-Black-2021/15709/bn_7118514165
+                        - generic [ref=e899]: Nike Dunk Low Retro White Black 2021
+                    - listitem [ref=e900]:
+                      - link "Jordan 1 KO Syracuse 2022" [ref=e901] [cursor=pointer]:
+                        - /url: https://il.ebay.com/b/Jordan-1-KO-Syracuse-2022/15709/bn_7118563165
+                        - generic [ref=e902]: Jordan 1 KO Syracuse 2022
+                    - listitem [ref=e903]:
+                      - link "Yeezy Boost 700 V1 Mauve" [ref=e904] [cursor=pointer]:
+                        - /url: https://il.ebay.com/b/Yeezy-Boost-700-V1-Mauve/15709/bn_7117754158
+                        - generic [ref=e905]: Yeezy Boost 700 V1 Mauve
+                    - listitem [ref=e906]:
+                      - link "Jordan 4 SE Black Canvas" [ref=e907] [cursor=pointer]:
+                        - /url: https://il.ebay.com/b/Jordan-4-SE-Black-Canvas/15709/bn_7118593254
+                        - generic [ref=e908]: Jordan 4 SE Black Canvas
+                    - listitem [ref=e909]:
+                      - link "Jordan 1 Retro Low Fragment Design x Travis Scott" [ref=e910] [cursor=pointer]:
+                        - /url: https://il.ebay.com/b/Jordan-1-Retro-Low-Fragment-Design-x-Travis-Scott/15709/bn_7117819170
+                        - generic [ref=e911]: Jordan 1 Retro Low Fragment Design x Travis Scott
+                - generic [ref=e912]:
+                  - heading "Recent Releases" [level=3] [ref=e913]
+                  - list [ref=e914]:
+                    - listitem [ref=e915]:
+                      - link "Jordan 5 Retro 2026 Wolf Grey" [ref=e916] [cursor=pointer]:
+                        - /url: https://il.ebay.com/b/Jordan-5-Retro-2026-Wolf-Grey/15709/bn_7124929466
+                        - generic [ref=e917]: Jordan 5 Retro 2026 Wolf Grey
+                    - listitem [ref=e918]:
+                      - link "Jordan 6 Retro Reverse Infrared" [ref=e919] [cursor=pointer]:
+                        - /url: https://il.ebay.com/b/Jordan-6-Retro-Reverse-Infrared/15709/bn_7125055551
+                        - generic [ref=e920]: Jordan 6 Retro Reverse Infrared
+                    - listitem [ref=e921]:
+                      - link "Nike Air Force 1 '07 Wolf Grey White" [ref=e922] [cursor=pointer]:
+                        - /url: https://il.ebay.com/b/Nike-Air-Force-1-07-Wolf-Grey-White/15709/bn_7121891866
+                        - generic [ref=e923]: Nike Air Force 1 '07 Wolf Grey White
+                    - listitem [ref=e924]:
+                      - link "Jordan Tatum 4 Bruce Lee" [ref=e925] [cursor=pointer]:
+                        - /url: https://il.ebay.com/b/Jordan-Tatum-4-Bruce-Lee/15709/bn_7125079189
+                        - generic [ref=e926]: Jordan Tatum 4 Bruce Lee
+                    - listitem [ref=e927]:
+                      - link "Jordan 4016 Midnight Navy" [ref=e928] [cursor=pointer]:
+                        - /url: https://il.ebay.com/b/Jordan-4016-Midnight-Navy/15709/bn_7125057244
+                        - generic [ref=e929]: Jordan 4016 Midnight Navy
+                - generic [ref=e930]:
+                  - heading "Air Jordan" [level=3] [ref=e931]
+                  - list [ref=e932]:
+                    - listitem [ref=e933]:
+                      - link "Jordan 1" [ref=e934] [cursor=pointer]:
+                        - /url: https://www.ebay.com/b/Jordan-1/15709/bn_98034994
+                        - generic [ref=e935]: Jordan 1
+                    - listitem [ref=e936]:
+                      - link "Jordan 4" [ref=e937] [cursor=pointer]:
+                        - /url: https://www.ebay.com/b/Jordan-4/15709/bn_98034454
+                        - generic [ref=e938]: Jordan 4
+                    - listitem [ref=e939]:
+                      - link "Jordan 11" [ref=e940] [cursor=pointer]:
+                        - /url: https://www.ebay.com/b/Jordan-11/15709/bn_98035912
+                        - generic [ref=e941]: Jordan 11
+                    - listitem [ref=e942]:
+                      - link "Jordan 12" [ref=e943] [cursor=pointer]:
+                        - /url: https://www.ebay.com/b/Jordan-12/15709/bn_98034889
+                        - generic [ref=e944]: Jordan 12
+                    - listitem [ref=e945]:
+                      - link "Jordan 13" [ref=e946] [cursor=pointer]:
+                        - /url: https://www.ebay.com/b/Jordan-13/15709/bn_98035446
+                        - generic [ref=e947]: Jordan 13
+                - generic [ref=e948]:
+                  - heading "Yeezy" [level=3] [ref=e949]
+                  - list [ref=e950]:
+                    - listitem [ref=e951]:
+                      - link "Yeezy Slide" [ref=e952] [cursor=pointer]:
+                        - /url: https://www.ebay.com/b/adidas-Yeezy-Slide/15709/bn_7118671215
+                        - generic [ref=e953]: Yeezy Slide
+                    - listitem [ref=e954]:
+                      - link "Yeezy Foam RNNR" [ref=e955] [cursor=pointer]:
+                        - /url: https://www.ebay.com/b/Yeezy-Foam-RNNR/15709/bn_7117868160
+                        - generic [ref=e956]: Yeezy Foam RNNR
+                    - listitem [ref=e957]:
+                      - link "Yeezy 700" [ref=e958] [cursor=pointer]:
+                        - /url: https://www.ebay.com/b/Yeezy-Boost-700/15709/bn_98035820
+                        - generic [ref=e959]: Yeezy 700
+                    - listitem [ref=e960]:
+                      - link "Yeezy 350" [ref=e961] [cursor=pointer]:
+                        - /url: https://www.ebay.com/b/Yeezy-Boost-350/15709/bn_98035262
+                        - generic [ref=e962]: Yeezy 350
+                    - listitem [ref=e963]:
+                      - link "Yeezy 500" [ref=e964] [cursor=pointer]:
+                        - /url: https://www.ebay.com/b/Yeezy-500/15709/bn_98035034
+                        - generic [ref=e965]: Yeezy 500
+                - generic [ref=e966]:
+                  - heading "Top Brands" [level=3] [ref=e967]
+                  - list [ref=e968]:
+                    - listitem [ref=e969]:
+                      - link "New Balance" [ref=e970] [cursor=pointer]:
+                        - /url: https://www.ebay.com/b/New-Balance-Sneakers-for-Men/15709/bn_58747
+                        - generic [ref=e971]: New Balance
+                    - listitem [ref=e972]:
+                      - link "Gucci" [ref=e973] [cursor=pointer]:
+                        - /url: https://www.ebay.com/b/Gucci-Casual-Shoes-for-Men/24087/bn_60133
+                        - generic [ref=e974]: Gucci
+                    - listitem [ref=e975]:
+                      - link "Vans" [ref=e976] [cursor=pointer]:
+                        - /url: https://www.ebay.com/b/VANS-Sneakers-for-Men/15709/bn_59307
+                        - generic [ref=e977]: Vans
+                    - listitem [ref=e978]:
+                      - link "Skechers" [ref=e979] [cursor=pointer]:
+                        - /url: https://www.ebay.com/b/Skechers-Sneakers-for-Men/15709/bn_59133
+                        - generic [ref=e980]: Skechers
+                    - listitem [ref=e981]:
+                      - link "Reebok" [ref=e982] [cursor=pointer]:
+                        - /url: https://www.ebay.com/b/Reebok-Sneakers-for-Men/15709/bn_59027
+                        - generic [ref=e983]: Reebok
+            - generic [ref=e985]:
+              - heading "Related searches" [level=2] [ref=e986]
+              - list [ref=e987]:
+                - listitem [ref=e988]:
+                  - link "Womens Plus Size Wool Coats" [ref=e989] [cursor=pointer]:
+                    - /url: https://www.ebay.com/shop/womens-plus-size-wool-coats?_nkw=womens+plus+size+wool+coats
+                    - generic [ref=e990]: Womens Plus Size Wool Coats
+                - listitem [ref=e991]:
+                  - link "Plus Size Coat Wool" [ref=e992] [cursor=pointer]:
+                    - /url: https://www.ebay.com/shop/plus-size-coat-wool?_nkw=plus+size+coat+wool
+                    - generic [ref=e993]: Plus Size Coat Wool
+                - listitem [ref=e994]:
+                  - link "Long Coat Women Wool" [ref=e995] [cursor=pointer]:
+                    - /url: https://www.ebay.com/shop/long-coat-women-wool?_nkw=long+coat+women+wool
+                    - generic [ref=e996]: Long Coat Women Wool
+                - listitem [ref=e997]:
+                  - link "Full Length Wool Coat Women" [ref=e998] [cursor=pointer]:
+                    - /url: https://www.ebay.com/shop/full-length-wool-coat-women?_nkw=full+length+wool+coat+women
+                    - generic [ref=e999]: Full Length Wool Coat Women
+                - listitem [ref=e1000]:
+                  - link "Womens Overcoat Wool" [ref=e1001] [cursor=pointer]:
+                    - /url: https://www.ebay.com/shop/womens-overcoat-wool?_nkw=womens+overcoat+wool
+                    - generic [ref=e1002]: Womens Overcoat Wool
+                - listitem [ref=e1003]:
+                  - link "Coat Full Length" [ref=e1004] [cursor=pointer]:
+                    - /url: https://www.ebay.com/shop/coat-full-length?_nkw=coat+full+length
+                    - generic [ref=e1005]: Coat Full Length
+                - listitem [ref=e1006]:
+                  - link "Coat Long Women" [ref=e1007] [cursor=pointer]:
+                    - /url: https://www.ebay.com/shop/coat-long-women?_nkw=coat+long+women
+                    - generic [ref=e1008]: Coat Long Women
+                - listitem [ref=e1009]:
+                  - link "Long Winter Coat Women" [ref=e1010] [cursor=pointer]:
+                    - /url: https://www.ebay.com/shop/long-winter-coat-women?_nkw=long+winter+coat+women
+                    - generic [ref=e1011]: Long Winter Coat Women
+                - listitem [ref=e1012]:
+                  - link "Plus-Size Winter Coats" [ref=e1013] [cursor=pointer]:
+                    - /url: https://www.ebay.com/shop/plussize-winter-coats?_nkw=plus%2Dsize+winter+coats
+                    - generic [ref=e1014]: Plus-Size Winter Coats
+                - listitem [ref=e1015]:
+                  - link "Oversized Coat Wool" [ref=e1016] [cursor=pointer]:
+                    - /url: https://www.ebay.com/shop/oversized-coat-wool?_nkw=oversized+coat+wool
+                    - generic [ref=e1017]: Oversized Coat Wool
+                - listitem [ref=e1018]:
+                  - link "Plus Size Winter Coats for Women" [ref=e1019] [cursor=pointer]:
+                    - /url: https://www.ebay.com/shop/plus-size-winter-coats-for-women?_nkw=plus+size+winter+coats+for+women
+                    - generic [ref=e1020]: Plus Size Winter Coats for Women
+                - listitem [ref=e1021]:
+                  - link "Women's Wool Coat" [ref=e1022] [cursor=pointer]:
+                    - /url: https://www.ebay.com/shop/womens-wool-coat?_nkw=women%27s+wool+coat
+                    - generic [ref=e1023]: Women's Wool Coat
+                - listitem [ref=e1024]:
+                  - link "Elegant Coat" [ref=e1025] [cursor=pointer]:
+                    - /url: https://www.ebay.com/shop/elegant-coat?_nkw=elegant+coat
+                    - generic [ref=e1026]: Elegant Coat
+                - listitem [ref=e1027]:
+                  - link "Coats for Women Wool" [ref=e1028] [cursor=pointer]:
+                    - /url: https://www.ebay.com/shop/coats-for-women-wool?_nkw=coats+for+women+wool
+                    - generic [ref=e1029]: Coats for Women Wool
+                - listitem [ref=e1030]:
+                  - link "Long Winter Coats for Women" [ref=e1031] [cursor=pointer]:
+                    - /url: https://www.ebay.com/shop/long-winter-coats-for-women?_nkw=long+winter+coats+for+women
+                    - generic [ref=e1032]: Long Winter Coats for Women
+  - contentinfo [ref=e1041]:
+    - list [ref=e1042]:
+      - listitem [ref=e1043]:
+        - link "About eBay" [ref=e1044] [cursor=pointer]:
+          - /url: https://www.ebayinc.com
+      - listitem [ref=e1045]:
+        - link "Announcements" [ref=e1046] [cursor=pointer]:
+          - /url: https://community.ebay.com/t5/Announcements/bg-p/Announcements
+      - listitem [ref=e1047]:
+        - link "Community" [ref=e1048] [cursor=pointer]:
+          - /url: https://community.ebay.com
+      - listitem [ref=e1049]:
+        - link "Security Center" [ref=e1050] [cursor=pointer]:
+          - /url: https://pages.ebay.com/securitycenter/index.html
+      - listitem [ref=e1051]:
+        - link "Seller Center" [ref=e1052] [cursor=pointer]:
+          - /url: https://www.ebay.com/sellercenter
+      - listitem [ref=e1053]:
+        - link "Policies" [ref=e1054] [cursor=pointer]:
+          - /url: https://www.ebay.com/help/policies/default/ebays-rules-policies?id=4205
+      - listitem [ref=e1055]:
+        - link "Affiliates" [ref=e1056] [cursor=pointer]:
+          - /url: https://partnernetwork.ebay.com/
+      - listitem [ref=e1057]:
+        - link "Product Safety Tips" [ref=e1058] [cursor=pointer]:
+          - /url: https://pages.ebay.com/safetytips
+      - listitem [ref=e1059]:
+        - link "Help & Contact" [ref=e1060] [cursor=pointer]:
+          - /url: https://www.ebay.com/help/home
+      - listitem [ref=e1061]:
+        - link "Site Map" [ref=e1062] [cursor=pointer]:
+          - /url: https://pages.ebay.com/sitemap.html
+    - generic [ref=e1063]:
+      - text: Copyright © 1995-2026 eBay Inc. All Rights Reserved.
+      - link "Accessibility" [ref=e1064] [cursor=pointer]:
+        - /url: https://www.ebayinc.com/accessibility/
+      - text: ","
+      - link "User Agreement" [ref=e1065] [cursor=pointer]:
+        - /url: https://www.ebay.com/help/policies/member-behaviour-policies/user-agreement?id=4259
+      - text: ","
+      - link "Privacy" [ref=e1066] [cursor=pointer]:
+        - /url: https://www.ebay.com/help/policies/member-behaviour-policies/user-privacy-notice-privacy-policy?id=4260
+      - text: ","
+      - link "Consumer Health Data" [ref=e1067] [cursor=pointer]:
+        - /url: https://www.ebayinc.com/company/privacy-center/privacy-notice/consumer-health-data-privacy-policy/
+      - text: ","
+      - link "Payments Terms of Use" [ref=e1068] [cursor=pointer]:
+        - /url: https://pages.ebay.com/payment/2.0/terms.html
+      - text: ","
+      - link "Cookies" [ref=e1069] [cursor=pointer]:
+        - /url: https://www.ebay.com/help/policies/member-behaviour-policies/ebay-cookie-notice?id=4267
+      - text: ","
+      - link "CA Privacy Notice" [ref=e1070] [cursor=pointer]:
+        - /url: https://www.ebayinc.com/company/privacy-center/privacy-notice/state-privacy-disclosures/#california
+      - text: ","
+      - link "Your Privacy Choices" [ref=e1071] [cursor=pointer]:
+        - /url: https://www.ebay.com/adchoice/ccpa
+      - text: and
+      - link "AdChoice" [ref=e1072] [cursor=pointer]:
+        - /url: https://www.ebay.com/adchoice
+        - text: AdChoice
+        - img
+  - img
+  - img [ref=e1074]

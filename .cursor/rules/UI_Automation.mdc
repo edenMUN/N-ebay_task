@@ -1,0 +1,115 @@
+---
+description: Guidelines for generating automated Playwright tests using Python. Use for implementing E2E scenarios, POM, and Data-Driven testing for the eBay home assignment.
+alwaysApply: false
+---
+
+# eBay Automation Task Guidelines
+
+You are an expert QA Automation Engineer. When generating or modifying tests for this project, strictly follow these architectural rules:
+
+## 1. Architecture & Stack
+- **Framework:** Playwright (Python).
+- **Pattern:** Page Object Model (POM) with Object-Oriented Programming (OOP).
+- **Data-Driven:** All test data (credentials, search queries, budget) must be loaded from a `data.json` or `config.yaml` file.
+- **Reporting:** Implement Allure Reports logic in the base/hooks.
+
+## 2. Core Functions Implementation Logic
+
+### login
+- **Behavior:** Navigate to the login page, enter credentials, and verify successful login (e.g., by checking if the username appears or a specific cookie is set).
+
+### search_items_by_name_under_price(query: str, max_price: float, limit=5)
+- **Search:** Perform search and apply price filters (min/max) using eBay's UI filters.
+- **Selection:** Use the best locator to find items where price <= `max_price`.
+- **Paging Logic:** If fewer than `limit` items are found, click "Next" and continue collecting until reaching the limit or exhausting pages.
+- **Return:** An array of product URLs (up to `limit`), if less where found it valid too. empty array is valid too.
+
+### add_items_to_cart(urls: list[str])
+- **Loop:** Iterate through each URL.
+- **Variants:** If size/color/quantity dropdowns exist, select a random available option.
+- **Action:** Click "Add to Cart".
+- at the end of this method go back to the search page.
+- **Logging:** Take a screenshot and log for every item added.
+
+### assert_cart_total_not_exceeds(budget_per_item: float, items_count: int)
+- **Action:** Open the cart
+- **Calculation:** Threshold = `budget_per_item` * `items_count`.
+- **Validation:** Navigate to the cart, extract the subtotal, and assert it is <= Threshold.
+- **Evidence:** Save a Trace or Screenshot of the cart page.
+
+## 3. Directory Structure
+Ensure the code is organized:
+- `pages/`: BasePage, LoginPage, SearchPage, ProductPage, CartPage.
+- `tests/`: E2E test files.
+- `data/`: JSON/YAML input files.
+- `utils/`: Config loaders and reporters.
+
+Keep Page Objects lean: Only include actions and locators. Keep business logic (like calculating thresholds) in the test layer or a dedicated service layer
+
+## 4. Prompt Instructions
+When I ask to "Generate the eBay automation project", you must:
+1. Create the `BasePage` with common methods.
+2. Implement the specific search logic with Paging in `SearchPage`.
+3. Create a test script that orchestrates the flow: Login -> Search -> Add to Cart -> Assert.
+
+## 5. Validations & Assertions Logic
+Every major action must be followed by a verification step:
+
+- **Login Validation:** After login, verify a "Sign Out" button or the user's name is visible. If login fails (e.g., Captcha/Wrong creds), throw a clear exception.
+- **Search Validation:** Verify that the search results page is displayed and that the "results count" label is visible before attempting to scrape items.
+- **Price Filter Validation:** After applying a price filter, verify that the active filters (breadcrumbs) reflect the correct price range.
+- **Cart Validation (Per Item):** After clicking "Add to Cart", verify a confirmation message (e.g., "Item added to cart") or that the cart counter has incremented.
+- **Final Total Validation:** The final assertion must compare the numerical subtotal from the UI against the calculated `budget_per_item * itemsCount`. Handle currency symbols ($/₪) and commas correctly when converting string to float.
+
+Notes:
+Make sure to include soft and hard assertions for each step using Playwright's expect library. If a price filter is applied, don't just assume it worked—verify the UI state changes. For the final cart total, ensure the string-to-number conversion handles different currencies correctly.
+
+Handle different 'Add to Cart' behaviors: whether it's a side drawer or a full page navigation, ensure the validation covers both cases.
+
+## 6. Clean Code & Robustness Standards
+To ensure the code is maintainable, simple, and professional:
+
+- **Type Hinting:** Use Python type hints for all method signatures (e.g., `def search(self, query: str) -> None:`).
+- **Explicit Waits over Sleep:** Strictly forbid `time.sleep()`. Use `locator.wait_for()` or `expect()` for synchronization.
+- **Custom Exceptions:** If a business-critical step fails (like "Add to Cart" button missing), throw a descriptive custom error rather than a generic Playwright timeout.
+- **Helper Methods for Conversions:** Create a utility method to clean price strings (e.g., converting "$1,234.56" to float `1234.56`) to keep the Page Object logic clean.
+- **Independence:** Each test should be independent. Ensure the `browser_context` is fresh for each run if possible (standard Playwright behavior).
+- **Readability:** Use descriptive names for locators. Instead of `self.btn1`, use `self.add_to_cart_button`.
+
+7. Create documentation files:
+   - `README.md`: Should include:
+     - Project overview and tech stack.
+     - Prerequisites and Installation instructions (pip install).
+     - How to run tests (with and without reports).
+     - Explanation of the Page Object Model structure used.
+     - Include a section on "Debugging with Trace Viewer" with the exact command: `playwright show-trace results/trace.zip`.
+     - Include Allure Instructions:** Include commands to run tests with Allure:`pytest --alluredir=allure-results`, `allure serve allure-results`
+   - `PROJECT_SUMMARY.md`: A high-level technical summary:
+     - Design patterns used (OOP, POM, Data-Driven).
+     - How Paging and Price Filtering were handled.
+     - Challenges faced (e.g., dynamic eBay locators, variants) and solutions.
+     - Future improvements (e.g., CI/CD integration, parallel execution).
+
+## 8. Conftest & Global Configuration
+The `conftest.py` should act as the central configuration hub for the Playwright suite:
+
+- **Browser Context Management:** Configure the `browser_context_args` to set default viewport sizes or locale if needed.
+- **Tracing Implementation:** - Start tracing in a `context` fixture or using the `pytest_runtest_makereport` hook to capture data.
+  - Required config: `screenshots=True`, `snapshots=True`, `sources=True`.
+  - Storage: Save traces to `results/{test_name}_trace.zip`.
+- **Automatic Results Directory:** Include a session-start hook to ensure the `results/` folder exists before any test runs.
+- **Page Injection:** Provide a fixture that initializes the Page Objects with the current `page` instance, allowing tests to receive initialized pages (e.g., `login_page`, `search_page`) directly.
+
+### 9. Reporting with Allure
+- **Integration:** Use the `allure-pytest` library.
+- **Dynamic Steps:** Decorate Page Object methods with `@allure.step` to ensure the report shows a readable execution log.
+- **Attachments:** In `conftest.py`, ensure that on test failure, both a **Screenshot** and the **Playwright Trace** are automatically attached to the Allure report.
+- **Metadata:** Use `@allure.title`, `@allure.description`, and `@allure.severity` in test files to make the report informative.
+
+Make sure to use @allure.step for every action in the Page Objects so the report is self-explanatory
+
+## 10. Final Polishing & Delivery
+- **Environment:** Generate a `.gitignore` to keep the repo clean.
+- **Dependencies:** Create a `requirements.txt` with all necessary libraries.
+- **CLI Flexibility:** Ensure `conftest.py` respects pytest flags for `--headless` and `--browser`.
+- **Documentation:** The `PROJECT_SUMMARY.md` should highlight the use of POM, Data-Driven testing, Allure reporting, and Playwright Tracing as the core pillars of the solution.

@@ -1,0 +1,940 @@
+- generic [active] [ref=e1]:
+  - img
+  - img
+  - img
+  - img
+  - generic [ref=e3]:
+    - banner [ref=e7]:
+      - link "Skip to main content" [ref=e9] [cursor=pointer]:
+        - /url: "#mainContent"
+      - navigation [ref=e10]:
+        - generic [ref=e11]:
+          - generic [ref=e13]:
+            - text: Hi!
+            - link "Sign in" [ref=e14] [cursor=pointer]:
+              - /url: https://signin.ebay.com/ws/eBayISAPI.dll?SignIn&sgfl=gh&ru=https%3A%2F%2Fwww.ebay.com%2Fitm%2F188296677361
+            - generic [ref=e15]:
+              - text: or
+              - link "register" [ref=e16] [cursor=pointer]:
+                - /url: https://signup.ebay.com/pa/crte?ru=https%3A%2F%2Fwww.ebay.com%2Fitm%2F188296677361
+          - link "Deals" [ref=e18] [cursor=pointer]:
+            - /url: https://www.ebay.com/deals
+          - link "Brand Outlet" [ref=e20] [cursor=pointer]:
+            - /url: https://www.ebay.com/b/Brand-Outlet/bn_7115532402
+          - link "Gift Cards" [ref=e22] [cursor=pointer]:
+            - /url: https://www.ebay.com/giftcards
+          - link "Help & Contact" [ref=e24] [cursor=pointer]:
+            - /url: https://www.ebay.com/help/home
+        - generic [ref=e25]:
+          - button "Ship to" [ref=e27] [cursor=pointer]:
+            - generic [ref=e28]: Ship to
+          - link "Sell" [ref=e31] [cursor=pointer]:
+            - /url: https://www.ebay.com/sl/sell
+          - generic [ref=e32]:
+            - link "Watchlist" [ref=e33] [cursor=pointer]:
+              - /url: https://www.ebay.com/mye/myebay/watchlist
+              - generic [ref=e34]: Watchlist
+              - img
+            - button "Expand Watch List" [ref=e35]
+          - generic [ref=e36]:
+            - link "My eBay" [ref=e37] [cursor=pointer]:
+              - /url: https://www.ebay.com/mys/home?source=GBH
+              - generic [ref=e38]: My eBay
+              - img
+            - button "Expand My eBay" [ref=e39]
+          - button "Notifications" [ref=e42] [cursor=pointer]:
+            - img
+            - generic [ref=e43]: Notifications
+          - generic [ref=e45]:
+            - link "Your shopping cart contains 0 items" [ref=e46] [cursor=pointer]:
+              - /url: https://cart.ebay.com
+              - generic "Your shopping cart contains 0 items" [ref=e47]:
+                - img
+            - button "Expand Cart" [ref=e48]
+      - generic [ref=e49]:
+        - generic [ref=e50]:
+          - link "eBay Home" [ref=e51] [cursor=pointer]:
+            - /url: https://www.ebay.com
+            - img "eBay Home" [ref=e52]
+          - button "Shop by category" [ref=e60] [cursor=pointer]:
+            - generic [ref=e61]: Shop by category
+            - img
+        - generic [ref=e62]:
+          - status [ref=e63]
+          - generic [ref=e65]:
+            - generic [ref=e66]:
+              - combobox "Search for anything" [ref=e67]
+              - img
+            - combobox "Select a category for search" [ref=e68]:
+              - option "All Categories" [selected]
+              - option "Antiques"
+              - option "Art"
+              - option "Baby"
+              - option "Books"
+              - option "Business & Industrial"
+              - option "Cameras & Photo"
+              - option "Cell Phones & Accessories"
+              - option "Clothing, Shoes & Accessories"
+              - option "Coins & Paper Money"
+              - option "Collectibles"
+              - option "Computers/Tablets & Networking"
+              - option "Consumer Electronics"
+              - option "Crafts"
+              - option "Dolls & Bears"
+              - option "Movies & TV"
+              - option "eBay Motors"
+              - option "Entertainment Memorabilia"
+              - option "Gift Cards & Coupons"
+              - option "Health & Beauty"
+              - option "Home & Garden"
+              - option "Jewelry & Watches"
+              - option "Music"
+              - option "Musical Instruments & Gear"
+              - option "Pet Supplies"
+              - option "Pottery & Glass"
+              - option "Real Estate"
+              - option "Specialty Services"
+              - option "Sporting Goods"
+              - option "Sports Mem, Cards & Fan Shop"
+              - option "Stamps"
+              - option "Tickets & Experiences"
+              - option "Toys & Hobbies"
+              - option "Travel"
+              - option "Video Games & Consoles"
+              - option "Everything Else"
+          - generic [ref=e69]:
+            - button "Search" [ref=e70] [cursor=pointer]:
+              - generic [ref=e71]: Search
+            - link "Advanced" [ref=e72] [cursor=pointer]:
+              - /url: https://www.ebay.com/sch/ebayadvsearch
+    - main [ref=e73]:
+      - generic [ref=e75]:
+        - generic [ref=e78]:
+          - generic [ref=e84]:
+            - link [ref=e85] [cursor=pointer]:
+              - /url: https://www.ebay.com/str/capitalelectronicsstore?_sacat=23160&promoted_items=256434560497%2C256434567773%2C256620698528%2C256434583763%2C256434580714&itmprp=encpd%3AAQALAAACMMHG9zjPm7Zizi0mRnrB4DojOvxIKi3ie2uRV8tKbGLGVRZQQ4KvSL3DSjVb2DcNcW6E5B9Y0nIzNGu%2Fu2Bm2yD%2FicH3XgAI1yYt1epR6gfDOOaG2awMBLOisr0Us%2B5kH8aWWETMUhzbUvKCn%2BAB7BtNxO8KdeZK%2FvlRiEontRVLK3D97wUhCOi6NTPny74cN7azCg9vcoPc1TeCRHEihx1jXrZNbwFqzQt46%2FY7oe90ngI2HQ%2BjRbdVazg2LZ%2F5Zx3cWCsACPRqUGNkxkMDNX2%2Fzg4HMBdJgzED9kKa7enyCzZHYgZaFVh8duLf8kyEGnspjc%2FBynxdinxBISnz1g2AZZoCimFkVQidgUGEvOcf7JcidagE1zgDkzXc%2Fzkeev8LEZ86hkv9jRYd%2FXaYmnnLyluWBf73ee8%2B7B%2Byjic%2FT5Z%2BMOlBXFJm17P5jva5H88Wb0FMkWt4SgdSzI%2BBdPlsjuDHmBSxPfE8c5bJmqbO72j4rhoEg7iva6yswwBg9O6ofM1bTHLhnB7x1rDNAG6iyPeW2IAqProCvKFjzZS1OrbGFjrjXpG2GOmSBLeiAw98bQx%2F9J7DHfdBp1%2BK%2FRTSodU2cdY3s9IikWzLUjVwI9dESEJJ%2BxejnSEm2pSj69lOOA3M%2FfDmr5omxGgitgGbTJ%2BipVyeV1C6UKIPj4jWdh%2BTSrk17cR9HUH%2FxaRj7PyaHNYE7tXnuZRkRL%2FbkAzzeQ6cItTfSjKOI1Q9iCZ2&itmmeta=wwHmKhYwY%2Fjx0DQwMUtRN0E3V1EwMjRDSzk2MjFaOFpQTUpUTjQwMUtRN0E3V0Y1R0ZETVMwNUU0SzI4NVZaMb6%2BDA%3D%3D
+            - generic [ref=e86]:
+              - link "Find similar items from" [ref=e89] [cursor=pointer]:
+                - /url: https://www.ebay.com/str/capitalelectronicsstore?_sacat=23160&promoted_items=256434560497%2C256434567773%2C256620698528%2C256434583763%2C256434580714&itmprp=encpd%3AAQALAAACMMHG9zjPm7Zizi0mRnrB4DojOvxIKi3ie2uRV8tKbGLGVRZQQ4KvSL3DSjVb2DcNcW6E5B9Y0nIzNGu%2Fu2Bm2yD%2FicH3XgAI1yYt1epR6gfDOOaG2awMBLOisr0Us%2B5kH8aWWETMUhzbUvKCn%2BAB7BtNxO8KdeZK%2FvlRiEontRVLK3D97wUhCOi6NTPny74cN7azCg9vcoPc1TeCRHEihx1jXrZNbwFqzQt46%2FY7oe90ngI2HQ%2BjRbdVazg2LZ%2F5Zx3cWCsACPRqUGNkxkMDNX2%2Fzg4HMBdJgzED9kKa7enyCzZHYgZaFVh8duLf8kyEGnspjc%2FBynxdinxBISnz1g2AZZoCimFkVQidgUGEvOcf7JcidagE1zgDkzXc%2Fzkeev8LEZ86hkv9jRYd%2FXaYmnnLyluWBf73ee8%2B7B%2Byjic%2FT5Z%2BMOlBXFJm17P5jva5H88Wb0FMkWt4SgdSzI%2BBdPlsjuDHmBSxPfE8c5bJmqbO72j4rhoEg7iva6yswwBg9O6ofM1bTHLhnB7x1rDNAG6iyPeW2IAqProCvKFjzZS1OrbGFjrjXpG2GOmSBLeiAw98bQx%2F9J7DHfdBp1%2BK%2FRTSodU2cdY3s9IikWzLUjVwI9dESEJJ%2BxejnSEm2pSj69lOOA3M%2FfDmr5omxGgitgGbTJ%2BipVyeV1C6UKIPj4jWdh%2BTSrk17cR9HUH%2FxaRj7PyaHNYE7tXnuZRkRL%2FbkAzzeQ6cItTfSjKOI1Q9iCZ2&itmmeta=wwHmKhYwY%2Fjx0DQwMUtRN0E3V1EwMjRDSzk2MjFaOFpQTUpUTjQwMUtRN0E3V0Y1R0ZETVMwNUU0SzI4NVZaMb6%2BDA%3D%3D
+              - generic [ref=e90]:
+                - link "Capital Electronics Store" [ref=e93] [cursor=pointer]:
+                  - /url: https://www.ebay.com/str/capitalelectronicsstore?_sacat=23160&promoted_items=256434560497%2C256434567773%2C256620698528%2C256434583763%2C256434580714&itmprp=encpd%3AAQALAAACMMHG9zjPm7Zizi0mRnrB4DojOvxIKi3ie2uRV8tKbGLGVRZQQ4KvSL3DSjVb2DcNcW6E5B9Y0nIzNGu%2Fu2Bm2yD%2FicH3XgAI1yYt1epR6gfDOOaG2awMBLOisr0Us%2B5kH8aWWETMUhzbUvKCn%2BAB7BtNxO8KdeZK%2FvlRiEontRVLK3D97wUhCOi6NTPny74cN7azCg9vcoPc1TeCRHEihx1jXrZNbwFqzQt46%2FY7oe90ngI2HQ%2BjRbdVazg2LZ%2F5Zx3cWCsACPRqUGNkxkMDNX2%2Fzg4HMBdJgzED9kKa7enyCzZHYgZaFVh8duLf8kyEGnspjc%2FBynxdinxBISnz1g2AZZoCimFkVQidgUGEvOcf7JcidagE1zgDkzXc%2Fzkeev8LEZ86hkv9jRYd%2FXaYmnnLyluWBf73ee8%2B7B%2Byjic%2FT5Z%2BMOlBXFJm17P5jva5H88Wb0FMkWt4SgdSzI%2BBdPlsjuDHmBSxPfE8c5bJmqbO72j4rhoEg7iva6yswwBg9O6ofM1bTHLhnB7x1rDNAG6iyPeW2IAqProCvKFjzZS1OrbGFjrjXpG2GOmSBLeiAw98bQx%2F9J7DHfdBp1%2BK%2FRTSodU2cdY3s9IikWzLUjVwI9dESEJJ%2BxejnSEm2pSj69lOOA3M%2FfDmr5omxGgitgGbTJ%2BipVyeV1C6UKIPj4jWdh%2BTSrk17cR9HUH%2FxaRj7PyaHNYE7tXnuZRkRL%2FbkAzzeQ6cItTfSjKOI1Q9iCZ2&itmmeta=wwHmKhYwY%2Fjx0DQwMUtRN0E3V1EwMjRDSzk2MjFaOFpQTUpUTjQwMUtRN0E3V0Y1R0ZETVMwNUU0SzI4NVZaMb6%2BDA%3D%3D
+                  - img "Capital Electronics Store" [ref=e94]
+                - link "Capital Electronics Store" [ref=e97] [cursor=pointer]:
+                  - /url: https://www.ebay.com/str/capitalelectronicsstore?_sacat=23160&promoted_items=256434560497%2C256434567773%2C256620698528%2C256434583763%2C256434580714&itmprp=encpd%3AAQALAAACMMHG9zjPm7Zizi0mRnrB4DojOvxIKi3ie2uRV8tKbGLGVRZQQ4KvSL3DSjVb2DcNcW6E5B9Y0nIzNGu%2Fu2Bm2yD%2FicH3XgAI1yYt1epR6gfDOOaG2awMBLOisr0Us%2B5kH8aWWETMUhzbUvKCn%2BAB7BtNxO8KdeZK%2FvlRiEontRVLK3D97wUhCOi6NTPny74cN7azCg9vcoPc1TeCRHEihx1jXrZNbwFqzQt46%2FY7oe90ngI2HQ%2BjRbdVazg2LZ%2F5Zx3cWCsACPRqUGNkxkMDNX2%2Fzg4HMBdJgzED9kKa7enyCzZHYgZaFVh8duLf8kyEGnspjc%2FBynxdinxBISnz1g2AZZoCimFkVQidgUGEvOcf7JcidagE1zgDkzXc%2Fzkeev8LEZ86hkv9jRYd%2FXaYmnnLyluWBf73ee8%2B7B%2Byjic%2FT5Z%2BMOlBXFJm17P5jva5H88Wb0FMkWt4SgdSzI%2BBdPlsjuDHmBSxPfE8c5bJmqbO72j4rhoEg7iva6yswwBg9O6ofM1bTHLhnB7x1rDNAG6iyPeW2IAqProCvKFjzZS1OrbGFjrjXpG2GOmSBLeiAw98bQx%2F9J7DHfdBp1%2BK%2FRTSodU2cdY3s9IikWzLUjVwI9dESEJJ%2BxejnSEm2pSj69lOOA3M%2FfDmr5omxGgitgGbTJ%2BipVyeV1C6UKIPj4jWdh%2BTSrk17cR9HUH%2FxaRj7PyaHNYE7tXnuZRkRL%2FbkAzzeQ6cItTfSjKOI1Q9iCZ2&itmmeta=wwHmKhYwY%2Fjx0DQwMUtRN0E3V1EwMjRDSzk2MjFaOFpQTUpUTjQwMUtRN0E3V0Y1R0ZETVMwNUU0SzI4NVZaMb6%2BDA%3D%3D
+                  - generic [ref=e98]: Capital Electronics Store
+                - generic [ref=e99]:
+                  - text: (
+                  - link "99.3% positive" [ref=e101] [cursor=pointer]:
+                    - /url: https://www.ebay.com/str/capitalelectronicsstore?_sacat=23160&promoted_items=256434560497%2C256434567773%2C256620698528%2C256434583763%2C256434580714&itmprp=encpd%3AAQALAAACMMHG9zjPm7Zizi0mRnrB4DojOvxIKi3ie2uRV8tKbGLGVRZQQ4KvSL3DSjVb2DcNcW6E5B9Y0nIzNGu%2Fu2Bm2yD%2FicH3XgAI1yYt1epR6gfDOOaG2awMBLOisr0Us%2B5kH8aWWETMUhzbUvKCn%2BAB7BtNxO8KdeZK%2FvlRiEontRVLK3D97wUhCOi6NTPny74cN7azCg9vcoPc1TeCRHEihx1jXrZNbwFqzQt46%2FY7oe90ngI2HQ%2BjRbdVazg2LZ%2F5Zx3cWCsACPRqUGNkxkMDNX2%2Fzg4HMBdJgzED9kKa7enyCzZHYgZaFVh8duLf8kyEGnspjc%2FBynxdinxBISnz1g2AZZoCimFkVQidgUGEvOcf7JcidagE1zgDkzXc%2Fzkeev8LEZ86hkv9jRYd%2FXaYmnnLyluWBf73ee8%2B7B%2Byjic%2FT5Z%2BMOlBXFJm17P5jva5H88Wb0FMkWt4SgdSzI%2BBdPlsjuDHmBSxPfE8c5bJmqbO72j4rhoEg7iva6yswwBg9O6ofM1bTHLhnB7x1rDNAG6iyPeW2IAqProCvKFjzZS1OrbGFjrjXpG2GOmSBLeiAw98bQx%2F9J7DHfdBp1%2BK%2FRTSodU2cdY3s9IikWzLUjVwI9dESEJJ%2BxejnSEm2pSj69lOOA3M%2FfDmr5omxGgitgGbTJ%2BipVyeV1C6UKIPj4jWdh%2BTSrk17cR9HUH%2FxaRj7PyaHNYE7tXnuZRkRL%2FbkAzzeQ6cItTfSjKOI1Q9iCZ2&itmmeta=wwHmKhYwY%2Fjx0DQwMUtRN0E3V1EwMjRDSzk2MjFaOFpQTUpUTjQwMUtRN0E3V0Y1R0ZETVMwNUU0SzI4NVZaMb6%2BDA%3D%3D
+                    - generic [ref=e103]: 99.3% positive
+                  - text: )
+              - link "ViewSonic MU800 Wired Gaming Mouse 6400 MAX DPI" [ref=e106] [cursor=pointer]:
+                - /url: https://www.ebay.com/itm/256434560497?itmprp=encpd%3AAQALAAACMMHG9zjPm7Zizi0mRnrB4DojOvxIKi3ie2uRV8tKbGLGVRZQQ4KvSL3DSjVb2DcNcW6E5B9Y0nIzNGu%2Fu2Bm2yD%2FicH3XgAI1yYt1epR6gfDOOaG2awMBLOisr0Us%2B5kH8aWWETMUhzbUvKCn%2BAB7BtNxO8KdeZK%2FvlRiEontRVLK3D97wUhCOi6NTPny74cN7azCg9vcoPc1TeCRHEihx1jXrZNbwFqzQt46%2FY7oe90ngI2HQ%2BjRbdVazg2LZ%2F5Zx3cWCsACPRqUGNkxkMDNX2%2Fzg4HMBdJgzED9kKa7enyCzZHYgZaFVh8duLf8kyEGnspjc%2FBynxdinxBISnz1g2AZZoCimFkVQidgUGEvOcf7JcidagE1zgDkzXc%2Fzkeev8LEZ86hkv9jRYd%2FXaYmnnLyluWBf73ee8%2B7B%2Byjic%2FT5Z%2BMOlBXFJm17P5jva5H88Wb0FMkWt4SgdSzI%2BBdPlsjuDHmBSxPfE8c5bJmqbO72j4rhoEg7iva6yswwBg9O6ofM1bTHLhnB7x1rDNAG6iyPeW2IAqProCvKFjzZS1OrbGFjrjXpG2GOmSBLeiAw98bQx%2F9J7DHfdBp1%2BK%2FRThdsbo2kZqMKKipldmQAWdouScyymMhifvWuCplAYPN69JUhOa35HpO0I9BZ52YeyMzcigGof36fe%2BQ8n%2BnXmXWM%2F%2BOW9k5NGSMp%2Biy6r4DxkYBuhg%2B4KgsWPhL3X%2F8xhMWX9DqrQ01phEZGtRCS%2Fj&itmmeta=wwHmKhYwY%2Fjx0DQwMUtRN0E3V1EwMjRDSzk2MjFaOFpQTUpUTjQwMUtRN0E3V0Y1R0ZETVMwNUU0SzI4NVZaMb6%2BDA%3D%3D
+                - img "ViewSonic MU800 Wired Gaming Mouse 6400 MAX DPI" [ref=e107]
+              - link "Lenovo Lecoo MS102 Wired Mouse 2400 MAX DPI" [ref=e110] [cursor=pointer]:
+                - /url: https://www.ebay.com/itm/256434567773?itmprp=encpd%3AAQALAAACMMHG9zjPm7Zizi0mRnrB4DojOvxIKi3ie2uRV8tKbGLGVRZQQ4KvSL3DSjVb2DcNcW6E5B9Y0nIzNGu%2Fu2Bm2yD%2FicH3XgAI1yYt1epR6gfDOOaG2awMBLOisr0Us%2B5kH8aWWETMUhzbUvKCn%2BAB7BtNxO8KdeZK%2FvlRiEontRVLK3D97wUhCOi6NTPny74cN7azCg9vcoPc1TeCRHEihx1jXrZNbwFqzQt46%2FY7oe90ngI2HQ%2BjRbdVazg2LZ%2F5Zx3cWCsACPRqUGNkxkMDNX2%2Fzg4HMBdJgzED9kKa7enyCzZHYgZaFVh8duLf8kyEGnspjc%2FBynxdinxBISnz1g2AZZoCimFkVQidgUGEvOcf7JcidagE1zgDkzXc%2Fzkeev8LEZ86hkv9jRYd%2FXaYmnnLyluWBf73ee8%2B7B%2Byjic%2FT5Z%2BMOlBXFJm17P5jva5H88Wb0FMkWt4SgdSzI%2BBdPlsjuDHmBSxPfE8c5bJmqbO72j4rhoEg7iva6yswwBg9O6ofM1bTHLhnB7x1rDNAG6iyPeW2IAqProCvKFjzZS1OrbGFjrjXpG2GOmSBLeiAw98bQx%2F9J7DHfdBp1%2BK%2FRThdsbo2kZqMKKipldmQAWdouScyymMhifvWuCplAYPN69JUhOa35HpO0I9BZ52YeyMzcigGof36fe%2BQ8n%2BnXmXWM%2F%2BOW9k5NGSMp%2Biy6r4DxkYBuhg%2B4KgsWPhL3X%2F8xhMWX9DqrQ01phEZGtRCS%2Fj&itmmeta=wwHmKhYwY%2Fjx0DQwMUtRN0E3V1EwMjRDSzk2MjFaOFpQTUpUTjQwMUtRN0E3V0Y1R0ZETVMwNUU0SzI4NVZaMb6%2BDA%3D%3D
+                - img "Lenovo Lecoo MS102 Wired Mouse 2400 MAX DPI" [ref=e111]
+              - link "Altec Lansing ALGM9304 Wired Gaming Mouse up to 6400 DPI, 6 buttons RGB" [ref=e114] [cursor=pointer]:
+                - /url: https://www.ebay.com/itm/256620698528?itmprp=encpd%3AAQALAAACMMHG9zjPm7Zizi0mRnrB4DojOvxIKi3ie2uRV8tKbGLGVRZQQ4KvSL3DSjVb2DcNcW6E5B9Y0nIzNGu%2Fu2Bm2yD%2FicH3XgAI1yYt1epR6gfDOOaG2awMBLOisr0Us%2B5kH8aWWETMUhzbUvKCn%2BAB7BtNxO8KdeZK%2FvlRiEontRVLK3D97wUhCOi6NTPny74cN7azCg9vcoPc1TeCRHEihx1jXrZNbwFqzQt46%2FY7oe90ngI2HQ%2BjRbdVazg2LZ%2F5Zx3cWCsACPRqUGNkxkMDNX2%2Fzg4HMBdJgzED9kKa7enyCzZHYgZaFVh8duLf8kyEGnspjc%2FBynxdinxBISnz1g2AZZoCimFkVQidgUGEvOcf7JcidagE1zgDkzXc%2Fzkeev8LEZ86hkv9jRYd%2FXaYmnnLyluWBf73ee8%2B7B%2Byjic%2FT5Z%2BMOlBXFJm17P5jva5H88Wb0FMkWt4SgdSzI%2BBdPlsjuDHmBSxPfE8c5bJmqbO72j4rhoEg7iva6yswwBg9O6ofM1bTHLhnB7x1rDNAG6iyPeW2IAqProCvKFjzZS1OrbGFjrjXpG2GOmSBLeiAw98bQx%2F9J7DHfdBp1%2BK%2FRThdsbo2kZqMKKipldmQAWdouScyymMhifvWuCplAYPN69JUhOa35HpO0I9BZ52YeyMzcigGof36fe%2BQ8n%2BnXmXWM%2F%2BOW9k5NGSMp%2Biy6r4DxkYBuhg%2B4KgsWPhL3X%2F8xhMWX9DqrQ01phEZGtRCS%2Fj&itmmeta=wwHmKhYwY%2Fjx0DQwMUtRN0E3V1EwMjRDSzk2MjFaOFpQTUpUTjQwMUtRN0E3V0Y1R0ZETVMwNUU0SzI4NVZaMb6%2BDA%3D%3D
+                - img "Altec Lansing ALGM9304 Wired Gaming Mouse up to 6400 DPI, 6 buttons RGB" [ref=e115]
+              - link "Lenovo Lecoo MS104 Wired Mouse 1600 MAX DPI" [ref=e118] [cursor=pointer]:
+                - /url: https://www.ebay.com/itm/256434583763?itmprp=encpd%3AAQALAAACMMHG9zjPm7Zizi0mRnrB4DojOvxIKi3ie2uRV8tKbGLGVRZQQ4KvSL3DSjVb2DcNcW6E5B9Y0nIzNGu%2Fu2Bm2yD%2FicH3XgAI1yYt1epR6gfDOOaG2awMBLOisr0Us%2B5kH8aWWETMUhzbUvKCn%2BAB7BtNxO8KdeZK%2FvlRiEontRVLK3D97wUhCOi6NTPny74cN7azCg9vcoPc1TeCRHEihx1jXrZNbwFqzQt46%2FY7oe90ngI2HQ%2BjRbdVazg2LZ%2F5Zx3cWCsACPRqUGNkxkMDNX2%2Fzg4HMBdJgzED9kKa7enyCzZHYgZaFVh8duLf8kyEGnspjc%2FBynxdinxBISnz1g2AZZoCimFkVQidgUGEvOcf7JcidagE1zgDkzXc%2Fzkeev8LEZ86hkv9jRYd%2FXaYmnnLyluWBf73ee8%2B7B%2Byjic%2FT5Z%2BMOlBXFJm17P5jva5H88Wb0FMkWt4SgdSzI%2BBdPlsjuDHmBSxPfE8c5bJmqbO72j4rhoEg7iva6yswwBg9O6ofM1bTHLhnB7x1rDNAG6iyPeW2IAqProCvKFjzZS1OrbGFjrjXpG2GOmSBLeiAw98bQx%2F9J7DHfdBp1%2BK%2FRThdsbo2kZqMKKipldmQAWdouScyymMhifvWuCplAYPN69JUhOa35HpO0I9BZ52YeyMzcigGof36fe%2BQ8n%2BnXmXWM%2F%2BOW9k5NGSMp%2Biy6r4DxkYBuhg%2B4KgsWPhL3X%2F8xhMWX9DqrQ01phEZGtRCS%2Fj&itmmeta=wwHmKhYwY%2Fjx0DQwMUtRN0E3V1EwMjRDSzk2MjFaOFpQTUpUTjQwMUtRN0E3V0Y1R0ZETVMwNUU0SzI4NVZaMb6%2BDA%3D%3D
+                - img "Lenovo Lecoo MS104 Wired Mouse 1600 MAX DPI" [ref=e119]
+              - link "Lenovo Lecoo MS103 USB Wired Mouse 1000 DPI" [ref=e122] [cursor=pointer]:
+                - /url: https://www.ebay.com/itm/256434580714?itmprp=encpd%3AAQALAAACMMHG9zjPm7Zizi0mRnrB4DojOvxIKi3ie2uRV8tKbGLGVRZQQ4KvSL3DSjVb2DcNcW6E5B9Y0nIzNGu%2Fu2Bm2yD%2FicH3XgAI1yYt1epR6gfDOOaG2awMBLOisr0Us%2B5kH8aWWETMUhzbUvKCn%2BAB7BtNxO8KdeZK%2FvlRiEontRVLK3D97wUhCOi6NTPny74cN7azCg9vcoPc1TeCRHEihx1jXrZNbwFqzQt46%2FY7oe90ngI2HQ%2BjRbdVazg2LZ%2F5Zx3cWCsACPRqUGNkxkMDNX2%2Fzg4HMBdJgzED9kKa7enyCzZHYgZaFVh8duLf8kyEGnspjc%2FBynxdinxBISnz1g2AZZoCimFkVQidgUGEvOcf7JcidagE1zgDkzXc%2Fzkeev8LEZ86hkv9jRYd%2FXaYmnnLyluWBf73ee8%2B7B%2Byjic%2FT5Z%2BMOlBXFJm17P5jva5H88Wb0FMkWt4SgdSzI%2BBdPlsjuDHmBSxPfE8c5bJmqbO72j4rhoEg7iva6yswwBg9O6ofM1bTHLhnB7x1rDNAG6iyPeW2IAqProCvKFjzZS1OrbGFjrjXpG2GOmSBLeiAw98bQx%2F9J7DHfdBp1%2BK%2FRThdsbo2kZqMKKipldmQAWdouScyymMhifvWuCplAYPN69JUhOa35HpO0I9BZ52YeyMzcigGof36fe%2BQ8n%2BnXmXWM%2F%2BOW9k5NGSMp%2Biy6r4DxkYBuhg%2B4KgsWPhL3X%2F8xhMWX9DqrQ01phEZGtRCS%2Fj&itmmeta=wwHmKhYwY%2Fjx0DQwMUtRN0E3V1EwMjRDSzk2MjFaOFpQTUpUTjQwMUtRN0E3V0Y1R0ZETVMwNUU0SzI4NVZaMb6%2BDA%3D%3D
+                - img "Lenovo Lecoo MS103 USB Wired Mouse 1000 DPI" [ref=e123]
+              - link "Shop store on eBay" [ref=e126] [cursor=pointer]:
+                - /url: https://www.ebay.com/str/capitalelectronicsstore?_sacat=23160&promoted_items=256434560497%2C256434567773%2C256620698528%2C256434583763%2C256434580714&itmprp=encpd%3AAQALAAACMMHG9zjPm7Zizi0mRnrB4DojOvxIKi3ie2uRV8tKbGLGVRZQQ4KvSL3DSjVb2DcNcW6E5B9Y0nIzNGu%2Fu2Bm2yD%2FicH3XgAI1yYt1epR6gfDOOaG2awMBLOisr0Us%2B5kH8aWWETMUhzbUvKCn%2BAB7BtNxO8KdeZK%2FvlRiEontRVLK3D97wUhCOi6NTPny74cN7azCg9vcoPc1TeCRHEihx1jXrZNbwFqzQt46%2FY7oe90ngI2HQ%2BjRbdVazg2LZ%2F5Zx3cWCsACPRqUGNkxkMDNX2%2Fzg4HMBdJgzED9kKa7enyCzZHYgZaFVh8duLf8kyEGnspjc%2FBynxdinxBISnz1g2AZZoCimFkVQidgUGEvOcf7JcidagE1zgDkzXc%2Fzkeev8LEZ86hkv9jRYd%2FXaYmnnLyluWBf73ee8%2B7B%2Byjic%2FT5Z%2BMOlBXFJm17P5jva5H88Wb0FMkWt4SgdSzI%2BBdPlsjuDHmBSxPfE8c5bJmqbO72j4rhoEg7iva6yswwBg9O6ofM1bTHLhnB7x1rDNAG6iyPeW2IAqProCvKFjzZS1OrbGFjrjXpG2GOmSBLeiAw98bQx%2F9J7DHfdBp1%2BK%2FRTSodU2cdY3s9IikWzLUjVwI9dESEJJ%2BxejnSEm2pSj69lOOA3M%2FfDmr5omxGgitgGbTJ%2BipVyeV1C6UKIPj4jWdh%2BTSrk17cR9HUH%2FxaRj7PyaHNYE7tXnuZRkRL%2FbkAzzeQ6cItTfSjKOI1Q9iCZ2&itmmeta=wwHmKhYwY%2Fjx0DQwMUtRN0E3V1EwMjRDSzk2MjFaOFpQTUpUTjQwMUtRN0E3V0Y1R0ZETVMwNUU0SzI4NVZaMb6%2BDA%3D%3D
+            - generic [ref=e133]: Sponsored
+          - generic [ref=e142]:
+            - heading "People who viewed this item also viewed" [level=2] [ref=e149]
+            - group [ref=e151]:
+              - list [ref=e154]:
+                - listitem [ref=e155]:
+                  - generic [ref=e157]:
+                    - generic [ref=e163]:
+                      - heading "Rechargeable Wireless Mouse RGB LED USB Gaming Mice Laptop PC Mac UK" [level=3] [ref=e164]
+                      - generic [ref=e166]: ILS 26.27
+                      - generic [ref=e168]: + delivery
+                      - generic [ref=e170]: Sponsored
+                    - link "Rechargeable Wireless Mouse RGB LED USB Gaming Mice Laptop PC Mac UK" [ref=e171] [cursor=pointer]:
+                      - /url: https://www.ebay.com/itm/116947244608?_trkparms=itmf%3D1%26aid%3D1110006%26rkt%3D5%26mech%3D1%26algv%3DDefaultOrganicWebV9BertRefreshRankerWithCassiniEmbRecall%26pmt%3D1%26amclksrc%3DITM%26sd%3D188296677361%26sid%3DAQALAAAAENS3cRwrPdDSiGawbTqIToU%3D%26itm%3D116947244608%26noa%3D0%26plcampt%3D0%3A149459479012%2C5%3AAG7406848192%26algo%3DHOMESPLICE.SIM%26brand%3DUnbranded%26asc%3D20200818143230%26ao%3D1%26rk%3D6%26pid%3D101224%26b%3D1%26mehot%3Dnone%26lsid%3D3%26meid%3D030e2b09a6ed4f808e47c18170aebabf%26pg%3D2332490&_trksid=p2332490.c101224.m-1&itmprp=cksum%3A116947244608030e2b09a6ed4f808e47c18170aebabf%7Cenc%3AAQALAAAA4HU%252FGPBKMoWrH2cpzpvK9FDC5c4FxwFIV%252Bq0okjrJ6w9cB%252BqWqTCByXEsJeNzj%252BLPZ6Y%252Bcb%252BSNENjzLG3DpJu0lDTiVsKJjnSfGxG3msRL1ZKd3WGB18AkG0xK1ZvLWeacq74CH2W3A%252Fi0IpEhUDjI2AU4SELTOl7sI12Cb%252F8xC5agaBtgnfXsglUcwVSQlsePRUvGxlJyopokwknpXkKvFJ%252ByLqhMniIzAs9U3RNBUNPXqn399sabDSkK35YV7aDG6C0eY%252B2CmdX8Hm424h80xqhiBfLaFctJ1H3eqY8hu9%7Campid%3APL_CLK%7Cclp%3A2332490&itmmeta=01KQ7A7WXMG1DNJB4GNCTZ6TRB
+                - listitem [ref=e172]:
+                  - generic [ref=e174]:
+                    - generic [ref=e180]:
+                      - heading "Wireless Mouse Rechargeable Optical Silent Mice USB For PC Laptop UK" [level=3] [ref=e181]
+                      - generic [ref=e183]: ILS 7.88
+                      - generic [ref=e185]: + delivery
+                    - link "Wireless Mouse Rechargeable Optical Silent Mice USB For PC Laptop UK" [ref=e186] [cursor=pointer]:
+                      - /url: https://www.ebay.com/itm/236593136829?_trkparms=itmf%3D1%26aid%3D1110006%26rkt%3D5%26algo%3DHOMESPLICE.SIM%26mech%3D1%26algv%3DDefaultOrganicWebV9BertRefreshRankerWithCassiniEmbRecall%26pmt%3D0%26amclksrc%3DITM%26sd%3D188296677361%26sid%3DAQALAAAAEGKL6VpMCqtjVcgmwfamoEY%3D%26itm%3D236593136829%26noa%3D1%26brand%3DUnbranded%26asc%3D20200818143230%26ao%3D1%26rk%3D1%26pid%3D101224%26b%3D1%26mehot%3Dnone%26lsid%3D3%26meid%3D030e2b09a6ed4f808e47c18170aebabf%26pg%3D2332490&_trksid=p2332490.c101224.m-1
+                - listitem [ref=e187]:
+                  - generic [ref=e189]:
+                    - generic [ref=e195]:
+                      - heading "RGB LED Wireless Mouse Rechargeable Optical Silent Mice USB For PC Laptop UK" [level=3] [ref=e196]
+                      - generic [ref=e198]: ILS 24.24
+                      - generic [ref=e200]: + delivery
+                    - link "RGB LED Wireless Mouse Rechargeable Optical Silent Mice USB For PC Laptop UK" [ref=e201] [cursor=pointer]:
+                      - /url: https://www.ebay.com/itm/377136153176?_trkparms=itmf%3D1%26aid%3D1110006%26rkt%3D5%26mech%3D1%26algv%3DDefaultOrganicWebV9BertRefreshRankerWithCassiniEmbRecall%26pmt%3D0%26amclksrc%3DITM%26sd%3D188296677361%26sid%3DAQALAAAAEDlFgEzNVlYaSPHkGZt9mac%3D%26itm%3D377136153176%26noa%3D1%26plcampt%3D5%3AAG8078808050%26algo%3DHOMESPLICE.SIM%26brand%3DUnbranded%26asc%3D20200818143230%26ao%3D1%26rk%3D2%26pid%3D101224%26b%3D1%26mehot%3Dnone%26lsid%3D3%26meid%3D030e2b09a6ed4f808e47c18170aebabf%26pg%3D2332490&_trksid=p2332490.c101224.m-1
+                - listitem [ref=e202]:
+                  - generic [ref=e204]:
+                    - generic [ref=e210]:
+                      - heading "WIRED USB OPTICAL MOUSE FOR PC LAPTOP COMPUTER SCROLL WHEEL LED LIGHT BLACK MICE" [level=3] [ref=e211]
+                      - generic [ref=e213]: ILS 7.64
+                      - generic [ref=e215]: + delivery
+                    - link "WIRED USB OPTICAL MOUSE FOR PC LAPTOP COMPUTER SCROLL WHEEL LED LIGHT BLACK MICE" [ref=e216] [cursor=pointer]:
+                      - /url: https://www.ebay.com/itm/236625148847?_trkparms=itmf%3D1%26aid%3D1110006%26rkt%3D5%26algo%3DHOMESPLICE.SIM%26mech%3D1%26algv%3DDefaultOrganicWebV9BertRefreshRankerWithCassiniEmbRecall%26pmt%3D0%26amclksrc%3DITM%26sd%3D188296677361%26sid%3DAQALAAAAEGKL6VpMCqtjVcgmwfamoEY%3D%26itm%3D236625148847%26noa%3D1%26brand%3DUnbranded%26asc%3D20200818143230%26ao%3D1%26rk%3D3%26pid%3D101224%26b%3D1%26mehot%3Dnone%26lsid%3D3%26meid%3D030e2b09a6ed4f808e47c18170aebabf%26pg%3D2332490&_trksid=p2332490.c101224.m-1
+        - generic [ref=e219]:
+          - generic [ref=e222]:
+            - generic [ref=e224]:
+              - generic [ref=e225]:
+                - button "Previous image - Item images thumbnails" [disabled] [ref=e226] [cursor=pointer]:
+                  - img
+                - generic [ref=e227]:
+                  - button "Picture 1 of 15" [ref=e228] [cursor=pointer]:
+                    - img "Picture 1 of 15" [ref=e229]
+                  - button "Picture 2 of 15" [ref=e230] [cursor=pointer]:
+                    - img "Picture 2 of 15" [ref=e231]
+                  - button "Picture 3 of 15" [ref=e232] [cursor=pointer]:
+                    - img "Picture 3 of 15" [ref=e233]
+                  - button "Picture 4 of 15" [ref=e234] [cursor=pointer]:
+                    - img "Picture 4 of 15" [ref=e235]
+                  - button "Picture 5 of 15" [ref=e236] [cursor=pointer]:
+                    - img "Picture 5 of 15" [ref=e237]
+                  - button "Picture 6 of 15" [ref=e238] [cursor=pointer]:
+                    - img "Picture 6 of 15" [ref=e239]
+                  - button "Picture 7 of 15" [ref=e240] [cursor=pointer]
+                  - button "Picture 8 of 15" [ref=e241] [cursor=pointer]
+                  - button "Picture 9 of 15" [ref=e242] [cursor=pointer]
+                  - button "Picture 10 of 15" [ref=e243] [cursor=pointer]
+                  - button "Picture 11 of 15" [ref=e244] [cursor=pointer]
+                  - button "Picture 12 of 15" [ref=e245] [cursor=pointer]
+                  - button "Picture 13 of 15" [ref=e246] [cursor=pointer]
+                  - button "Picture 14 of 15" [ref=e247] [cursor=pointer]
+                  - button "Picture 15 of 15" [ref=e248] [cursor=pointer]
+                - button "Next image - Item images thumbnails" [ref=e249] [cursor=pointer]:
+                  - img
+              - generic [ref=e250]:
+                - heading "Picture 1 of 15" [level=2] [ref=e251]
+                - generic [ref=e255]: In 5 carts
+                - button "Previous image - Item images thumbnails" [ref=e257] [cursor=pointer]:
+                  - img
+                - region "Opens image gallery dialog RGB LED Wireless Mouse Rechargeable Optical Silent Mice USB For PC Laptop UK. - Picture 1 of 15" [ref=e258]:
+                  - group "1 of 15" [ref=e259]:
+                    - img "RGB LED Wireless Mouse Rechargeable Optical Silent Mice USB For PC Laptop UK. - Picture 1 of 15" [ref=e260]
+                  - group "2 of 15" [ref=e261]:
+                    - img "RGB LED Wireless Mouse Rechargeable Optical Silent Mice USB For PC Laptop UK. - Picture 2 of 15" [ref=e262]
+                  - group "3 of 15" [ref=e263]:
+                    - img "RGB LED Wireless Mouse Rechargeable Optical Silent Mice USB For PC Laptop UK. - Picture 3 of 15" [ref=e264]
+                  - group "4 of 15" [ref=e265]:
+                    - img "RGB LED Wireless Mouse Rechargeable Optical Silent Mice USB For PC Laptop UK. - Picture 4 of 15" [ref=e266]
+                  - group "5 of 15" [ref=e267]:
+                    - img "RGB LED Wireless Mouse Rechargeable Optical Silent Mice USB For PC Laptop UK. - Picture 5 of 15" [ref=e268]
+                  - group "6 of 15" [ref=e269]:
+                    - img "RGB LED Wireless Mouse Rechargeable Optical Silent Mice USB For PC Laptop UK. - Picture 6 of 15" [ref=e270]
+                  - group "7 of 15" [ref=e271]:
+                    - img "RGB LED Wireless Mouse Rechargeable Optical Silent Mice USB For PC Laptop UK. - Picture 7 of 15" [ref=e272]
+                  - group "8 of 15" [ref=e273]:
+                    - img "RGB LED Wireless Mouse Rechargeable Optical Silent Mice USB For PC Laptop UK. - Picture 8 of 15" [ref=e274]
+                  - group "9 of 15" [ref=e275]:
+                    - img "RGB LED Wireless Mouse Rechargeable Optical Silent Mice USB For PC Laptop UK. - Picture 9 of 15" [ref=e276]
+                  - group "10 of 15" [ref=e277]:
+                    - img "RGB LED Wireless Mouse Rechargeable Optical Silent Mice USB For PC Laptop UK. - Picture 10 of 15" [ref=e278]
+                  - group "11 of 15" [ref=e279]:
+                    - img "RGB LED Wireless Mouse Rechargeable Optical Silent Mice USB For PC Laptop UK. - Picture 11 of 15" [ref=e280]
+                  - group "12 of 15" [ref=e281]:
+                    - img "RGB LED Wireless Mouse Rechargeable Optical Silent Mice USB For PC Laptop UK. - Picture 12 of 15" [ref=e282]
+                  - group "13 of 15" [ref=e283]:
+                    - img "RGB LED Wireless Mouse Rechargeable Optical Silent Mice USB For PC Laptop UK. - Picture 13 of 15" [ref=e284]
+                  - group "14 of 15" [ref=e285]:
+                    - img "RGB LED Wireless Mouse Rechargeable Optical Silent Mice USB For PC Laptop UK. - Picture 14 of 15" [ref=e286]
+                  - group "15 of 15" [ref=e287]:
+                    - img "RGB LED Wireless Mouse Rechargeable Optical Silent Mice USB For PC Laptop UK. - Picture 15 of 15" [ref=e288]
+                - generic [ref=e289]:
+                  - button "Opens image gallery" [ref=e290] [cursor=pointer]:
+                    - img
+                  - button "Add to watchlist - 3 watchers" [ref=e292] [cursor=pointer]:
+                    - generic [ref=e293]: "3"
+                    - img
+                - button "Next image - Item images thumbnails" [ref=e295] [cursor=pointer]:
+                  - img
+            - button "Share" [ref=e301] [cursor=pointer]:
+              - img
+              - generic [ref=e302]: Share
+          - generic [ref=e305]:
+            - heading "RGB LED Wireless Mouse Rechargeable Optical Silent Mice USB For PC Laptop UK." [level=1] [ref=e307]
+            - generic [ref=e309] [cursor=pointer]:
+              - generic [ref=e311]:
+                - generic [ref=e312]:
+                  - link [ref=e314]:
+                    - /url: https://www.ebay.com/sch/thestorify/m.html?item=188296677361&rt=nc&_trksid=p4429486.m3561.l161210
+                    - img [ref=e316]
+                  - generic [ref=e317]:
+                    - generic [ref=e318]:
+                      - link "thestorify" [ref=e319]:
+                        - /url: https://www.ebay.com/sch/thestorify/m.html?item=188296677361&rt=nc&_trksid=p4429486.m3561.l161211
+                      - generic [ref=e321]: (12202)
+                    - generic [ref=e322]:
+                      - button "99.7% positive" [ref=e324]
+                      - link "Seller's other items" [ref=e326]:
+                        - /url: https://www.ebay.com/sch/thestorify/m.html?item=188296677361&rt=nc&_trksid=p4429486.m3561.l170197
+                        - generic [ref=e327]: Seller's other items
+                        - generic [ref=e328]: Seller's other items
+                - button "Message" [ref=e330]:
+                  - generic [ref=e331]: Message
+              - button "See more about this seller" [ref=e333]:
+                - img
+            - generic [ref=e336]:
+              - generic [ref=e337]: GBP 1.19
+              - generic [ref=e338]:
+                - generic [ref=e339]: Approximately
+                - generic [ref=e340]: ILS 4.81
+            - generic [ref=e341]:
+              - generic [ref=e342]: "Condition:"
+              - generic [ref=e344]:
+                - generic [ref=e345]:
+                  - generic [ref=e346]: New
+                  - generic [ref=e347]: New
+                - button "More information - About this item condition" [ref=e348] [cursor=pointer]:
+                  - generic [ref=e349]:
+                    - img "More information - About this item condition"
+            - 'button "Color: Select" [ref=e353] [cursor=pointer]':
+              - generic [ref=e354]:
+                - generic [ref=e355]: "Color:"
+                - generic [ref=e356]: Select
+                - img
+            - generic [ref=e358]:
+              - generic [ref=e359]: "Quantity:"
+              - generic [ref=e360]:
+                - textbox "Quantity:" [disabled] [ref=e362]: "1"
+                - generic [ref=e363]: Last one 17 sold
+            - list [ref=e365]:
+              - listitem [ref=e366]:
+                - button "Buy It Now" [ref=e368] [cursor=pointer]:
+                  - generic [ref=e369]: Buy It Now
+              - listitem [ref=e370]:
+                - button "Add to cart" [ref=e372] [cursor=pointer]:
+                  - generic [ref=e373]: Add to cart
+              - listitem [ref=e374]:
+                - generic [ref=e376]:
+                  - status [ref=e377]: Add to Watchlist
+                  - link "Add to Watchlist" [ref=e382] [cursor=pointer]:
+                    - /url: https://signin.ebay.com/ws/eBayISAPI.dll?SignIn&ru=https%3A%2F%2Fwww.ebay.com%2Fitm%2F188296677361
+                    - generic [ref=e383]:
+                      - img
+                      - text: Add to Watchlist
+            - generic [ref=e386]:
+              - generic [ref=e387]:
+                - generic [ref=e388]:
+                  - img
+                - generic [ref=e390]: This one's trending. 17 have already sold.
+              - generic [ref=e391]:
+                - generic [ref=e392]:
+                  - img
+                - generic [ref=e394]: People are checking this out. 3 have added this to their watchlist.
+            - generic [ref=e397]:
+              - heading "Shipping, returns, and payments" [level=2] [ref=e400]:
+                - generic [ref=e401]: Shipping, returns, and payments
+              - generic [ref=e403]:
+                - generic [ref=e406]:
+                  - generic [ref=e409]: "Shipping:"
+                  - generic [ref=e411]:
+                    - generic [ref=e412]: Item does not ship to you
+                    - generic [ref=e413]: "Located in: Huddersfield, United Kingdom"
+                - generic [ref=e416]:
+                  - generic [ref=e419]: "Delivery:"
+                  - generic [ref=e422]: Varies
+            - generic [ref=e429]:
+              - generic [ref=e432]: "Returns:"
+              - generic [ref=e435]:
+                - text: Seller does not accept returns.
+                - button "See details - for more information about returns" [ref=e436] [cursor=pointer]:
+                  - generic [ref=e437]:
+                    - text: See details
+                    - generic [ref=e438]: "- for more information about returns"
+            - generic [ref=e445]:
+              - generic [ref=e448]: "Payments:"
+              - generic [ref=e451]:
+                - img "PayPal" [ref=e452]
+                - img "Google Pay" [ref=e454]
+                - img "Visa" [ref=e456]
+                - img "Master Card" [ref=e458]
+                - img "Diners Club" [ref=e461]
+            - generic [ref=e465]:
+              - heading "Shop with confidence" [level=2] [ref=e468]
+              - generic [ref=e469]:
+                - generic [ref=e471]:
+                  - img
+                - generic [ref=e472]:
+                  - generic [ref=e473]: eBay Money Back Guarantee
+                  - generic [ref=e474]:
+                    - text: Get the item you ordered or your money back.
+                    - link "Learn more eBay Money Back Guarantee - opens new window or tab" [ref=e475] [cursor=pointer]:
+                      - /url: https://www.ebay.com/ebay-money-back-guarantee/
+                      - generic [ref=e476]:
+                        - text: Learn more
+                        - generic [ref=e477]: eBay Money Back Guarantee - opens new window or tab
+        - generic [ref=e478]:
+          - generic [ref=e483]:
+            - tablist [ref=e484]:
+              - tab "About this item" [selected] [ref=e485] [cursor=pointer]:
+                - generic [ref=e486]: About this item
+            - tabpanel "About this item" [ref=e488]:
+              - generic [ref=e491]:
+                - generic [ref=e494]:
+                  - generic [ref=e498]: Seller assumes all responsibility for this listing.
+                  - generic [ref=e502]: eBay item number:188296677361
+                  - generic [ref=e506]:
+                    - text: Last updated on Apr 21, 2026 01:03:59 PDT
+                    - link "View all revisions View all revisions" [ref=e507] [cursor=pointer]:
+                      - /url: https://www.ebay.com/rvh/188296677361?rt=nc&_trksid=p4429486.m148105.l48144
+                      - generic [ref=e508]:
+                        - text: View all revisions
+                        - generic [ref=e509]: View all revisions
+                - generic [ref=e512]:
+                  - heading "Item specifics" [level=2] [ref=e515]:
+                    - generic [ref=e516]: Item specifics
+                  - generic [ref=e518]:
+                    - generic [ref=e519]:
+                      - generic [ref=e521]:
+                        - term [ref=e522]:
+                          - generic [ref=e524]: Condition
+                        - definition [ref=e525]:
+                          - generic [ref=e528]:
+                            - generic [ref=e529]: "New: A brand-new, unused, unopened, undamaged item in its original packaging (where packaging is ..."
+                            - button "Read more about the condition" [ref=e531]:
+                              - generic [ref=e532]:
+                                - text: Read more
+                                - generic [ref=e533]: about the condition
+                      - generic [ref=e535]:
+                        - term [ref=e536]:
+                          - generic [ref=e538]: Brand
+                        - definition [ref=e539]:
+                          - generic [ref=e541]: Unbranded
+                    - generic [ref=e542]:
+                      - generic [ref=e544]:
+                        - term [ref=e545]:
+                          - generic [ref=e547]: Type
+                        - definition [ref=e548]:
+                          - generic [ref=e550]: Slim Mouse
+                      - generic [ref=e552]:
+                        - term [ref=e553]:
+                          - generic [ref=e555]: Connectivity
+                        - definition [ref=e556]:
+                          - generic [ref=e558]: Wireless, USB
+                    - generic [ref=e559]:
+                      - generic [ref=e561]:
+                        - term [ref=e562]:
+                          - generic [ref=e564]: Features
+                        - definition [ref=e565]:
+                          - generic [ref=e567]: Rechargeable, Silent
+                      - generic [ref=e569]:
+                        - term [ref=e570]:
+                          - generic [ref=e572]: Tracking Method
+                        - definition [ref=e573]:
+                          - generic [ref=e575]: Optical
+                    - generic [ref=e576]:
+                      - generic [ref=e578]:
+                        - term [ref=e579]:
+                          - generic [ref=e581]: Country of Origin
+                        - definition [ref=e582]:
+                          - generic [ref=e584]: China
+                      - generic [ref=e586]:
+                        - term [ref=e587]:
+                          - generic [ref=e589]: Colour
+                        - definition [ref=e590]:
+                          - generic [ref=e592]: Multicoloured
+                - generic [ref=e593]:
+                  - generic [ref=e594]: Category
+                  - navigation "breadcrumb" [ref=e597]:
+                    - heading "breadcrumb" [level=2] [ref=e598]
+                    - list [ref=e599]:
+                      - listitem [ref=e600]:
+                        - link "Electronics" [ref=e601] [cursor=pointer]:
+                          - /url: https://www.ebay.com/b/Electronics/bn_7000259124
+                        - img
+                      - listitem [ref=e602]:
+                        - link "Computers/Tablets & Networking" [ref=e603] [cursor=pointer]:
+                          - /url: https://www.ebay.com/b/Computers-Tablets-Network-Hardware/58058/bn_1865247
+                        - img
+                      - listitem [ref=e604]:
+                        - link "Keyboards, Mice & Pointers" [ref=e605] [cursor=pointer]:
+                          - /url: https://www.ebay.com/b/Computer-Keyboards-Mice-Pointers/3676/bn_1642724
+                        - img
+                      - listitem [ref=e606]:
+                        - link "Mice, Trackballs & Touchpads" [ref=e607] [cursor=pointer]:
+                          - /url: https://www.ebay.com/b/Computer-Mice-Trackballs-Touchpads/23160/bn_320053
+                - generic [ref=e608]:
+                  - heading "Item description from the seller" [level=2] [ref=e611]
+                  - iframe [ref=e612]:
+                    - generic [ref=f39e3]:
+                      - heading "🖱️ RGB Wireless Rechargeable Gaming Mouse – Bluetooth 3600DPI 🎮" [level=2] [ref=f39e4]
+                      - paragraph [ref=f39e5]:
+                        - text: Upgrade your gaming and work setup with this
+                        - strong [ref=f39e6]: Wireless RGB Rechargeable Bluetooth Mouse
+                        - text: "! Designed for comfort, precision, and style, it delivers smooth performance for laptops and PCs 💻✨."
+                      - separator [ref=f39e7]
+                      - heading "🌟 Key Features" [level=3] [ref=f39e8]
+                      - list [ref=f39e9]:
+                        - listitem [ref=f39e10]:
+                          - text: 🌈
+                          - strong [ref=f39e11]: RGB LED Backlit
+                          - text: – Colorful lighting effects for a cool gaming atmosphere
+                        - listitem [ref=f39e12]:
+                          - text: 📡
+                          - strong [ref=f39e13]: Wireless Bluetooth Connectivity
+                          - text: – Stable, fast transmission with no lag or interference
+                        - listitem [ref=f39e14]:
+                          - text: 🔋
+                          - strong [ref=f39e15]: Rechargeable Design
+                          - text: – Built-in battery, no need to replace batteries
+                        - listitem [ref=f39e16]:
+                          - text: 🖐
+                          - strong [ref=f39e17]: Ergonomic Gaming Shape
+                          - text: – Comfortable grip reduces hand fatigue
+                        - listitem [ref=f39e18]:
+                          - text: 🎯
+                          - strong [ref=f39e19]: High Precision 3600 DPI
+                          - text: – Smooth, accurate control for gaming and office use
+                      - separator [ref=f39e20]
+                      - heading "⚙️ Product Specifications" [level=3] [ref=f39e21]
+                      - list [ref=f39e22]:
+                        - listitem [ref=f39e23]:
+                          - strong [ref=f39e24]: "Product Type:"
+                          - text: Wireless Gaming Mouse
+                        - listitem [ref=f39e25]:
+                          - strong [ref=f39e26]: "Connection:"
+                          - text: Bluetooth Wireless
+                        - listitem [ref=f39e27]:
+                          - strong [ref=f39e28]: "DPI:"
+                          - text: Up to 3600 DPI
+                        - listitem [ref=f39e29]:
+                          - strong [ref=f39e30]: "Lighting:"
+                          - text: RGB LED Backlit
+                        - listitem [ref=f39e31]:
+                          - strong [ref=f39e32]: "Power Supply:"
+                          - text: Rechargeable Battery
+                        - listitem [ref=f39e33]:
+                          - strong [ref=f39e34]: "Design:"
+                          - text: Ergonomic
+                        - listitem [ref=f39e35]:
+                          - strong [ref=f39e36]: "Compatible With:"
+                          - text: Laptop / PC
+                        - listitem [ref=f39e37]:
+                          - strong [ref=f39e38]: "Origin:"
+                          - text: Mainland China
+                      - separator [ref=f39e39]
+                      - heading "💡 Product Advantages" [level=3] [ref=f39e40]
+                      - list [ref=f39e41]:
+                        - listitem [ref=f39e42]: 🔌 Rechargeable – Convenient and eco-friendly
+                        - listitem [ref=f39e43]: 🧹 Wireless – Keeps your desk clean and clutter-free
+                        - listitem [ref=f39e44]: ⚡ Fast Response – Ideal for gaming, work, and daily use
+                        - listitem [ref=f39e45]: 🌙 LED Lighting – Easy to use in low-light environments
+                      - separator [ref=f39e46]
+                      - heading "🎯 Ideal Uses" [level=3] [ref=f39e47]
+                      - list [ref=f39e48]:
+                        - listitem [ref=f39e49]: 🎮 PC & Laptop Gaming
+                        - listitem [ref=f39e50]: 💼 Office Work & Productivity
+                        - listitem [ref=f39e51]: 📚 Study & Daily Computer Use
+                        - listitem [ref=f39e52]: 🎁 Great Gift for Gamers & Tech Lovers
+                      - separator [ref=f39e53]
+                      - paragraph [ref=f39e54]: 👉 Enhance your gaming and work experience today – order now! 🚀
+                      - separator [ref=f39e55]
+                      - paragraph [ref=f39e56]:
+                        - text: 📝
+                        - strong [ref=f39e57]: "Note to Our Valued Customers:"
+                        - text: Your satisfaction means a lot to us 💙. If you encounter any issues with the product, please contact us before leaving a negative review. We are always happy to work together to solve the problem and ensure a great shopping experience 😊.
+                        - img [ref=f39e58]
+                        - img [ref=f39e59]
+                        - img [ref=f39e60]
+                        - img [ref=f39e61]
+                        - img [ref=f39e62]
+          - generic [ref=e615]:
+            - generic [ref=e616]:
+              - generic [ref=e617]:
+                - heading "About this seller" [level=2] [ref=e618]:
+                  - generic [ref=e620]: About this seller
+                - generic [ref=e621]:
+                  - link [ref=e623] [cursor=pointer]:
+                    - /url: https://www.ebay.com/sch/thestorify/m.html?item=188296677361&rt=nc&_trksid=p4429486.m145687.l2562
+                    - img [ref=e625]
+                  - generic [ref=e626]:
+                    - heading "thestorify" [level=3] [ref=e627]:
+                      - link "thestorify" [ref=e628] [cursor=pointer]:
+                        - /url: https://www.ebay.com/sch/thestorify/m.html?item=188296677361&rt=nc&_trksid=p4429486.m145687.l2562
+                    - paragraph [ref=e629]: 99.7% positive feedback•18K items sold
+                - generic [ref=e632]:
+                  - generic [ref=e634]:
+                    - generic [ref=e635]:
+                      - img
+                    - generic [ref=e636]: Joined Mar 2025
+                  - generic [ref=e638]:
+                    - generic [ref=e639]:
+                      - img
+                    - generic [ref=e640]: Usually responds within 24 hours
+                - generic [ref=e641]:
+                  - link "Seller's other items" [ref=e642] [cursor=pointer]:
+                    - /url: https://www.ebay.com/sch/thestorify/m.html?item=188296677361&rt=nc&_trksid=p4429486.m145687.l2562
+                    - generic [ref=e643]: Seller's other items
+                  - button "Message seller - opens in a new dialog" [ref=e644] [cursor=pointer]:
+                    - generic [ref=e645]:
+                      - text: Message seller
+                      - generic [ref=e646]: "- opens in a new dialog"
+                  - button "Save seller - Save this seller thestorify" [ref=e648] [cursor=pointer]:
+                    - generic [ref=e649]:
+                      - img
+                    - generic [ref=e650]: Save seller
+              - generic [ref=e652]:
+                - heading "Detailed seller ratings" [level=3] [ref=e653]
+                - generic [ref=e654]:
+                  - generic [ref=e655]: Average for the last 12 months
+                  - generic [ref=e656]:
+                    - generic [ref=e657]:
+                      - generic [ref=e658]: Accurate description
+                      - progressbar [ref=e659]
+                      - generic [ref=e660]: "4.9"
+                    - generic [ref=e661]:
+                      - generic [ref=e662]: Reasonable shipping cost
+                      - progressbar [ref=e663]
+                      - generic [ref=e664]: "5.0"
+                    - generic [ref=e665]:
+                      - generic [ref=e666]: Shipping speed
+                      - progressbar [ref=e667]
+                      - generic [ref=e668]: "5.0"
+                    - generic [ref=e669]:
+                      - generic [ref=e670]: Communication
+                      - progressbar [ref=e671]
+                      - generic [ref=e672]: "5.0"
+            - generic [ref=e675]:
+              - heading "Seller feedback (13,177)" [level=2] [ref=e676]
+              - 'button "Filter: All ratings" [ref=e679] [cursor=pointer]':
+                - generic [ref=e680]:
+                  - generic [ref=e681]: "Filter:"
+                  - generic [ref=e682]: All ratings
+                  - img
+              - list [ref=e683]:
+                - listitem [ref=e684]:
+                  - generic [ref=e685]:
+                    - generic [ref=e687]:
+                      - generic [ref=e688]:
+                        - img "Positive feedback rating"
+                      - generic [ref=e689]:
+                        - text: 3***5 (8)
+                        - generic [ref=e690]: "- Feedback left by buyer."
+                      - generic [ref=e693]: Past month
+                      - generic [ref=e694]: Verified purchase
+                    - generic [ref=e696]: Arrived fairly quickly in a plastic bag. It's basically a plastic box so there's not a lot to say, it's as described by the seller, and cheap enough.
+                    - link "Portable Wet Wipe Dispenser Storage Box Travel Home UK Use Compact UK (#188011533195)" [ref=e698] [cursor=pointer]:
+                      - /url: https://www.ebay.com/itm/188011533195
+                      - generic [ref=e699]: Portable Wet Wipe Dispenser Storage Box Travel Home UK Use Compact UK (#188011533195)
+                - listitem [ref=e700]:
+                  - generic [ref=e701]:
+                    - generic [ref=e703]:
+                      - generic [ref=e704]:
+                        - img "Positive feedback rating"
+                      - generic [ref=e705]:
+                        - text: o***b (491)
+                        - generic [ref=e706]: "- Feedback left by buyer."
+                      - generic [ref=e709]: Past 6 months
+                      - generic [ref=e710]: Verified purchase
+                    - generic [ref=e712]: I NEED to highlight how phenomenal The Storify’s customer service is, I had a few issues and they responded fast each time, they listened, they reassured, they helped! 10/10 service! Thank you so much! The actual teddy is new as described and solid but still soft, looks very similar to the original, the price was very reasonable too!
+                    - generic [ref=e713]: NEW OFFICIAL 30cm MR BEAN PLUSH SOFT TOYS MR BEAN PLUSH TEDDY GREEN CAR UK. (#187874916660)
+                - listitem [ref=e714]:
+                  - generic [ref=e715]:
+                    - generic [ref=e717]:
+                      - generic [ref=e718]:
+                        - img "Positive feedback rating"
+                      - generic [ref=e719]:
+                        - text: w***n (173)
+                        - generic [ref=e720]: "- Feedback left by buyer."
+                      - generic [ref=e723]: Past month
+                      - generic [ref=e724]: Verified purchase
+                    - generic [ref=e726]: A speedy delivery and the item was packaged well, ensuring a safe arrival. I feel I paid a fair price for the purchase and it was accurate to its description and image. Great seller, would definitely recommend.
+                    - link "10x Stylus Pen Touch Screen Rubber Tip for All Tablets & Mobile Phones Universal (#187754406667)" [ref=e728] [cursor=pointer]:
+                      - /url: https://www.ebay.com/itm/187754406667
+                      - generic [ref=e729]: 10x Stylus Pen Touch Screen Rubber Tip for All Tablets & Mobile Phones Universal (#187754406667)
+                - listitem [ref=e730]:
+                  - generic [ref=e731]:
+                    - generic [ref=e733]:
+                      - generic [ref=e734]:
+                        - img "Positive feedback rating"
+                      - generic [ref=e735]:
+                        - text: e***h (409)
+                        - generic [ref=e736]: "- Feedback left by buyer."
+                      - generic [ref=e739]: Past 6 months
+                      - generic [ref=e740]: Verified purchase
+                    - generic [ref=e742]: despatched quickly but Evri the couriers are absolutely useless, they delivered it to the wrong address and when I contacted them they promised a reply within 24 hours that didn;t happen, I still haven't heard back from them !!!. thestory however have been very helpful so AAAAA+++++ HIGHLY RECOMMENDED SELLER
+                    - link "Car Wireless Bluetooth FM Transmitter MP3 Player USB Car Charger Adapter UK (#187788447006)" [ref=e744] [cursor=pointer]:
+                      - /url: https://www.ebay.com/itm/187788447006
+                      - generic [ref=e745]: Car Wireless Bluetooth FM Transmitter MP3 Player USB Car Charger Adapter UK (#187788447006)
+                - listitem [ref=e746]:
+                  - generic [ref=e747]:
+                    - generic [ref=e749]:
+                      - generic [ref=e750]:
+                        - img "Positive feedback rating"
+                      - generic [ref=e751]:
+                        - text: 6***a (75)
+                        - generic [ref=e752]: "- Feedback left by buyer."
+                      - generic [ref=e755]: Past 6 months
+                      - generic [ref=e756]: Verified purchase
+                    - generic [ref=e758]: Dispatch took a little time , packaged sufficiently , arrived as described , new condition , good value as item was cheap . Excellent seller communication
+                    - generic [ref=e759]: Demon Slayer Figures Tanjiro Nezuko Zenitsu Inosuke Action Figures Model Toy UK. (#187917045422)
+                - listitem [ref=e760]:
+                  - generic [ref=e761]:
+                    - generic [ref=e763]:
+                      - generic [ref=e764]:
+                        - img "Positive feedback rating"
+                      - generic [ref=e765]:
+                        - text: y***d (1119)
+                        - generic [ref=e766]: "- Feedback left by buyer."
+                      - generic [ref=e769]: Past 6 months
+                      - generic [ref=e770]: Verified purchase
+                    - generic [ref=e772]: The seller was very responsive to a query I had and although there was a delay with the item it did arrive in good condition and as described. Hope to deal with the seller again in the near future.
+                    - link "147PCS Watch Repair Tool Kit Back Case Opener Remover Spring Pin Bars Watchmaker (#187974931940)" [ref=e774] [cursor=pointer]:
+                      - /url: https://www.ebay.com/itm/187974931940
+                      - generic [ref=e775]: 147PCS Watch Repair Tool Kit Back Case Opener Remover Spring Pin Bars Watchmaker (#187974931940)
+                - listitem [ref=e776]:
+                  - generic [ref=e777]:
+                    - generic [ref=e779]:
+                      - generic [ref=e780]:
+                        - img "Positive feedback rating"
+                      - generic [ref=e781]:
+                        - text: d***0 (14)
+                        - generic [ref=e782]: "- Feedback left by buyer."
+                      - generic [ref=e785]: Past month
+                      - generic [ref=e786]: Verified purchase
+                    - generic [ref=e788]: My item arrived abnormally faulty, but the company responded quickly and professionally, with excellent customer service, restoring my full trust in the company. Given the excellent service, I would definitely recommend this company, quick and eager to solve my problem. Thank you!
+                    - link "Universal Touch Screen Stylus Pens for iPhone iPad Tablet Samsung Android Phone✅ (#187885212368)" [ref=e790] [cursor=pointer]:
+                      - /url: https://www.ebay.com/itm/187885212368
+                      - generic [ref=e791]: Universal Touch Screen Stylus Pens for iPhone iPad Tablet Samsung Android Phone✅ (#187885212368)
+                - listitem [ref=e792]:
+                  - generic [ref=e793]:
+                    - generic [ref=e795]:
+                      - generic [ref=e796]:
+                        - img "Positive feedback rating"
+                      - generic [ref=e797]:
+                        - text: 7***o (1877)
+                        - generic [ref=e798]: "- Feedback left by buyer."
+                      - generic [ref=e801]: Past 6 months
+                      - generic [ref=e802]: Verified purchase
+                    - generic [ref=e804]: Excellent seller! Item arrived quickly, exactly as described and very well packaged. Great communication and a smooth, pleasant transaction. Highly recommended — thank you!
+                    - link "For All Mobile Phones 360° Waterproof Bicycle Motor Bike Phone Case Mount Holder (#187866267520)" [ref=e806] [cursor=pointer]:
+                      - /url: https://www.ebay.com/itm/187866267520
+                      - generic [ref=e807]: For All Mobile Phones 360° Waterproof Bicycle Motor Bike Phone Case Mount Holder (#187866267520)
+              - link "See all feedback. Opens in a new tab" [ref=e809] [cursor=pointer]:
+                - /url: https://www.ebay.com/fdbk/mweb_profile?fdbkType=FeedbackReceivedAsSeller&item_id=188296677361&username=thestorify&filter=feedback_page%3ARECEIVED_AS_SELLER&sort=RELEVANCEV2
+                - text: See all feedback
+          - generic [ref=e811]:
+            - navigation "Quick Links" [ref=e812]:
+              - link "Back to previous page" [ref=e813] [cursor=pointer]:
+                - /url: https://www.ebay.com/splashui/challenge?ap=1&appName=orch&ru=https%3A%2F%2Fwww.ebay.com%2Fitm%2F266756575476&iid=50c3885d-656d-4eea-a749-c83a6b08a967&iim=YMTc2Ljj&iia=ybIyOS4xQl&iiz=gvBMjguNTM*hvo
+              - button "Return to top" [ref=e814] [cursor=pointer]
+            - generic [ref=e816]:
+              - heading "More to explore :" [level=2] [ref=e819]
+              - list [ref=e821]:
+                - listitem [ref=e822]:
+                  - link "Rechargeable Optical USB Computer Vertical Mice," [ref=e823] [cursor=pointer]:
+                    - /url: https://www.ebay.com/b/Rechargeable-Optical-USB-Computer-Vertical-Mice/23160/bn_71369599
+                - listitem [ref=e824]:
+                  - link "Silent Optical USB Computer Mice, Trackballs & Touchpads," [ref=e825] [cursor=pointer]:
+                    - /url: https://www.ebay.com/b/Silent-Optical-USB-Computer-Mice-Trackballs-Touchpads/23160/bn_71366144
+                - listitem [ref=e826]:
+                  - link "Wireless & Wired Rechargeable Optical Computer Gaming Mice," [ref=e827] [cursor=pointer]:
+                    - /url: https://www.ebay.com/b/Wireless-Wired-Rechargeable-Optical-Computer-Gaming-Mice/23160/bn_71366246
+                - listitem [ref=e828]:
+                  - link "Wireless Rechargeable Computer Gaming Mice," [ref=e829] [cursor=pointer]:
+                    - /url: https://www.ebay.com/b/Wireless-Rechargeable-Computer-Gaming-Mice/23160/bn_16105987
+                - listitem [ref=e830]:
+                  - link "Silent Wireless Computer Mice, Trackballs & Touchpads," [ref=e831] [cursor=pointer]:
+                    - /url: https://www.ebay.com/b/Silent-Wireless-Computer-Mice-Trackballs-Touchpads/23160/bn_71362983
+                - listitem [ref=e832]:
+                  - link "Wireless Optical Computer Standard Mice," [ref=e833] [cursor=pointer]:
+                    - /url: https://www.ebay.com/b/Wireless-Optical-Computer-Standard-Mice/23160/bn_7112755166
+                - listitem [ref=e834]:
+                  - link "Logitech Wireless Rechargeable Computer Gaming Mice," [ref=e835] [cursor=pointer]:
+                    - /url: https://www.ebay.com/b/Logitech-Wireless-Rechargeable-Computer-Gaming-Mice/23160/bn_16105623
+                - listitem [ref=e836]:
+                  - link "Optical USB Computer Pen Mice," [ref=e837] [cursor=pointer]:
+                    - /url: https://www.ebay.com/b/Optical-USB-Computer-Pen-Mice/23160/bn_57003733
+                - listitem [ref=e838]:
+                  - link "Wireless Optical Computer Gaming Mice," [ref=e839] [cursor=pointer]:
+                    - /url: https://www.ebay.com/b/Wireless-Optical-Computer-Gaming-Mice/23160/bn_2770054
+                - listitem [ref=e840]:
+                  - link "Dell Wireless Optical Computer Standard Mice" [ref=e841] [cursor=pointer]:
+                    - /url: https://www.ebay.com/b/Dell-Wireless-Optical-Computer-Standard-Mice/23160/bn_5777919
+            - generic [ref=e843]:
+              - heading "Shop Top Sellers and Highly Rated Products in Mice, Trackballs & Touchpads" [level=2] [ref=e844]
+              - generic [ref=e845]:
+                - generic [ref=e846]:
+                  - heading "Best Sellers" [level=3] [ref=e847]
+                  - list [ref=e848]:
+                    - listitem [ref=e849]:
+                      - link "Logitech PRO X SUPERLIGHT Wireless Gaming Mouse - Black" [ref=e850] [cursor=pointer]:
+                        - /url: https://www.ebay.com/p/27042842591
+                        - generic [ref=e851]: Logitech PRO X SUPERLIGHT Wireless Gaming Mouse - Black
+                    - listitem [ref=e852]:
+                      - link "Logitech MX Master 3S Wireless Mouse - Black" [ref=e853] [cursor=pointer]:
+                        - /url: https://www.ebay.com/p/4054542711
+                        - generic [ref=e854]: Logitech MX Master 3S Wireless Mouse - Black
+                    - listitem [ref=e855]:
+                      - link "Logitech MX Master 3S Bluetooth Edition Black 910-007500 */*" [ref=e856] [cursor=pointer]:
+                        - /url: https://www.ebay.com/p/16085003004
+                        - generic [ref=e857]: Logitech MX Master 3S Bluetooth Edition Black 910-007500 */*
+                    - listitem [ref=e858]:
+                      - link "Apple Magic Mouse - Black Multi-Touch Surface" [ref=e859] [cursor=pointer]:
+                        - /url: https://www.ebay.com/p/8052800408
+                        - generic [ref=e860]: Apple Magic Mouse - Black Multi-Touch Surface
+                    - listitem [ref=e861]:
+                      - link "Logitech G502 HERO Wired Gaming Mouse - 910-005469" [ref=e862] [cursor=pointer]:
+                        - /url: https://www.ebay.com/p/27031978818
+                        - generic [ref=e863]: Logitech G502 HERO Wired Gaming Mouse - 910-005469
+                - generic [ref=e864]:
+                  - heading "Top Rated" [level=3] [ref=e865]
+                  - list [ref=e866]:
+                    - listitem [ref=e867]:
+                      - link "Apple Wireless Magic Trackpad - MC380LL/A" [ref=e868] [cursor=pointer]:
+                        - /url: https://www.ebay.com/p/211488053
+                        - generic [ref=e869]: Apple Wireless Magic Trackpad - MC380LL/A
+                    - listitem [ref=e870]:
+                      - link "Logitech M100 (910001601) Wired Optical Mouse" [ref=e871] [cursor=pointer]:
+                        - /url: https://www.ebay.com/p/27026504150
+                        - generic [ref=e872]: Logitech M100 (910001601) Wired Optical Mouse
+                    - listitem [ref=e873]:
+                      - link "Logitech B100 (910-001439) Optical USB Mouse" [ref=e874] [cursor=pointer]:
+                        - /url: https://www.ebay.com/p/1000679455
+                        - generic [ref=e875]: Logitech B100 (910-001439) Optical USB Mouse
+                    - listitem [ref=e876]:
+                      - link "Logitech G305 (910-005280) Wireless Gaming Mouse" [ref=e877] [cursor=pointer]:
+                        - /url: https://www.ebay.com/p/5028683005
+                        - generic [ref=e878]: Logitech G305 (910-005280) Wireless Gaming Mouse
+                    - listitem [ref=e879]:
+                      - link "HP Z3700 Black Wireless BlueTrack Mouse" [ref=e880] [cursor=pointer]:
+                        - /url: https://www.ebay.com/p/234010238
+                        - generic [ref=e881]: HP Z3700 Black Wireless BlueTrack Mouse
+            - generic [ref=e883]:
+              - heading "Related searches" [level=2] [ref=e884]
+              - list [ref=e885]:
+                - listitem [ref=e886]:
+                  - link "Wireless Small Mouse for Laptop" [ref=e887] [cursor=pointer]:
+                    - /url: https://www.ebay.com/shop/wireless-small-mouse-for-laptop?_nkw=wireless+small+mouse+for+laptop
+                    - generic [ref=e888]: Wireless Small Mouse for Laptop
+                - listitem [ref=e889]:
+                  - link "Wireless Mouse for Laptop" [ref=e890] [cursor=pointer]:
+                    - /url: https://www.ebay.com/shop/wireless-mouse-for-laptop?_nkw=wireless+mouse+for+laptop
+                    - generic [ref=e891]: Wireless Mouse for Laptop
+                - listitem [ref=e892]:
+                  - link "Lighted Wireless Mouse" [ref=e893] [cursor=pointer]:
+                    - /url: https://www.ebay.com/shop/lighted-wireless-mouse?_nkw=lighted+wireless+mouse
+                    - generic [ref=e894]: Lighted Wireless Mouse
+                - listitem [ref=e895]:
+                  - link "Wireless Computer Mouse for Laptop" [ref=e896] [cursor=pointer]:
+                    - /url: https://www.ebay.com/shop/wireless-computer-mouse-for-laptop?_nkw=wireless+computer+mouse+for+laptop
+                    - generic [ref=e897]: Wireless Computer Mouse for Laptop
+                - listitem [ref=e898]:
+                  - link "Wireless Mouse for Desktop" [ref=e899] [cursor=pointer]:
+                    - /url: https://www.ebay.com/shop/wireless-mouse-for-desktop?_nkw=wireless+mouse+for+desktop
+                    - generic [ref=e900]: Wireless Mouse for Desktop
+                - listitem [ref=e901]:
+                  - link "Lightweight Mouse Wireless" [ref=e902] [cursor=pointer]:
+                    - /url: https://www.ebay.com/shop/lightweight-mouse-wireless?_nkw=lightweight+mouse+wireless
+                    - generic [ref=e903]: Lightweight Mouse Wireless
+                - listitem [ref=e904]:
+                  - link "Cordless Mouse Rechargeable" [ref=e905] [cursor=pointer]:
+                    - /url: https://www.ebay.com/shop/cordless-mouse-rechargeable?_nkw=cordless+mouse+rechargeable
+                    - generic [ref=e906]: Cordless Mouse Rechargeable
+                - listitem [ref=e907]:
+                  - link "Computer Mouse Wireless" [ref=e908] [cursor=pointer]:
+                    - /url: https://www.ebay.com/shop/computer-mouse-wireless?_nkw=computer+mouse+wireless
+                    - generic [ref=e909]: Computer Mouse Wireless
+                - listitem [ref=e910]:
+                  - link "Silent Mouse Wireless" [ref=e911] [cursor=pointer]:
+                    - /url: https://www.ebay.com/shop/silent-mouse-wireless?_nkw=silent+mouse+wireless
+                    - generic [ref=e912]: Silent Mouse Wireless
+                - listitem [ref=e913]:
+                  - link "Wireless Mouse" [ref=e914] [cursor=pointer]:
+                    - /url: https://www.ebay.com/shop/wireless-mouse?_nkw=wireless+mouse
+                    - generic [ref=e915]: Wireless Mouse
+                - listitem [ref=e916]:
+                  - link "Logitech Wireless Mouse for Laptop" [ref=e917] [cursor=pointer]:
+                    - /url: https://www.ebay.com/shop/logitech-wireless-mouse-for-laptop?_nkw=logitech+wireless+mouse+for+laptop
+                    - generic [ref=e918]: Logitech Wireless Mouse for Laptop
+                - listitem [ref=e919]:
+                  - link "Light Gaming Mouse" [ref=e920] [cursor=pointer]:
+                    - /url: https://www.ebay.com/shop/light-gaming-mouse?_nkw=light+gaming+mouse
+                    - generic [ref=e921]: Light Gaming Mouse
+                - listitem [ref=e922]:
+                  - link "Retractable Mouse" [ref=e923] [cursor=pointer]:
+                    - /url: https://www.ebay.com/shop/retractable-mouse?_nkw=retractable+mouse
+                    - generic [ref=e924]: Retractable Mouse
+                - listitem [ref=e925]:
+                  - link "Lightweight Mouse" [ref=e926] [cursor=pointer]:
+                    - /url: https://www.ebay.com/shop/lightweight-mouse?_nkw=lightweight+mouse
+                    - generic [ref=e927]: Lightweight Mouse
+                - listitem [ref=e928]:
+                  - link "Wireless Gaming Mouse" [ref=e929] [cursor=pointer]:
+                    - /url: https://www.ebay.com/shop/wireless-gaming-mouse?_nkw=wireless+gaming+mouse
+                    - generic [ref=e930]: Wireless Gaming Mouse
+  - contentinfo [ref=e939]:
+    - list [ref=e940]:
+      - listitem [ref=e941]:
+        - link "About eBay" [ref=e942] [cursor=pointer]:
+          - /url: https://www.ebayinc.com
+      - listitem [ref=e943]:
+        - link "Announcements" [ref=e944] [cursor=pointer]:
+          - /url: https://community.ebay.com/t5/Announcements/bg-p/Announcements
+      - listitem [ref=e945]:
+        - link "Community" [ref=e946] [cursor=pointer]:
+          - /url: https://community.ebay.com
+      - listitem [ref=e947]:
+        - link "Security Center" [ref=e948] [cursor=pointer]:
+          - /url: https://pages.ebay.com/securitycenter/index.html
+      - listitem [ref=e949]:
+        - link "Seller Center" [ref=e950] [cursor=pointer]:
+          - /url: https://www.ebay.com/sellercenter
+      - listitem [ref=e951]:
+        - link "Policies" [ref=e952] [cursor=pointer]:
+          - /url: https://www.ebay.com/help/policies/default/ebays-rules-policies?id=4205
+      - listitem [ref=e953]:
+        - link "Affiliates" [ref=e954] [cursor=pointer]:
+          - /url: https://partnernetwork.ebay.com/
+      - listitem [ref=e955]:
+        - link "Product Safety Tips" [ref=e956] [cursor=pointer]:
+          - /url: https://pages.ebay.com/safetytips
+      - listitem [ref=e957]:
+        - link "Help & Contact" [ref=e958] [cursor=pointer]:
+          - /url: https://www.ebay.com/help/home
+      - listitem [ref=e959]:
+        - link "Site Map" [ref=e960] [cursor=pointer]:
+          - /url: https://pages.ebay.com/sitemap.html
+    - generic [ref=e961]:
+      - text: Copyright © 1995-2026 eBay Inc. All Rights Reserved.
+      - link "Accessibility" [ref=e962] [cursor=pointer]:
+        - /url: https://www.ebayinc.com/accessibility/
+      - text: ","
+      - link "User Agreement" [ref=e963] [cursor=pointer]:
+        - /url: https://www.ebay.com/help/policies/member-behaviour-policies/user-agreement?id=4259
+      - text: ","
+      - link "Privacy" [ref=e964] [cursor=pointer]:
+        - /url: https://www.ebay.com/help/policies/member-behaviour-policies/user-privacy-notice-privacy-policy?id=4260
+      - text: ","
+      - link "Consumer Health Data" [ref=e965] [cursor=pointer]:
+        - /url: https://www.ebayinc.com/company/privacy-center/privacy-notice/consumer-health-data-privacy-policy/
+      - text: ","
+      - link "Payments Terms of Use" [ref=e966] [cursor=pointer]:
+        - /url: https://pages.ebay.com/payment/2.0/terms.html
+      - text: ","
+      - link "Cookies" [ref=e967] [cursor=pointer]:
+        - /url: https://www.ebay.com/help/policies/member-behaviour-policies/ebay-cookie-notice?id=4267
+      - text: ","
+      - link "CA Privacy Notice" [ref=e968] [cursor=pointer]:
+        - /url: https://www.ebayinc.com/company/privacy-center/privacy-notice/state-privacy-disclosures/#california
+      - text: ","
+      - link "Your Privacy Choices" [ref=e969] [cursor=pointer]:
+        - /url: https://www.ebay.com/adchoice/ccpa
+      - text: and
+      - link "AdChoice" [ref=e970] [cursor=pointer]:
+        - /url: https://www.ebay.com/adchoice
+        - text: AdChoice
+        - img
+  - img
+  - img [ref=e972]

@@ -14,6 +14,9 @@ yarn-error.log*
 test-results/
 playwright-report/
 playwright/.cache/
+allure-results/
+allure-report/
+results/
 
 # Build outputs
 dist/
@@ -49,6 +52,5 @@ coverage/
 *.tmp
 *.temp
 
-# BPI runtime artifacts (keep data/.gitkeep)
-data/*.json
-data/*.png
+# Local test data overrides and artifacts
+data/local*.json

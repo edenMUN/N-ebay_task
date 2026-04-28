@@ -1,0 +1,1106 @@
+- generic [active] [ref=e1]:
+  - img
+  - img
+  - img
+  - img
+  - generic [ref=e3]:
+    - banner [ref=e7]:
+      - link "Skip to main content" [ref=e9] [cursor=pointer]:
+        - /url: "#mainContent"
+      - navigation [ref=e10]:
+        - generic [ref=e11]:
+          - generic [ref=e13]:
+            - text: Hi!
+            - link "Sign in" [ref=e14] [cursor=pointer]:
+              - /url: https://signin.ebay.com/ws/eBayISAPI.dll?SignIn&sgfl=gh&ru=https%3A%2F%2Fwww.ebay.com%2Fitm%2F266756575476
+            - generic [ref=e15]:
+              - text: or
+              - link "register" [ref=e16] [cursor=pointer]:
+                - /url: https://signup.ebay.com/pa/crte?ru=https%3A%2F%2Fwww.ebay.com%2Fitm%2F266756575476
+          - link "Deals" [ref=e18] [cursor=pointer]:
+            - /url: https://www.ebay.com/deals
+          - link "Brand Outlet" [ref=e20] [cursor=pointer]:
+            - /url: https://www.ebay.com/b/Brand-Outlet/bn_7115532402
+          - link "Gift Cards" [ref=e22] [cursor=pointer]:
+            - /url: https://www.ebay.com/giftcards
+          - link "Help & Contact" [ref=e24] [cursor=pointer]:
+            - /url: https://www.ebay.com/help/home
+        - generic [ref=e25]:
+          - button "Ship to" [ref=e27] [cursor=pointer]:
+            - generic [ref=e28]: Ship to
+          - link "Sell" [ref=e31] [cursor=pointer]:
+            - /url: https://www.ebay.com/sl/sell
+          - generic [ref=e32]:
+            - link "Watchlist" [ref=e33] [cursor=pointer]:
+              - /url: https://www.ebay.com/mye/myebay/watchlist
+              - generic [ref=e34]: Watchlist
+              - img
+            - button "Expand Watch List" [ref=e35]
+          - generic [ref=e36]:
+            - link "My eBay" [ref=e37] [cursor=pointer]:
+              - /url: https://www.ebay.com/mys/home?source=GBH
+              - generic [ref=e38]: My eBay
+              - img
+            - button "Expand My eBay" [ref=e39]
+          - button "Notifications" [ref=e42] [cursor=pointer]:
+            - img
+            - generic [ref=e43]: Notifications
+          - generic [ref=e45]:
+            - link "Your shopping cart contains 0 items" [ref=e46] [cursor=pointer]:
+              - /url: https://cart.ebay.com
+              - generic "Your shopping cart contains 0 items" [ref=e47]:
+                - img
+            - button "Expand Cart" [ref=e48]
+      - generic [ref=e49]:
+        - generic [ref=e50]:
+          - link "eBay Home" [ref=e51] [cursor=pointer]:
+            - /url: https://www.ebay.com
+            - img "eBay Home" [ref=e52]
+          - button "Shop by category" [ref=e60] [cursor=pointer]:
+            - generic [ref=e61]: Shop by category
+            - img
+        - generic [ref=e62]:
+          - status [ref=e63]
+          - generic [ref=e65]:
+            - generic [ref=e66]:
+              - combobox "Search for anything" [ref=e67]
+              - img
+            - combobox "Select a category for search" [ref=e68]:
+              - option "All Categories" [selected]
+              - option "Antiques"
+              - option "Art"
+              - option "Baby"
+              - option "Books"
+              - option "Business & Industrial"
+              - option "Cameras & Photo"
+              - option "Cell Phones & Accessories"
+              - option "Clothing, Shoes & Accessories"
+              - option "Coins & Paper Money"
+              - option "Collectibles"
+              - option "Computers/Tablets & Networking"
+              - option "Consumer Electronics"
+              - option "Crafts"
+              - option "Dolls & Bears"
+              - option "Movies & TV"
+              - option "eBay Motors"
+              - option "Entertainment Memorabilia"
+              - option "Gift Cards & Coupons"
+              - option "Health & Beauty"
+              - option "Home & Garden"
+              - option "Jewelry & Watches"
+              - option "Music"
+              - option "Musical Instruments & Gear"
+              - option "Pet Supplies"
+              - option "Pottery & Glass"
+              - option "Real Estate"
+              - option "Specialty Services"
+              - option "Sporting Goods"
+              - option "Sports Mem, Cards & Fan Shop"
+              - option "Stamps"
+              - option "Tickets & Experiences"
+              - option "Toys & Hobbies"
+              - option "Travel"
+              - option "Video Games & Consoles"
+              - option "Everything Else"
+          - generic [ref=e69]:
+            - button "Search" [ref=e70] [cursor=pointer]:
+              - generic [ref=e71]: Search
+            - link "Advanced" [ref=e72] [cursor=pointer]:
+              - /url: https://www.ebay.com/sch/ebayadvsearch
+    - main [ref=e73]:
+      - generic [ref=e74]:
+        - generic [ref=e75]:
+          - generic [ref=e78]:
+            - generic [ref=e84]:
+              - link [ref=e85] [cursor=pointer]:
+                - /url: https://www.ebay.com/str/wenjstore?_sacat=155101&promoted_items=306864815247%2C306316721091%2C306314846637%2C306865171535%2C306310492607&itmprp=encpd%3AAQALAAACMCujeyHvn4hroM7JuQ6CUKPSM7C3A%2F8ZjjZ2%2F%2FiP03cCnZV5c5SGN6UcIpUz0IFXbk9yuuurA2hu5gQNv79%2FubhB7v9X%2Fku5td%2BNANoWcr7JFT3uN8Ra4CqqbPqTXmhQVJNTYV2FoXf%2BgzWh1%2FCVn%2FJWcV3fjj3QUk8NO6X18eXCkChOqLvPVvEvrDGTxoJtuI4H4QSaTbZHa62Ib%2FH1G6xTCsjlxHJBlkkt2VScHs3Hb5RkZSrnt946ERTca%2Ba7stWdbYxf7LaYGHycdrsx9mlyu538R33DxEu4s08ugt%2BVNyXU7Y8VfAHBSFC1fSo0p%2FkOv5QaaA0F0Nz%2FuMbfgv%2BiOk6bmtmuu8%2FotCYqwHXD8l0ljqqeOaDkZrm2xjJrc5zUVl0PiTTCAJwnAVrvir3umGAlYRJKfhmbFA66w%2F2fF5%2BcdHBBBZWr0jq5Ofd7Cxo8rKzhSucb%2BxAfY6yNM%2Buxdz4m7%2FvXhq02RpXoiHnmxH402b3rwnsaINrHuAsNl6KbZi3ZFUzPKDz1JnfAV6L3IUDLuh5gsRWVRAUJETGAhLU95JaaFfj3e4XiFX0Iw2J%2BnTCC4ZhVhym6wTSCl%2FFni1ogLMwDApkl2KQhx8yI3LijCHd%2Bpb3juQ5%2FxPBsPbcB6tvdzMdTZtanAWU2XOO5DOgxJ71rvdYxbpZ5eXUJAXLvA%2FL7S5xEZFMVeNq%2BhVH4VHbruGgTMkE92B6U%2B4Jr0FeLX0I9LaKKMq8%2B4TYo&itmmeta=wwHmKhYwY%2Fjx0DQwMUtRN0E5UTM3Wkg2U1dSNjdRME0xNzlLMDQwMUtRN0E5UFZNWDhGSEpBTkNSNTlXREZCWb6%2BDA%3D%3D
+              - generic [ref=e86]:
+                - link "Find similar items from" [ref=e89] [cursor=pointer]:
+                  - /url: https://www.ebay.com/str/wenjstore?_sacat=155101&promoted_items=306864815247%2C306316721091%2C306314846637%2C306865171535%2C306310492607&itmprp=encpd%3AAQALAAACMCujeyHvn4hroM7JuQ6CUKPSM7C3A%2F8ZjjZ2%2F%2FiP03cCnZV5c5SGN6UcIpUz0IFXbk9yuuurA2hu5gQNv79%2FubhB7v9X%2Fku5td%2BNANoWcr7JFT3uN8Ra4CqqbPqTXmhQVJNTYV2FoXf%2BgzWh1%2FCVn%2FJWcV3fjj3QUk8NO6X18eXCkChOqLvPVvEvrDGTxoJtuI4H4QSaTbZHa62Ib%2FH1G6xTCsjlxHJBlkkt2VScHs3Hb5RkZSrnt946ERTca%2Ba7stWdbYxf7LaYGHycdrsx9mlyu538R33DxEu4s08ugt%2BVNyXU7Y8VfAHBSFC1fSo0p%2FkOv5QaaA0F0Nz%2FuMbfgv%2BiOk6bmtmuu8%2FotCYqwHXD8l0ljqqeOaDkZrm2xjJrc5zUVl0PiTTCAJwnAVrvir3umGAlYRJKfhmbFA66w%2F2fF5%2BcdHBBBZWr0jq5Ofd7Cxo8rKzhSucb%2BxAfY6yNM%2Buxdz4m7%2FvXhq02RpXoiHnmxH402b3rwnsaINrHuAsNl6KbZi3ZFUzPKDz1JnfAV6L3IUDLuh5gsRWVRAUJETGAhLU95JaaFfj3e4XiFX0Iw2J%2BnTCC4ZhVhym6wTSCl%2FFni1ogLMwDApkl2KQhx8yI3LijCHd%2Bpb3juQ5%2FxPBsPbcB6tvdzMdTZtanAWU2XOO5DOgxJ71rvdYxbpZ5eXUJAXLvA%2FL7S5xEZFMVeNq%2BhVH4VHbruGgTMkE92B6U%2B4Jr0FeLX0I9LaKKMq8%2B4TYo&itmmeta=wwHmKhYwY%2Fjx0DQwMUtRN0E5UTM3Wkg2U1dSNjdRME0xNzlLMDQwMUtRN0E5UFZNWDhGSEpBTkNSNTlXREZCWb6%2BDA%3D%3D
+                - generic [ref=e90]:
+                  - link "WenJStore" [ref=e93] [cursor=pointer]:
+                    - /url: https://www.ebay.com/str/wenjstore?_sacat=155101&promoted_items=306864815247%2C306316721091%2C306314846637%2C306865171535%2C306310492607&itmprp=encpd%3AAQALAAACMCujeyHvn4hroM7JuQ6CUKPSM7C3A%2F8ZjjZ2%2F%2FiP03cCnZV5c5SGN6UcIpUz0IFXbk9yuuurA2hu5gQNv79%2FubhB7v9X%2Fku5td%2BNANoWcr7JFT3uN8Ra4CqqbPqTXmhQVJNTYV2FoXf%2BgzWh1%2FCVn%2FJWcV3fjj3QUk8NO6X18eXCkChOqLvPVvEvrDGTxoJtuI4H4QSaTbZHa62Ib%2FH1G6xTCsjlxHJBlkkt2VScHs3Hb5RkZSrnt946ERTca%2Ba7stWdbYxf7LaYGHycdrsx9mlyu538R33DxEu4s08ugt%2BVNyXU7Y8VfAHBSFC1fSo0p%2FkOv5QaaA0F0Nz%2FuMbfgv%2BiOk6bmtmuu8%2FotCYqwHXD8l0ljqqeOaDkZrm2xjJrc5zUVl0PiTTCAJwnAVrvir3umGAlYRJKfhmbFA66w%2F2fF5%2BcdHBBBZWr0jq5Ofd7Cxo8rKzhSucb%2BxAfY6yNM%2Buxdz4m7%2FvXhq02RpXoiHnmxH402b3rwnsaINrHuAsNl6KbZi3ZFUzPKDz1JnfAV6L3IUDLuh5gsRWVRAUJETGAhLU95JaaFfj3e4XiFX0Iw2J%2BnTCC4ZhVhym6wTSCl%2FFni1ogLMwDApkl2KQhx8yI3LijCHd%2Bpb3juQ5%2FxPBsPbcB6tvdzMdTZtanAWU2XOO5DOgxJ71rvdYxbpZ5eXUJAXLvA%2FL7S5xEZFMVeNq%2BhVH4VHbruGgTMkE92B6U%2B4Jr0FeLX0I9LaKKMq8%2B4TYo&itmmeta=wwHmKhYwY%2Fjx0DQwMUtRN0E5UTM3Wkg2U1dSNjdRME0xNzlLMDQwMUtRN0E5UFZNWDhGSEpBTkNSNTlXREZCWb6%2BDA%3D%3D
+                    - img "WenJStore" [ref=e94]
+                  - link "WenJStore" [ref=e97] [cursor=pointer]:
+                    - /url: https://www.ebay.com/str/wenjstore?_sacat=155101&promoted_items=306864815247%2C306316721091%2C306314846637%2C306865171535%2C306310492607&itmprp=encpd%3AAQALAAACMCujeyHvn4hroM7JuQ6CUKPSM7C3A%2F8ZjjZ2%2F%2FiP03cCnZV5c5SGN6UcIpUz0IFXbk9yuuurA2hu5gQNv79%2FubhB7v9X%2Fku5td%2BNANoWcr7JFT3uN8Ra4CqqbPqTXmhQVJNTYV2FoXf%2BgzWh1%2FCVn%2FJWcV3fjj3QUk8NO6X18eXCkChOqLvPVvEvrDGTxoJtuI4H4QSaTbZHa62Ib%2FH1G6xTCsjlxHJBlkkt2VScHs3Hb5RkZSrnt946ERTca%2Ba7stWdbYxf7LaYGHycdrsx9mlyu538R33DxEu4s08ugt%2BVNyXU7Y8VfAHBSFC1fSo0p%2FkOv5QaaA0F0Nz%2FuMbfgv%2BiOk6bmtmuu8%2FotCYqwHXD8l0ljqqeOaDkZrm2xjJrc5zUVl0PiTTCAJwnAVrvir3umGAlYRJKfhmbFA66w%2F2fF5%2BcdHBBBZWr0jq5Ofd7Cxo8rKzhSucb%2BxAfY6yNM%2Buxdz4m7%2FvXhq02RpXoiHnmxH402b3rwnsaINrHuAsNl6KbZi3ZFUzPKDz1JnfAV6L3IUDLuh5gsRWVRAUJETGAhLU95JaaFfj3e4XiFX0Iw2J%2BnTCC4ZhVhym6wTSCl%2FFni1ogLMwDApkl2KQhx8yI3LijCHd%2Bpb3juQ5%2FxPBsPbcB6tvdzMdTZtanAWU2XOO5DOgxJ71rvdYxbpZ5eXUJAXLvA%2FL7S5xEZFMVeNq%2BhVH4VHbruGgTMkE92B6U%2B4Jr0FeLX0I9LaKKMq8%2B4TYo&itmmeta=wwHmKhYwY%2Fjx0DQwMUtRN0E5UTM3Wkg2U1dSNjdRME0xNzlLMDQwMUtRN0E5UFZNWDhGSEpBTkNSNTlXREZCWb6%2BDA%3D%3D
+                    - generic [ref=e98]: WenJStore
+                  - generic [ref=e99]:
+                    - text: (
+                    - link "99.1% positive" [ref=e101] [cursor=pointer]:
+                      - /url: https://www.ebay.com/str/wenjstore?_sacat=155101&promoted_items=306864815247%2C306316721091%2C306314846637%2C306865171535%2C306310492607&itmprp=encpd%3AAQALAAACMCujeyHvn4hroM7JuQ6CUKPSM7C3A%2F8ZjjZ2%2F%2FiP03cCnZV5c5SGN6UcIpUz0IFXbk9yuuurA2hu5gQNv79%2FubhB7v9X%2Fku5td%2BNANoWcr7JFT3uN8Ra4CqqbPqTXmhQVJNTYV2FoXf%2BgzWh1%2FCVn%2FJWcV3fjj3QUk8NO6X18eXCkChOqLvPVvEvrDGTxoJtuI4H4QSaTbZHa62Ib%2FH1G6xTCsjlxHJBlkkt2VScHs3Hb5RkZSrnt946ERTca%2Ba7stWdbYxf7LaYGHycdrsx9mlyu538R33DxEu4s08ugt%2BVNyXU7Y8VfAHBSFC1fSo0p%2FkOv5QaaA0F0Nz%2FuMbfgv%2BiOk6bmtmuu8%2FotCYqwHXD8l0ljqqeOaDkZrm2xjJrc5zUVl0PiTTCAJwnAVrvir3umGAlYRJKfhmbFA66w%2F2fF5%2BcdHBBBZWr0jq5Ofd7Cxo8rKzhSucb%2BxAfY6yNM%2Buxdz4m7%2FvXhq02RpXoiHnmxH402b3rwnsaINrHuAsNl6KbZi3ZFUzPKDz1JnfAV6L3IUDLuh5gsRWVRAUJETGAhLU95JaaFfj3e4XiFX0Iw2J%2BnTCC4ZhVhym6wTSCl%2FFni1ogLMwDApkl2KQhx8yI3LijCHd%2Bpb3juQ5%2FxPBsPbcB6tvdzMdTZtanAWU2XOO5DOgxJ71rvdYxbpZ5eXUJAXLvA%2FL7S5xEZFMVeNq%2BhVH4VHbruGgTMkE92B6U%2B4Jr0FeLX0I9LaKKMq8%2B4TYo&itmmeta=wwHmKhYwY%2Fjx0DQwMUtRN0E5UTM3Wkg2U1dSNjdRME0xNzlLMDQwMUtRN0E5UFZNWDhGSEpBTkNSNTlXREZCWb6%2BDA%3D%3D
+                      - generic [ref=e103]: 99.1% positive
+                    - text: )
+                - link "925 Sterling Silver 10MM Wide Mesh Chain Necklace Adjustable Choker for Women" [ref=e106] [cursor=pointer]:
+                  - /url: https://www.ebay.com/itm/306864815247?itmprp=encpd%3AAQALAAACMCujeyHvn4hroM7JuQ6CUKPSM7C3A%2F8ZjjZ2%2F%2FiP03cCnZV5c5SGN6UcIpUz0IFXbk9yuuurA2hu5gQNv79%2FubhB7v9X%2Fku5td%2BNANoWcr7JFT3uN8Ra4CqqbPqTXmhQVJNTYV2FoXf%2BgzWh1%2FCVn%2FJWcV3fjj3QUk8NO6X18eXCkChOqLvPVvEvrDGTxoJtuI4H4QSaTbZHa62Ib%2FH1G6xTCsjlxHJBlkkt2VScHs3Hb5RkZSrnt946ERTca%2Ba7stWdbYxf7LaYGHycdrsx9mlyu538R33DxEu4s08ugt%2BVNyXU7Y8VfAHBSFC1fSo0p%2FkOv5QaaA0F0Nz%2FuMbfgv%2BiOk6bmtmuu8%2FotCYqwHXD8l0ljqqeOaDkZrm2xjJrc5zUVl0PiTTCAJwnAVrvir3umGAlYRJKfhmbFA66w%2F2fF5%2BcdHBBBZWr0jq5Ofd7Cxo8rKzhSucb%2BxAfY6yNM%2Buxdz4m7%2FvXhq02RpXoiHnmxH402b3rwnsaINrHuAsNl6KbZi3ZFUzPKDz1JnfAV6L3IUDLuh5gsRWVRAUJETGAhLU95JaaFfj3e4XiFX0Iw2J%2BnTCC4ZhVhym6wTSCl%2FGh2wS%2F7Z4yV9OeS6n74eVFL%2BTKGujsKEOMmCq5cDCaSCSn8AajPaNTQop3JNSWu7Fr1fymNtw80CYhAhnbwk88MpFXnV16cwxAuW1JajLRB36hrluGFR5QnoLqVMO6RQn1H2dtunJcdn65qR6juoGa&itmmeta=wwHmKhYwY%2Fjx0DQwMUtRN0E5UTM3Wkg2U1dSNjdRME0xNzlLMDQwMUtRN0E5UFZNWDhGSEpBTkNSNTlXREZCWb6%2BDA%3D%3D
+                  - img "925 Sterling Silver 10MM Wide Mesh Chain Necklace Adjustable Choker for Women" [ref=e107]
+                - link "925 Sterling Silver Women 6mm Smooth Beads Ball Chain Necklace Jewelry Gift" [ref=e110] [cursor=pointer]:
+                  - /url: https://www.ebay.com/itm/306316721091?itmprp=encpd%3AAQALAAACMCujeyHvn4hroM7JuQ6CUKPSM7C3A%2F8ZjjZ2%2F%2FiP03cCnZV5c5SGN6UcIpUz0IFXbk9yuuurA2hu5gQNv79%2FubhB7v9X%2Fku5td%2BNANoWcr7JFT3uN8Ra4CqqbPqTXmhQVJNTYV2FoXf%2BgzWh1%2FCVn%2FJWcV3fjj3QUk8NO6X18eXCkChOqLvPVvEvrDGTxoJtuI4H4QSaTbZHa62Ib%2FH1G6xTCsjlxHJBlkkt2VScHs3Hb5RkZSrnt946ERTca%2Ba7stWdbYxf7LaYGHycdrsx9mlyu538R33DxEu4s08ugt%2BVNyXU7Y8VfAHBSFC1fSo0p%2FkOv5QaaA0F0Nz%2FuMbfgv%2BiOk6bmtmuu8%2FotCYqwHXD8l0ljqqeOaDkZrm2xjJrc5zUVl0PiTTCAJwnAVrvir3umGAlYRJKfhmbFA66w%2F2fF5%2BcdHBBBZWr0jq5Ofd7Cxo8rKzhSucb%2BxAfY6yNM%2Buxdz4m7%2FvXhq02RpXoiHnmxH402b3rwnsaINrHuAsNl6KbZi3ZFUzPKDz1JnfAV6L3IUDLuh5gsRWVRAUJETGAhLU95JaaFfj3e4XiFX0Iw2J%2BnTCC4ZhVhym6wTSCl%2FGh2wS%2F7Z4yV9OeS6n74eVFL%2BTKGujsKEOMmCq5cDCaSCSn8AajPaNTQop3JNSWu7Fr1fymNtw80CYhAhnbwk88MpFXnV16cwxAuW1JajLRB36hrluGFR5QnoLqVMO6RQn1H2dtunJcdn65qR6juoGa&itmmeta=wwHmKhYwY%2Fjx0DQwMUtRN0E5UTM3Wkg2U1dSNjdRME0xNzlLMDQwMUtRN0E5UFZNWDhGSEpBTkNSNTlXREZCWb6%2BDA%3D%3D
+                  - img "925 Sterling Silver Women 6mm Smooth Beads Ball Chain Necklace Jewelry Gift" [ref=e111]
+                - link "925 Sterling Silver 5mm Faucet Chain Necklace Dainty Jewelry Gift 20/24 Inch" [ref=e114] [cursor=pointer]:
+                  - /url: https://www.ebay.com/itm/306314846637?itmprp=encpd%3AAQALAAACMCujeyHvn4hroM7JuQ6CUKPSM7C3A%2F8ZjjZ2%2F%2FiP03cCnZV5c5SGN6UcIpUz0IFXbk9yuuurA2hu5gQNv79%2FubhB7v9X%2Fku5td%2BNANoWcr7JFT3uN8Ra4CqqbPqTXmhQVJNTYV2FoXf%2BgzWh1%2FCVn%2FJWcV3fjj3QUk8NO6X18eXCkChOqLvPVvEvrDGTxoJtuI4H4QSaTbZHa62Ib%2FH1G6xTCsjlxHJBlkkt2VScHs3Hb5RkZSrnt946ERTca%2Ba7stWdbYxf7LaYGHycdrsx9mlyu538R33DxEu4s08ugt%2BVNyXU7Y8VfAHBSFC1fSo0p%2FkOv5QaaA0F0Nz%2FuMbfgv%2BiOk6bmtmuu8%2FotCYqwHXD8l0ljqqeOaDkZrm2xjJrc5zUVl0PiTTCAJwnAVrvir3umGAlYRJKfhmbFA66w%2F2fF5%2BcdHBBBZWr0jq5Ofd7Cxo8rKzhSucb%2BxAfY6yNM%2Buxdz4m7%2FvXhq02RpXoiHnmxH402b3rwnsaINrHuAsNl6KbZi3ZFUzPKDz1JnfAV6L3IUDLuh5gsRWVRAUJETGAhLU95JaaFfj3e4XiFX0Iw2J%2BnTCC4ZhVhym6wTSCl%2FGh2wS%2F7Z4yV9OeS6n74eVFL%2BTKGujsKEOMmCq5cDCaSCSn8AajPaNTQop3JNSWu7Fr1fymNtw80CYhAhnbwk88MpFXnV16cwxAuW1JajLRB36hrluGFR5QnoLqVMO6RQn1H2dtunJcdn65qR6juoGa&itmmeta=wwHmKhYwY%2Fjx0DQwMUtRN0E5UTM3Wkg2U1dSNjdRME0xNzlLMDQwMUtRN0E5UFZNWDhGSEpBTkNSNTlXREZCWb6%2BDA%3D%3D
+                  - img "925 Sterling Silver 5mm Faucet Chain Necklace Dainty Jewelry Gift 20/24 Inch" [ref=e115]
+                - link "925 Sterling Silver Phoenix Tail Water Wave Chain Necklace Jewelry for Women" [ref=e118] [cursor=pointer]:
+                  - /url: https://www.ebay.com/itm/306865171535?itmprp=encpd%3AAQALAAACMCujeyHvn4hroM7JuQ6CUKPSM7C3A%2F8ZjjZ2%2F%2FiP03cCnZV5c5SGN6UcIpUz0IFXbk9yuuurA2hu5gQNv79%2FubhB7v9X%2Fku5td%2BNANoWcr7JFT3uN8Ra4CqqbPqTXmhQVJNTYV2FoXf%2BgzWh1%2FCVn%2FJWcV3fjj3QUk8NO6X18eXCkChOqLvPVvEvrDGTxoJtuI4H4QSaTbZHa62Ib%2FH1G6xTCsjlxHJBlkkt2VScHs3Hb5RkZSrnt946ERTca%2Ba7stWdbYxf7LaYGHycdrsx9mlyu538R33DxEu4s08ugt%2BVNyXU7Y8VfAHBSFC1fSo0p%2FkOv5QaaA0F0Nz%2FuMbfgv%2BiOk6bmtmuu8%2FotCYqwHXD8l0ljqqeOaDkZrm2xjJrc5zUVl0PiTTCAJwnAVrvir3umGAlYRJKfhmbFA66w%2F2fF5%2BcdHBBBZWr0jq5Ofd7Cxo8rKzhSucb%2BxAfY6yNM%2Buxdz4m7%2FvXhq02RpXoiHnmxH402b3rwnsaINrHuAsNl6KbZi3ZFUzPKDz1JnfAV6L3IUDLuh5gsRWVRAUJETGAhLU95JaaFfj3e4XiFX0Iw2J%2BnTCC4ZhVhym6wTSCl%2FGh2wS%2F7Z4yV9OeS6n74eVFL%2BTKGujsKEOMmCq5cDCaSCSn8AajPaNTQop3JNSWu7Fr1fymNtw80CYhAhnbwk88MpFXnV16cwxAuW1JajLRB36hrluGFR5QnoLqVMO6RQn1H2dtunJcdn65qR6juoGa&itmmeta=wwHmKhYwY%2Fjx0DQwMUtRN0E5UTM3Wkg2U1dSNjdRME0xNzlLMDQwMUtRN0E5UFZNWDhGSEpBTkNSNTlXREZCWb6%2BDA%3D%3D
+                  - img "925 Sterling Silver Phoenix Tail Water Wave Chain Necklace Jewelry for Women" [ref=e119]
+                - link "10pcs Lot 925 Sterling Silver 1mm Snake Chain Necklace 40-75cm Delicate Jewelry" [ref=e122] [cursor=pointer]:
+                  - /url: https://www.ebay.com/itm/306310492607?itmprp=encpd%3AAQALAAACMCujeyHvn4hroM7JuQ6CUKPSM7C3A%2F8ZjjZ2%2F%2FiP03cCnZV5c5SGN6UcIpUz0IFXbk9yuuurA2hu5gQNv79%2FubhB7v9X%2Fku5td%2BNANoWcr7JFT3uN8Ra4CqqbPqTXmhQVJNTYV2FoXf%2BgzWh1%2FCVn%2FJWcV3fjj3QUk8NO6X18eXCkChOqLvPVvEvrDGTxoJtuI4H4QSaTbZHa62Ib%2FH1G6xTCsjlxHJBlkkt2VScHs3Hb5RkZSrnt946ERTca%2Ba7stWdbYxf7LaYGHycdrsx9mlyu538R33DxEu4s08ugt%2BVNyXU7Y8VfAHBSFC1fSo0p%2FkOv5QaaA0F0Nz%2FuMbfgv%2BiOk6bmtmuu8%2FotCYqwHXD8l0ljqqeOaDkZrm2xjJrc5zUVl0PiTTCAJwnAVrvir3umGAlYRJKfhmbFA66w%2F2fF5%2BcdHBBBZWr0jq5Ofd7Cxo8rKzhSucb%2BxAfY6yNM%2Buxdz4m7%2FvXhq02RpXoiHnmxH402b3rwnsaINrHuAsNl6KbZi3ZFUzPKDz1JnfAV6L3IUDLuh5gsRWVRAUJETGAhLU95JaaFfj3e4XiFX0Iw2J%2BnTCC4ZhVhym6wTSCl%2FGh2wS%2F7Z4yV9OeS6n74eVFL%2BTKGujsKEOMmCq5cDCaSCSn8AajPaNTQop3JNSWu7Fr1fymNtw80CYhAhnbwk88MpFXnV16cwxAuW1JajLRB36hrluGFR5QnoLqVMO6RQn1H2dtunJcdn65qR6juoGa&itmmeta=wwHmKhYwY%2Fjx0DQwMUtRN0E5UTM3Wkg2U1dSNjdRME0xNzlLMDQwMUtRN0E5UFZNWDhGSEpBTkNSNTlXREZCWb6%2BDA%3D%3D
+                  - img "10pcs Lot 925 Sterling Silver 1mm Snake Chain Necklace 40-75cm Delicate Jewelry" [ref=e123]
+                - link "Shop store on eBay" [ref=e126] [cursor=pointer]:
+                  - /url: https://www.ebay.com/str/wenjstore?_sacat=155101&promoted_items=306864815247%2C306316721091%2C306314846637%2C306865171535%2C306310492607&itmprp=encpd%3AAQALAAACMCujeyHvn4hroM7JuQ6CUKPSM7C3A%2F8ZjjZ2%2F%2FiP03cCnZV5c5SGN6UcIpUz0IFXbk9yuuurA2hu5gQNv79%2FubhB7v9X%2Fku5td%2BNANoWcr7JFT3uN8Ra4CqqbPqTXmhQVJNTYV2FoXf%2BgzWh1%2FCVn%2FJWcV3fjj3QUk8NO6X18eXCkChOqLvPVvEvrDGTxoJtuI4H4QSaTbZHa62Ib%2FH1G6xTCsjlxHJBlkkt2VScHs3Hb5RkZSrnt946ERTca%2Ba7stWdbYxf7LaYGHycdrsx9mlyu538R33DxEu4s08ugt%2BVNyXU7Y8VfAHBSFC1fSo0p%2FkOv5QaaA0F0Nz%2FuMbfgv%2BiOk6bmtmuu8%2FotCYqwHXD8l0ljqqeOaDkZrm2xjJrc5zUVl0PiTTCAJwnAVrvir3umGAlYRJKfhmbFA66w%2F2fF5%2BcdHBBBZWr0jq5Ofd7Cxo8rKzhSucb%2BxAfY6yNM%2Buxdz4m7%2FvXhq02RpXoiHnmxH402b3rwnsaINrHuAsNl6KbZi3ZFUzPKDz1JnfAV6L3IUDLuh5gsRWVRAUJETGAhLU95JaaFfj3e4XiFX0Iw2J%2BnTCC4ZhVhym6wTSCl%2FFni1ogLMwDApkl2KQhx8yI3LijCHd%2Bpb3juQ5%2FxPBsPbcB6tvdzMdTZtanAWU2XOO5DOgxJ71rvdYxbpZ5eXUJAXLvA%2FL7S5xEZFMVeNq%2BhVH4VHbruGgTMkE92B6U%2B4Jr0FeLX0I9LaKKMq8%2B4TYo&itmmeta=wwHmKhYwY%2Fjx0DQwMUtRN0E5UTM3Wkg2U1dSNjdRME0xNzlLMDQwMUtRN0E5UFZNWDhGSEpBTkNSNTlXREZCWb6%2BDA%3D%3D
+              - generic [ref=e133]: Sponsored
+            - generic [ref=e142]:
+              - heading "People who viewed this item also viewed" [level=2] [ref=e149]
+              - group [ref=e151]:
+                - list [ref=e154]:
+                  - listitem [ref=e155]:
+                    - generic [ref=e157]:
+                      - generic [ref=e163]:
+                        - heading "Gift For Her Moldavite Wire Wrapped Tree Of Life Pendant Copper Jewelry 1.81\"" [level=3] [ref=e164]
+                        - generic [ref=e166]: ILS 69.13
+                        - generic [ref=e168]:
+                          - generic [ref=e169]: previous price
+                          - text: ILS230.47
+                        - generic [ref=e171]: Free delivery
+                      - link "Gift For Her Moldavite Wire Wrapped Tree Of Life Pendant Copper Jewelry 1.81\"" [ref=e172] [cursor=pointer]:
+                        - /url: https://www.ebay.com/itm/266325425697?_trkparms=itmf%3D1%26aid%3D1110006%26rkt%3D5%26mech%3D1%26algv%3DDefaultOrganicWebV9BertRefreshRankerWithCassiniEmbRecall%26pmt%3D1%26amclksrc%3DITM%26sd%3D266756575476%26sid%3DAQALAAAAEGJBQ8m38Z4j67wsSeWAZyw%3D%26itm%3D266325425697%26noa%3D1%26plcampt%3D0%3A13548984018%2C5%3AAG5618590268%26algo%3DHOMESPLICE.SIM%26brand%3DUnbranded%2FGeneric%26asc%3D20200818143230%26ao%3D1%26rk%3D1%26pid%3D101224%26b%3D1%26mehot%3Dnone%26lsid%3D0%26meid%3D718770c426a749c6ba4460185243b3d4%26pg%3D2332490&_trksid=p2332490.c101224.m-1
+                  - listitem [ref=e173]:
+                    - generic [ref=e175]:
+                      - generic [ref=e181]:
+                        - heading "Rainbow Moonstone Rough Gemstone Copper Chain Electroformed New Necklace Jewelry" [level=3] [ref=e182]
+                        - generic [ref=e184]: ILS 77.04
+                        - generic [ref=e186]:
+                          - generic [ref=e187]: previous price
+                          - text: ILS256.77
+                        - generic [ref=e189]: Free delivery
+                        - generic [ref=e191]: Sponsored
+                      - link "Rainbow Moonstone Rough Gemstone Copper Chain Electroformed New Necklace Jewelry" [ref=e192] [cursor=pointer]:
+                        - /url: https://www.ebay.com/itm/267116954451?_trkparms=itmf%3D1%26aid%3D1110006%26rkt%3D5%26mech%3D1%26algv%3DDefaultOrganicWebV9BertRefreshRankerWithCassiniEmbRecall%26pmt%3D1%26amclksrc%3DITM%26sd%3D266756575476%26sid%3DAQALAAAAEGJBQ8m38Z4j67wsSeWAZyw%3D%26itm%3D267116954451%26noa%3D0%26plcampt%3D0%3A13548984018%26algo%3DHOMESPLICE.SIM%26brand%3DUnbranded%2FGeneric%26asc%3D20200818143230%26ao%3D1%26rk%3D4%26pid%3D101224%26b%3D1%26mehot%3Dnone%26lsid%3D0%26meid%3D718770c426a749c6ba4460185243b3d4%26pg%3D2332490&_trksid=p2332490.c101224.m-1&itmprp=cksum%3A267116954451718770c426a749c6ba4460185243b3d4%7Cenc%3AAQALAAAA8HU%252FGPBKMoWrH2cpzpvK9FDC5c4FxwFIV%252Bq0okjrJ6w9cB%252BqWqTCByXEsJeNzj%252BLPZ6Y%252Bcb%252BSNENjzLG3DpJu0lvbAbAOd3WUL7u7o3g3M5%252FxF6zD0k9O4KSoeGizyapVgiRRimwpTrxdPPhsiknTqL7cKtTbnxhzgeKvK6qftE7s6OG8OUspm6eJyJ87o1P8tncMViWJU%252BUcVsLKAkvzvVgCoKvGec5moWffqXdeDNUQSdonPLET5SHhd9TtPjN2npoPLYUA5mlcnBGky2z4agF%252BfSW3Snt9YNM4ziRAaD18oOZnlu9J6gSB4SpRVZf6w%253D%253D%7Campid%3APL_CLK%7Cclp%3A2332490&itmmeta=01KQ7A9QBB5TZYWYW1X7AF1GDS
+                  - listitem [ref=e193]:
+                    - generic [ref=e195]:
+                      - generic [ref=e201]:
+                        - heading "Amethyst Gemstone Handmade Big Necklace Jewelry For Women BBN-001" [level=3] [ref=e202]
+                        - generic [ref=e204]: ILS 89.55
+                        - generic [ref=e206]: Free delivery
+                      - link "Amethyst Gemstone Handmade Big Necklace Jewelry For Women BBN-001" [ref=e207] [cursor=pointer]:
+                        - /url: https://www.ebay.com/itm/389861961537?_trkparms=itmf%3D1%26aid%3D1110006%26rkt%3D5%26algo%3DHOMESPLICE.SIM%26asc%3D20200818143230%26mech%3D1%26algv%3DDefaultOrganicWebV9BertRefreshRankerWithCassiniEmbRecall%26pmt%3D0%26amclksrc%3DITM%26sd%3D266756575476%26sid%3DAQALAAAAEFSkhoNQfeLh4G4avAo6mcI%3D%26itm%3D389861961537%26noa%3D1%26ao%3D1%26rk%3D2%26pid%3D101224%26b%3D1%26mehot%3Dnone%26lsid%3D0%26meid%3D718770c426a749c6ba4460185243b3d4%26pg%3D2332490&_trksid=p2332490.c101224.m-1
+                  - listitem [ref=e208]:
+                    - generic [ref=e210]:
+                      - generic [ref=e216]:
+                        - heading "Moldavite Gemstone Jewelry Copper Gift For Briedsmaid Wire Wrapped Pendant 2.8\"" [level=3] [ref=e217]
+                        - generic [ref=e219]: ILS 74.35
+                        - generic [ref=e221]:
+                          - generic [ref=e222]: previous price
+                          - text: ILS247.82
+                        - generic [ref=e224]: Free delivery
+                      - link "Moldavite Gemstone Jewelry Copper Gift For Briedsmaid Wire Wrapped Pendant 2.8\"" [ref=e225] [cursor=pointer]:
+                        - /url: https://www.ebay.com/itm/266512046571?_trkparms=itmf%3D1%26aid%3D1110006%26rkt%3D5%26mech%3D1%26algv%3DDefaultOrganicWebV9BertRefreshRankerWithCassiniEmbRecall%26pmt%3D1%26amclksrc%3DITM%26sd%3D266756575476%26sid%3DAQALAAAAEGJBQ8m38Z4j67wsSeWAZyw%3D%26itm%3D266512046571%26noa%3D1%26plcampt%3D0%3A13548984018%26algo%3DHOMESPLICE.SIM%26brand%3DUnbranded%2FGeneric%26asc%3D20200818143230%26ao%3D1%26rk%3D3%26pid%3D101224%26b%3D1%26mehot%3Dnone%26lsid%3D0%26meid%3D718770c426a749c6ba4460185243b3d4%26pg%3D2332490&_trksid=p2332490.c101224.m-1
+            - generic [ref=e226]:
+              - text: EXTRA 20% OFF WITH CODE SILVER20
+              - link "See all eligible items and terms" [ref=e228] [cursor=pointer]:
+                - /url: https://www.ebay.com/str/silvercreation?_soffType=CodedCouponOffer&_soffid=13256625508&_tab=sales&_trksid=p2047675.m2197
+                - text: See all eligible items and terms
+          - generic [ref=e232]:
+            - generic [ref=e235]:
+              - generic [ref=e237]:
+                - generic [ref=e238]:
+                  - button "Previous image - Item images thumbnails" [disabled] [ref=e239] [cursor=pointer]:
+                    - img
+                  - generic [ref=e240]:
+                    - button "Picture 1 of 6" [ref=e241] [cursor=pointer]:
+                      - img "Picture 1 of 6" [ref=e242]
+                    - button "Video 1 of 1" [ref=e243] [cursor=pointer]:
+                      - img "Video 1 of 1" [ref=e244]
+                      - generic:
+                        - img
+                    - button "Picture 2 of 6" [ref=e245] [cursor=pointer]:
+                      - img "Picture 2 of 6" [ref=e246]
+                    - button "Picture 3 of 6" [ref=e247] [cursor=pointer]:
+                      - img "Picture 3 of 6" [ref=e248]
+                    - button "Picture 4 of 6" [ref=e249] [cursor=pointer]:
+                      - img "Picture 4 of 6" [ref=e250]
+                    - button "Picture 5 of 6" [ref=e251] [cursor=pointer]:
+                      - img "Picture 5 of 6" [ref=e252]
+                    - button "Picture 6 of 6" [ref=e253] [cursor=pointer]
+                  - button "Next image - Item images thumbnails" [ref=e254] [cursor=pointer]:
+                    - img
+                - generic [ref=e255]:
+                  - heading "Picture 1 of 6" [level=2] [ref=e256]
+                  - generic [ref=e260]: In 56 carts
+                  - button "Previous image - Item images thumbnails" [ref=e262] [cursor=pointer]:
+                    - img
+                  - region "Opens image gallery dialog Moldavite Gemstone Electroformed Pendant Copper Handmade Jewelry For Women 1.65\" - Picture 1 of 6" [ref=e263]:
+                    - group "1 of 7" [ref=e264]:
+                      - img "Moldavite Gemstone Electroformed Pendant Copper Handmade Jewelry For Women 1.65\" - Picture 1 of 6" [ref=e265]
+                    - group "2 of 7" [ref=e266]:
+                      - generic [ref=e267]:
+                        - img "Moldavite Gemstone Electroformed Pendant Copper Handmade Jewelry For Women 1.65\" - Video 1 of 1" [ref=e268]
+                        - img
+                    - group "3 of 7" [ref=e269]:
+                      - img "Moldavite Gemstone Electroformed Pendant Copper Handmade Jewelry For Women 1.65\" - Picture 2 of 6" [ref=e270]
+                    - group "4 of 7" [ref=e271]:
+                      - img "Moldavite Gemstone Electroformed Pendant Copper Handmade Jewelry For Women 1.65\" - Picture 3 of 6" [ref=e272]
+                    - group "5 of 7" [ref=e273]:
+                      - img "Moldavite Gemstone Electroformed Pendant Copper Handmade Jewelry For Women 1.65\" - Picture 4 of 6" [ref=e274]
+                    - group "6 of 7" [ref=e275]:
+                      - img "Moldavite Gemstone Electroformed Pendant Copper Handmade Jewelry For Women 1.65\" - Picture 5 of 6" [ref=e276]
+                    - group "7 of 7" [ref=e277]:
+                      - img "Moldavite Gemstone Electroformed Pendant Copper Handmade Jewelry For Women 1.65\" - Picture 6 of 6" [ref=e278]
+                  - generic [ref=e279]:
+                    - button "Opens image gallery" [ref=e280] [cursor=pointer]:
+                      - img
+                    - button "Add to watchlist - 403 watchers" [ref=e282] [cursor=pointer]:
+                      - generic [ref=e283]: "403"
+                      - img
+                  - button "Next image - Item images thumbnails" [ref=e285] [cursor=pointer]:
+                    - img
+              - button "Share" [ref=e291] [cursor=pointer]:
+                - img
+                - generic [ref=e292]: Share
+            - generic [ref=e295]:
+              - heading "Moldavite Gemstone Electroformed Pendant Copper Handmade Jewelry For Women 1.65\"" [level=1] [ref=e297]
+              - generic [ref=e299] [cursor=pointer]:
+                - generic [ref=e301]:
+                  - generic [ref=e302]:
+                    - link [ref=e304]:
+                      - /url: https://www.ebay.com/str/silvercreation?_trksid=p4429486.m3561.l161210
+                      - img [ref=e306]
+                    - generic [ref=e307]:
+                      - generic [ref=e308]:
+                        - link "silvercreation" [ref=e309]:
+                          - /url: https://www.ebay.com/str/silvercreation?_trksid=p4429486.m3561.l161211
+                        - generic [ref=e311]: (5187)
+                      - generic [ref=e312]:
+                        - button "97.8% positive" [ref=e314]
+                        - link "Seller's other items" [ref=e316]:
+                          - /url: https://www.ebay.com/str/silvercreation?_trksid=p4429486.m3561.l170197
+                          - generic [ref=e317]: Seller's other items
+                          - generic [ref=e318]: Seller's other items
+                  - button "Message" [ref=e320]:
+                    - generic [ref=e321]: Message
+                - button "See more about this seller" [ref=e323]:
+                  - img
+              - generic [ref=e326]:
+                - generic [ref=e327]:
+                  - text: US $27.00
+                  - generic [ref=e328]: or Best Offer
+                - generic [ref=e329]:
+                  - generic [ref=e330]: Approximately
+                  - generic [ref=e331]: ILS 80.62
+                - generic [ref=e333]:
+                  - generic [ref=e334]: Was US $89.99 (70% off)
+                  - button "What does this price mean?" [ref=e339]:
+                    - img
+                - generic [ref=e340]:
+                  - generic [ref=e341]: ₪ 64.50 with coupon code
+                  - button "Price details" [ref=e342] [cursor=pointer]:
+                    - generic [ref=e343]: Price details
+              - generic [ref=e345]:
+                - generic [ref=e346]:
+                  - generic [ref=e347]: Condition
+                  - button "New without tags - About this item condition" [ref=e349] [cursor=pointer]: New without tags
+                - generic [ref=e350]:
+                  - generic [ref=e351]: Brand
+                  - generic [ref=e352]: Unbranded
+              - generic [ref=e354]:
+                - generic [ref=e355]: "Quantity:"
+                - generic [ref=e356]:
+                  - textbox "Quantity:" [ref=e358]: "1"
+                  - generic [ref=e359]: 9 available 125 sold
+              - list [ref=e361]:
+                - listitem [ref=e362]:
+                  - button "Buy It Now" [ref=e364] [cursor=pointer]:
+                    - generic [ref=e365]: Buy It Now
+                - listitem [ref=e366]:
+                  - button "Add to cart" [ref=e368] [cursor=pointer]:
+                    - generic [ref=e369]: Add to cart
+                - listitem [ref=e370]:
+                  - link "Make offer" [ref=e372] [cursor=pointer]:
+                    - /url: https://signin.ebay.com/ws/eBayISAPI.dll?SignIn&ru=https%3A%2F%2Fwww.ebay.com%2Fitm%2F266756575476%3Fboolp%3D1
+                    - generic [ref=e373]: Make offer
+                - listitem [ref=e374]:
+                  - generic [ref=e376]:
+                    - status [ref=e377]: Add to Watchlist
+                    - link "Add to Watchlist" [ref=e382] [cursor=pointer]:
+                      - /url: https://signin.ebay.com/ws/eBayISAPI.dll?SignIn&ru=https%3A%2F%2Fwww.ebay.com%2Fitm%2F266756575476
+                      - generic [ref=e383]:
+                        - img
+                        - text: Add to Watchlist
+              - generic [ref=e386]:
+                - generic [ref=e387]:
+                  - generic [ref=e388]:
+                    - img
+                  - generic [ref=e390]: This one's trending. 125 have already sold.
+                - generic [ref=e391]:
+                  - generic [ref=e392]:
+                    - img
+                  - generic [ref=e394]: Breathe easy. Free shipping and returns.
+              - generic [ref=e397]:
+                - heading "Shipping, returns, and payments" [level=2] [ref=e400]:
+                  - generic [ref=e401]: Shipping, returns, and payments
+                - generic [ref=e403]:
+                  - generic [ref=e406]:
+                    - generic [ref=e409]: "Shipping:"
+                    - generic [ref=e411]:
+                      - generic [ref=e412]:
+                        - text: Does not ship to Israel.
+                        - button "See details for shipping" [ref=e413] [cursor=pointer]:
+                          - generic [ref=e414]:
+                            - text: See details
+                            - generic [ref=e415]: for shipping
+                      - generic [ref=e416]: "Located in: JAIPUR, RAJASTHAN, India"
+                  - generic [ref=e419]:
+                    - generic [ref=e422]: "Delivery:"
+                    - generic [ref=e425]: Varies
+              - generic [ref=e432]:
+                - generic [ref=e435]: "Returns:"
+                - generic [ref=e438]:
+                  - text: 30 days returns. Seller pays for return shipping.
+                  - button "See details - for more information about returns" [ref=e439] [cursor=pointer]:
+                    - generic [ref=e440]:
+                      - text: See details
+                      - generic [ref=e441]: "- for more information about returns"
+              - generic [ref=e448]:
+                - generic [ref=e451]: "Payments:"
+                - generic [ref=e454]:
+                  - img "PayPal" [ref=e455]
+                  - img "Google Pay" [ref=e457]
+                  - img "Visa" [ref=e459]
+                  - img "Master Card" [ref=e461]
+                  - img "Discover" [ref=e463]
+                  - img "Diners Club" [ref=e466]
+              - generic [ref=e470]:
+                - heading "Shop with confidence" [level=2] [ref=e473]
+                - generic [ref=e474]:
+                  - generic [ref=e476]:
+                    - img
+                  - generic [ref=e477]:
+                    - generic [ref=e478]: Top Rated Plus
+                    - generic [ref=e479]:
+                      - text: Top rated seller, fast shipping, and free returns.
+                      - link "Learn more - Top Rated Plus - opens in a new window or tab" [ref=e480] [cursor=pointer]:
+                        - /url: https://www.ebay.com/help/buying/resolving-issues-sellers/seller-ratings?id=4023#TopRatedPlus
+                        - generic [ref=e481]:
+                          - text: Learn more
+                          - generic [ref=e482]: "- Top Rated Plus - opens in a new window or tab"
+                - generic [ref=e483]:
+                  - generic [ref=e485]:
+                    - img
+                  - generic [ref=e486]:
+                    - generic [ref=e487]: eBay Money Back Guarantee
+                    - generic [ref=e488]:
+                      - text: Get the item you ordered or your money back.
+                      - link "Learn more eBay Money Back Guarantee - opens new window or tab" [ref=e489] [cursor=pointer]:
+                        - /url: https://www.ebay.com/ebay-money-back-guarantee/
+                        - generic [ref=e490]:
+                          - text: Learn more
+                          - generic [ref=e491]: eBay Money Back Guarantee - opens new window or tab
+          - generic [ref=e492]:
+            - generic [ref=e497]:
+              - tablist [ref=e498]:
+                - tab "About this item" [selected] [ref=e499] [cursor=pointer]:
+                  - generic [ref=e500]: About this item
+              - tabpanel "About this item" [ref=e502]:
+                - generic [ref=e505]:
+                  - generic [ref=e508]:
+                    - generic [ref=e512]: Seller assumes all responsibility for this listing.
+                    - generic [ref=e516]: eBay item number:266756575476
+                    - generic [ref=e520]:
+                      - text: Last updated on Apr 24, 2026 20:33:40 PDT
+                      - link "View all revisions View all revisions" [ref=e521] [cursor=pointer]:
+                        - /url: https://www.ebay.com/rvh/266756575476?rt=nc&_trksid=p4429486.m148105.l48144
+                        - generic [ref=e522]:
+                          - text: View all revisions
+                          - generic [ref=e523]: View all revisions
+                  - generic [ref=e526]:
+                    - heading "Item specifics" [level=2] [ref=e529]:
+                      - generic [ref=e530]: Item specifics
+                    - generic [ref=e532]:
+                      - generic [ref=e533]:
+                        - generic [ref=e535]:
+                          - term [ref=e536]:
+                            - generic [ref=e538]: Condition
+                          - definition [ref=e539]:
+                            - generic [ref=e541]: New without tags
+                            - button "More information about item condition" [ref=e546]:
+                              - img
+                        - generic [ref=e548]:
+                          - term [ref=e549]:
+                            - generic [ref=e551]: Seller Notes
+                          - definition [ref=e552]:
+                            - generic [ref=e554]: “Handcrafted Copper Gemstone Pendant Jewelry”
+                      - generic [ref=e555]:
+                        - generic [ref=e557]:
+                          - term [ref=e558]:
+                            - generic [ref=e560]: Materials sourced from
+                          - definition [ref=e561]:
+                            - generic [ref=e563]: India
+                        - generic [ref=e565]:
+                          - term [ref=e566]:
+                            - generic [ref=e568]: Country of Origin
+                          - definition [ref=e569]:
+                            - generic [ref=e571]: India
+                      - generic [ref=e572]:
+                        - generic [ref=e574]:
+                          - term [ref=e575]:
+                            - generic [ref=e577]: Pendant Shape
+                          - definition [ref=e578]:
+                            - generic [ref=e580]: Round
+                        - generic [ref=e582]:
+                          - term [ref=e583]:
+                            - generic [ref=e585]: Antique
+                          - definition [ref=e586]:
+                            - generic [ref=e588]: "No"
+                      - generic [ref=e589]:
+                        - generic [ref=e591]:
+                          - term [ref=e592]:
+                            - generic [ref=e594]: Closure
+                          - definition [ref=e595]:
+                            - generic [ref=e597]: Not Applicable
+                        - generic [ref=e599]:
+                          - term [ref=e600]:
+                            - generic [ref=e602]: Occasion
+                          - definition [ref=e603]:
+                            - generic [ref=e605]: Anniversary, Birthday, Christening, Christmas, Confirmation/Communion, Engagement, Graduation, Mother's Day, Valentine's Day, Wedding
+                      - generic [ref=e606]:
+                        - generic [ref=e608]:
+                          - term [ref=e609]:
+                            - generic [ref=e611]: Main Stone Color
+                          - definition [ref=e612]:
+                            - generic [ref=e614]: Green
+                        - generic [ref=e616]:
+                          - term [ref=e617]:
+                            - generic [ref=e619]: Metal
+                          - definition [ref=e620]:
+                            - generic [ref=e622]: Copper
+                      - generic [ref=e623]:
+                        - generic [ref=e625]:
+                          - term [ref=e626]:
+                            - generic [ref=e628]: Secondary Stone
+                          - definition [ref=e629]:
+                            - generic [ref=e631]: No Stone
+                        - generic [ref=e633]:
+                          - term [ref=e634]:
+                            - generic [ref=e636]: Necklace Length
+                          - definition [ref=e637]:
+                            - generic [ref=e639]: Not Applicable
+                      - generic [ref=e640]:
+                        - generic [ref=e642]:
+                          - term [ref=e643]:
+                            - generic [ref=e645]: Main Stone
+                          - definition [ref=e646]:
+                            - generic [ref=e648]: Moldavite
+                        - generic [ref=e650]:
+                          - term [ref=e651]:
+                            - generic [ref=e653]: Vintage
+                          - definition [ref=e654]:
+                            - generic [ref=e656]: "No"
+                      - generic [ref=e657]:
+                        - generic [ref=e659]:
+                          - term [ref=e660]:
+                            - generic [ref=e662]: Main Stone Treatment
+                          - definition [ref=e663]:
+                            - generic [ref=e665]: Not Enhanced
+                        - generic [ref=e667]:
+                          - term [ref=e668]:
+                            - generic [ref=e670]: Main Stone Shape
+                          - definition [ref=e671]:
+                            - generic [ref=e673]: Round
+                      - generic [ref=e674]:
+                        - generic [ref=e676]:
+                          - term [ref=e677]:
+                            - generic [ref=e679]: Pendant/Locket Type
+                          - definition [ref=e680]:
+                            - generic [ref=e682]: Charm
+                        - generic [ref=e684]:
+                          - term [ref=e685]:
+                            - generic [ref=e687]: Style
+                          - definition [ref=e688]:
+                            - generic [ref=e690]: Pendant
+                      - generic [ref=e691]:
+                        - generic [ref=e693]:
+                          - term [ref=e694]:
+                            - generic [ref=e696]: Base Metal
+                          - definition [ref=e697]:
+                            - generic [ref=e699]: Copper
+                        - generic [ref=e701]:
+                          - term [ref=e702]:
+                            - generic [ref=e704]: Features
+                          - definition [ref=e705]:
+                            - generic [ref=e707]: Engraved, Handcrafted
+                      - generic [ref=e708]:
+                        - generic [ref=e710]:
+                          - term [ref=e711]:
+                            - generic [ref=e713]: Number of Gemstones
+                          - definition [ref=e714]:
+                            - generic [ref=e716]: As Seen in Picture
+                        - generic [ref=e718]:
+                          - term [ref=e719]:
+                            - generic [ref=e721]: Chain Type
+                          - definition [ref=e722]:
+                            - generic [ref=e724]: Not Applicable
+                      - generic [ref=e725]:
+                        - generic [ref=e727]:
+                          - term [ref=e728]:
+                            - generic [ref=e730]: Main Stone Creation
+                          - definition [ref=e731]:
+                            - generic [ref=e733]: Natural
+                        - generic [ref=e735]:
+                          - term [ref=e736]:
+                            - generic [ref=e738]: Seller Warranty
+                          - definition [ref=e739]:
+                            - generic [ref=e741]: "Yes"
+                      - generic [ref=e742]:
+                        - generic [ref=e744]:
+                          - term [ref=e745]:
+                            - generic [ref=e747]: Signed
+                          - definition [ref=e748]:
+                            - generic [ref=e750]: "Yes"
+                        - generic [ref=e752]:
+                          - term [ref=e753]:
+                            - generic [ref=e755]: Cut Grade
+                          - definition [ref=e756]:
+                            - generic [ref=e758]: Very Good
+                      - generic [ref=e759]:
+                        - generic [ref=e761]:
+                          - term [ref=e762]:
+                            - generic [ref=e764]: Color
+                          - definition [ref=e765]:
+                            - generic [ref=e767]: Brown
+                        - generic [ref=e769]:
+                          - term [ref=e770]:
+                            - generic [ref=e772]: Material
+                          - definition [ref=e773]:
+                            - generic [ref=e775]: Crystal, Gemstone, Stone, Metal, Mineral
+                      - generic [ref=e776]:
+                        - generic [ref=e778]:
+                          - term [ref=e779]:
+                            - generic [ref=e781]: Brand
+                          - definition [ref=e782]:
+                            - generic [ref=e784]: Unbranded
+                        - generic [ref=e786]:
+                          - term [ref=e787]:
+                            - generic [ref=e789]: Setting Style
+                          - definition [ref=e790]:
+                            - generic [ref=e792]: Bezel
+                      - generic [ref=e793]:
+                        - generic [ref=e795]:
+                          - term [ref=e796]:
+                            - generic [ref=e798]: Type
+                          - definition [ref=e799]:
+                            - generic [ref=e801]: Pendant
+                        - generic [ref=e803]:
+                          - term [ref=e804]:
+                            - generic [ref=e806]: Metal Purity
+                          - definition [ref=e807]:
+                            - generic [ref=e809]: Unknown
+                      - generic [ref=e810]:
+                        - generic [ref=e812]:
+                          - term [ref=e813]:
+                            - generic [ref=e815]: Customized
+                          - definition [ref=e816]:
+                            - generic [ref=e818]: "No"
+                        - generic [ref=e820]:
+                          - term [ref=e821]:
+                            - generic [ref=e823]: Theme
+                          - definition [ref=e824]:
+                            - generic [ref=e826]: Beauty, Bohemian, Ethnic, Healing, Love, Luck, Holiday
+                      - generic [ref=e829]:
+                        - term [ref=e830]:
+                          - generic [ref=e832]: Wholesale
+                        - definition [ref=e833]:
+                          - generic [ref=e835]: "Yes"
+                  - generic [ref=e837]:
+                    - generic [ref=e838]: Category
+                    - navigation "breadcrumb" [ref=e841]:
+                      - heading "breadcrumb" [level=2] [ref=e842]
+                      - list [ref=e843]:
+                        - listitem [ref=e844]:
+                          - link "Jewelry & Watches" [ref=e845] [cursor=pointer]:
+                            - /url: https://www.ebay.com/b/Jewelry-Watches/281/bn_1865273
+                          - img
+                        - listitem [ref=e846]:
+                          - link "Fashion Jewelry" [ref=e847] [cursor=pointer]:
+                            - /url: https://www.ebay.com/b/Fashion-Jewelry/10968/bn_2408529
+                          - img
+                        - listitem [ref=e848]:
+                          - link "Necklaces & Pendants" [ref=e849] [cursor=pointer]:
+                            - /url: https://www.ebay.com/b/Fashion-Necklaces-Pendants/155101/bn_2168261
+                  - generic [ref=e850]:
+                    - heading "Item description from the seller" [level=2] [ref=e853]
+                    - iframe [ref=e854]:
+                      - generic [ref=f54e2]:
+                        - text: "Note : Due to the natural formation of this gemstone. Slight variation in design and color are to be expected."
+                        - generic [ref=f54e5]:
+                          - generic [ref=f54e6]: Welcome to Silver Creation
+                          - generic [ref=f54e8]: Moldavite Gemstone Electroformed Pendant Copper Handmade Jewelry For Women 1.65""
+                          - generic [ref=f54e10]: Handmade Pendant, Wire Wrapped Pendant, Wire Wrapped Jewelry, Copper Pendant, Copper Wire Pendant, Wrapped Jewelry, Wire Wrap Pendant, Wire Wrap Jewelry
+                          - generic [ref=f54e12]: "SKU : VZP-5"
+                          - generic [ref=f54e14]: "Gemstone : Moldavite"
+                          - generic [ref=f54e16]: "Stone Shape : Round"
+                          - generic [ref=f54e18]: "Metal Purity : Unknown Copper"
+                          - generic [ref=f54e20]: "Length : 42 Millimetres"
+                          - generic [ref=f54e22]: "Width : 34 Millimetres"
+                          - generic [ref=f54e24]: Copper has been used for jewelry making for thousands of years, dating back to ancient civilizations such as the Egyptians, Romans, and Aztecs. Copper was valued for its beauty, versatility, and durability, and was often used to make everything from jewelry and coins to cookware and tools.
+                          - generic [ref=f54e26]: In addition to its historical significance, copper jewelry also offers several benefits. Copper is a natural conductor of heat and electricity, which makes it ideal for energy healing and therapeutic purposes. Wearing copper jewelry is believed to have various health benefits, such as improving circulation, reducing inflammation, and boosting the immune system. Some people also believe that copper jewelry has the ability to balance energy and improve mood.
+                          - generic [ref=f54e29]: For Mother's Day Gift
+                          - generic [ref=f54e30]: For Father's Day Gift
+                          - generic [ref=f54e31]: For Promise
+                          - generic [ref=f54e32]: For Valentine' Day
+                          - generic [ref=f54e33]: For Halloween Party
+                          - generic [ref=f54e34]: For Christmas Day Gift
+                          - generic [ref=f54e35]: For New Year Party
+                          - generic [ref=f54e36]: For Mom
+                          - generic [ref=f54e37]: For Her
+                          - generic [ref=f54e39]: If you can't find the information you need or need some advice for your design? Feel free to contact us. We are fast to reply :)
+                          - generic [ref=f54e40]: All our work is made by hand with Love and Care in our workshop
+                          - generic [ref=f54e41]: Thank you so much for visiting and hope you enjoy shopping with us
+                          - generic [ref=f54e43]: Silvercreations is committed to delivering the best quality sterling silver jewelry to customers. As a handmade jewelry manufacturer, we offer an extensive selection of copper gemstone jewelry that showcases the brilliance of our craftsmanship. We are an experienced handmade jewelry supplier with expertise in embellishing gemstones to suit every style. We offer you the liberty to create your jewelry ensemble with sparkling, earthy, and pure gemstones. Our Talented artisans masterfully handcraft each piece of jewelry you see here. Our pieces are made with genuine gemstones.
+            - generic [ref=e857]:
+              - generic [ref=e858]:
+                - generic [ref=e859]:
+                  - heading "About this seller" [level=2] [ref=e860]:
+                    - generic [ref=e862]: About this seller
+                  - generic [ref=e863]:
+                    - link [ref=e865] [cursor=pointer]:
+                      - /url: https://www.ebay.com/str/silvercreation?_trksid=p4429486.m145687.l149266
+                      - img [ref=e867]
+                    - generic [ref=e868]:
+                      - heading "silvercreation" [level=3] [ref=e869]:
+                        - link "silvercreation" [ref=e870] [cursor=pointer]:
+                          - /url: https://www.ebay.com/str/silvercreation?_trksid=p4429486.m145687.l149267
+                      - paragraph [ref=e871]: 97.8% positive feedback•47K items sold
+                  - generic [ref=e874]:
+                    - generic [ref=e876]:
+                      - generic [ref=e877]:
+                        - img
+                      - generic [ref=e878]: Joined May 2016
+                    - generic [ref=e880]:
+                      - generic [ref=e881]:
+                        - img
+                      - generic [ref=e882]: Usually responds within 24 hours
+                  - generic [ref=e884]:
+                    - generic [ref=e885]: Discover the timeless beauty of handmade wire wrapped copper jewelry, crafted with care and attention to detail. Each piece is uniquely designed using high-quality copper wire, skillfully shaped into ...
+                    - group [ref=e887]:
+                      - generic "See more" [ref=e888]:
+                        - generic [ref=e889]: See more
+                        - generic [ref=e890]:
+                          - img
+                  - generic [ref=e891]:
+                    - link "Visit store" [ref=e892] [cursor=pointer]:
+                      - /url: https://www.ebay.com/str/silvercreation?_trksid=p4429486.m145687.l149086
+                      - generic [ref=e893]: Visit store
+                    - button "Message seller - opens in a new dialog" [ref=e894] [cursor=pointer]:
+                      - generic [ref=e895]:
+                        - text: Message seller
+                        - generic [ref=e896]: "- opens in a new dialog"
+                    - button "Save seller - Save this seller silvercreation" [ref=e898] [cursor=pointer]:
+                      - generic [ref=e899]:
+                        - img
+                      - generic [ref=e900]: Save seller
+                - generic [ref=e902]:
+                  - heading "Detailed seller ratings" [level=3] [ref=e903]
+                  - generic [ref=e904]:
+                    - generic [ref=e905]: Average for the last 12 months
+                    - generic [ref=e906]:
+                      - generic [ref=e907]:
+                        - generic [ref=e908]: Accurate description
+                        - progressbar [ref=e909]
+                        - generic [ref=e910]: "4.8"
+                      - generic [ref=e911]:
+                        - generic [ref=e912]: Reasonable shipping cost
+                        - progressbar [ref=e913]
+                        - generic [ref=e914]: "5.0"
+                      - generic [ref=e915]:
+                        - generic [ref=e916]: Shipping speed
+                        - progressbar [ref=e917]
+                        - generic [ref=e918]: "5.0"
+                      - generic [ref=e919]:
+                        - generic [ref=e920]: Communication
+                        - progressbar [ref=e921]
+                        - generic [ref=e922]: "4.9"
+                - generic [ref=e923]:
+                  - generic [ref=e924]:
+                    - heading "Popular categories from this store" [level=3] [ref=e925]
+                    - link "See all categories" [ref=e927] [cursor=pointer]:
+                      - /url: https://www.ebay.com/sch/i.html?_dkr=1&iconV2Request=true&_blrs=recall_filtering&_ssn=silvercreation&store_cat=0&store_name=silvercreation&_oac=1
+                      - generic [ref=e928]:
+                        - text: See all
+                        - generic [ref=e929]: categories
+                  - generic [ref=e930]:
+                    - link "Wire Wrapped Pendant" [ref=e932] [cursor=pointer]:
+                      - /url: https://www.ebay.com/str/silvercreation/Wire-Wrapped-Pendant/_i.html?store_cat=39108591018
+                    - link "Wire Wrapped Bangle" [ref=e934] [cursor=pointer]:
+                      - /url: https://www.ebay.com/str/silvercreation/Wire-Wrapped-Bangle/_i.html?store_cat=39108592018
+                    - link "Wire Wrapped Earrings" [ref=e936] [cursor=pointer]:
+                      - /url: https://www.ebay.com/str/silvercreation/Wire-Wrapped-Earrings/_i.html?store_cat=39108593018
+                    - link "Wire Wrapped Rings" [ref=e938] [cursor=pointer]:
+                      - /url: https://www.ebay.com/str/silvercreation/Wire-Wrapped-Rings/_i.html?store_cat=39108594018
+                    - link "Tree Of Life Pendant" [ref=e940] [cursor=pointer]:
+                      - /url: https://www.ebay.com/str/silvercreation/Tree-Of-Life-Pendant/_i.html?store_cat=39108595018
+                    - link "Copper Bracelet" [ref=e942] [cursor=pointer]:
+                      - /url: https://www.ebay.com/str/silvercreation/Copper-Bracelet/_i.html?store_cat=39108596018
+                    - link "Wire Wrapped Necklace" [ref=e944] [cursor=pointer]:
+                      - /url: https://www.ebay.com/str/silvercreation/Wire-Wrapped-Necklace/_i.html?store_cat=39865073018
+                    - link "Copper Necklace" [ref=e946] [cursor=pointer]:
+                      - /url: https://www.ebay.com/str/silvercreation/Copper-Necklace/_i.html?store_cat=40404717018
+                    - link "Wire Wrapped Bracelet" [ref=e948] [cursor=pointer]:
+                      - /url: https://www.ebay.com/str/silvercreation/Wire-Wrapped-Bracelet/_i.html?store_cat=44070528018
+              - generic [ref=e951]:
+                - heading "Seller feedback (9,185)" [level=2] [ref=e952]
+                - generic [ref=e953]:
+                  - tablist [ref=e954]:
+                    - tab "This item (46)" [selected] [ref=e955]:
+                      - generic [ref=e956]: This item (46)
+                    - tab "All items (9,185)" [ref=e957]:
+                      - generic [ref=e958]: All items (9,185)
+                  - tabpanel "This item (46)" [ref=e960]:
+                    - generic [ref=e962]:
+                      - generic [ref=e963]:
+                        - 'button "Filter: All ratings" [ref=e966] [cursor=pointer]':
+                          - generic [ref=e967]:
+                            - generic [ref=e968]: "Filter:"
+                            - generic [ref=e969]: All ratings
+                            - img
+                        - list [ref=e970]:
+                          - listitem [ref=e971]:
+                            - link "Appearance" [ref=e972] [cursor=pointer]:
+                              - /url: https://www.ebay.com/fdbk/mweb_profile?fdbkType=FeedbackReceivedAsSeller&item_id=266756575476&username=silvercreation&filter=feedback_page%3ARECEIVED_AS_SELLER%2Cfilter_topic_item%3Aappearance&q=266756575476&sort=RELEVANCEV2
+                              - generic:
+                                - generic: Appearance
+                          - listitem [ref=e973]:
+                            - link "Quality" [ref=e974] [cursor=pointer]:
+                              - /url: https://www.ebay.com/fdbk/mweb_profile?fdbkType=FeedbackReceivedAsSeller&item_id=266756575476&username=silvercreation&filter=feedback_page%3ARECEIVED_AS_SELLER%2Cfilter_topic_item%3Aquality&q=266756575476&sort=RELEVANCEV2
+                              - generic:
+                                - generic: Quality
+                          - listitem [ref=e975]:
+                            - link "Satisfaction" [ref=e976] [cursor=pointer]:
+                              - /url: https://www.ebay.com/fdbk/mweb_profile?fdbkType=FeedbackReceivedAsSeller&item_id=266756575476&username=silvercreation&filter=feedback_page%3ARECEIVED_AS_SELLER%2Cfilter_topic_item%3Aproduct-satisfaction&q=266756575476&sort=RELEVANCEV2
+                              - generic:
+                                - generic: Satisfaction
+                          - listitem [ref=e977]:
+                            - link "Value" [ref=e978] [cursor=pointer]:
+                              - /url: https://www.ebay.com/fdbk/mweb_profile?fdbkType=FeedbackReceivedAsSeller&item_id=266756575476&username=silvercreation&filter=feedback_page%3ARECEIVED_AS_SELLER%2Cfilter_topic_item%3Aprice&q=266756575476&sort=RELEVANCEV2
+                              - generic:
+                                - generic: Value
+                          - listitem [ref=e979]:
+                            - link "Condition" [ref=e980] [cursor=pointer]:
+                              - /url: https://www.ebay.com/fdbk/mweb_profile?fdbkType=FeedbackReceivedAsSeller&item_id=266756575476&username=silvercreation&filter=feedback_page%3ARECEIVED_AS_SELLER%2Cfilter_topic_item%3Acondition&q=266756575476&sort=RELEVANCEV2
+                              - generic:
+                                - generic: Condition
+                          - listitem [ref=e981]:
+                            - link "Dimensions" [ref=e982] [cursor=pointer]:
+                              - /url: https://www.ebay.com/fdbk/mweb_profile?fdbkType=FeedbackReceivedAsSeller&item_id=266756575476&username=silvercreation&filter=feedback_page%3ARECEIVED_AS_SELLER%2Cfilter_topic_item%3Adimensions&q=266756575476&sort=RELEVANCEV2
+                              - generic:
+                                - generic: Dimensions
+                          - listitem [ref=e983]:
+                            - link "Usage" [ref=e984] [cursor=pointer]:
+                              - /url: https://www.ebay.com/fdbk/mweb_profile?fdbkType=FeedbackReceivedAsSeller&item_id=266756575476&username=silvercreation&filter=feedback_page%3ARECEIVED_AS_SELLER%2Cfilter_topic_item%3Ausage&q=266756575476&sort=RELEVANCEV2
+                              - generic:
+                                - generic: Usage
+                      - list [ref=e985]:
+                        - listitem [ref=e986]:
+                          - generic [ref=e987]:
+                            - generic [ref=e989]:
+                              - generic [ref=e990]:
+                                - img "Negative feedback rating"
+                              - generic [ref=e991]:
+                                - text: e***a (792)
+                                - generic [ref=e992]: "- Feedback left by buyer."
+                              - generic [ref=e995]: Past 6 months
+                              - generic [ref=e996]: Verified purchase
+                            - generic [ref=e997]:
+                              - generic [ref=e998]: Not same necklace as in the photo! I got a little barely 1” when it states 1.65”, the hoops for threading the chain are much bigger in proportion to the tiny pendant. Totally different chain & it feels like the kind you get with a toy at a dollar store That turns your neck green
+                              - button "Item photo(s) from verified buyer" [ref=e999] [cursor=pointer]:
+                                - img "Item photo(s) from verified buyer" [ref=e1000]
+                                - generic [ref=e1001]:
+                                  - img
+                        - listitem [ref=e1002]:
+                          - generic [ref=e1003]:
+                            - generic [ref=e1005]:
+                              - generic [ref=e1006]:
+                                - img "Positive feedback rating"
+                              - generic [ref=e1007]:
+                                - text: h***6 (8)
+                                - generic [ref=e1008]: "- Feedback left by buyer."
+                              - generic [ref=e1011]: Past month
+                              - generic [ref=e1012]: Verified purchase
+                            - generic [ref=e1013]:
+                              - generic [ref=e1014]: I'm am extremely happy with my moldavite necklas it's absolutely beautiful. Came quick no problems at all! Thanks so much
+                              - button "Item photo(s) from verified buyer" [ref=e1015] [cursor=pointer]:
+                                - img "Item photo(s) from verified buyer" [ref=e1016]
+                        - listitem [ref=e1017]:
+                          - generic [ref=e1018]:
+                            - generic [ref=e1020]:
+                              - generic [ref=e1021]:
+                                - img "Positive feedback rating"
+                              - generic [ref=e1022]:
+                                - text: _***a (103)
+                                - generic [ref=e1023]: "- Feedback left by buyer."
+                              - generic [ref=e1026]: Past month
+                              - generic [ref=e1027]: Verified purchase
+                            - generic [ref=e1029]: Cute cute. The chain it came with is very nice.
+                        - listitem [ref=e1030]:
+                          - generic [ref=e1031]:
+                            - generic [ref=e1033]:
+                              - generic [ref=e1034]:
+                                - img "Positive feedback rating"
+                              - generic [ref=e1035]:
+                                - text: n***a (2262)
+                                - generic [ref=e1036]: "- Feedback left by buyer."
+                              - generic [ref=e1039]: Past 6 months
+                              - generic [ref=e1040]: Verified purchase
+                            - generic [ref=e1042]: A nice piece of moldevite. I was surprised it was even nicer than the picture. Very well packed. Shipped promptly
+                        - listitem [ref=e1043]:
+                          - generic [ref=e1044]:
+                            - generic [ref=e1046]:
+                              - generic [ref=e1047]:
+                                - img "Positive feedback rating"
+                              - generic [ref=e1048]:
+                                - text: e***s (1419)
+                                - generic [ref=e1049]: "- Feedback left by buyer."
+                              - generic [ref=e1052]: Past 6 months
+                              - generic [ref=e1053]: Verified purchase
+                            - generic [ref=e1055]: Very, very beautiful. Even better than the pic. Very fast delivery. Thank you.
+                        - listitem [ref=e1056]:
+                          - generic [ref=e1057]:
+                            - generic [ref=e1059]:
+                              - generic [ref=e1060]:
+                                - img "Positive feedback rating"
+                              - generic [ref=e1061]:
+                                - text: t***w (471)
+                                - generic [ref=e1062]: "- Feedback left by buyer."
+                              - generic [ref=e1065]: Past 6 months
+                              - generic [ref=e1066]: Verified purchase
+                            - generic [ref=e1068]: A unique and beautiful piece of jewelry
+                        - listitem [ref=e1069]:
+                          - generic [ref=e1070]:
+                            - generic [ref=e1072]:
+                              - generic [ref=e1073]:
+                                - img "Negative feedback rating"
+                              - generic [ref=e1074]:
+                                - text: 1***w (315)
+                                - generic [ref=e1075]: "- Feedback left by buyer."
+                              - generic [ref=e1078]: Past month
+                              - generic [ref=e1079]: Verified purchase
+                            - generic [ref=e1081]: Item has a low quality feel to the “copper” parts. The moldavite looks neat but it was 1/2 the advertised surface area, much smaller than noted. Seller contacted and was offered a decent future discount. They were a quick communicator and offer seemed ok. Still doesn’t feel authentic so I decided not to pursue offer.
+                        - listitem [ref=e1082]:
+                          - generic [ref=e1083]:
+                            - generic [ref=e1085]:
+                              - generic [ref=e1086]:
+                                - img "Positive feedback rating"
+                              - generic [ref=e1087]:
+                                - text: v***6 (1647)
+                                - generic [ref=e1088]: "- Feedback left by buyer."
+                              - generic [ref=e1091]: Past year
+                              - generic [ref=e1092]: Verified purchase
+                            - generic [ref=e1094]: Quality, Condition, Value and Apperance very good
+                      - link "See all feedback. Opens in a new tab" [ref=e1095] [cursor=pointer]:
+                        - /url: https://www.ebay.com/fdbk/mweb_profile?fdbkType=FeedbackReceivedAsSeller&item_id=266756575476&username=silvercreation&filter=feedback_page%3ARECEIVED_AS_SELLER&q=266756575476&sort=RELEVANCEV2
+                        - text: See all feedback
+            - generic [ref=e1097]:
+              - navigation "Quick Links" [ref=e1098]:
+                - link "Back to previous page" [ref=e1099] [cursor=pointer]:
+                  - /url: https://www.ebay.com/splashui/challenge?ap=1&appName=orch&ru=https%3A%2F%2Fwww.ebay.com%2Fitm%2F266756575476&iid=50c3885d-656d-4eea-a749-c83a6b08a967&iim=YMTc2Ljj&iia=ybIyOS4xQl&iiz=gvBMjguNTM*hvo
+                - button "Return to top" [ref=e1100] [cursor=pointer]
+              - generic [ref=e1102]:
+                - heading "More to explore :" [level=2] [ref=e1105]
+                - list [ref=e1107]:
+                  - listitem [ref=e1108]:
+                    - link "Moldavite Gemstone Fine Necklaces & Pendants," [ref=e1109] [cursor=pointer]:
+                      - /url: https://www.ebay.com/b/Moldavite-Gemstone-Fine-Necklaces-Pendants/261993/bn_2196239
+                  - listitem [ref=e1110]:
+                    - link "Moldavite Pendant Gemstone Fine Necklaces & Pendants," [ref=e1111] [cursor=pointer]:
+                      - /url: https://www.ebay.com/b/Moldavite-Pendant-Gemstone-Fine-Necklaces-Pendants/261993/bn_7113418321
+                  - listitem [ref=e1112]:
+                    - link "Moldavite Gemstone Natural Fine Necklaces & Pendants," [ref=e1113] [cursor=pointer]:
+                      - /url: https://www.ebay.com/b/Moldavite-Gemstone-Natural-Fine-Necklaces-Pendants/261993/bn_7113632128
+                  - listitem [ref=e1114]:
+                    - link "Moldavite Natural Fine Gemstone Necklaces & Pendants," [ref=e1115] [cursor=pointer]:
+                      - /url: https://www.ebay.com/b/Moldavite-Natural-Fine-Gemstone-Necklaces-Pendants/261993/bn_7113810641
+                  - listitem [ref=e1116]:
+                    - link "Moldavite Gemstone Choker Fine Necklaces & Pendants," [ref=e1117] [cursor=pointer]:
+                      - /url: https://www.ebay.com/b/Moldavite-Gemstone-Choker-Fine-Necklaces-Pendants/261993/bn_17451773
+                  - listitem [ref=e1118]:
+                    - link "Moldavite Gemstone Moldavite Fine Bracelets," [ref=e1119] [cursor=pointer]:
+                      - /url: https://www.ebay.com/b/Moldavite-Gemstone-Moldavite-Fine-Bracelets/261988/bn_95012584
+                  - listitem [ref=e1120]:
+                    - link "Moldavite Fine Jewelry," [ref=e1121] [cursor=pointer]:
+                      - /url: https://www.ebay.com/b/Moldavite-Fine-Jewelry/4196/bn_2194290
+                  - listitem [ref=e1122]:
+                    - link "Moldavite Gemstone Sterling Silver Fine Necklaces & Pendants," [ref=e1123] [cursor=pointer]:
+                      - /url: https://www.ebay.com/b/Moldavite-Gemstone-Sterling-Silver-Fine-Necklaces-Pendants/261993/bn_2196955
+                  - listitem [ref=e1124]:
+                    - link "Moldavite Gemstone Yellow Gold Fine Necklaces & Pendants," [ref=e1125] [cursor=pointer]:
+                      - /url: https://www.ebay.com/b/Moldavite-Gemstone-Yellow-Gold-Fine-Necklaces-Pendants/261993/bn_5629526
+                  - listitem [ref=e1126]:
+                    - link "Moldavite Jewelry for Men" [ref=e1127] [cursor=pointer]:
+                      - /url: https://www.ebay.com/b/Moldavite-Jewelry-for-Men/10290/bn_2195365
+              - generic [ref=e1129]:
+                - heading "Shop Top Sellers and Highly Rated Products in Necklaces & Pendants" [level=2] [ref=e1130]
+                - generic [ref=e1131]:
+                  - generic [ref=e1132]:
+                    - heading "Best Sellers" [level=3] [ref=e1133]
+                    - list [ref=e1134]:
+                      - listitem [ref=e1135]:
+                        - link "Swarovski Gema necklace Mixed cuts Multicolored Rhodium plated 5656397" [ref=e1136] [cursor=pointer]:
+                          - /url: https://www.ebay.com/p/28061851947
+                          - generic [ref=e1137]: Swarovski Gema necklace Mixed cuts Multicolored Rhodium plated 5656397
+                      - listitem [ref=e1138]:
+                        - link "Swarovski Swan Pendant Necklace Swan Black Rose Gold-Tone Plated 5678045" [ref=e1139] [cursor=pointer]:
+                          - /url: https://www.ebay.com/p/23075400908
+                          - generic [ref=e1140]: Swarovski Swan Pendant Necklace Swan Black Rose Gold-Tone Plated 5678045
+                      - listitem [ref=e1141]:
+                        - link "Swarovski Teddy Bear Pendant Necklace Pink Crystals Rose Gold 5642976" [ref=e1142] [cursor=pointer]:
+                          - /url: https://www.ebay.com/p/23063709438
+                          - generic [ref=e1143]: Swarovski Teddy Bear Pendant Necklace Pink Crystals Rose Gold 5642976
+                      - listitem [ref=e1144]:
+                        - link "SET OF 3 Hawaiian Style Unique PUKA SHELL Necklaces MINT-REDUCED-" [ref=e1145] [cursor=pointer]:
+                          - /url: https://www.ebay.com/p/6059491756
+                          - generic [ref=e1146]: SET OF 3 Hawaiian Style Unique PUKA SHELL Necklaces MINT-REDUCED-
+                      - listitem [ref=e1147]:
+                        - link "Swarovski Swan Necklace Swan Pink Rose Gold-Tone Plated 5469989" [ref=e1148] [cursor=pointer]:
+                          - /url: https://www.ebay.com/p/3066134596
+                          - generic [ref=e1149]: Swarovski Swan Necklace Swan Pink Rose Gold-Tone Plated 5469989
+                  - generic [ref=e1150]:
+                    - heading "Top Rated" [level=3] [ref=e1151]
+                    - list [ref=e1152]:
+                      - listitem [ref=e1153]:
+                        - link "ZenergyGems 20 inch Charged Rose Quartz Crystal 16mm Sphere Pendant Chain Selenite - Silver" [ref=e1154] [cursor=pointer]:
+                          - /url: https://www.ebay.com/p/1772369956
+                          - generic [ref=e1155]: ZenergyGems 20 inch Charged Rose Quartz Crystal 16mm Sphere Pendant Chain Selenite - Silver
+                      - listitem [ref=e1156]:
+                        - link "Betsey Johnson Weave and Sew Woven Mixed Multi-colored Bead Flower Heart" [ref=e1157] [cursor=pointer]:
+                          - /url: https://www.ebay.com/p/1048212564
+                          - generic [ref=e1158]: Betsey Johnson Weave and Sew Woven Mixed Multi-colored Bead Flower Heart
+                      - listitem [ref=e1159]:
+                        - link "Swarovski Duo Evil Eye Pendant Necklace 5172560 14.88inches" [ref=e1160] [cursor=pointer]:
+                          - /url: https://www.ebay.com/p/2255519201
+                          - generic [ref=e1161]: Swarovski Duo Evil Eye Pendant Necklace 5172560 14.88inches
+              - generic [ref=e1163]:
+                - heading "Related searches" [level=2] [ref=e1164]
+                - list [ref=e1165]:
+                  - listitem [ref=e1166]:
+                    - link "Moldavite Jewelry" [ref=e1167] [cursor=pointer]:
+                      - /url: https://www.ebay.com/shop/moldavite-jewelry?_nkw=moldavite+jewelry
+                      - generic [ref=e1168]: Moldavite Jewelry
+                  - listitem [ref=e1169]:
+                    - link "Real Moldavite Necklace" [ref=e1170] [cursor=pointer]:
+                      - /url: https://www.ebay.com/shop/real-moldavite-necklace?_nkw=real+moldavite+necklace
+                      - generic [ref=e1171]: Real Moldavite Necklace
+                  - listitem [ref=e1172]:
+                    - link "Moldavite Pendant Gold" [ref=e1173] [cursor=pointer]:
+                      - /url: https://www.ebay.com/shop/moldavite-pendant-gold?_nkw=moldavite+pendant+gold
+                      - generic [ref=e1174]: Moldavite Pendant Gold
+                  - listitem [ref=e1175]:
+                    - link "Crystal Moldavite" [ref=e1176] [cursor=pointer]:
+                      - /url: https://www.ebay.com/shop/crystal-moldavite?_nkw=crystal+moldavite
+                      - generic [ref=e1177]: Crystal Moldavite
+                  - listitem [ref=e1178]:
+                    - link "Moldavite Bead" [ref=e1179] [cursor=pointer]:
+                      - /url: https://www.ebay.com/shop/moldavite-bead?_nkw=moldavite+bead
+                      - generic [ref=e1180]: Moldavite Bead
+                  - listitem [ref=e1181]:
+                    - link "Moldavite Beads" [ref=e1182] [cursor=pointer]:
+                      - /url: https://www.ebay.com/shop/moldavite-beads?_nkw=moldavite+beads
+                      - generic [ref=e1183]: Moldavite Beads
+                  - listitem [ref=e1184]:
+                    - link "Moldavite Crystal" [ref=e1185] [cursor=pointer]:
+                      - /url: https://www.ebay.com/shop/moldavite-crystal?_nkw=moldavite+crystal
+                      - generic [ref=e1186]: Moldavite Crystal
+                  - listitem [ref=e1187]:
+                    - link "Moldavite" [ref=e1188] [cursor=pointer]:
+                      - /url: https://www.ebay.com/shop/moldavite?_nkw=moldavite
+                      - generic [ref=e1189]: Moldavite
+                  - listitem [ref=e1190]:
+                    - link "Lepidolite Necklace" [ref=e1191] [cursor=pointer]:
+                      - /url: https://www.ebay.com/shop/lepidolite-necklace?_nkw=lepidolite+necklace
+                      - generic [ref=e1192]: Lepidolite Necklace
+                  - listitem [ref=e1193]:
+                    - link "Certified Moldavite" [ref=e1194] [cursor=pointer]:
+                      - /url: https://www.ebay.com/shop/certified-moldavite?_nkw=certified+moldavite
+                      - generic [ref=e1195]: Certified Moldavite
+                  - listitem [ref=e1196]:
+                    - link "Pendant Mold" [ref=e1197] [cursor=pointer]:
+                      - /url: https://www.ebay.com/shop/pendant-mold?_nkw=pendant+mold
+                      - generic [ref=e1198]: Pendant Mold
+                  - listitem [ref=e1199]:
+                    - link "Moldavite Bracelets" [ref=e1200] [cursor=pointer]:
+                      - /url: https://www.ebay.com/shop/moldavite-bracelets?_nkw=moldavite+bracelets
+                      - generic [ref=e1201]: Moldavite Bracelets
+                  - listitem [ref=e1202]:
+                    - link "Faceted Moldavite" [ref=e1203] [cursor=pointer]:
+                      - /url: https://www.ebay.com/shop/faceted-moldavite?_nkw=faceted+moldavite
+                      - generic [ref=e1204]: Faceted Moldavite
+                  - listitem [ref=e1205]:
+                    - link "Moldavite Stud Earrings" [ref=e1206] [cursor=pointer]:
+                      - /url: https://www.ebay.com/shop/moldavite-stud-earrings?_nkw=moldavite+stud+earrings
+                      - generic [ref=e1207]: Moldavite Stud Earrings
+                  - listitem [ref=e1208]:
+                    - link "Moldavite Certified" [ref=e1209] [cursor=pointer]:
+                      - /url: https://www.ebay.com/shop/moldavite-certified?_nkw=moldavite+certified
+                      - generic [ref=e1210]: Moldavite Certified
+        - img [ref=e1214]
+  - contentinfo [ref=e1220]:
+    - list [ref=e1221]:
+      - listitem [ref=e1222]:
+        - link "About eBay" [ref=e1223] [cursor=pointer]:
+          - /url: https://www.ebayinc.com
+      - listitem [ref=e1224]:
+        - link "Announcements" [ref=e1225] [cursor=pointer]:
+          - /url: https://community.ebay.com/t5/Announcements/bg-p/Announcements
+      - listitem [ref=e1226]:
+        - link "Community" [ref=e1227] [cursor=pointer]:
+          - /url: https://community.ebay.com
+      - listitem [ref=e1228]:
+        - link "Security Center" [ref=e1229] [cursor=pointer]:
+          - /url: https://pages.ebay.com/securitycenter/index.html
+      - listitem [ref=e1230]:
+        - link "Seller Center" [ref=e1231] [cursor=pointer]:
+          - /url: https://www.ebay.com/sellercenter
+      - listitem [ref=e1232]:
+        - link "Policies" [ref=e1233] [cursor=pointer]:
+          - /url: https://www.ebay.com/help/policies/default/ebays-rules-policies?id=4205
+      - listitem [ref=e1234]:
+        - link "Affiliates" [ref=e1235] [cursor=pointer]:
+          - /url: https://partnernetwork.ebay.com/
+      - listitem [ref=e1236]:
+        - link "Product Safety Tips" [ref=e1237] [cursor=pointer]:
+          - /url: https://pages.ebay.com/safetytips
+      - listitem [ref=e1238]:
+        - link "Help & Contact" [ref=e1239] [cursor=pointer]:
+          - /url: https://www.ebay.com/help/home
+      - listitem [ref=e1240]:
+        - link "Site Map" [ref=e1241] [cursor=pointer]:
+          - /url: https://pages.ebay.com/sitemap.html
+    - generic [ref=e1242]:
+      - text: Copyright © 1995-2026 eBay Inc. All Rights Reserved.
+      - link "Accessibility" [ref=e1243] [cursor=pointer]:
+        - /url: https://www.ebayinc.com/accessibility/
+      - text: ","
+      - link "User Agreement" [ref=e1244] [cursor=pointer]:
+        - /url: https://www.ebay.com/help/policies/member-behaviour-policies/user-agreement?id=4259
+      - text: ","
+      - link "Privacy" [ref=e1245] [cursor=pointer]:
+        - /url: https://www.ebay.com/help/policies/member-behaviour-policies/user-privacy-notice-privacy-policy?id=4260
+      - text: ","
+      - link "Consumer Health Data" [ref=e1246] [cursor=pointer]:
+        - /url: https://www.ebayinc.com/company/privacy-center/privacy-notice/consumer-health-data-privacy-policy/
+      - text: ","
+      - link "Payments Terms of Use" [ref=e1247] [cursor=pointer]:
+        - /url: https://pages.ebay.com/payment/2.0/terms.html
+      - text: ","
+      - link "Cookies" [ref=e1248] [cursor=pointer]:
+        - /url: https://www.ebay.com/help/policies/member-behaviour-policies/ebay-cookie-notice?id=4267
+      - text: ","
+      - link "CA Privacy Notice" [ref=e1249] [cursor=pointer]:
+        - /url: https://www.ebayinc.com/company/privacy-center/privacy-notice/state-privacy-disclosures/#california
+      - text: ","
+      - link "Your Privacy Choices" [ref=e1250] [cursor=pointer]:
+        - /url: https://www.ebay.com/adchoice/ccpa
+      - text: and
+      - link "AdChoice" [ref=e1251] [cursor=pointer]:
+        - /url: https://www.ebay.com/adchoice
+        - text: AdChoice
+        - img
+  - img
+  - img [ref=e1253]

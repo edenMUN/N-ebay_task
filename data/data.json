@@ -1,0 +1,17 @@
+{
+  "base_url": "https://www.ebay.com",
+  "locale": "he-IL",
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "search": {
+    "query": "cosher salt",
+    "max_price": 40,
+    "limit": 5
+  },
+  "budget": {
+    "per_item": 36,
+    "currency": "ILS"
+  }
+}
