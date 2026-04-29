@@ -2,9 +2,9 @@ import allure
 import re
 from playwright.sync_api import Page, expect
 
-from pages.base_page import BasePage
-from utils.currency_converter import convert_amount, extract_currency_code
-from utils.price_parser import parse_price_to_float
+from src.pages.base_page import BasePage
+from src.utils.currency_converter import convert_amount, extract_currency_code
+from src.utils.price_parser import parse_price_to_float
 
 
 class CartPage(BasePage):

@@ -6,12 +6,12 @@
     "height": 900
   },
   "search": {
-    "query": "cosher salt",
-    "max_price": 40,
+    "query": "wireless mouse",
+    "max_price": 60,
     "limit": 5
   },
   "budget": {
-    "per_item": 36,
+    "per_item": 25,
     "currency": "ILS"
   }
 }

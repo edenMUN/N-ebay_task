@@ -3,6 +3,7 @@ import os
 import shutil
 import subprocess
 import sys
+from pathlib import Path
 from typing import List
 
 
@@ -38,9 +39,20 @@ def main() -> int:
     )
     args, extra_args = parser.parse_known_args(sys.argv[1:])
 
+    project_root = Path(__file__).resolve().parent
+    src_path = project_root / "src"
+
+    # Ensure imports like `from pages...` resolve after moving modules under src/.
+    env = os.environ.copy()
+    existing_pythonpath = env.get("PYTHONPATH", "")
+    if existing_pythonpath:
+        env["PYTHONPATH"] = f"{src_path}{os.pathsep}{existing_pythonpath}"
+    else:
+        env["PYTHONPATH"] = str(src_path)
+
     pytest_command = _build_pytest_command(extra_args, trace_on=args.trace_on)
 
-    pytest_result = subprocess.run(pytest_command, check=False)
+    pytest_result = subprocess.run(pytest_command, check=False, cwd=project_root, env=env)
 
     if not os.getenv("CI"):
         allure_command = _resolve_allure_command()
@@ -51,7 +63,7 @@ def main() -> int:
             )
         else:
             try:
-                subprocess.run(allure_command, check=False)
+                subprocess.run(allure_command, check=False, cwd=project_root, env=env)
             except KeyboardInterrupt:
                 print("\n[INFO] Allure report server stopped by user.")
             except FileNotFoundError:

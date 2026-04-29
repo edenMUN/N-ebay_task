@@ -20,28 +20,28 @@ Implemented flow:
 
 ## Brief Architecture Overview
 
-- **Test orchestration:** `tests/Test_e2e_add_to_cart.py` drives one end-to-end scenario and performs business assertions.
-- **Page Object Model:** `pages/` encapsulates locators and UI actions (`login`, `search`, `product`, `cart`) to keep tests readable.
-- **Shared fixtures/hooks:** `tests/conftest.py` manages env data loading, browser context setup (viewport + locale), login/cart preconditions, screenshots, and optional tracing.
-- **Utilities layer:** `utils/` contains config loading, price parsing, currency extraction/conversion, and custom exceptions.
+- **Test orchestration:** `src/tests/Test_e2e_add_to_cart.py` drives one end-to-end scenario and performs business assertions.
+- **Page Object Model:** `src/pages/` encapsulates locators and UI actions (`login`, `search`, `product`, `cart`) to keep tests readable.
+- **Shared fixtures/hooks:** `src/tests/conftest.py` manages env data loading, browser context setup (viewport + locale), login/cart preconditions, screenshots, and optional tracing.
+- **Utilities layer:** `src/utils/` contains config loading, price parsing, currency extraction/conversion, and custom exceptions.
 - **Reporting pipeline:** pytest writes raw artifacts to `allure-results/`; `run_tests.py` standardizes execution and opens Allure locally outside CI.
 
 ## Project Structure
 
 ```text
-pages/
+src/pages/
   base_page.py
   login_page.py
   search_page.py
   product_page.py
   cart_page.py
-tests/
+src/tests/
   conftest.py
   Test_e2e_add_to_cart.py
 data/
   data.json              # default env (--env default)
   data.<env>.json        # optional per-environment copies
-utils/
+src/utils/
   config_loader.py
   price_parser.py
   currency_converter.py
@@ -86,9 +86,9 @@ allure --version
 
 | Goal | Command |
 |---|---|
-| Run e2e test (headed) | `python -m pytest tests/Test_e2e_add_to_cart.py -v --browser chromium --headed` |
-| Run e2e test (headless) | `python -m pytest tests/Test_e2e_add_to_cart.py -v --browser chromium` |
-| Run with environment selection | `python -m pytest tests/Test_e2e_add_to_cart.py -v --env default --browser chromium --headed` |
+| Run e2e test (headed) | `python -m pytest src/tests/Test_e2e_add_to_cart.py -v --browser chromium --headed` |
+| Run e2e test (headless) | `python -m pytest src/tests/Test_e2e_add_to_cart.py -v --browser chromium` |
+| Run with environment selection | `python -m pytest src/tests/Test_e2e_add_to_cart.py -v --env default --browser chromium --headed` |
 | Run with runner script (auto Allure serve, local) | `python run_tests.py --browser chromium --headed` |
 | Run with runner script + trace | `python run_tests.py --trace-on --browser chromium --headed` |
 | Generate Allure artifacts only | `python -m pytest --alluredir=allure-results` |
@@ -130,7 +130,7 @@ To support this, always run tests in headed mode (`--headed`) during local demon
 
 ## Run Commands
 
-Default pytest options and markers are defined in `pytest.ini` (`--strict-markers`, `-ra`).
+Default pytest options and markers are defined in `pytest.ini` (`--strict-markers`, `-ra`), and imports are resolved from `src` via `pythonpath = src`.
 
 ### Run all tests (default Chromium, headless)
 
@@ -141,7 +141,7 @@ python -m pytest
 ### Run the e2e suite file explicitly
 
 ```powershell
-python -m pytest tests/Test_e2e_add_to_cart.py -v
+python -m pytest src/tests/Test_e2e_add_to_cart.py -v
 ```
 
 ### Environment-specific data (`--env`)
@@ -150,8 +150,8 @@ python -m pytest tests/Test_e2e_add_to_cart.py -v
 - Any other value: loads `data/data.<env>.json` and, if present, `.env.<env>` after `.env`.
 
 ```powershell
-python -m pytest tests/Test_e2e_add_to_cart.py -v --env default
-python -m pytest tests/Test_e2e_add_to_cart.py -v --env staging
+python -m pytest src/tests/Test_e2e_add_to_cart.py -v --env default
+python -m pytest src/tests/Test_e2e_add_to_cart.py -v --env staging
 ```
 
 ### Markers (`sanity`, `regression`, `logic`)
@@ -166,8 +166,8 @@ python -m pytest -m "sanity or regression" -v
 ### Browser and headed mode (pytest-playwright)
 
 ```powershell
-python -m pytest tests/Test_e2e_add_to_cart.py -v --browser chromium --headed
-python -m pytest tests/Test_e2e_add_to_cart.py -v --browser firefox
+python -m pytest src/tests/Test_e2e_add_to_cart.py -v --browser chromium --headed
+python -m pytest src/tests/Test_e2e_add_to_cart.py -v --browser firefox
 ```
 
 ### Allure
@@ -197,7 +197,7 @@ What it does:
 ### Combine flags (example)
 
 ```powershell
-python -m pytest tests/Test_e2e_add_to_cart.py -v --env staging -m regression --browser chromium --headed --alluredir=allure-results
+python -m pytest src/tests/Test_e2e_add_to_cart.py -v --env staging -m regression --browser chromium --headed --alluredir=allure-results
 ```
 
 ## Allure Reporting

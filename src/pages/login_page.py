@@ -2,8 +2,8 @@ import allure
 from time import monotonic
 from playwright.sync_api import Page, TimeoutError as PlaywrightTimeoutError, expect
 
-from pages.base_page import BasePage
-from utils.exceptions import AutomationStepError
+from src.pages.base_page import BasePage
+from src.utils.exceptions import AutomationStepError
 
 
 class LoginPage(BasePage):

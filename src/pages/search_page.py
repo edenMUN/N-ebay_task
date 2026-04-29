@@ -5,9 +5,9 @@ from typing import List
 import allure
 from playwright.sync_api import Page, TimeoutError as PlaywrightTimeoutError, expect
 
-from pages.base_page import BasePage
-from utils.exceptions import AutomationStepError
-from utils.price_parser import parse_price_to_float
+from src.pages.base_page import BasePage
+from src.utils.exceptions import AutomationStepError
+from src.utils.price_parser import parse_price_to_float
 
 
 class SearchPage(BasePage):

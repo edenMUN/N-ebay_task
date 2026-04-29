@@ -4,8 +4,8 @@ from typing import List
 import allure
 from playwright.sync_api import Page, expect
 
-from pages.base_page import BasePage
-from utils.exceptions import AutomationStepError
+from src.pages.base_page import BasePage
+from src.utils.exceptions import AutomationStepError
 
 
 class ProductPage(BasePage):
