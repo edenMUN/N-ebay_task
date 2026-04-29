@@ -119,22 +119,15 @@ Base test data lives in `data/data.json`. For `--env <name>`, use `data/data.<na
 
 ### Authentication & Security
 
+### IMPORTANT: Manual CAPTCHA Step
+
 Due to eBay's strict anti-bot measures, the login flow includes a Smart Wait mechanism:
 
 - The script attempts to log in using credentials from the `.env` file.
 - If a security challenge (Captcha) is detected, the automation prints a warning and pauses up to 45 seconds, allowing manual resolution in the browser window.
 - Once resolved, the test continues automatically.
 - If login still fails after the Smart Wait, a full-page screenshot is attached to Allure and the test fails with a clear error.
-
-### IMPORTANT: Manual CAPTCHA Step (Highly Visible)
-
-If eBay shows a CAPTCHA/security challenge during login, automation cannot solve it for you.
-
-1. Run in headed mode: `python run_tests.py --browser chromium --headed`
-2. Keep the browser window open and watch the login screen.
-3. If CAPTCHA appears, solve it manually in the browser within the wait window.
-4. After successful solve, do not close the browser; the test resumes automatically.
-5. If CAPTCHA is not solved in time, the test fails and attaches evidence to Allure.
+- Run in headed mode: `python run_tests.py --browser chromium --headed`
 
 To support this, always run tests in headed mode (`--headed`) during local demonstrations.
 
@@ -183,7 +176,9 @@ python -m pytest src/tests/Test_e2e_add_to_cart.py -v --browser firefox
 ### Allure
 
 ```powershell
-python -m pytest --alluredir=allure-results
+# Generate Allure results via runner:
+python run_tests.py --browser chromium --headed
+# Then open report manually if needed:
 allure serve allure-results
 ```
 
